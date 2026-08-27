@@ -2721,21 +2721,6 @@
       "fileSize": 61217
     },
     {
-      "path": "mods/c2me-neoforge-mc1.21.1-0.4.0-alpha.0.115.jar",
-      "hashes": {
-        "sha1": "6e48712460f460713980d25906f7c107ae8c338a",
-        "sha512": "7000397b40da8fe1e6aa045bfdf3c2688b886b56620d43e025a7eff0be02bb5b10e18d88e04896b907a18233d313beae9d0d82f78a836f2a44be41a8252a419c"
-      },
-      "env": {
-        "client": "required",
-        "server": "required"
-      },
-      "downloads": [
-        "https://cdn.modrinth.com/data/COlSi5iR/versions/rfqEJITe/c2me-neoforge-mc1.21.1-0.4.0-alpha.0.115.jar"
-      ],
-      "fileSize": 3656574
-    },
-    {
       "path": "mods/portable_engine_liquid_fuel-2.0.0-neoforge-1.21.1.jar",
       "hashes": {
         "sha1": "f9602c7f9a8268507a835bfa47db1512d356dae7",
