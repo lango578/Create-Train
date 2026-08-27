@@ -1,0 +1,145 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3300000000000000"
+	group: "3000000000000000"
+	id: "3300000000000000"
+	order_index: 2
+	icon: "create:track"
+	title: "3.3 钢铁脉络：列车网络"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3300000000000001"
+			x: -6.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.3d
+			title: "铺铁轨，建火车站！"
+			subtitle: "跨洲列车网络"
+			icon: "create:track"
+			description: [
+				"用刚拿到的铁轨和列车工位，开始铺设连接基地的跨洲铁路线！"
+			]
+			dependencies: [
+				"3200000000000002"
+			]
+			tasks: [
+				{
+					id: "CF693AC548FFA415"
+					type: "item"
+					item: { count: 64, id: "create:track" }
+					count: 64L
+				}
+				{
+					id: "E9F893D09F552A06"
+					type: "item"
+					item: { count: 1, id: "create:track_station" }
+				}
+			]
+			rewards: [
+				{
+					id: "832217D972963D3D"
+					type: "item"
+					item: { count: 16, id: "create:railway_casing" }
+					count: 16
+					title: "列车机壳"
+				}
+				{
+					id: "CB7875F2154D6E80"
+					type: "item"
+					item: { count: 1, id: "create:controls" }
+					title: "列车控制器"
+				}
+			]
+		},
+		{
+			id: "3300000000000002"
+			x: -3.5d
+			y: -1.5d
+			title: "组装蒸汽火车，发车！"
+			subtitle: "转向架与列车控制"
+			icon: "create:controls"
+			description: [
+				"在工位铁轨上放【转向架】，装上【列车控制器】组装火车，发车狂飙！"
+			]
+			dependencies: [
+				"3300000000000001"
+			]
+			tasks: [
+				{
+					id: "DC1F0FF4C4B9130A"
+					type: "item"
+					item: { count: 4, id: "create:railway_casing" }
+					count: 4L
+				}
+				{
+					id: "E157F4FD9C86C0B0"
+					type: "item"
+					item: { count: 1, id: "create:controls" }
+				}
+			]
+			rewards: [
+				{
+					id: "BEF346A1627A132A"
+					type: "item"
+					item: { count: 1, id: "create:super_glue" }
+					title: "强力胶（粘车厢用）"
+				}
+				{
+					id: "E21401A05ABEAC61"
+					type: "item"
+					item: { count: 1, id: "create:schedule" }
+					title: "列车时刻表（接自动无人驾驶）"
+				}
+			]
+		},
+		{
+			id: "3300000000000003"
+			x: -3.5d
+			y: 1.5d
+			title: "无人驾驶与防撞信号机"
+			subtitle: "自动巡航与调度"
+			icon: "create:schedule"
+			description: [
+				"写好时刻表给司机，设置信号机防止撞车！奖励女仆御币和枪械台，开启第五大章！"
+			]
+			dependencies: [
+				"3300000000000001"
+			]
+			tasks: [
+				{
+					id: "B9BB1E7807418AC0"
+					type: "item"
+					item: { count: 1, id: "create:schedule" }
+				}
+				{
+					id: "A3D3F26331F987EF"
+					type: "item"
+					item: { count: 2, id: "create:track_signal" }
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "E21BB77CABDB1D54"
+					type: "item"
+					item: { count: 1, id: "railways:conductor_cap" }
+					title: "列车长帽"
+				}
+				{
+					id: "6B5F045705504C3F"
+					type: "item"
+					item: { count: 1, id: "touhou_little_maid:hakurei_gohei" }
+					title: "博丽御币（接第五大章女仆契约）"
+				}
+				{
+					id: "EEE2003844EB26B7"
+					type: "item"
+					item: { count: 1, id: "tacz:gun_smith_table" }
+					title: "枪械铸造台（接第五大章枪械工坊）"
+				}
+			]
+		}
+	]
+}

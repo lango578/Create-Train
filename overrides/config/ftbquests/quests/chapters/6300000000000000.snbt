@@ -1,0 +1,200 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6300000000000000"
+	group: "6000000000000000"
+	id: "6300000000000000"
+	order_index: 2
+	icon: "ars_nouveau:wilden_tribute"
+	title: "6.3 法术编成与荒野守卫者 BOSS"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6300000000000001"
+			x: -8.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.4d
+			title: "搓个你专属的禁咒法术！"
+			subtitle: "法术羊皮纸与组合魔法"
+			icon: "ars_nouveau:spell_parchment"
+			description: [
+				"在法术书里自由组合【形态】（发射、触摸、自投）和【效果】（爆破、治疗、飞行、闪电）！"
+				"搓出全服独一无二的专属禁咒法术！"
+			]
+			dependencies: [
+				"6100000000000006"
+			]
+			tasks: [
+				{
+					id: "B59FDDF42FE6263C"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:spell_parchment" }
+				}
+			]
+			rewards: [
+				{
+					id: "B74B7C68D31CD8EC"
+					type: "item"
+					item: { count: 4, id: "ars_nouveau:blank_parchment" }
+					count: 4
+					title: "空白羊皮纸"
+				}
+				{
+					id: "4F2D7EFFD149A71F"
+					type: "item"
+					item: { count: 8, id: "ars_nouveau:source_gem" }
+					count: 8
+					title: "魔源宝石"
+				}
+			]
+		},
+		{
+			id: "6300000000000010"
+			x: -5.5d
+			y: -2.0d
+			shape: "rsquare"
+			size: 1.2d
+			title: "把魔法附在箭上！巫师之弓与弩"
+			subtitle: "远程魔法狙击"
+			icon: "ars_nouveau:spell_bow"
+			description: [
+				"做一把【巫师之弓】，把组合好的法术附在箭头上，一箭射出去触发范围魔法爆破！"
+			]
+			dependencies: [
+				"6300000000000001"
+			]
+			tasks: [
+				{
+					id: "896EFB7DCF50391D"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:spell_bow" }
+				}
+			]
+			rewards: [
+				{
+					id: "E389D1D4CE31B3FB"
+					type: "item"
+					item: { count: 64, id: "minecraft:arrow" }
+					count: 64
+					title: "一组箭矢"
+				}
+			]
+		},
+		{
+			id: "6300000000000011"
+			x: -5.5d
+			y: 2.0d
+			shape: "rsquare"
+			size: 1.2d
+			title: "穿上大法师袍！术士宽袍与战甲"
+			subtitle: "大幅提升蓝条与法强"
+			icon: "ars_nouveau:sorcerer_robes"
+			description: [
+				"织造【术士宽袍】，穿上后蓝条恢复极快，法术伤害暴增！"
+			]
+			dependencies: [
+				"6300000000000001"
+			]
+			tasks: [
+				{
+					id: "E7192E37B4F42593"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:sorcerer_robes" }
+				}
+			]
+			rewards: [
+				{
+					id: "4B799F281CC9E3B7"
+					type: "item"
+					item: { count: 4, id: "ars_nouveau:magebloom_cloth" }
+					count: 4
+					title: "法力花布料"
+				}
+			]
+		},
+		{
+			id: "6300000000000002"
+			x: -3.0d
+			y: 0.0d
+			shape: "star"
+			size: 1.4d
+			title: "野外猎杀：讨伐荒野奇兽！"
+			subtitle: "收集荒野之角与膜翼"
+			icon: "ars_nouveau:wilden_horn"
+			description: [
+				"去森林和雪原猎杀【荒野奇兽 (Wilden)】，收集【荒野之角】和【荒野膜翼】！"
+			]
+			dependencies: [
+				"6300000000000010"
+				"6300000000000011"
+			]
+			tasks: [
+				{
+					id: "BE07B914A6A97857"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:wilden_horn" }
+				}
+				{
+					id: "E6FC1EF178449275"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:wilden_wing" }
+				}
+			]
+			rewards: [
+				{
+					id: "42DCC2346B8BBC92"
+					type: "item"
+					item: { count: 2, id: "ars_nouveau:wilden_spike" }
+					count: 2
+					title: "荒野尖刺"
+				}
+				{
+					id: "53DD5E080C7DE685"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:wilden_tribute" }
+					title: "荒野供物（召唤 Boss 用）"
+				}
+			]
+		},
+		{
+			id: "6300000000000003"
+			x: -0.5d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			title: "决战！召唤并击败荒野守卫者 BOSS"
+			subtitle: "新生魔艺终极 BOSS 挑战"
+			icon: "ars_nouveau:wilden_tribute"
+			description: [
+				"摆好祭坛献上【荒野供物】，迎战新生魔艺终极 Boss 【荒野守卫者 (Wilden Chimera)】！"
+				"击败它拿到大法师法术书！直接去第五大章打灾变 Boss！"
+			]
+			dependencies: [
+				"6300000000000002"
+			]
+			tasks: [
+				{
+					id: "FAEED30DA8545D36"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:wilden_tribute" }
+				}
+			]
+			rewards: [
+				{
+					id: "D78FE41E0614FDD2"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
+					title: "大法师法术书"
+				}
+				{
+					id: "DF056EB269238BBF"
+					type: "item"
+					item: { count: 2, id: "minecraft:netherite_ingot" }
+					count: 2
+					title: "下界合金锭（接灾变 Boss 决战）"
+				}
+			]
+		}
+	]
+}

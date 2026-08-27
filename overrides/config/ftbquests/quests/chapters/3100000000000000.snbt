@@ -1,0 +1,154 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3100000000000000"
+	group: "3000000000000000"
+	id: "3100000000000000"
+	order_index: 0
+	icon: "immersive_aircraft:biplane"
+	title: "3.1 机械动力航空学"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3100000000000001"
+			x: -6.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.3d
+			title: "飞向蓝天！第一架飞行器"
+			subtitle: "飞行发动机与木船体"
+			icon: "immersive_aircraft:biplane"
+			description: [
+				"拿着大炮任务送你的发动机和螺旋桨，造个木船体，准备飞向蓝天！"
+			]
+			dependencies: [
+				"1400000000000003"
+			]
+			tasks: [
+				{
+					id: "4AAC52DC577EC013"
+					type: "item"
+					item: { count: 1, id: "immersive_aircraft:engine" }
+				}
+				{
+					id: "852DD4BF81EC2568"
+					type: "item"
+					item: { count: 1, id: "immersive_aircraft:hull" }
+				}
+			]
+			rewards: [
+				{
+					id: "597F8F640AE12402"
+					type: "item"
+					item: { count: 2, id: "immersive_aircraft:propeller" }
+					count: 2
+					title: "螺旋桨（拿去造飞机）"
+				}
+				{
+					id: "39F517279FC29D09"
+					type: "item"
+					item: { count: 1, id: "immersive_aircraft:boiler" }
+					title: "锅炉（给双翼飞机用）"
+				}
+			]
+		},
+		{
+			id: "3100000000000002"
+			x: -4.0d
+			y: -1.5d
+			title: "垂直起降：竹直升机"
+			subtitle: "轻盈灵活的单人飞行器"
+			icon: "immersive_aircraft:bamboo_hopper"
+			description: [
+				"做个【竹直升机】，单人垂直起降，山地勘测和跨越峡谷超方便！"
+			]
+			dependencies: [
+				"3100000000000001"
+			]
+			tasks: [
+				{
+					id: "9F470137C60FB162"
+					type: "item"
+					item: { count: 1, id: "immersive_aircraft:bamboo_hopper" }
+				}
+			]
+			rewards: [
+				{
+					id: "5C7EA76F4B01D651"
+					type: "item"
+					item: { count: 4, id: "minecraft:coal_block" }
+					count: 4
+					title: "煤炭块（飞机燃料）"
+				}
+			]
+		},
+		{
+			id: "3100000000000003"
+			x: -4.0d
+			y: 1.5d
+			title: "拉货探险：经典双翼飞机"
+			subtitle: "高速长途巡航"
+			icon: "immersive_aircraft:biplane"
+			description: [
+				"造个【双翼飞机】，速度快操控好，长途跑图拉货首选！需滑行起飞。"
+			]
+			dependencies: [
+				"3100000000000001"
+			]
+			tasks: [
+				{
+					id: "3EA8362FD6D620E7"
+					type: "item"
+					item: { count: 1, id: "immersive_aircraft:biplane" }
+				}
+			]
+			rewards: [
+				{
+					id: "D1D2FC6A23FE660D"
+					type: "item"
+					item: { count: 2, id: "immersive_aircraft:airship_balloon" }
+					count: 2
+					title: "飞艇气球（拿去造飞艇）"
+				}
+			]
+		},
+		{
+			id: "3100000000000004"
+			x: -2.0d
+			y: 0.0d
+			shape: "diamond"
+			size: 1.2d
+			title: "空中巨兽：大型飞艇"
+			subtitle: "移动高空仓库"
+			icon: "immersive_aircraft:airship"
+			description: [
+				"【飞艇】载重量极大，可以升至极高悬停，当移动基地！奖励蓝图炮直接去第四大章打印大佬飞船！"
+			]
+			dependencies: [
+				"3100000000000002"
+				"3100000000000003"
+			]
+			tasks: [
+				{
+					id: "7FC548CBCE811920"
+					type: "item"
+					item: { count: 1, id: "immersive_aircraft:airship" }
+				}
+			]
+			rewards: [
+				{
+					id: "C30D27C0CB402D13"
+					type: "item"
+					item: { count: 1, id: "create:schematic_cannon" }
+					title: "蓝图炮（去第四大章打印蓝图）"
+				}
+				{
+					id: "6933857E3DEED51A"
+					type: "item"
+					item: { count: 1, id: "create:schematic_table" }
+					title: "蓝图桌"
+				}
+			]
+		}
+	]
+}

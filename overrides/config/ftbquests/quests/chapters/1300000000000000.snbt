@@ -1,0 +1,338 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1300000000000000"
+	group: "1000000000000000"
+	id: "1300000000000000"
+	order_index: 2
+	icon: "create:wrench"
+	title: "1.3 机械动力：旋转与应力"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1300000000000001"
+			x: -8.5d
+			y: 0.0d
+			shape: "rsquare"
+			size: 1.2d
+			title: "挖点工业必备的铜与锌"
+			subtitle: "机械动力的基石金属"
+			icon: "create:raw_zinc"
+			description: [
+				"去地下搜寻【铜矿】和【锌矿】，它们是机械动力所有机器的核心原料！"
+			]
+			dependencies: [
+				"1100000000000003"
+			]
+			tasks: [
+				{
+					id: "8602B82EC806AFDE"
+					type: "item"
+					item: { count: 16, id: "minecraft:raw_copper" }
+					count: 16L
+				}
+				{
+					id: "5F31F0F6A9F1DDE3"
+					type: "item"
+					item: { count: 16, id: "create:raw_zinc" }
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "B183596330BD7D99"
+					type: "item"
+					item: { count: 16, id: "minecraft:copper_ingot" }
+					count: 16
+					title: "铜锭（直接拿去用）"
+				}
+				{
+					id: "C1FED0ED77D28BEA"
+					type: "item"
+					item: { count: 16, id: "create:zinc_ingot" }
+					count: 16
+					title: "锌锭（直接拿去用）"
+				}
+			]
+		},
+		{
+			id: "1300000000000002"
+			x: -5.5d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.4d
+			title: "炼出安山合金！领工具啦"
+			subtitle: "开启工业时代，领扳手和护目镜"
+			icon: "create:andesite_alloy"
+			description: [
+				"用【安山岩 + 铁粒/锌粒】合成【安山合金】！做完任务直接送你工程师专属的【扳手】和【护目镜】！"
+			]
+			dependencies: [
+				"1300000000000001"
+			]
+			tasks: [
+				{
+					id: "F88B3EBD38E0F52B"
+					type: "item"
+					item: { count: 32, id: "minecraft:andesite" }
+					count: 32L
+				}
+				{
+					id: "8DF08511F4C40C37"
+					type: "item"
+					item: { count: 16, id: "create:andesite_alloy" }
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "8135B9A4187972B4"
+					type: "item"
+					item: { count: 16, id: "create:andesite_alloy" }
+					count: 16
+					title: "安山合金备用"
+				}
+				{
+					id: "96329FC2DFAA46E8"
+					type: "item"
+					item: { count: 16, id: "create:shaft" }
+					count: 16
+					title: "传动轴（拿去接传动）"
+				}
+				{
+					id: "B391063A8F83AB31"
+					type: "item"
+					item: { count: 1, id: "create:wrench" }
+					title: "工程师扳手"
+				}
+				{
+					id: "8DAA92F2E32B514C"
+					type: "item"
+					item: { count: 1, id: "create:goggles" }
+					title: "工程师护目镜"
+				}
+			]
+		},
+		{
+			id: "1300000000000010"
+			x: -5.0d
+			y: -2.0d
+			shape: "circle"
+			size: 1.1d
+			title: "给机械换个新皮肤：安山机壳"
+			subtitle: "右键剥皮原木搞定"
+			icon: "create:andesite_casing"
+			description: [
+				"拿着安山合金右键点击剥皮原木，就能做出工业风满满的安山机壳！"
+			]
+			dependencies: [
+				"1300000000000002"
+			]
+			tasks: [
+				{
+					id: "9A7A8B1BD3AB989B"
+					type: "item"
+					item: { count: 4, id: "create:andesite_casing" }
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "9884906D76F1043B"
+					type: "item"
+					item: { count: 4, id: "create:andesite_casing" }
+					count: 4
+					title: "安山机壳储备"
+				}
+			]
+		},
+		{
+			id: "1300000000000011"
+			x: -5.0d
+			y: 2.0d
+			shape: "circle"
+			size: 1.1d
+			title: "想停就停：离合器与齿轮箱"
+			subtitle: "用红石信号切断动力"
+			icon: "create:clutch"
+			description: [
+				"做个离合器，通上红石信号就能随时切断动力传输！"
+			]
+			dependencies: [
+				"1300000000000002"
+			]
+			tasks: [
+				{
+					id: "526782E632BDD7F3"
+					type: "item"
+					item: { count: 1, id: "create:clutch" }
+				}
+				{
+					id: "2CAA40B5A8594293"
+					type: "item"
+					item: { count: 1, id: "create:gearbox" }
+				}
+			]
+			rewards: [
+				{
+					id: "91C4A49770414C61"
+					type: "item"
+					item: { count: 1, id: "create:vertical_gearbox" }
+					title: "竖直齿轮箱"
+				}
+			]
+		},
+		{
+			id: "1300000000000003"
+			x: -2.5d
+			y: -2.0d
+			shape: "circle"
+			size: 1.1d
+			title: "用手摇出第一份动力！"
+			subtitle: "传动轴与手摇曲柄"
+			icon: "create:hand_crank"
+			description: [
+				"用【传动轴】接出动力，按住【手摇曲柄】手动摇出旋转！"
+			]
+			dependencies: [
+				"1300000000000002"
+			]
+			tasks: [
+				{
+					id: "5551E23C79545511"
+					type: "item"
+					item: { count: 8, id: "create:shaft" }
+					count: 8L
+				}
+				{
+					id: "914F833BC53AF18A"
+					type: "item"
+					item: { count: 1, id: "create:hand_crank" }
+				}
+			]
+			rewards: [
+				{
+					id: "19C5C08F8EE0AD26"
+					type: "item"
+					item: { count: 8, id: "create:cogwheel" }
+					count: 8
+					title: "小齿轮（拿去接齿轮）"
+				}
+			]
+		},
+		{
+			id: "1300000000000004"
+			x: -2.5d
+			y: 2.0d
+			shape: "circle"
+			size: 1.1d
+			title: "搞懂齿轮比，转速翻倍！"
+			subtitle: "大小齿轮搭配变速"
+			icon: "create:cogwheel"
+			description: [
+				"用大齿轮带动小齿轮可以使转速翻倍！按 W 键思索看动画教程。"
+			]
+			dependencies: [
+				"1300000000000002"
+			]
+			tasks: [
+				{
+					id: "1B411DEDD28A35EB"
+					type: "item"
+					item: { count: 8, id: "create:cogwheel" }
+					count: 8L
+				}
+				{
+					id: "BE4C543E09285117"
+					type: "item"
+					item: { count: 4, id: "create:large_cogwheel" }
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "3F70863F481C2EC9"
+					type: "item"
+					item: { count: 4, id: "create:large_cogwheel" }
+					count: 4
+					title: "大齿轮（拿去接风车）"
+				}
+			]
+		},
+		{
+			id: "1300000000000005"
+			x: 1.0d
+			y: 0.0d
+			shape: "diamond"
+			size: 1.5d
+			title: "解放双手！搭建水轮与风车"
+			subtitle: "永动机关，源源不绝"
+			icon: "create:water_wheel"
+			description: [
+				"别再手摇啦！用水流冲水轮，或者搭风车，就能源源不断地提供免费应力！"
+			]
+			dependencies: [
+				"1300000000000003"
+				"1300000000000004"
+			]
+			tasks: [
+				{
+					id: "3612DDD5C447376D"
+					type: "item"
+					item: { count: 1, id: "create:water_wheel" }
+				}
+				{
+					id: "EFC9B800F62C54FD"
+					type: "item"
+					item: { count: 1, id: "create:windmill_bearing" }
+				}
+			]
+			rewards: [
+				{
+					id: "70C744D53587E14D"
+					type: "item"
+					item: { count: 8, id: "create:white_sail" }
+					count: 8
+					title: "风帆补给"
+				}
+				{
+					id: "364BCE6A12318CAF"
+					type: "item"
+					item: { count: 1, id: "create:large_water_wheel" }
+					title: "大水轮（动力更强）"
+				}
+			]
+		},
+		{
+			id: "1300000000000012"
+			x: 3.0d
+			y: 0.0d
+			shape: "rsquare"
+			size: 1.2d
+			title: "精确控制转速：转速控制器"
+			subtitle: "想转多快你说了算"
+			icon: "create:rotation_speed_controller"
+			description: [
+				"配合上方的大齿轮，转速控制器可以自由调控转速 RPM 和旋转方向！"
+			]
+			dependencies: [
+				"1300000000000005"
+			]
+			tasks: [
+				{
+					id: "54A03E13B281F682"
+					type: "item"
+					item: { count: 1, id: "create:rotation_speed_controller" }
+				}
+			]
+			rewards: [
+				{
+					id: "916E2A3FBDCE1C3F"
+					type: "item"
+					item: { count: 1, id: "create:precision_mechanism" }
+					title: "精密机制补贴"
+				}
+			]
+		}
+	]
+}

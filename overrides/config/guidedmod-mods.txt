@@ -1,0 +1,20 @@
+# List of mods to be disabled in Vanilla Mode and enabled in Overhaul Mode.
+# Put one mod ID or jar prefix per line.
+# Comments start with #, empty lines are ignored.
+# Example:
+# appleskin
+# journeymap
+dtarsnouveau
+dtbwg
+dtterralith
+Dynamic Trees for Nature's Spirit
+dynamictrees
+DynamicTreesPlus
+tectonic
+Terralith
+[optional]
+# Mods in this section are controlled individually on the setup screen.
+# Example:
+# justenoughitems
+DistantHorizons
+Oh-The-Biomes-Weve-Gone

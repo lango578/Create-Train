@@ -1,0 +1,53 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5200000000000000"
+	group: "5000000000000000"
+	id: "5200000000000000"
+	order_index: 1
+	icon: "tacz:gun_smith_table"
+	title: "5.2 战术火炮与 TaCZ 枪械"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5200000000000001"
+			x: -6.0d
+			y: 0.0d
+			shape: "square"
+			size: 1.2d
+			title: "打造现代战术军火！枪械工坊"
+			subtitle: "TaCZ 战术枪械"
+			icon: "tacz:gun_smith_table"
+			description: [
+				"【TaCZ 战术枪械】模组提供了手感极佳的现代化枪械！"
+				"在【枪械铸造台】里造手枪、步枪、狙击枪和配件，准备迎接后续的硬核 Boss 挑战！"
+			]
+			dependencies: [
+				"3300000000000001"
+			]
+			tasks: [
+				{
+					id: "A3C9711CE9F6CAE2"
+					type: "item"
+					item: { count: 1, id: "tacz:gun_smith_table" }
+				}
+			]
+			rewards: [
+				{
+					id: "43E6E739413F643D"
+					type: "item"
+					item: { count: 32, id: "minecraft:iron_ingot" }
+					count: 32
+					title: "铁锭（造枪配件）"
+				}
+				{
+					id: "DD4DC58A34E26C9C"
+					type: "item"
+					item: { count: 32, id: "minecraft:copper_ingot" }
+					count: 32
+					title: "铜锭（造子弹）"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,42 @@
+#The base cooldown time (in ticks) after each mana charging action
+# Default: 200
+# Range: > 0
+coolingTime = 200
+#The base maximum mana amount added to source jar per charge
+# Default: 200
+# Range: > 0
+maxPerCharge = 200
+#Interval between source jar searches (in ticks)
+# Default: 200
+# Range: > 1
+scanInterval = 200
+#If true, maid's favorability affects charging amount and cooldown
+enableFavorEffect = false
+#Extra mana per levels (only effective if enableFavorEffect = true)
+# Default: 100
+# Range: > -2147483648
+favorChargeBonus = 100
+#Cooldown reduction (in ticks) per levels (only effective if enableFavorEffect = true)
+# Default: 20
+# Range: > -2147483648
+favorCooldownReduction = 20
+#If true, highlights will show through the blocks
+enableHighlightPenetration = true
+#The Y offset of the charging number display
+# Default: 1.3
+# Range: 4.9E-324 ~ 1.7976931348623157E308
+listOverlayYOffset = 1.3
+#If true, only numbers will be displayed
+numbersOnly = false
+#The number of particles to be displayed when charging
+# Default: 20
+# Range: > 0
+chargeParticleCount = 20
+#The radius of the particles to be displayed when charging
+# Default: 0.5
+# Range: 0.0 ~ 1.7976931348623157E308
+chargeParticleRadius = 0.5
+#If true, maid will play sound when starting and ending tasks
+maidTaskSound = true
+#If true, a sound will be played when the Source Jar is fully charged.
+chargingCompletedSound = true

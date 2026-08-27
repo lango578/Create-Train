@@ -1,0 +1,285 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1200000000000000"
+	group: "1000000000000000"
+	id: "1200000000000000"
+	order_index: 1
+	icon: "farmersdelight:stove"
+	title: "1.2 勤农农耕与美食料理"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1200000000000001"
+			x: -8.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.4d
+			title: "当个快乐的种田佬"
+			subtitle: "农夫乐事：造个料理锅和炉灶"
+			icon: "farmersdelight:stove"
+			description: [
+				"做个料理锅和炉灶，体验农夫乐事的做菜乐趣，告别天天吃干面包的日子！"
+			]
+			dependencies: [
+				"1100000000000003"
+			]
+			tasks: [
+				{
+					id: "F8DC5D0D93ACDE1B"
+					type: "item"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+				}
+				{
+					id: "D11BB890C360A5FF"
+					type: "item"
+					item: { count: 1, id: "farmersdelight:stove" }
+				}
+			]
+			rewards: [
+				{
+					id: "D159453220B4FF13"
+					type: "item"
+					item: { count: 8, id: "farmersdelight:onion" }
+					count: 8
+					title: "洋葱（拿去种）"
+				}
+				{
+					id: "CE5F179758DAF60C"
+					type: "item"
+					item: { count: 16, id: "farmersdelight:rice" }
+					count: 16
+					title: "稻米（拿去种）"
+				}
+			]
+		},
+		{
+			id: "1200000000000010"
+			x: -6.0d
+			y: -2.0d
+			shape: "rsquare"
+			size: 1.1d
+			title: "秀一手好刀工"
+			subtitle: "切菜板与料理刀"
+			icon: "farmersdelight:cutting_board"
+			description: [
+				"做个切菜板，手持刀具右键能把肉类和蔬菜切片，做成高阶食材！"
+			]
+			dependencies: [
+				"1200000000000001"
+			]
+			tasks: [
+				{
+					id: "F5307EE7E7A0C658"
+					type: "item"
+					item: { count: 1, id: "farmersdelight:cutting_board" }
+				}
+			]
+			rewards: [
+				{
+					id: "CFA112CA18BB8F51"
+					type: "item"
+					item: { count: 1, id: "farmersdelight:flint_knife" }
+					title: "燧石料理刀"
+				}
+			]
+		},
+		{
+			id: "1200000000000002"
+			x: -5.5d
+			y: 0.0d
+			shape: "rsquare"
+			size: 1.1d
+			title: "菜园子大丰收"
+			subtitle: "收点洋葱和稻米"
+			icon: "farmersdelight:onion"
+			description: [
+				"把洋葱和稻米种下去，等成熟了收一波，可以做高饱腹感的热炖菜！"
+			]
+			dependencies: [
+				"1200000000000001"
+			]
+			tasks: [
+				{
+					id: "A896DF3DDA354BC3"
+					type: "item"
+					item: { count: 8, id: "farmersdelight:onion" }
+					count: 8L
+				}
+				{
+					id: "BA8BE136FD602A74"
+					type: "item"
+					item: { count: 16, id: "farmersdelight:rice" }
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "72E4936C763F912C"
+					type: "item"
+					item: { count: 4, id: "farmersdelight:chicken_soup" }
+					count: 4
+					title: "热鸡汤（好喝不贵）"
+				}
+				{
+					id: "CF9A13883B5B14DC"
+					type: "item"
+					item: { count: 32, id: "minecraft:wheat" }
+					count: 32
+					title: "小麦（拿去做糕点）"
+				}
+			]
+		},
+		{
+			id: "1200000000000003"
+			x: -5.5d
+			y: 2.0d
+			shape: "rsquare"
+			size: 1.1d
+			title: "甜品控的烘焙大工坊"
+			subtitle: "烘焙甜点与蛋糕"
+			icon: "minecraft:cake"
+			description: [
+				"用小麦和糖做点蛋糕或者面包甜点，甜品控的最爱！"
+			]
+			dependencies: [
+				"1200000000000001"
+			]
+			tasks: [
+				{
+					id: "C6ADD62CB3AF6864"
+					type: "item"
+					item: { count: 32, id: "minecraft:wheat" }
+					count: 32L
+				}
+				{
+					id: "903746E3DE6F1688"
+					type: "item"
+					item: { count: 16, id: "minecraft:sugar" }
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "8C5EECB10DD1897E"
+					type: "item"
+					item: { count: 2, id: "minecraft:cake" }
+					count: 2
+					title: "美味蛋糕"
+				}
+				{
+					id: "41BBADE26D56C908"
+					type: "item"
+					item: { count: 8, id: "minecraft:apple" }
+					count: 8
+					title: "红苹果"
+				}
+			]
+		},
+		{
+			id: "1200000000000011"
+			x: -3.5d
+			y: -2.0d
+			shape: "rsquare"
+			size: 1.1d
+			title: "来一顿硬核大餐"
+			subtitle: "整只烤鸡与豪华宴会"
+			icon: "farmersdelight:roast_chicken"
+			description: [
+				"烤一整只鸡或者做豪华大餐，吃完直接满饱腹感！"
+			]
+			dependencies: [
+				"1200000000000002"
+			]
+			tasks: [
+				{
+					id: "8B03E7F7CB7C0E6F"
+					type: "item"
+					item: { count: 1, id: "farmersdelight:roast_chicken" }
+				}
+			]
+			rewards: [
+				{
+					id: "83DDCDB46424D222"
+					type: "item"
+					item: { count: 4, id: "farmersdelight:pie_crust" }
+					count: 4
+					title: "派皮材料"
+				}
+			]
+		},
+		{
+			id: "1200000000000004"
+			x: -3.0d
+			y: 0.0d
+			shape: "circle"
+			size: 1.1d
+			title: "干完活喝杯果汁冰饮"
+			subtitle: "苹果酒与特调饮品"
+			icon: "farmersdelight:apple_cider"
+			description: [
+				"做一杯苹果酒，工业搞累了歇会喝一口，滋味爽翻！"
+			]
+			dependencies: [
+				"1200000000000002"
+			]
+			tasks: [
+				{
+					id: "3526AD1A6A051AFA"
+					type: "item"
+					item: { count: 1, id: "farmersdelight:apple_cider" }
+				}
+			]
+			rewards: [
+				{
+					id: "4C8D2AF9BBE91D46"
+					type: "item"
+					item: { count: 8, id: "minecraft:emerald" }
+					count: 8
+					title: "绿宝石（用来交易）"
+				}
+			]
+		},
+		{
+			id: "1200000000000005"
+			x: -0.5d
+			y: 0.0d
+			shape: "star"
+			size: 1.4d
+			title: "把火柴盒装修好看点"
+			subtitle: "补充物：木框架与美化"
+			icon: "supplementaries:timber_frame"
+			description: [
+				"别再住土块火柴盒啦！用【补充物】模组的木框架和旗帜把家里好好装修一番！"
+			]
+			dependencies: [
+				"1200000000000003"
+				"1200000000000004"
+			]
+			tasks: [
+				{
+					id: "4C31D4F358A52AB8"
+					type: "item"
+					item: { count: 8, id: "supplementaries:timber_frame" }
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "5271869DB210A788"
+					type: "item"
+					item: { count: 2, id: "supplementaries:flag_white" }
+					count: 2
+					title: "白色旗帜"
+				}
+				{
+					id: "A4E0B0A5F287339A"
+					type: "item"
+					item: { count: 16, id: "minecraft:emerald" }
+					count: 16
+					title: "绿宝石小金库"
+				}
+			]
+		}
+	]
+}

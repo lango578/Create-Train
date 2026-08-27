@@ -1,0 +1,89 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3200000000000000"
+	group: "3000000000000000"
+	id: "3200000000000000"
+	order_index: 1
+	icon: "create:controls"
+	title: "3.2 车辆载具与越野工程"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3200000000000001"
+			x: -6.0d
+			y: 0.0d
+			title: "造车第一步：轮胎与车架"
+			subtitle: "陆地载具基础"
+			icon: "create:shaft"
+			description: [
+				"打铁做【强化车架】和【轮胎】，准备组装你的第一辆陆地越野车！"
+			]
+			dependencies: [
+				"1400000000000003"
+			]
+			tasks: [
+				{
+					id: "FE2B361E3026863E"
+					type: "item"
+					item: { count: 16, id: "create:iron_sheet" }
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "345A6F6FE7C081A9"
+					type: "item"
+					item: { count: 8, id: "create:andesite_casing" }
+					count: 8
+					title: "安山机壳"
+				}
+				{
+					id: "9927FFACB012903C"
+					type: "item"
+					item: { count: 1, id: "create:controls" }
+					title: "控制器（用于操控车辆）"
+				}
+			]
+		},
+		{
+			id: "3200000000000002"
+			x: -3.5d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.2d
+			title: "荒野狂飙：小型越野车与卡车"
+			subtitle: "全地形陆地运输"
+			icon: "create:controls"
+			description: [
+				"驾驶越野车在地形间驰骋！奖励铁轨直接开搭列车网络！"
+			]
+			dependencies: [
+				"3200000000000001"
+			]
+			tasks: [
+				{
+					id: "9E501FF77A783FA1"
+					type: "item"
+					item: { count: 1, id: "create:controls" }
+				}
+			]
+			rewards: [
+				{
+					id: "279C99F07EA89F43"
+					type: "item"
+					item: { count: 64, id: "create:track" }
+					count: 64
+					title: "列车铁轨（接列车网络任务）"
+				}
+				{
+					id: "AA9A9DE4C16ACF6F"
+					type: "item"
+					item: { count: 16, id: "create:railway_casing" }
+					count: 16
+					title: "列车机壳"
+				}
+			]
+		}
+	]
+}

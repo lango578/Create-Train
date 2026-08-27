@@ -1,0 +1,73 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4200000000000000"
+	group: "4000000000000000"
+	id: "4200000000000000"
+	order_index: 1
+	icon: "createbigcannons:solid_shot"
+	title: "4.2 军工与重型载具"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4200000000000001"
+			x: -6.0d
+			y: 0.0d
+			shape: "star"
+			size: 1.3d
+			title: "蓝图兑换：陆战坦克与自动挖矿机"
+			subtitle: "【火炮1 / 挖掘机】"
+			icon: "createbigcannons:solid_shot"
+			description: [
+				"提交重型零件，兑换工程团队制作的【陆战火炮坦克与重装工程包】！"
+				""
+				"📋 【内置蓝图与原作者演示视频】："
+				"- 《火炮1(v1.2).nbt》：可移动重型陆战火炮坦克"
+				"- 《全自动挖矿机(v2.0).nbt》：深层矿脉高效自动钻探机"
+				""
+				"📺 【原作者重型火炮战车演示视频】："
+				"https://www.bilibili.com/video/BV1qu4m137ST"
+			]
+			dependencies: [
+				"4100000000000001"
+			]
+			tasks: [
+				{
+					id: "5F79A6928D220C44"
+					type: "item"
+					item: { count: 2, id: "create:mechanical_press" }
+					count: 2L
+				}
+				{
+					id: "28935D078321F7E1"
+					type: "item"
+					item: { count: 4, id: "create:deployer" }
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "7737D3AAC628E01A"
+					type: "item"
+					item: { count: 4, id: "create:empty_schematic" }
+					count: 4
+					title: "空白蓝图"
+				}
+				{
+					id: "7D4FA1B504DC2D13"
+					type: "item"
+					item: { count: 8, id: "create:drill" }
+					count: 8
+					title: "机械钻头（给自动挖矿机用）"
+				}
+				{
+					id: "28B5FA995B03E264"
+					type: "item"
+					item: { count: 16, id: "create:brass_casing" }
+					count: 16
+					title: "黄铜机壳（接奇观战舰）"
+				}
+			]
+		}
+	]
+}

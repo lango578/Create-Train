@@ -1,0 +1,125 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4100000000000000"
+	group: "4000000000000000"
+	id: "4100000000000000"
+	order_index: 0
+	icon: "create:schematic_cannon"
+	title: "4.1 载具兑换第一期"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4100000000000001"
+			x: -6.0d
+			y: 0.0d
+			shape: "square"
+			size: 1.2d
+			title: "投影建造！蓝图炮与蓝图桌"
+			subtitle: "全自动打印高阶 NBT 建筑"
+			icon: "create:schematic_cannon"
+			description: [
+				"【蓝图炮 (Schematic Cannon)】能根据 .nbt 蓝图文件自动帮你放方块建房子/飞船！"
+				"在【蓝图桌】里装上你喜欢的蓝图，往蓝图炮里塞火药和方块材料，就能看着它自动建造啦！"
+				""
+				"📺 【蓝图炮手把手使用视频教程】："
+				"https://www.bilibili.com/video/BV1964y1K7mv"
+			]
+			dependencies: [
+				"3100000000000001"
+			]
+			tasks: [
+				{
+					id: "D63C54B097AFB835"
+					type: "item"
+					item: { count: 8, id: "create:brass_ingot" }
+					count: 8L
+				}
+				{
+					id: "BEBA5F9C2CC65E8A"
+					type: "item"
+					item: { count: 16, id: "minecraft:gunpowder" }
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "F5B7930ECC5C61C3"
+					type: "item"
+					item: { count: 1, id: "create:schematic_cannon" }
+				}
+				{
+					id: "F2ACDDD68F5B0FA3"
+					type: "item"
+					item: { count: 1, id: "create:schematic_table" }
+				}
+				{
+					id: "C256A74E2AC597CA"
+					type: "item"
+					item: { count: 4, id: "create:empty_schematic" }
+					count: 4
+					title: "空白蓝图"
+				}
+			]
+		},
+		{
+			id: "4100000000000002"
+			x: -3.5d
+			y: 0.0d
+			shape: "star"
+			size: 1.3d
+			title: "蓝图兑换：轻型飞艇与勘测车"
+			subtitle: "【飞艇 / 拓路者级】"
+			icon: "create:propeller"
+			description: [
+				"提交机械零部件，兑换高阶工程团队制作的【轻型飞艇与勘测车工程包】！"
+				""
+				"📋 【内置蓝图与原作者演示视频】："
+				"- 《飞艇.nbt》：经典巡航飞艇"
+				"- 《拓路者级.nbt》：前线开荒突击飞船"
+				""
+				"📺 【原作者飞艇演示与操作指南】："
+				"https://www.bilibili.com/video/BV1fPR9BDESZ"
+			]
+			dependencies: [
+				"4100000000000001"
+			]
+			tasks: [
+				{
+					id: "327B4A3318B6F044"
+					type: "item"
+					item: { count: 1, id: "immersive_aircraft:engine" }
+				}
+				{
+					id: "89919C8E7C974103"
+					type: "item"
+					item: { count: 16, id: "create:brass_sheet" }
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "F1CCE153DDE08776"
+					type: "item"
+					item: { count: 4, id: "create:empty_schematic" }
+					count: 4
+					title: "空白蓝图"
+				}
+				{
+					id: "38750DDDE9A5AA05"
+					type: "item"
+					item: { count: 32, id: "minecraft:gunpowder" }
+					count: 32
+					title: "火药补贴（给蓝图炮用）"
+				}
+				{
+					id: "BEAEF72D9BB6A471"
+					type: "item"
+					item: { count: 4, id: "create:precision_mechanism" }
+					count: 4
+					title: "精密机制（接重型载具）"
+				}
+			]
+		}
+	]
+}

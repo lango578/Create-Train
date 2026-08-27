@@ -1,0 +1,53 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5100000000000000"
+	group: "5000000000000000"
+	id: "5100000000000000"
+	order_index: 0
+	icon: "touhou_little_maid:hakurei_gohei"
+	title: "5.1 车万女仆与贴心陪伴"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5100000000000001"
+			x: -6.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.2d
+			title: "契约一个全能女仆助手！"
+			subtitle: "车万女仆：御币与贴心陪伴"
+			icon: "touhou_little_maid:hakurei_gohei"
+			description: [
+				"【车万女仆 (Touhou Little Maid)】是可以陪你冒耍和干活的忠实伙伴！"
+				"做个【博丽御币】和御札，契约属于你的女仆助手。"
+				"女仆能帮你种田、养殖、开火车，甚至手持枪械帮你打怪！"
+			]
+			dependencies: [
+				"3300000000000001"
+			]
+			tasks: [
+				{
+					id: "C65FB07EE38D8121"
+					type: "item"
+					item: { count: 1, id: "touhou_little_maid:hakurei_gohei" }
+				}
+			]
+			rewards: [
+				{
+					id: "B36AE039DE6148D1"
+					type: "item"
+					item: { count: 32, id: "touhou_little_maid:power_point" }
+					count: 32
+					title: "P点燃料"
+				}
+				{
+					id: "9FB346F2D2E8992A"
+					type: "item"
+					item: { count: 1, id: "minecraft:cake" }
+					title: "美味蛋糕（犒劳女仆）"
+				}
+			]
+		}
+	]
+}

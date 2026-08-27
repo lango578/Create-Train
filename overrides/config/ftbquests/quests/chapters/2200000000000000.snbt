@@ -1,0 +1,200 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2200000000000000"
+	group: "2000000000000000"
+	id: "2200000000000000"
+	order_index: 1
+	icon: "create:display_board"
+	title: "2.2 电网与电路控制"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2200000000000001"
+			x: -8.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.4d
+			title: "通电！发电机线圈与导线"
+			subtitle: "把旋转动力变成电能"
+			icon: "create_new_age:generator_coil"
+			description: [
+				"用柴油引擎带动发电机线圈发电！接上铜导线和接线柱，打造工厂自动化电网！"
+			]
+			dependencies: [
+				"2100000000000003"
+			]
+			tasks: [
+				{
+					id: "D84AD7905100A77E"
+					type: "item"
+					item: { count: 1, id: "create_new_age:generator_coil" }
+				}
+				{
+					id: "CCC97272A9ED0AF7"
+					type: "item"
+					item: { count: 8, id: "create_new_age:copper_wire" }
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "A5982E589A60230A"
+					type: "item"
+					item: { count: 4, id: "create_new_age:electrical_connector" }
+					count: 4
+					title: "导电接线柱"
+				}
+				{
+					id: "AAA29C738ED0534E"
+					type: "item"
+					item: { count: 32, id: "minecraft:redstone" }
+					count: 32
+					title: "红石粉储备"
+				}
+			]
+		},
+		{
+			id: "2200000000000010"
+			x: -5.5d
+			y: -2.0d
+			shape: "rsquare"
+			size: 1.1d
+			title: "发电量翻倍！磁铁与激发器"
+			subtitle: "提升发电效率"
+			icon: "create_new_age:basic_energiser"
+			description: [
+				"做个磁铁和普通激发器，让你的发电机输出更多电能！"
+			]
+			dependencies: [
+				"2200000000000001"
+			]
+			tasks: [
+				{
+					id: "EFA8560F05417A6E"
+					type: "item"
+					item: { count: 1, id: "create_new_age:basic_energiser" }
+				}
+			]
+			rewards: [
+				{
+					id: "879F478CE474F240"
+					type: "item"
+					item: { count: 4, id: "create_new_age:overcharged_iron" }
+					count: 4
+					title: "充电铁锭"
+				}
+			]
+		},
+		{
+			id: "2200000000000011"
+			x: -5.5d
+			y: 2.0d
+			shape: "rsquare"
+			size: 1.1d
+			title: "用电开机器：普通电动机"
+			subtitle: "把电变回旋转动力"
+			icon: "create_new_age:basic_motor"
+			description: [
+				"做个普通电动机，远处的机器直接接电线就能转，不用再搭长距离传动轴了！"
+			]
+			dependencies: [
+				"2200000000000001"
+			]
+			tasks: [
+				{
+					id: "40451F31DBA0F350"
+					type: "item"
+					item: { count: 1, id: "create_new_age:basic_motor" }
+				}
+			]
+			rewards: [
+				{
+					id: "5F7E08CB0B97A72B"
+					type: "item"
+					item: { count: 4, id: "create:electron_tube" }
+					count: 4
+					title: "电子管（拿去做显示屏）"
+				}
+			]
+		},
+		{
+			id: "2200000000000002"
+			x: -3.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.2d
+			title: "监控大屏！显示屏与阈值开关"
+			subtitle: "工厂自动化监控"
+			icon: "create:display_board"
+			description: [
+				"摆个大显示屏，加上阈值开关，工厂存了多少货、电网还剩多少电一目了然！"
+			]
+			dependencies: [
+				"2200000000000001"
+			]
+			tasks: [
+				{
+					id: "CDC9A77C9A394824"
+					type: "item"
+					item: { count: 2, id: "create:display_board" }
+					count: 2L
+				}
+				{
+					id: "AE654FCC992550F8"
+					type: "item"
+					item: { count: 1, id: "create:stockpile_switch" }
+				}
+			]
+			rewards: [
+				{
+					id: "866E18D16B2807F8"
+					type: "item"
+					item: { count: 2, id: "create:pulse_repeater" }
+					count: 2
+					title: "脉冲重复器"
+				}
+				{
+					id: "D6004581C4785FD5"
+					type: "item"
+					item: { count: 4, id: "create:nixie_tube" }
+					count: 4
+					title: "数码管（显示数字）"
+				}
+			]
+		},
+		{
+			id: "2200000000000012"
+			x: -0.5d
+			y: 0.0d
+			shape: "star"
+			size: 1.4d
+			title: "狂暴输出：高级超频电动机"
+			subtitle: "超高转速旋转输出"
+			icon: "create_new_age:advanced_motor"
+			description: [
+				"升级为高级电动机与超频器，输出难以置信的极限超高转速！"
+			]
+			dependencies: [
+				"2200000000000002"
+				"2200000000000011"
+			]
+			tasks: [
+				{
+					id: "E8F35CFD133791F5"
+					type: "item"
+					item: { count: 1, id: "create_new_age:advanced_motor" }
+				}
+			]
+			rewards: [
+				{
+					id: "1243F3C0C3E1AF65"
+					type: "item"
+					item: { count: 2, id: "create_new_age:overcharged_diamond" }
+					count: 2
+					title: "充电钻石"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,225 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2100000000000000"
+	group: "2000000000000000"
+	id: "2100000000000000"
+	order_index: 0
+	icon: "createdieselgenerators:diesel_engine"
+	title: "2.1 柴油引擎与炼油工业"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2100000000000001"
+			x: -8.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.4d
+			title: "挖到了！黑色黄金石油"
+			subtitle: "发现与开采原油"
+			icon: "createdieselgenerators:crude_oil_bucket"
+			description: [
+				"在地下深处或油井中寻找原油。上一章送你的流体管道和水泵这下派上大用场了！"
+			]
+			dependencies: [
+				"1400000000000003"
+			]
+			tasks: [
+				{
+					id: "F780273187922126"
+					type: "item"
+					item: { count: 1, id: "createdieselgenerators:crude_oil_bucket" }
+				}
+			]
+			rewards: [
+				{
+					id: "616B4EB016D614AE"
+					type: "item"
+					item: { count: 1, id: "create:blaze_burner" }
+					title: "烈焰人燃烧室（给蒸馏塔加热）"
+				}
+				{
+					id: "5121026A5DA4BB47"
+					type: "item"
+					item: { count: 16, id: "create:fluid_pipe" }
+					count: 16
+					title: "流体管道补充"
+				}
+			]
+		},
+		{
+			id: "2100000000000010"
+			x: -6.0d
+			y: -2.0d
+			shape: "rsquare"
+			size: 1.1d
+			title: "搭建抽油机自动抽石油"
+			subtitle: "抽油机轴承与曲柄"
+			icon: "createdieselgenerators:pumpjack_bearing"
+			description: [
+				"搭个抽油机（Pumpjack），实现地下原油全自动抽采！"
+			]
+			dependencies: [
+				"2100000000000001"
+			]
+			tasks: [
+				{
+					id: "4988F3ADE0F5FC68"
+					type: "item"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_bearing" }
+				}
+			]
+			rewards: [
+				{
+					id: "332DF608ED015D8C"
+					type: "item"
+					item: { count: 1, id: "createdieselgenerators:pumpjack_crank" }
+					title: "抽油机曲柄"
+				}
+			]
+		},
+		{
+			id: "2100000000000002"
+			x: -5.5d
+			y: 0.0d
+			shape: "rsquare"
+			size: 1.2d
+			title: "炼油厂起工！精炼柴油与汽油"
+			subtitle: "蒸馏塔与石油分馏"
+			icon: "createdieselgenerators:biodiesel_bucket"
+			description: [
+				"把原油倒入加热的分馏塔，精炼出能给重型引擎提供高能动力的柴油！拿到活塞去造柴油机！"
+			]
+			dependencies: [
+				"2100000000000001"
+			]
+			tasks: [
+				{
+					id: "8F48370AEF560A6D"
+					type: "item"
+					item: { count: 1, id: "createdieselgenerators:biodiesel_bucket" }
+				}
+			]
+			rewards: [
+				{
+					id: "4509AA066B457023"
+					type: "item"
+					item: { count: 2, id: "createdieselgenerators:engine_piston" }
+					count: 2
+					title: "引擎活塞（组装柴油机的关键零件）"
+				}
+				{
+					id: "C141D5D0940EA885"
+					type: "item"
+					item: { count: 4, id: "createdieselgenerators:oil_barrel" }
+					count: 4
+					title: "石油桶（存柴油用）"
+				}
+			]
+		},
+		{
+			id: "2100000000000011"
+			x: -3.5d
+			y: -2.0d
+			shape: "circle"
+			size: 1.1d
+			title: "存油备用：石油桶"
+			subtitle: "高密度液体储存"
+			icon: "createdieselgenerators:oil_barrel"
+			description: [
+				"用石油桶把精炼好的柴油安全存起来，随时准备给机器加油！"
+			]
+			dependencies: [
+				"2100000000000002"
+			]
+			tasks: [
+				{
+					id: "52E087803ADEA720"
+					type: "item"
+					item: { count: 2, id: "createdieselgenerators:oil_barrel" }
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "5F6E09AB38122BDD"
+					type: "item"
+					item: { count: 2, id: "createdieselgenerators:oil_barrel" }
+					count: 2
+					title: "石油桶补贴"
+				}
+			]
+		},
+		{
+			id: "2100000000000003"
+			x: -3.0d
+			y: 0.0d
+			shape: "diamond"
+			size: 1.4d
+			title: "轰鸣吧！柴油引擎组装完毕"
+			subtitle: "超高转速与惊人应力"
+			icon: "createdieselgenerators:diesel_engine"
+			description: [
+				"用刚拿到的活塞组装柴油引擎！一加油就能输出庞大的应力，带飞发电机和大火炮！"
+			]
+			dependencies: [
+				"2100000000000002"
+			]
+			tasks: [
+				{
+					id: "C571A9FB7CDE647F"
+					type: "item"
+					item: { count: 1, id: "createdieselgenerators:diesel_engine" }
+				}
+			]
+			rewards: [
+				{
+					id: "48B2D1B1A22630DA"
+					type: "item"
+					item: { count: 4, id: "create:copper_casing" }
+					count: 4
+					title: "铜机壳（拿去搭发电机）"
+				}
+				{
+					id: "F64AD0A3A2BD6847"
+					type: "item"
+					item: { count: 16, id: "createbigcannons:cast_iron_ingot" }
+					count: 16
+					title: "铸铁锭（拿去铸大炮）"
+				}
+			]
+		},
+		{
+			id: "2100000000000012"
+			x: -0.5d
+			y: 0.0d
+			shape: "star"
+			size: 1.4d
+			title: "重型发电厂！模块化柴油电站"
+			subtitle: "工业级电力与应力矩阵"
+			icon: "createdieselgenerators:large_diesel_engine"
+			description: [
+				"搭个大型柴油发电机组！给全工业区提供源源不断的庞大能量！"
+			]
+			dependencies: [
+				"2100000000000003"
+			]
+			tasks: [
+				{
+					id: "AAF9651C18C619E5"
+					type: "item"
+					item: { count: 1, id: "createdieselgenerators:large_diesel_engine" }
+				}
+			]
+			rewards: [
+				{
+					id: "E4D0F7A7B482AA0E"
+					type: "item"
+					item: { count: 2, id: "create_new_age:generator_coil" }
+					count: 2
+					title: "发电机线圈（接电网时代）"
+				}
+			]
+		}
+	]
+}

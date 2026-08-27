@@ -1,0 +1,254 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6100000000000000"
+	group: "6000000000000000"
+	id: "6100000000000000"
+	order_index: 0
+	icon: "ars_nouveau:worn_notebook"
+	title: "6.1 奥术入门与魔源仪式"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6100000000000001"
+			x: -8.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.4d
+			title: "翻开魔法序章：残破的宝典"
+			subtitle: "开启新生魔艺之旅"
+			icon: "ars_nouveau:worn_notebook"
+			description: [
+				"欢迎来到 【Ars Nouveau (新生魔艺)】 的神奇世界！"
+				""
+				"做一本【残破的宝典】，它是你搓法术、搞仪式、玩魔法的核心说明书！"
+				"手持宝典右键可以随时查阅完整的法术配方与魔法仪式教程。"
+			]
+			dependencies: [
+				"1100000000000003"
+			]
+			tasks: [
+				{
+					id: "5FC3562D0A274EA0"
+					type: "checkmark"
+					title: "点击领取新手法术书"
+				}
+			]
+			rewards: [
+				{
+					id: "E98F1DF66DF3D8CB"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:novice_spell_book" }
+					title: "新手法术书"
+				}
+				{
+					id: "52F203888925B2C5"
+					type: "item"
+					item: { count: 8, id: "minecraft:amethyst_shard" }
+					count: 8
+					title: "紫水晶碎片"
+				}
+			]
+		},
+		{
+			id: "6100000000000002"
+			x: -5.5d
+			y: -1.8d
+			shape: "rsquare"
+			size: 1.2d
+			title: "收集魔法蓝条：魔源宝石与魔源罐"
+			subtitle: "储存天地间的魔源"
+			icon: "ars_nouveau:source_gem"
+			description: [
+				"【魔源 (Source)】 就是新生魔艺里的魔法蓝条！"
+				"炼制【魔源宝石】，再做个【魔源罐】把附近的魔源能量存起来！"
+			]
+			dependencies: [
+				"6100000000000001"
+			]
+			tasks: [
+				{
+					id: "62D67BE6AA37D241"
+					type: "item"
+					item: { count: 4, id: "ars_nouveau:source_gem" }
+					count: 4L
+				}
+				{
+					id: "1A76D83EAD9A1090"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:source_jar" }
+				}
+			]
+			rewards: [
+				{
+					id: "12FEDDDC4F0BA477"
+					type: "item"
+					item: { count: 8, id: "ars_nouveau:source_gem" }
+					count: 8
+					title: "魔源宝石储备"
+				}
+				{
+					id: "FDB466147EA6301F"
+					type: "item"
+					item: { count: 16, id: "ars_nouveau:source_berry" }
+					count: 16
+					title: "魔源浆果（拿去种）"
+				}
+			]
+		},
+		{
+			id: "6100000000000003"
+			x: -5.5d
+			y: 1.8d
+			shape: "rsquare"
+			size: 1.2d
+			title: "魔力注入：灌注室"
+			subtitle: "吸收魔源，提炼魔法产物"
+			icon: "ars_nouveau:imbuement_chamber"
+			description: [
+				"【灌注室】 可以吸收附近魔源罐里的能量，把普通材料炼成高阶魔法物品！"
+			]
+			dependencies: [
+				"6100000000000001"
+			]
+			tasks: [
+				{
+					id: "9F585B212855E40D"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:imbuement_chamber" }
+				}
+			]
+			rewards: [
+				{
+					id: "6EF993F2C05DA019"
+					type: "item"
+					item: { count: 16, id: "ars_nouveau:sourcestone" }
+					count: 16
+					title: "魔源石建筑方块"
+				}
+			]
+		},
+		{
+			id: "6100000000000004"
+			x: -3.0d
+			y: -1.8d
+			shape: "circle"
+			size: 1.1d
+			title: "种浆果也能产生魔力？"
+			subtitle: "魔源浆果农场"
+			icon: "ars_nouveau:source_berry"
+			description: [
+				"把【魔源浆果】种在魔源罐旁边，果子成熟时会自动给旁边的罐子充能！"
+			]
+			dependencies: [
+				"6100000000000002"
+			]
+			tasks: [
+				{
+					id: "38B1EB6F6E26D9DB"
+					type: "item"
+					item: { count: 8, id: "ars_nouveau:source_berry" }
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "347AC20CDBDE22CA"
+					type: "item"
+					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					title: "料理锅（拿去做甜点）"
+				}
+			]
+		},
+		{
+			id: "6100000000000005"
+			x: -3.0d
+			y: 1.8d
+			shape: "hexagon"
+			size: 1.3d
+			title: "摆个魔法阵！附魔装置与奥术台"
+			subtitle: "高阶仪式合成阵"
+			icon: "ars_nouveau:enchanting_apparatus"
+			description: [
+				"中间摆【附魔装置】，周围摆一圈【奥术台】，搭建高阶仪式魔法阵！"
+				"这是做魔法护符、高阶装备和召唤仆从的必备法阵！"
+			]
+			dependencies: [
+				"6100000000000003"
+			]
+			tasks: [
+				{
+					id: "946017E0330DAA2C"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
+				}
+				{
+					id: "1A58D94CD1DD0215"
+					type: "item"
+					item: { count: 4, id: "ars_nouveau:arcane_pedestal" }
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "5D15971BE0812C3F"
+					type: "item"
+					item: { count: 4, id: "ars_nouveau:arcane_pedestal" }
+					count: 4
+					title: "补齐8奥术台法阵"
+				}
+				{
+					id: "6423DA1EBE285586"
+					type: "item"
+					item: { count: 4, id: "ars_nouveau:magebloom_crop" }
+					count: 4
+					title: "法力花种子"
+				}
+			]
+		},
+		{
+			id: "6100000000000006"
+			x: -0.5d
+			y: 0.0d
+			shape: "star"
+			size: 1.5d
+			title: "凝炼四大元素精华！"
+			subtitle: "水/火/风/地元素核心"
+			icon: "ars_nouveau:water_essence"
+			description: [
+				"在附魔装置里融合材料，凝炼【水、火、风、地】四大元素精华！"
+				"有了元素精华，就能搓出各种酷炫的高阶法术！"
+			]
+			dependencies: [
+				"6100000000000004"
+				"6100000000000005"
+			]
+			tasks: [
+				{
+					id: "454D30E04D3DE900"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:water_essence" }
+				}
+				{
+					id: "BBD1668F4D1A03F7"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:fire_essence" }
+				}
+			]
+			rewards: [
+				{
+					id: "AC4A24A0A030F825"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:air_essence" }
+					title: "风之精华"
+				}
+				{
+					id: "3682C335C3CD29DC"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:earth_essence" }
+					title: "地之精华"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,53 @@
+# Guided Mod UI Text Configuration
+# You can change the text displayed in the startup guide screens here.
+
+title=★ 游戏启动引导 / Game Mode Setup ★
+subtitle=请选择您要启动的模式。完成后游戏会自动关闭，请手动重启应用更改。
+
+vanilla_title=原版模式
+vanilla_subtitle=Vanilla Mode
+vanilla_desc1=禁用指定模组
+vanilla_desc2=保持原版纯净体验
+vanilla_desc3=适合原版服务器
+
+overhaul_title=大改模式
+overhaul_subtitle=Overhaul Mode
+overhaul_desc1=启用所有模组
+overhaul_desc2=加载完整模组体验
+overhaul_desc3=包含所有大改模组
+
+restart_success_vanilla=已成功切换到原版模式！
+restart_success_overhaul=已成功切换到大改模式！
+restart_info=请手动重新启动游戏以使更改生效！
+restart_closing_format=游戏将在 %d 秒后自动关闭... (Closing in %ds...)
+
+info_already_vanilla=当前已是原版模式，无需更改。
+info_already_overhaul=当前已是大改模式，无需更改。
+info_confirm_button=确定 (Confirm)
+
+# Whether to only show the guide screen once (true/false)
+show_only_once=true
+
+# Text for the button on the main menu title screen
+main_menu_button=模式调整
+
+# Safety confirmation screen text
+warning_title=⚠️ 安全警告 / Safety Warning
+warning_line1=检测到模式切换请求。切换模式可能会导致您的
+warning_line2=已有存档发生不可逆的损坏或物品/方块丢失！
+warning_line3=建议在继续前备份您的存档。是否确认切换？
+confirm_switch_button=确认切换
+cancel_switch_button=取消
+
+# Whether this setup screen is a one-time only action. If true, the mod will display a warning note
+# at the bottom of the selection page, and will hide the "Mode Select" button on the main menu after selection.
+one_time_only=true
+
+# Note to display at the bottom if one_time_only is true
+one_time_note=* 注意：切换并重启后将隐藏主页的调整按钮，您将无法再次更改。
+
+# Optional Mode sub-screen settings
+optional_title=选装模组开关
+optional_subtitle=请选择您需要随模式一同开启的附加模组：
+optional_next_button=下一步 (Next)
+optional_back_button=返回 (Back)

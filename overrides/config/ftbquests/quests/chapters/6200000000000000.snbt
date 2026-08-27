@@ -1,0 +1,176 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6200000000000000"
+	group: "6000000000000000"
+	id: "6200000000000000"
+	order_index: 1
+	icon: "ars_creo:starbuncle_wheel"
+	title: "6.2 魔法仆从与 Ars Creo 机械联动"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6200000000000001"
+			x: -8.0d
+			y: 0.0d
+			shape: "hexagon"
+			size: 1.4d
+			title: "召唤一只萌萌哒星宝石兽！"
+			subtitle: "全自动搬砖小能手"
+			icon: "ars_nouveau:starbuncle_charm"
+			description: [
+				"【星宝石兽 (Starbuncle)】 是新生魔艺里最萌的搬砖小能手！"
+				"用护符召唤它，绑定两个箱子，它就会在箱子和传送带之间帮你高速运货！"
+			]
+			dependencies: [
+				"6100000000000006"
+			]
+			tasks: [
+				{
+					id: "1CB91B2D04C75176"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
+				}
+			]
+			rewards: [
+				{
+					id: "3CE21F9538B32474"
+					type: "item"
+					item: { count: 16, id: "ars_nouveau:source_berry" }
+					count: 16
+					title: "星宝石兽爱吃的浆果"
+				}
+				{
+					id: "DB692BB45C259F3B"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:source_jar" }
+					title: "魔源罐"
+				}
+			]
+		},
+		{
+			id: "6200000000000002"
+			x: -5.5d
+			y: -1.8d
+			shape: "star"
+			size: 1.3d
+			title: "小松鼠跑轮发力！魔能机械引擎"
+			subtitle: "Ars Creo 魔法与机械动力联动"
+			icon: "ars_creo:starbuncle_wheel"
+			description: [
+				"【Ars Creo】 联动黑科技！"
+				"做个【星宝石兽跑轮】，把星宝石兽放进去，只要有魔源，它就会在跑轮里狂飙，直接输出超高 RPM 旋转动力！"
+			]
+			dependencies: [
+				"6200000000000001"
+			]
+			tasks: [
+				{
+					id: "B4230B9CA3043833"
+					type: "item"
+					item: { count: 1, id: "ars_creo:starbuncle_wheel" }
+				}
+			]
+			rewards: [
+				{
+					id: "B79927FA576CD0B3"
+					type: "item"
+					item: { count: 4, id: "create:large_cogwheel" }
+					count: 4
+					title: "大齿轮（拿去接动力）"
+				}
+				{
+					id: "998F18ECBA164381"
+					type: "item"
+					item: { count: 8, id: "create:belt_connector" }
+					count: 8
+					title: "传送带"
+				}
+			]
+		},
+		{
+			id: "6200000000000003"
+			x: -5.5d
+			y: 1.8d
+			shape: "rsquare"
+			size: 1.2d
+			title: "全自动代农与无伤收集：风转草与德格米"
+			subtitle: "生态与生物材料自动化"
+			icon: "ars_nouveau:whirlisprig_charm"
+			description: [
+				"【风转草】可以帮你在农场自动种树种菜；【德格米】能自动收集周围动物和怪物的掉落物，完全不用伤害它们！"
+			]
+			dependencies: [
+				"6200000000000001"
+			]
+			tasks: [
+				{
+					id: "2C4714F2B77535E0"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:whirlisprig_charm" }
+				}
+				{
+					id: "B9A4736F002B5865"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:drygmy_charm" }
+				}
+			]
+			rewards: [
+				{
+					id: "9063150DBE0A2A43"
+					type: "item"
+					item: { count: 8, id: "ars_nouveau:source_gem" }
+					count: 8
+					title: "魔源宝石"
+				}
+				{
+					id: "9CFD420D1C929339"
+					type: "item"
+					item: { count: 8, id: "minecraft:moss_block" }
+					count: 8
+					title: "苔藓块（德格米祭坛用）"
+				}
+			]
+		},
+		{
+			id: "6200000000000004"
+			x: -2.5d
+			y: 0.0d
+			shape: "diamond"
+			size: 1.4d
+			title: "无人化自动炼药：薇克精"
+			subtitle: "小魔女自动煮药水"
+			icon: "ars_nouveau:wixie_charm"
+			description: [
+				"【薇克精】 能在炼药锅旁自动吸收魔源帮你在后台煮药水，配合机械动力的注液器和管道直接做成流水线！"
+			]
+			dependencies: [
+				"6200000000000002"
+				"6200000000000003"
+			]
+			tasks: [
+				{
+					id: "CB72878387DCEA41"
+					type: "item"
+					item: { count: 1, id: "ars_nouveau:wixie_charm" }
+				}
+			]
+			rewards: [
+				{
+					id: "C8E20CCE607518F2"
+					type: "item"
+					item: { count: 16, id: "create:fluid_pipe" }
+					count: 16
+					title: "流体管道"
+				}
+				{
+					id: "75F3A0A4790F4265"
+					type: "item"
+					item: { count: 2, id: "create:spout" }
+					count: 2
+					title: "注液器（做药水灌装线）"
+				}
+			]
+		}
+	]
+}

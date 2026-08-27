@@ -1,0 +1,75 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4300000000000000"
+	group: "4000000000000000"
+	id: "4300000000000000"
+	order_index: 2
+	icon: "create:creative_motor"
+	title: "4.3 巨型空天战舰与奇观"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4300000000000001"
+			x: -6.0d
+			y: 0.0d
+			shape: "gear"
+			size: 1.5d
+			title: "蓝图兑换：超级巨舰与悬浮宫殿"
+			subtitle: "【超级大船 / 群玉阁 / 绫人的家】"
+			icon: "create:creative_motor"
+			description: [
+				"提交高级机壳与材料，兑换大佬制作的【空中奇观与超级巨舰工程包】！"
+				""
+				"📋 【内置蓝图与原作者演示视频】："
+				"- 《超级大船.nbt》：排水量惊人的超级海上巡洋舰"
+				"- 《群玉阁.nbt》：悬浮天际的东方奇观宫殿"
+				"- 《绫人的家.nbt》：日式和风精致建筑"
+				""
+				"📺 【超级大船与奇观建筑展示视频】："
+				"https://www.bilibili.com/video/BV16NLP6JEnN"
+				"https://www.bilibili.com/video/BV17mRkBXEv7"
+			]
+			dependencies: [
+				"4100000000000002"
+				"4200000000000001"
+			]
+			tasks: [
+				{
+					id: "3E44C20F91AE7402"
+					type: "item"
+					item: { count: 16, id: "create:brass_casing" }
+					count: 16L
+				}
+				{
+					id: "A46536CA391D5AA3"
+					type: "item"
+					item: { count: 16, id: "create:andesite_casing" }
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "333881178500A7BF"
+					type: "item"
+					item: { count: 8, id: "create:empty_schematic" }
+					count: 8
+					title: "空白蓝图"
+				}
+				{
+					id: "2BC5AB9091324654"
+					type: "item"
+					item: { count: 8, id: "create:experience_block" }
+					count: 8
+					title: "经验块储蓄"
+				}
+				{
+					id: "2270EC7CCA2FAC97"
+					type: "item"
+					item: { count: 1, id: "create:creative_motor" }
+					title: "创造马达（终极奇观奖励）"
+				}
+			]
+		}
+	]
+}
