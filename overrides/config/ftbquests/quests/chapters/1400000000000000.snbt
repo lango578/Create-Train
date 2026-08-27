@@ -1,288 +1,935 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "1400000000000000"
-	group: "1000000000000000"
 	id: "1400000000000000"
+	group: "1000000000000000"
 	order_index: 3
-	icon: "create:brass_ingot"
+	filename: "1400000000000000"
 	title: "1.4 工业加工与半自动化"
-	quest_links: [ ]
+	icon: "create:brass_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "1400000000000001"
-			x: -5.0d
-			y: -2.0d
-			shape: "rsquare"
-			size: 1.2d
-			title: "锤铁板与洗矿粉：压榨机和鼓风机"
-			subtitle: "钣金与水洗矿粉"
-			icon: "create:mechanical_press"
-			description: [
-				"用压榨机往下锤压铁锭做铁板，鼓风机穿过水流可以自动洗矿粉！"
-			]
-			dependencies: [
-				"1300000000000005"
-			]
-			tasks: [
-				{
-					id: "4BA6D78C6EB95F17"
-					type: "item"
-					item: { count: 1, id: "create:mechanical_press" }
-				}
-				{
-					id: "EE8252CFC4C6BE3D"
-					type: "item"
-					item: { count: 1, id: "create:encased_fan" }
-				}
-			]
-			rewards: [
-				{
-					id: "CE36D05B75585EA8"
-					type: "item"
-					item: { count: 8, id: "create:iron_sheet" }
-					count: 8
-					title: "铁板（拿去做传送带）"
-				}
-				{
-					id: "C4B50FE3915EC3DA"
-					type: "item"
-					item: { count: 4, id: "create:andesite_casing" }
-					count: 4
-					title: "安山机壳（拿去做机械手臂）"
-				}
-			]
-		},
-		{
-			id: "1400000000000010"
-			x: -2.5d
-			y: -2.0d
-			shape: "circle"
-			size: 1.1d
-			title: "自动砍树神兵：动力锯"
-			subtitle: "流水线上的自动切割设备"
-			icon: "create:mechanical_saw"
-			description: [
-				"动力锯可以一键砍树，也能在流水线上自动切割物品！"
-			]
-			dependencies: [
-				"1400000000000001"
-			]
-			tasks: [
-				{
-					id: "A326B1226A12DBFD"
-					type: "item"
-					item: { count: 1, id: "create:mechanical_saw" }
-				}
-			]
-			rewards: [
-				{
-					id: "A96CA172D16C6316"
-					type: "item"
-					item: { count: 4, id: "create:andesite_casing" }
-					count: 4
-					title: "安山机壳"
-				}
-			]
-		},
-		{
-			id: "1400000000000011"
-			x: 0.0d
-			y: -2.0d
-			shape: "circle"
-			size: 1.1d
-			title: "自动挖矿神器：动力钻头"
-			subtitle: "盾构机与坑道挖掘核心"
-			icon: "create:mechanical_drill"
-			description: [
-				"动力钻头能破开前方任何方块，是组装自动挖矿车和盾构机的核心！"
-			]
-			dependencies: [
-				"1400000000000001"
-			]
-			tasks: [
-				{
-					id: "E17EC29850626FD4"
-					type: "item"
-					item: { count: 1, id: "create:mechanical_drill" }
-				}
-			]
-			rewards: [
-				{
-					id: "9C6268031B4AD56C"
-					type: "item"
-					item: { count: 2, id: "create:drill" }
-					count: 2
-					title: "钻头备用"
-				}
-			]
-		},
-		{
-			id: "1400000000000002"
-			x: -5.0d
-			y: 2.0d
-			shape: "hexagon"
-			size: 1.2d
-			title: "跨入黄铜时代！搅拌机与盆子"
-			subtitle: "铜+锌炼成黄铜锭"
+			id: "EAA7F08DEFFF4BAB"
+			x: -7.5d
+			y: -5.0d
+			size: 1.4d
+			shape: "gear"
+			title: "黄铜合金：粉碎与搅拌"
+			subtitle: "铜与锌的高温融合"
 			icon: "create:brass_ingot"
 			description: [
-				"盆子里放【铜锭 + 锌锭】，上面用动力搅拌机加热，就能炼出黄铜锭！"
-			]
-			dependencies: [
-				"1300000000000005"
+				"铜与锌的高温融合"
 			]
 			tasks: [
 				{
-					id: "EC003E2E05A80D87"
+					id: "C65897F52FE76C89"
 					type: "item"
-					item: { count: 1, id: "create:mechanical_mixer" }
-				}
-				{
-					id: "676E454AC767371A"
-					type: "item"
-					item: { count: 1, id: "create:basin" }
-				}
-				{
-					id: "1B75883818C93800"
-					type: "item"
-					item: { count: 8, id: "create:brass_ingot" }
-					count: 8L
+					item: "create:brass_ingot"
+					count: 16L
 				}
 			]
 			rewards: [
 				{
-					id: "810FD8BAF040FA7E"
+					id: "E4B8786ADB73F491"
 					type: "item"
-					item: { count: 4, id: "create:brass_casing" }
-					count: 4
-					title: "黄铜机壳"
-				}
-				{
-					id: "8F4B173FB16E63F0"
-					type: "item"
-					item: { count: 4, id: "create:electron_tube" }
-					count: 4
-					title: "电子管（拿去做机械手臂）"
+					item: "create:mechanical_press"
 				}
 			]
-		},
+		}
 		{
-			id: "1400000000000012"
-			x: -2.5d
-			y: 2.0d
-			shape: "rsquare"
+			id: "F2AC2B80C679A7A2"
+			x: -4.5d
+			y: -5.0d
 			size: 1.1d
-			title: "智能管道：溜槽与黄铜漏斗"
-			subtitle: "自动传输与智能过滤"
-			icon: "create:chute"
+			shape: "rsquare"
+			title: "锻造重锤：动力压榨机"
+			subtitle: "冲压金属板与致密部件"
+			icon: "create:mechanical_press"
 			description: [
-				"溜槽可以纵向快速落物，搭配黄铜漏斗能精准过滤物品！"
+				"冲压金属板与致密部件"
 			]
 			dependencies: [
-				"1400000000000002"
+				"EAA7F08DEFFF4BAB"
 			]
 			tasks: [
 				{
-					id: "BFAD340DC9F3954D"
+					id: "994F3BC225ECDFEB"
 					type: "item"
-					item: { count: 4, id: "create:chute" }
-					count: 4L
+					item: "create:mechanical_press"
 				}
+			]
+			rewards: [
 				{
-					id: "EDF557393BC6FBD4"
+					id: "F081EBAE43D3B3F4"
 					type: "item"
-					item: { count: 2, id: "create:brass_funnel" }
+					item: "create:basin"
+				}
+			]
+		}
+		{
+			id: "6119AD6FFD6DD9B4"
+			x: -1.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "熔炼容器：动力搅拌釜"
+			subtitle: "混合液体与材料搅拌"
+			icon: "create:basin"
+			description: [
+				"混合液体与材料搅拌"
+			]
+			dependencies: [
+				"F2AC2B80C679A7A2"
+			]
+			tasks: [
+				{
+					id: "DFEEC9AEAD3B6DB5"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [
+				{
+					id: "AE1717778A82666F"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+			]
+		}
+		{
+			id: "59FDD0D01F0A1A28"
+			x: 1.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "合金搅拌：动力搅拌器"
+			subtitle: "高转速搅拌做出黄铜"
+			icon: "create:mechanical_mixer"
+			description: [
+				"高转速搅拌做出黄铜"
+			]
+			dependencies: [
+				"6119AD6FFD6DD9B4"
+			]
+			tasks: [
+				{
+					id: "8E8FC6D002CF6C9C"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+			]
+			rewards: [
+				{
+					id: "1BD622405C4D454C"
+					type: "item"
+					item: "create:blaze_burner"
+				}
+			]
+		}
+		{
+			id: "D4187C6A6D87BDF7"
+			x: 4.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "高温热源：烈焰人燃烧室"
+			subtitle: "给搅拌釜提供极热高温"
+			icon: "create:blaze_burner"
+			description: [
+				"给搅拌釜提供极热高温"
+			]
+			dependencies: [
+				"59FDD0D01F0A1A28"
+			]
+			tasks: [
+				{
+					id: "5C3554E836903E43"
+					type: "item"
+					item: "create:blaze_burner"
+				}
+			]
+			rewards: [
+				{
+					id: "9655DC41A8554360"
+					type: "item"
+					item: "create:millstone"
+				}
+			]
+		}
+		{
+			id: "E8805289590CFC49"
+			x: 7.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "细致磨粉：水车磨盘"
+			subtitle: "研磨小麦粉与矿粉"
+			icon: "create:millstone"
+			description: [
+				"研磨小麦粉与矿粉"
+			]
+			dependencies: [
+				"D4187C6A6D87BDF7"
+			]
+			tasks: [
+				{
+					id: "13BD93D61D8C621D"
+					type: "item"
+					item: "create:millstone"
+				}
+			]
+			rewards: [
+				{
+					id: "A5AB1A191FAA66A8"
+					type: "item"
+					item: "create:crushing_wheel"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "1C802DDBBAC1A4E2"
+			x: -7.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "粉碎巅峰：粉碎轮"
+			subtitle: "双轮对碾出矿石倍产"
+			icon: "create:crushing_wheel"
+			description: [
+				"双轮对碾出矿石倍产"
+			]
+			dependencies: [
+				"E8805289590CFC49"
+			]
+			tasks: [
+				{
+					id: "9E5C8CF53A3E5545"
+					type: "item"
+					item: "create:crushing_wheel"
 					count: 2L
 				}
 			]
 			rewards: [
 				{
-					id: "D0EB6B429D8158DB"
+					id: "586B4835909F6267"
 					type: "item"
-					item: { count: 2, id: "create:filter" }
-					count: 2
-					title: "过滤器"
+					item: "create:encased_fan"
 				}
 			]
-		},
+		}
 		{
-			id: "1400000000000013"
-			x: 0.0d
-			y: 2.0d
-			shape: "diamond"
-			size: 1.2d
-			title: "超大容量：物品金库"
-			subtitle: "模块化大仓储"
-			icon: "create:item_vault"
+			id: "A3B860C422E64FE6"
+			x: -4.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "气流加工：鼓风机"
+			subtitle: "吹风熏制与高压吹洗"
+			icon: "create:encased_fan"
 			description: [
-				"拼个多方块物品金库，容量极大，自动化工厂摆货首选！"
+				"吹风熏制与高压吹洗"
 			]
 			dependencies: [
-				"1400000000000012"
+				"1C802DDBBAC1A4E2"
 			]
 			tasks: [
 				{
-					id: "F9A9FC5D1C093196"
+					id: "F26CE7B4FF36DF30"
 					type: "item"
-					item: { count: 4, id: "create:item_vault" }
+					item: "create:encased_fan"
+				}
+			]
+			rewards: [
+				{
+					id: "AFB764AC7B9C3C63"
+					type: "item"
+					item: "create:spout"
+				}
+			]
+		}
+		{
+			id: "020FE0503F1DCC41"
+			x: -1.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "定量灌装：注液器"
+			subtitle: "给零件注油与灌装水"
+			icon: "create:spout"
+			description: [
+				"给零件注油与灌装水"
+			]
+			dependencies: [
+				"A3B860C422E64FE6"
+			]
+			tasks: [
+				{
+					id: "8E90059162F40D2C"
+					type: "item"
+					item: "create:spout"
+				}
+			]
+			rewards: [
+				{
+					id: "822CB2C50C3B2CCB"
+					type: "item"
+					item: "create:fluid_pipe"
+					count: 16
+				}
+			]
+		}
+		{
+			id: "7DEFAD36C37AF004"
+			x: 1.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "流体管网：流体管道"
+			subtitle: "液体运输工业生命线"
+			icon: "create:fluid_pipe"
+			description: [
+				"液体运输工业生命线"
+			]
+			dependencies: [
+				"020FE0503F1DCC41"
+			]
+			tasks: [
+				{
+					id: "ADEC1F60D47E82EC"
+					type: "item"
+					item: "create:fluid_pipe"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "8802687CE2DD6932"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+			]
+		}
+		{
+			id: "1444FB036228AF91"
+			x: 4.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "高压抽水：动力泵"
+			subtitle: "管道高加压抽水与抽油"
+			icon: "create:mechanical_pump"
+			description: [
+				"管道高加压抽水与抽油"
+			]
+			dependencies: [
+				"7DEFAD36C37AF004"
+			]
+			tasks: [
+				{
+					id: "57D583206A97A9FB"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+			]
+			rewards: [
+				{
+					id: "58532C22A434355A"
+					type: "item"
+					item: "create:fluid_tank"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "91A930D9266EBB0A"
+			x: 7.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "大型储罐：流体储罐"
+			subtitle: "模块化储存万升液体"
+			icon: "create:fluid_tank"
+			description: [
+				"模块化储存万升液体"
+			]
+			dependencies: [
+				"1444FB036228AF91"
+			]
+			tasks: [
+				{
+					id: "26845B6053E07FD3"
+					type: "item"
+					item: "create:fluid_tank"
 					count: 4L
 				}
 			]
 			rewards: [
 				{
-					id: "BC8C9A4BA949407E"
+					id: "100D6A51E75A9CE2"
 					type: "item"
-					item: { count: 4, id: "create:item_vault" }
-					count: 4
-					title: "物品金库扩容"
+					item: "create:belt_connector"
+					count: 16
 				}
 			]
-		},
+		}
 		{
-			id: "1400000000000003"
-			x: 2.0d
+			id: "1494E247AAE59CA6"
+			x: -7.5d
 			y: 0.0d
-			shape: "gear"
-			size: 1.5d
-			title: "半自动化工厂！传送带与机械手臂"
-			subtitle: "解放双手，步入工业时代"
-			icon: "create:deployer"
+			size: 1.1d
+			shape: "rsquare"
+			title: "物料流水线：传送带"
+			subtitle: "横向自动化物流线"
+			icon: "create:belt_connector"
 			description: [
-				"传送带拉货，机械手臂自动右键，半自动化工厂大功告成！奖励管道直接衔接第二大章抽柴油！"
+				"横向自动化物流线"
 			]
 			dependencies: [
-				"1400000000000010"
-				"1400000000000011"
-				"1400000000000013"
+				"91A930D9266EBB0A"
 			]
 			tasks: [
 				{
-					id: "D11464C8798DC62E"
+					id: "D7A8E8ED99AF8144"
 					type: "item"
-					item: { count: 8, id: "create:belt_connector" }
-					count: 8L
-				}
-				{
-					id: "C639A53B12C287D9"
-					type: "item"
-					item: { count: 1, id: "create:deployer" }
+					item: "create:belt_connector"
+					count: 16L
 				}
 			]
 			rewards: [
 				{
-					id: "C0C98E7B75EAE53C"
+					id: "24D1BE9098AD813D"
 					type: "item"
-					item: { count: 16, id: "create:fluid_pipe" }
-					count: 16
-					title: "流体管道（接第二大章抽取原油）"
+					item: "create:chute"
+					count: 8
 				}
+			]
+		}
+		{
+			id: "B8A50FEA9517F562"
+			x: -4.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "重力漏斗：漏斗溜槽"
+			subtitle: "垂直物料下落输送"
+			icon: "create:chute"
+			description: [
+				"垂直物料下落输送"
+			]
+			dependencies: [
+				"1494E247AAE59CA6"
+			]
+			tasks: [
 				{
-					id: "CE980FD3BC381551"
+					id: "670BBB07D8D686E7"
 					type: "item"
-					item: { count: 2, id: "create:mechanical_pump" }
+					item: "create:chute"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "826AE102C8356628"
+					type: "item"
+					item: "create:smart_chute"
 					count: 2
-					title: "流体泵（用于原油泵送）"
+				}
+			]
+		}
+		{
+			id: "A0A891943D653A7A"
+			x: -1.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "数量筛选：智能溜槽"
+			subtitle: "精准过滤物料堆叠数"
+			icon: "create:smart_chute"
+			description: [
+				"精准过滤物料堆叠数"
+			]
+			dependencies: [
+				"B8A50FEA9517F562"
+			]
+			tasks: [
+				{
+					id: "D1E39F6D6BF4E9BC"
+					type: "item"
+					item: "create:smart_chute"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "C4A280C7EC562DD4"
+					type: "item"
+					item: "create:andesite_funnel"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "983E8B73881F3894"
+			x: 1.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "物料进出：安山漏斗"
+			subtitle: "箱子与传送带对接吸取"
+			icon: "create:andesite_funnel"
+			description: [
+				"箱子与传送带对接吸取"
+			]
+			dependencies: [
+				"A0A891943D653A7A"
+			]
+			tasks: [
+				{
+					id: "4228F54B779F9B42"
+					type: "item"
+					item: "create:andesite_funnel"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "1FEA68D1469B6438"
+					type: "item"
+					item: "create:brass_funnel"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "9BB4801A67925E91"
+			x: 4.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "智能分拣：黄铜漏斗"
+			subtitle: "过滤特定物品与定量"
+			icon: "create:brass_funnel"
+			description: [
+				"过滤特定物品与定量"
+			]
+			dependencies: [
+				"983E8B73881F3894"
+			]
+			tasks: [
+				{
+					id: "13CD83CEB973E589"
+					type: "item"
+					item: "create:brass_funnel"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "1B77FCFEF0376301"
+					type: "item"
+					item: "create:deployer"
+				}
+			]
+		}
+		{
+			id: "0CB65B46538784C2"
+			x: 7.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "模拟双手：机械手"
+			subtitle: "自动右键使用工具与合成"
+			icon: "create:deployer"
+			description: [
+				"自动右键使用工具与合成"
+			]
+			dependencies: [
+				"9BB4801A67925E91"
+			]
+			tasks: [
+				{
+					id: "743B00167190643A"
+					type: "item"
+					item: "create:deployer"
+				}
+			]
+			rewards: [
+				{
+					id: "9AF8C7F88CE1AD8B"
+					type: "item"
+					item: "create:mechanical_saw"
+				}
+			]
+		}
+		{
+			id: "134AF6C949A1FD16"
+			x: -7.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "伐木斩断：动力锯"
+			subtitle: "树木整株切倒与板材加工"
+			icon: "create:mechanical_saw"
+			description: [
+				"树木整株切倒与板材加工"
+			]
+			dependencies: [
+				"0CB65B46538784C2"
+			]
+			tasks: [
+				{
+					id: "5363E35C5B550721"
+					type: "item"
+					item: "create:mechanical_saw"
+				}
+			]
+			rewards: [
+				{
+					id: "59134073F7C1D439"
+					type: "item"
+					item: "create:mechanical_drill"
+				}
+			]
+		}
+		{
+			id: "5959FE6B8A2CD5CD"
+			x: -4.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "坚硬破岩：动力钻头"
+			subtitle: "盾构机与地下矿打洞"
+			icon: "create:mechanical_drill"
+			description: [
+				"盾构机与地下矿打洞"
+			]
+			dependencies: [
+				"134AF6C949A1FD16"
+			]
+			tasks: [
+				{
+					id: "01C9CFBEAB636EBA"
+					type: "item"
+					item: "create:mechanical_drill"
+				}
+			]
+			rewards: [
+				{
+					id: "2F26156104085C57"
+					type: "item"
+					item: "create:mechanical_harvester"
+				}
+			]
+		}
+		{
+			id: "05A844525276F28F"
+			x: -1.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "收割作物：动力收割机"
+			subtitle: "自动收割不伤根系"
+			icon: "create:mechanical_harvester"
+			description: [
+				"自动收割不伤根系"
+			]
+			dependencies: [
+				"5959FE6B8A2CD5CD"
+			]
+			tasks: [
+				{
+					id: "E87FF2D4C0BAD000"
+					type: "item"
+					item: "create:mechanical_harvester"
+				}
+			]
+			rewards: [
+				{
+					id: "C7773D3063A1A374"
+					type: "item"
+					item: "create:mechanical_plough"
+				}
+			]
+		}
+		{
+			id: "F7FB7FC2AED2899C"
+			x: 1.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "耕地清理：动力犁"
+			subtitle: "犁地与清理轨道路线"
+			icon: "create:mechanical_plough"
+			description: [
+				"犁地与清理轨道路线"
+			]
+			dependencies: [
+				"05A844525276F28F"
+			]
+			tasks: [
+				{
+					id: "60793F2708E98564"
+					type: "item"
+					item: "create:mechanical_plough"
+				}
+			]
+			rewards: [
+				{
+					id: "7A09B5C10639D321"
+					type: "item"
+					item: "create:portable_storage_interface"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "27C89936344A3F5A"
+			x: 4.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "无线传输：便携存储接口"
+			subtitle: "运动载具与固定工厂物品交接"
+			icon: "create:portable_storage_interface"
+			description: [
+				"运动载具与固定工厂物品交接"
+			]
+			dependencies: [
+				"F7FB7FC2AED2899C"
+			]
+			tasks: [
+				{
+					id: "DB8BC090D43F98FC"
+					type: "item"
+					item: "create:portable_storage_interface"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "1895D010062B0B00"
+					type: "item"
+					item: "create:portable_fluid_interface"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "880C0983187DCF86"
+			x: 7.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "液体对接：便携流体接口"
+			subtitle: "载具油箱与离岸油罐流体卸载"
+			icon: "create:portable_fluid_interface"
+			description: [
+				"载具油箱与离岸油罐流体卸载"
+			]
+			dependencies: [
+				"27C89936344A3F5A"
+			]
+			tasks: [
+				{
+					id: "99164D77C0380024"
+					type: "item"
+					item: "create:portable_fluid_interface"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "1E6F9AC8839907FF"
+					type: "item"
+					item: "create:display_link"
+				}
+			]
+		}
+		{
+			id: "C8EBBE0432D707F7"
+			x: -7.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "信息显示：显示链接器"
+			subtitle: "读数并投屏到显示板"
+			icon: "create:display_link"
+			description: [
+				"读数并投屏到显示板"
+			]
+			dependencies: [
+				"880C0983187DCF86"
+			]
+			tasks: [
+				{
+					id: "0C2010542FE7FD6B"
+					type: "item"
+					item: "create:display_link"
+				}
+			]
+			rewards: [
+				{
+					id: "2FA888452D0BDF1B"
+					type: "item"
+					item: "create:display_board"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "9F369857281662B8"
+			x: -4.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "工业翻牌：显示板"
+			subtitle: "复古机场翻牌屏显示"
+			icon: "create:display_board"
+			description: [
+				"复古机场翻牌屏显示"
+			]
+			dependencies: [
+				"C8EBBE0432D707F7"
+			]
+			tasks: [
+				{
+					id: "501B20B246BF593C"
+					type: "item"
+					item: "create:display_board"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "05FCDAD0CCF70BD5"
+					type: "item"
+					item: "create:precision_mechanism"
+				}
+			]
+		}
+		{
+			id: "4FC8E5B3A1F0A462"
+			x: -1.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "精密加工：序列组装"
+			subtitle: "机械手多次循环组装"
+			icon: "create:precision_mechanism"
+			description: [
+				"机械手多次循环组装"
+			]
+			dependencies: [
+				"9F369857281662B8"
+			]
+			tasks: [
+				{
+					id: "7C24E66E97CAF318"
+					type: "item"
+					item: "create:precision_mechanism"
+				}
+			]
+			rewards: [
+				{
+					id: "F363C6837A441C1C"
+					type: "item"
+					item: "create:electron_tube"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "85CBC62C217AD3AB"
+			x: 1.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "真空电子：电子管"
+			subtitle: "红石电路与精密控制"
+			icon: "create:electron_tube"
+			description: [
+				"红石电路与精密控制"
+			]
+			dependencies: [
+				"4FC8E5B3A1F0A462"
+			]
+			tasks: [
+				{
+					id: "3607C0B2DAD3A587"
+					type: "item"
+					item: "create:electron_tube"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "0CB67CFFBCDA0CC1"
+					type: "item"
+					item: "create:brass_casing"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "BFA954C98F546D4B"
+			x: 4.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "高级机壳：黄铜机壳"
+			subtitle: "自动化高级机械封包"
+			icon: "create:brass_casing"
+			description: [
+				"自动化高级机械封包"
+			]
+			dependencies: [
+				"85CBC62C217AD3AB"
+			]
+			tasks: [
+				{
+					id: "B7534B610388D54E"
+					type: "item"
+					item: "create:brass_casing"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "492FD5F2D62245D2"
+					type: "item"
+					item: "createdieselgenerators:engine_piston"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "BCBF7C47B5BF89A0"
+			x: 7.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "毕业自动化：半自动化工业流水线"
+			subtitle: "告别手作，迈向柴油重工业！"
+			icon: "createdieselgenerators:engine_piston"
+			description: [
+				"告别手作，迈向柴油重工业！"
+			]
+			dependencies: [
+				"BFA954C98F546D4B"
+			]
+			tasks: [
+				{
+					id: "6C2B247245CCA63A"
+					type: "checkmark"
+					title: "点击完成"
+				}
+			]
+			rewards: [
+				{
+					id: "5C9A9EB12FA1EAEC"
+					type: "item"
+					item: "createdieselgenerators:diesel_engine"
 				}
 			]
 		}

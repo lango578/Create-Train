@@ -1,192 +1,948 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "2300000000000000"
-	group: "2000000000000000"
 	id: "2300000000000000"
+	group: "2000000000000000"
 	order_index: 2
-	icon: "createbigcannons:solid_shot"
+	filename: "2300000000000000"
 	title: "2.3 军工火炮与防空大炮"
-	quest_links: [ ]
+	icon: "createbigcannons:solid_shot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "2300000000000001"
-			x: -8.0d
-			y: 0.0d
-			shape: "square"
-			size: 1.2d
-			title: "开工造炮！火炮铸造模具"
-			subtitle: "真男人的浪漫大炮"
-			icon: "createbigcannons:solid_shot"
+			id: "B91368C7C0BBA260"
+			x: -7.5d
+			y: -5.0d
+			size: 1.4d
+			shape: "gear"
+			title: "重工铸造：火炮耐火砖"
+			subtitle: "高强固耐火铸造砖块"
+			icon: "minecraft:stone"
 			description: [
-				"【Create Big Cannons (大炮模组)】！用刚才拿到的铸铁锭和模具，浇筑巨型炮管并压制实心弹！"
-			]
-			dependencies: [
-				"2100000000000003"
+				"高强固耐火铸造砖块"
 			]
 			tasks: [
 				{
-					id: "38FF1863853C19FF"
+					id: "8058275BDD58DE5D"
 					type: "item"
-					item: { count: 4, id: "createbigcannons:solid_shot" }
+					item: "minecraft:dirt"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "BF5E0BA7D35C74A8"
+					type: "item"
+					item: "createbigcannons:cast_iron_ingot"
+					count: 16
+				}
+			]
+		}
+		{
+			id: "4693CBE5B216B3B4"
+			x: -4.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "军工铸铁：铸铁锭"
+			subtitle: "强力高压炮身铸造金属"
+			icon: "createbigcannons:cast_iron_ingot"
+			description: [
+				"强力高压炮身铸造金属"
+			]
+			dependencies: [
+				"B91368C7C0BBA260"
+			]
+			tasks: [
+				{
+					id: "35F35ECAF8D3BC60"
+					type: "item"
+					item: "createbigcannons:cast_iron_ingot"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "C9C06250CA0D2D47"
+					type: "item"
+					item: "createbigcannons:cast_iron_cannon_barrel"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "73EF5A5D48A687E5"
+			x: -1.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "炮管铸造：铸铁炮管"
+			subtitle: "组装强力重型火炮身"
+			icon: "createbigcannons:cast_iron_cannon_barrel"
+			description: [
+				"组装强力重型火炮身"
+			]
+			dependencies: [
+				"4693CBE5B216B3B4"
+			]
+			tasks: [
+				{
+					id: "E86F7B8D52F8A5AC"
+					type: "item"
+					item: "createbigcannons:cast_iron_cannon_barrel"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "557F3CC99516CA1E"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+			]
+		}
+		{
+			id: "9CE64CB8A04260E6"
+			x: 1.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "后膛装填：铸铁炮栓"
+			subtitle: "开合式炮栓装填弹药"
+			icon: "minecraft:stone"
+			description: [
+				"开合式炮栓装填弹药"
+			]
+			dependencies: [
+				"73EF5A5D48A687E5"
+			]
+			tasks: [
+				{
+					id: "71F7C4590BEE6BEA"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+			]
+			rewards: [
+				{
+					id: "37DDC6C34F7FD920"
+					type: "item"
+					item: "createbigcannons:cannon_mount"
+				}
+			]
+		}
+		{
+			id: "290E5E6302E04947"
+			x: 4.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "仰角瞄准：火炮底座"
+			subtitle: "旋转与俯仰角火炮支撑架"
+			icon: "createbigcannons:cannon_mount"
+			description: [
+				"旋转与俯仰角火炮支撑架"
+			]
+			dependencies: [
+				"9CE64CB8A04260E6"
+			]
+			tasks: [
+				{
+					id: "5EC1027DD8752FAB"
+					type: "item"
+					item: "createbigcannons:cannon_mount"
+				}
+			]
+			rewards: [
+				{
+					id: "925990EA2B8958FB"
+					type: "item"
+					item: "createbigcannons:yaw_controller"
+				}
+			]
+		}
+		{
+			id: "DFBAA9505C481410"
+			x: 7.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "偏航转向：偏航控制器"
+			subtitle: "水平360度精准调向"
+			icon: "createbigcannons:yaw_controller"
+			description: [
+				"水平360度精准调向"
+			]
+			dependencies: [
+				"290E5E6302E04947"
+			]
+			tasks: [
+				{
+					id: "CB25AB23907E5211"
+					type: "item"
+					item: "createbigcannons:yaw_controller"
+				}
+			]
+			rewards: [
+				{
+					id: "7F866B8F60FEB4EF"
+					type: "item"
+					item: "createbigcannons:powder_charge"
+					count: 16
+				}
+			]
+		}
+		{
+			id: "D82EEF48F1500A3C"
+			x: -7.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "发射药包：火药药包"
+			subtitle: "推力巨大的火药推力包"
+			icon: "createbigcannons:powder_charge"
+			description: [
+				"推力巨大的火药推力包"
+			]
+			dependencies: [
+				"DFBAA9505C481410"
+			]
+			tasks: [
+				{
+					id: "647B9B5D5ABC0929"
+					type: "item"
+					item: "createbigcannons:powder_charge"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "44C67DFEEF9CACEB"
+					type: "item"
+					item: "createbigcannons:solid_shot"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "57F68AA66F114DC7"
+			x: -4.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "实心重弹：实心加农炮弹"
+			subtitle: "破坏建筑与城墙的重弹"
+			icon: "createbigcannons:solid_shot"
+			description: [
+				"破坏建筑与城墙的重弹"
+			]
+			dependencies: [
+				"D82EEF48F1500A3C"
+			]
+			tasks: [
+				{
+					id: "E07D2666DB83F6E5"
+					type: "item"
+					item: "createbigcannons:solid_shot"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "CA43208873FA8058"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "0D82074858B86078"
+			x: -1.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "高爆毁灭：高爆炮弹"
+			subtitle: "落地大范围爆炸巨响"
+			icon: "minecraft:stone"
+			description: [
+				"落地大范围爆炸巨响"
+			]
+			dependencies: [
+				"57F68AA66F114DC7"
+			]
+			tasks: [
+				{
+					id: "AA6B03BC29873327"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "814AA7EDA7D43539"
+					type: "item"
+					item: "createbigcannons:ap_shell"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "E4ADC3435D1D05E4"
+			x: 1.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "装甲克星：穿甲弹"
+			subtitle: "击穿重型装甲击毁掩体"
+			icon: "createbigcannons:ap_shell"
+			description: [
+				"击穿重型装甲击毁掩体"
+			]
+			dependencies: [
+				"0D82074858B86078"
+			]
+			tasks: [
+				{
+					id: "AE83CA4857FAD93F"
+					type: "item"
+					item: "createbigcannons:ap_shell"
 					count: 4L
 				}
 			]
 			rewards: [
 				{
-					id: "13F41601CE33C20E"
+					id: "C44649E9A2AF35F5"
 					type: "item"
-					item: { count: 32, id: "minecraft:gunpowder" }
-					count: 32
-					title: "火药（装填发射药包）"
-				}
-				{
-					id: "243DAC50B676FF63"
-					type: "item"
-					item: { count: 8, id: "createbigcannons:powder_charge" }
-					count: 8
-					title: "发射药包（开炮必备）"
+					item: "minecraft:dirt"
+					count: 2
 				}
 			]
-		},
+		}
 		{
-			id: "2300000000000010"
-			x: -5.5d
-			y: -2.0d
-			shape: "rsquare"
+			id: "13371A5FB0D97213"
+			x: 4.5d
+			y: -2.5d
 			size: 1.1d
-			title: "浇筑高压炮身与楔式闩体"
-			subtitle: "组装要塞重炮"
-			icon: "createbigcannons:cast_iron_sliding_breechblock"
+			shape: "circle"
+			title: "速射防空：自动机关炮管"
+			subtitle: "高射速防空机炮炮管"
+			icon: "minecraft:stone"
 			description: [
-				"浇筑铸铁炮管和楔式闩体，把大炮的尾巴装好！"
+				"高射速防空机炮炮管"
 			]
 			dependencies: [
-				"2300000000000001"
+				"E4ADC3435D1D05E4"
 			]
 			tasks: [
 				{
-					id: "6A23C114FA35B44F"
+					id: "F7EF41C65DA6416E"
 					type: "item"
-					item: { count: 1, id: "createbigcannons:cast_iron_sliding_breechblock" }
+					item: "minecraft:dirt"
+					count: 2L
 				}
 			]
 			rewards: [
 				{
-					id: "DD2BC27FE8CD21DD"
+					id: "4C889E67C2CAC037"
 					type: "item"
-					item: { count: 16, id: "createbigcannons:cast_iron_ingot" }
+					item: "minecraft:dirt"
+				}
+			]
+		}
+		{
+			id: "1F00A5F8D7E544A1"
+			x: 7.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "自动供弹：机炮炮栓"
+			subtitle: "弹链连续供弹击发机制"
+			icon: "minecraft:stone"
+			description: [
+				"弹链连续供弹击发机制"
+			]
+			dependencies: [
+				"13371A5FB0D97213"
+			]
+			tasks: [
+				{
+					id: "AA9C401089D8D13A"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+			]
+			rewards: [
+				{
+					id: "D975A0910DED0E7D"
+					type: "item"
+					item: "createbigcannons:recoil_spring"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "F9ED2252F13FF077"
+			x: -7.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "后坐缓冲：复进后坐弹簧"
+			subtitle: "吸收连射剧烈后坐力"
+			icon: "createbigcannons:recoil_spring"
+			description: [
+				"吸收连射剧烈后坐力"
+			]
+			dependencies: [
+				"1F00A5F8D7E544A1"
+			]
+			tasks: [
+				{
+					id: "E298C220BE6A6232"
+					type: "item"
+					item: "createbigcannons:recoil_spring"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "BD24DA214D385030"
+					type: "item"
+					item: "createbigcannons:autocannon_ammo_container"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "22053D683BDB6665"
+			x: -4.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "弹链储箱：机炮弹药箱"
+			subtitle: "高容量连发弹药储箱"
+			icon: "createbigcannons:autocannon_ammo_container"
+			description: [
+				"高容量连发弹药储箱"
+			]
+			dependencies: [
+				"F9ED2252F13FF077"
+			]
+			tasks: [
+				{
+					id: "EF03A29B1088EAD8"
+					type: "item"
+					item: "createbigcannons:autocannon_ammo_container"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "4F08D109DE303F32"
+					type: "item"
+					item: "createbigcannons:impact_fuze"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "B69BBC0525F6C865"
+			x: -1.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "毕业火力：重型防空阵地部署"
+			subtitle: "撕碎空中与地面一切威胁！"
+			icon: "minecraft:stone"
+			description: [
+				"撕碎空中与地面一切威胁！"
+			]
+			dependencies: [
+				"22053D683BDB6665"
+			]
+			tasks: [
+				{
+					id: "46500E14D02BA028"
+					type: "checkmark"
+					title: "点击完成"
+				}
+			]
+			rewards: [
+				{
+					id: "F5DEF10C2762C3A1"
+					type: "item"
+					item: "immersive_aircraft:biplane"
+				}
+			]
+		}
+		{
+			id: "5994487542646340"
+			x: 1.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "重型加农炮身：青铜炮身"
+			subtitle: "密闭性极佳的青铜铸造炮管"
+			icon: "createbigcannons:cast_iron_cannon_barrel"
+			description: [
+				"密闭性极佳的青铜铸造炮管"
+			]
+			dependencies: [
+				"B69BBC0525F6C865"
+			]
+			tasks: [
+				{
+					id: "8EA3FD85699099F4"
+					type: "item"
+					item: "createbigcannons:cast_iron_cannon_barrel"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "76F89D781D8A3134"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+			]
+		}
+		{
+			id: "B66CAF5A09B4A497"
+			x: 4.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "炮口制退器：炮口减震器"
+			subtitle: "减少主炮后坐力与炮口焰"
+			icon: "createbigcannons:cast_iron_cannon_barrel"
+			description: [
+				"减少主炮后坐力与炮口焰"
+			]
+			dependencies: [
+				"5994487542646340"
+			]
+			tasks: [
+				{
+					id: "502C79ECA382B2FB"
+					type: "checkmark"
+					title: "点击完成"
+				}
+			]
+			rewards: [
+				{
+					id: "41AC7EC0A3EEC2A3"
+					type: "item"
+					item: "createbigcannons:powder_charge"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "54A2BBC1EE441E3F"
+			x: 7.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "重型弹药：散弹与猎弹"
+			subtitle: "近距离大面积杀伤散弹"
+			icon: "createbigcannons:solid_shot"
+			description: [
+				"近距离大面积杀伤散弹"
+			]
+			dependencies: [
+				"B66CAF5A09B4A497"
+			]
+			tasks: [
+				{
+					id: "21DA0E5232E7A807"
+					type: "item"
+					item: "createbigcannons:solid_shot"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "BA4CDE2C5AE58665"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "247029D3318E8AE5"
+			x: -7.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "延时引信：定时爆炸引信"
+			subtitle: "设定飞行秒数空爆弹药"
+			icon: "createbigcannons:impact_fuze"
+			description: [
+				"设定飞行秒数空爆弹药"
+			]
+			dependencies: [
+				"54A2BBC1EE441E3F"
+			]
+			tasks: [
+				{
+					id: "54FB5CCB1F464838"
+					type: "item"
+					item: "createbigcannons:impact_fuze"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "A565B1A0D281EC01"
+					type: "item"
+					item: "createbigcannons:impact_fuze"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "EAECC5172124EF62"
+			x: -4.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "触发引信：撞击爆炸引信"
+			subtitle: "接触目标瞬间引爆装药"
+			icon: "createbigcannons:impact_fuze"
+			description: [
+				"接触目标瞬间引爆装药"
+			]
+			dependencies: [
+				"247029D3318E8AE5"
+			]
+			tasks: [
+				{
+					id: "09E9747DE2E25B07"
+					type: "item"
+					item: "createbigcannons:impact_fuze"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "45290B17A9E0DA43"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "9076DB4013E89AC5"
+			x: -1.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "自动供弹机：机炮弹链推弹器"
+			subtitle: "机械压推弹药入膛"
+			icon: "minecraft:stone"
+			description: [
+				"机械压推弹药入膛"
+			]
+			dependencies: [
+				"EAECC5172124EF62"
+			]
+			tasks: [
+				{
+					id: "E7D36AC0AE91FF4B"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+			]
+			rewards: [
+				{
+					id: "15E60B5CA2DA6983"
+					type: "item"
+					item: "createbigcannons:autocannon_ammo_container"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "582A5CFEE3CA9759"
+			x: 1.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "防空阵地：双联装机炮塔"
+			subtitle: "双管交叉火力网打击敌机"
+			icon: "minecraft:stone"
+			description: [
+				"双管交叉火力网打击敌机"
+			]
+			dependencies: [
+				"9076DB4013E89AC5"
+			]
+			tasks: [
+				{
+					id: "1AD1863DD6396163"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "E9EDD51DCEDE92BC"
+					type: "item"
+					item: "createbigcannons:recoil_spring"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "BB6C912E5386E08E"
+			x: 4.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "重型炮架：固定式炮台底座"
+			subtitle: "混凝土高强度固定炮架"
+			icon: "createbigcannons:cannon_mount"
+			description: [
+				"混凝土高强度固定炮架"
+			]
+			dependencies: [
+				"582A5CFEE3CA9759"
+			]
+			tasks: [
+				{
+					id: "762FD6E623E91450"
+					type: "item"
+					item: "createbigcannons:cannon_mount"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "574220886EA4B524"
+					type: "item"
+					item: "createbigcannons:yaw_controller"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "05ED5D2CD2A902CD"
+			x: 7.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "雷达联动：自动瞄准计算机"
+			subtitle: "结合检测自动追瞄目标"
+			icon: "createbigcannons:yaw_controller"
+			description: [
+				"结合检测自动追瞄目标"
+			]
+			dependencies: [
+				"BB6C912E5386E08E"
+			]
+			tasks: [
+				{
+					id: "0834FFD4F2EEBCE9"
+					type: "item"
+					item: "createbigcannons:yaw_controller"
+				}
+			]
+			rewards: [
+				{
+					id: "6F070AD5B4632BA8"
+					type: "item"
+					item: "createbigcannons:powder_charge"
 					count: 16
-					title: "铸铁锭补贴"
 				}
 			]
-		},
+		}
 		{
-			id: "2300000000000011"
-			x: -5.5d
-			y: 2.0d
-			shape: "rsquare"
+			id: "EBE87D660C8F08ED"
+			x: -7.5d
+			y: 5.0d
 			size: 1.1d
-			title: "装填霰弹与高爆弹！"
-			subtitle: "面杀伤与地表摧毁"
-			icon: "createbigcannons:bag_of_grapeshot"
+			shape: "rsquare"
+			title: "高能推进剂：无烟火药药包"
+			subtitle: "更强推力与更高弹道初速"
+			icon: "createbigcannons:powder_charge"
 			description: [
-				"做点霰弹包和高爆弹头，一炮下去全清空！"
+				"更强推力与更高弹道初速"
 			]
 			dependencies: [
-				"2300000000000001"
+				"05ED5D2CD2A902CD"
 			]
 			tasks: [
 				{
-					id: "F01AE9022D49FD36"
+					id: "AED9F784EDD6620E"
 					type: "item"
-					item: { count: 2, id: "createbigcannons:bag_of_grapeshot" }
-					count: 2L
+					item: "createbigcannons:powder_charge"
+					count: 16L
 				}
 			]
 			rewards: [
 				{
-					id: "C9B7A53FB0AF1A40"
+					id: "7455A0DF3E9A7F3E"
 					type: "item"
-					item: { count: 8, id: "minecraft:tnt" }
+					item: "createbigcannons:ap_shell"
 					count: 8
-					title: "TNT 炸药"
 				}
 			]
-		},
+		}
 		{
-			id: "2300000000000002"
-			x: -3.0d
-			y: 0.0d
-			shape: "star"
-			size: 1.3d
-			title: "开火！自动装填与防空阵地"
-			subtitle: "要塞防空与远程打击"
-			icon: "createbigcannons:cannon_loader"
+			id: "41C1712BE72065F6"
+			x: -4.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "攻坚巨炮：400mm 超重型攻城炮"
+			subtitle: "一炮摧毁山头与要塞"
+			icon: "createbigcannons:solid_shot"
 			description: [
-				"接上火炮装载器和装药杆，打造全自动防空要塞！奖励飞机引擎，准备飞上蓝天！"
+				"一炮摧毁山头与要塞"
 			]
 			dependencies: [
-				"2300000000000001"
+				"EBE87D660C8F08ED"
 			]
 			tasks: [
 				{
-					id: "C19FD9D0B5B878C1"
+					id: "2B78AE0A544ED234"
 					type: "item"
-					item: { count: 1, id: "createbigcannons:cannon_loader" }
-				}
-				{
-					id: "1884B027030E9AD2"
-					type: "item"
-					item: { count: 1, id: "createbigcannons:ram_rod" }
+					item: "createbigcannons:solid_shot"
+					count: 8L
 				}
 			]
 			rewards: [
 				{
-					id: "90A4408EA861B22B"
+					id: "69D841A916739034"
 					type: "item"
-					item: { count: 1, id: "immersive_aircraft:engine" }
-					title: "飞机发动机（接第三大章飞天）"
-				}
-				{
-					id: "99EC11DBC917354C"
-					type: "item"
-					item: { count: 2, id: "create:propeller" }
-					count: 2
-					title: "螺旋桨（拿去造双翼飞机）"
+					item: "minecraft:dirt"
+					count: 8
 				}
 			]
-		},
+		}
 		{
-			id: "2300000000000012"
-			x: -0.5d
-			y: 0.0d
-			shape: "gear"
-			size: 1.4d
-			title: "哒哒哒！全自动速射机炮"
-			subtitle: "高射速无人防空网"
-			icon: "createbigcannons:bronze_autocannon_barrel"
+			id: "30A9F04B19D41F38"
+			x: -1.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "弹药库防爆：防爆弹药储存箱"
+			subtitle: "安全储存高爆弹药防止殉爆"
+			icon: "createbigcannons:autocannon_ammo_container"
 			description: [
-				"搭个自动机炮，高射速连续开火，构建全天候无人防空网！"
+				"安全储存高爆弹药防止殉爆"
 			]
 			dependencies: [
-				"2300000000000002"
+				"41C1712BE72065F6"
 			]
 			tasks: [
 				{
-					id: "F2D74228E7DCB543"
+					id: "AF84C1BCD48FEE1B"
 					type: "item"
-					item: { count: 2, id: "createbigcannons:bronze_autocannon_barrel" }
-					count: 2L
+					item: "createbigcannons:autocannon_ammo_container"
+					count: 4L
 				}
 			]
 			rewards: [
 				{
-					id: "AC76A113BCB1DE4B"
+					id: "A0FD082DADA57980"
 					type: "item"
-					item: { count: 2, id: "createbigcannons:recoil_spring" }
-					count: 2
-					title: "复进弹簧"
+					item: "createbigcannons:cast_iron_ingot"
+					count: 32
+				}
+			]
+		}
+		{
+			id: "D9AD6DACDB1F7435"
+			x: 1.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "炮管保养：刷子与通条"
+			subtitle: "清理炮膛积碳保证弹道精度"
+			icon: "minecraft:stone"
+			description: [
+				"清理炮膛积碳保证弹道精度"
+			]
+			dependencies: [
+				"30A9F04B19D41F38"
+			]
+			tasks: [
+				{
+					id: "E380C1AB61FB9296"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+			]
+			rewards: [
+				{
+					id: "22C26472FF43F73B"
+					type: "item"
+					item: "createbigcannons:worm"
+				}
+			]
+		}
+		{
+			id: "82814DFB314F4ACA"
+			x: 4.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "退弹工具：掏弹虫器"
+			subtitle: "安全清除哑弹与未发弹药"
+			icon: "createbigcannons:worm"
+			description: [
+				"安全清除哑弹与未发弹药"
+			]
+			dependencies: [
+				"D9AD6DACDB1F7435"
+			]
+			tasks: [
+				{
+					id: "47643F79C0C2BA40"
+					type: "item"
+					item: "createbigcannons:worm"
+				}
+			]
+			rewards: [
+				{
+					id: "1AEE424B2F6E300C"
+					type: "item"
+					item: "createbigcannons:cast_iron_ingot"
+					count: 16
+				}
+			]
+		}
+		{
+			id: "5E564633D2A79020"
+			x: 7.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "毕业军工：要塞钢铁防线部署"
+			subtitle: "要塞万炮齐发，火力覆盖整片大陆！"
+			icon: "createbigcannons:solid_shot"
+			description: [
+				"要塞万炮齐发，火力覆盖整片大陆！"
+			]
+			dependencies: [
+				"82814DFB314F4ACA"
+			]
+			tasks: [
+				{
+					id: "1AE0BE429C995620"
+					type: "checkmark"
+					title: "点击完成"
+				}
+			]
+			rewards: [
+				{
+					id: "F944677FB62285AD"
+					type: "item"
+					item: "immersive_aircraft:biplane"
 				}
 			]
 		}

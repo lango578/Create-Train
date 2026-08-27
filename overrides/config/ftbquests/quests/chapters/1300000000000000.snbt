@@ -1,336 +1,928 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "1300000000000000"
-	group: "1000000000000000"
 	id: "1300000000000000"
+	group: "1000000000000000"
 	order_index: 2
-	icon: "create:wrench"
+	filename: "1300000000000000"
 	title: "1.3 机械动力：旋转与应力"
-	quest_links: [ ]
+	icon: "create:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "1300000000000001"
-			x: -8.5d
-			y: 0.0d
-			shape: "rsquare"
-			size: 1.2d
-			title: "挖点工业必备的铜与锌"
-			subtitle: "机械动力的基石金属"
-			icon: "create:raw_zinc"
+			id: "33407FD7F4A53A53"
+			x: -7.5d
+			y: -5.0d
+			size: 1.4d
+			shape: "gear"
+			title: "工程起点：锤炼思索之眼"
+			subtitle: "获得思索指南与工程手钳"
+			icon: "create:wrench"
 			description: [
-				"去地下搜寻【铜矿】和【锌矿】，它们是机械动力所有机器的核心原料！"
-			]
-			dependencies: [
-				"1100000000000003"
+				"获得思索指南与工程手钳"
 			]
 			tasks: [
 				{
-					id: "8602B82EC806AFDE"
+					id: "2FC4C9159C3047A5"
 					type: "item"
-					item: { count: 16, id: "minecraft:raw_copper" }
-					count: 16L
-				}
-				{
-					id: "5F31F0F6A9F1DDE3"
-					type: "item"
-					item: { count: 16, id: "create:raw_zinc" }
-					count: 16L
+					item: "create:wrench"
 				}
 			]
 			rewards: [
 				{
-					id: "B183596330BD7D99"
+					id: "4DFD4E3AB6F7405D"
 					type: "item"
-					item: { count: 16, id: "minecraft:copper_ingot" }
+					item: "create:andesite_alloy"
 					count: 16
-					title: "铜锭（直接拿去用）"
-				}
-				{
-					id: "C1FED0ED77D28BEA"
-					type: "item"
-					item: { count: 16, id: "create:zinc_ingot" }
-					count: 16
-					title: "锌锭（直接拿去用）"
 				}
 			]
-		},
+		}
 		{
-			id: "1300000000000002"
-			x: -5.5d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.4d
-			title: "炼出安山合金！领工具啦"
-			subtitle: "开启工业时代，领扳手和护目镜"
+			id: "88DF9E0E40115B1D"
+			x: -4.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "基础合金：安山合金"
+			subtitle: "安山岩与铁/锌的融合"
 			icon: "create:andesite_alloy"
 			description: [
-				"用【安山岩 + 铁粒/锌粒】合成【安山合金】！做完任务直接送你工程师专属的【扳手】和【护目镜】！"
+				"安山岩与铁/锌的融合"
 			]
 			dependencies: [
-				"1300000000000001"
+				"33407FD7F4A53A53"
 			]
 			tasks: [
 				{
-					id: "F88B3EBD38E0F52B"
+					id: "533E37A91233A221"
 					type: "item"
-					item: { count: 32, id: "minecraft:andesite" }
-					count: 32L
-				}
-				{
-					id: "8DF08511F4C40C37"
-					type: "item"
-					item: { count: 16, id: "create:andesite_alloy" }
+					item: "create:andesite_alloy"
 					count: 16L
 				}
 			]
 			rewards: [
 				{
-					id: "8135B9A4187972B4"
+					id: "8FD1FF7E1DF3B80B"
 					type: "item"
-					item: { count: 16, id: "create:andesite_alloy" }
+					item: "create:shaft"
 					count: 16
-					title: "安山合金备用"
-				}
-				{
-					id: "96329FC2DFAA46E8"
-					type: "item"
-					item: { count: 16, id: "create:shaft" }
-					count: 16
-					title: "传动轴（拿去接传动）"
-				}
-				{
-					id: "B391063A8F83AB31"
-					type: "item"
-					item: { count: 1, id: "create:wrench" }
-					title: "工程师扳手"
-				}
-				{
-					id: "8DAA92F2E32B514C"
-					type: "item"
-					item: { count: 1, id: "create:goggles" }
-					title: "工程师护目镜"
 				}
 			]
-		},
+		}
 		{
-			id: "1300000000000010"
-			x: -5.0d
-			y: -2.0d
-			shape: "circle"
+			id: "81C92B7B909BD574"
+			x: -1.5d
+			y: -5.0d
 			size: 1.1d
-			title: "给机械换个新皮肤：安山机壳"
-			subtitle: "右键剥皮原木搞定"
-			icon: "create:andesite_casing"
+			shape: "rsquare"
+			title: "旋转轴心：传动轴"
+			subtitle: "传递旋转动力的骨干线"
+			icon: "create:shaft"
 			description: [
-				"拿着安山合金右键点击剥皮原木，就能做出工业风满满的安山机壳！"
+				"传递旋转动力的骨干线"
 			]
 			dependencies: [
-				"1300000000000002"
+				"88DF9E0E40115B1D"
 			]
 			tasks: [
 				{
-					id: "9A7A8B1BD3AB989B"
+					id: "523A3A47D1455F19"
 					type: "item"
-					item: { count: 4, id: "create:andesite_casing" }
-					count: 4L
+					item: "create:shaft"
+					count: 16L
 				}
 			]
 			rewards: [
 				{
-					id: "9884906D76F1043B"
+					id: "57F57841E9DB3FC6"
 					type: "item"
-					item: { count: 4, id: "create:andesite_casing" }
-					count: 4
-					title: "安山机壳储备"
-				}
-			]
-		},
-		{
-			id: "1300000000000011"
-			x: -5.0d
-			y: 2.0d
-			shape: "circle"
-			size: 1.1d
-			title: "想停就停：离合器与齿轮箱"
-			subtitle: "用红石信号切断动力"
-			icon: "create:clutch"
-			description: [
-				"做个离合器，通上红石信号就能随时切断动力传输！"
-			]
-			dependencies: [
-				"1300000000000002"
-			]
-			tasks: [
-				{
-					id: "526782E632BDD7F3"
-					type: "item"
-					item: { count: 1, id: "create:clutch" }
-				}
-				{
-					id: "2CAA40B5A8594293"
-					type: "item"
-					item: { count: 1, id: "create:gearbox" }
-				}
-			]
-			rewards: [
-				{
-					id: "91C4A49770414C61"
-					type: "item"
-					item: { count: 1, id: "create:vertical_gearbox" }
-					title: "竖直齿轮箱"
-				}
-			]
-		},
-		{
-			id: "1300000000000003"
-			x: -2.5d
-			y: -2.0d
-			shape: "circle"
-			size: 1.1d
-			title: "用手摇出第一份动力！"
-			subtitle: "传动轴与手摇曲柄"
-			icon: "create:hand_crank"
-			description: [
-				"用【传动轴】接出动力，按住【手摇曲柄】手动摇出旋转！"
-			]
-			dependencies: [
-				"1300000000000002"
-			]
-			tasks: [
-				{
-					id: "5551E23C79545511"
-					type: "item"
-					item: { count: 8, id: "create:shaft" }
-					count: 8L
-				}
-				{
-					id: "914F833BC53AF18A"
-					type: "item"
-					item: { count: 1, id: "create:hand_crank" }
-				}
-			]
-			rewards: [
-				{
-					id: "19C5C08F8EE0AD26"
-					type: "item"
-					item: { count: 8, id: "create:cogwheel" }
+					item: "create:cogwheel"
 					count: 8
-					title: "小齿轮（拿去接齿轮）"
 				}
 			]
-		},
+		}
 		{
-			id: "1300000000000004"
-			x: -2.5d
-			y: 2.0d
-			shape: "circle"
+			id: "284D605B7FBCF636"
+			x: 1.5d
+			y: -5.0d
 			size: 1.1d
-			title: "搞懂齿轮比，转速翻倍！"
-			subtitle: "大小齿轮搭配变速"
+			shape: "rsquare"
+			title: "传动齿轮：小齿轮"
+			subtitle: "相邻转轴动力接力"
 			icon: "create:cogwheel"
 			description: [
-				"用大齿轮带动小齿轮可以使转速翻倍！按 W 键思索看动画教程。"
+				"相邻转轴动力接力"
 			]
 			dependencies: [
-				"1300000000000002"
+				"81C92B7B909BD574"
 			]
 			tasks: [
 				{
-					id: "1B411DEDD28A35EB"
+					id: "A73452C2252B5CE1"
 					type: "item"
-					item: { count: 8, id: "create:cogwheel" }
+					item: "create:cogwheel"
 					count: 8L
 				}
+			]
+			rewards: [
 				{
-					id: "BE4C543E09285117"
+					id: "54EE276A22A99C46"
 					type: "item"
-					item: { count: 4, id: "create:large_cogwheel" }
+					item: "create:large_cogwheel"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "A2F0C2A20D2E8721"
+			x: 4.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "变速枢纽：大齿轮"
+			subtitle: "改变转向与2倍变速"
+			icon: "create:large_cogwheel"
+			description: [
+				"改变转向与2倍变速"
+			]
+			dependencies: [
+				"284D605B7FBCF636"
+			]
+			tasks: [
+				{
+					id: "105D86C0A8C43083"
+					type: "item"
+					item: "create:large_cogwheel"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "9CAE1E34854D9ABD"
+					type: "item"
+					item: "create:gearbox"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "0A9FF0CB24F279E5"
+			x: 7.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "直角转向：齿轮箱"
+			subtitle: "90度转角与多路分流"
+			icon: "create:gearbox"
+			description: [
+				"90度转角与多路分流"
+			]
+			dependencies: [
+				"A2F0C2A20D2E8721"
+			]
+			tasks: [
+				{
+					id: "B926A69738933BA2"
+					type: "item"
+					item: "create:gearbox"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "FC3AC435AB61F250"
+					type: "item"
+					item: "create:vertical_gearbox"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "AA5BCBF91D919FFB"
+			x: -7.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "纵向传动：立式齿轮箱"
+			subtitle: "垂直方向动力引导"
+			icon: "create:vertical_gearbox"
+			description: [
+				"垂直方向动力引导"
+			]
+			dependencies: [
+				"0A9FF0CB24F279E5"
+			]
+			tasks: [
+				{
+					id: "32302093F06BA46D"
+					type: "item"
+					item: "create:vertical_gearbox"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "E7EFAAFE5D077FB3"
+					type: "item"
+					item: "create:hand_crank"
+				}
+			]
+		}
+		{
+			id: "2B9677A37F102958"
+			x: -4.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "第一缕动力：手摇曲柄"
+			subtitle: "用你的体力驱动机械"
+			icon: "create:hand_crank"
+			description: [
+				"用你的体力驱动机械"
+			]
+			dependencies: [
+				"AA5BCBF91D919FFB"
+			]
+			tasks: [
+				{
+					id: "053F9885E8B83698"
+					type: "item"
+					item: "create:hand_crank"
+				}
+			]
+			rewards: [
+				{
+					id: "AECB586BBAB35AB4"
+					type: "item"
+					item: "create:water_wheel"
+				}
+			]
+		}
+		{
+			id: "1DC64DA48B5CA67F"
+			x: -1.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "自然之流：小型水轮"
+			subtitle: "水流驱动的永动运转"
+			icon: "create:water_wheel"
+			description: [
+				"水流驱动的永动运转"
+			]
+			dependencies: [
+				"2B9677A37F102958"
+			]
+			tasks: [
+				{
+					id: "9D1AA5E127D2D80D"
+					type: "item"
+					item: "create:water_wheel"
+				}
+			]
+			rewards: [
+				{
+					id: "31F910173D0C11E7"
+					type: "item"
+					item: "create:large_water_wheel"
+				}
+			]
+		}
+		{
+			id: "FA6BEBD74EA8EA2F"
+			x: 1.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "磅礴水力：大型水轮"
+			subtitle: "超高应力容量水力发电机"
+			icon: "create:large_water_wheel"
+			description: [
+				"超高应力容量水力发电机"
+			]
+			dependencies: [
+				"1DC64DA48B5CA67F"
+			]
+			tasks: [
+				{
+					id: "0A32E563FA92C10E"
+					type: "item"
+					item: "create:large_water_wheel"
+				}
+			]
+			rewards: [
+				{
+					id: "0A9B692DB4209197"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+			]
+		}
+		{
+			id: "BFEEA7AB6D834321"
+			x: 4.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "呼啸御风：风车轴承"
+			subtitle: "风车帆布组装高能风力"
+			icon: "create:windmill_bearing"
+			description: [
+				"风车帆布组装高能风力"
+			]
+			dependencies: [
+				"FA6BEBD74EA8EA2F"
+			]
+			tasks: [
+				{
+					id: "C9C57FA2784CC88F"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+			]
+			rewards: [
+				{
+					id: "25C78B7A3454032D"
+					type: "item"
+					item: "create:white_sail"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "1F42E29EC7BE2F99"
+			x: 7.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "御风帆布：风车帆布"
+			subtitle: "搭建16片以上帆布风车"
+			icon: "create:white_sail"
+			description: [
+				"搭建16片以上帆布风车"
+			]
+			dependencies: [
+				"BFEEA7AB6D834321"
+			]
+			tasks: [
+				{
+					id: "F46340F4802FFF6A"
+					type: "item"
+					item: "create:white_sail"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "C75029BCBC2AADFB"
+					type: "item"
+					item: "create:stressometer"
+				}
+			]
+		}
+		{
+			id: "3D5944273BAD6025"
+			x: -7.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "工程监控：应力表"
+			subtitle: "监测网络剩余应力容量"
+			icon: "create:stressometer"
+			description: [
+				"监测网络剩余应力容量"
+			]
+			dependencies: [
+				"1F42E29EC7BE2F99"
+			]
+			tasks: [
+				{
+					id: "57D8A47422F3B947"
+					type: "item"
+					item: "create:stressometer"
+				}
+			]
+			rewards: [
+				{
+					id: "D2EA2E3D91048CE0"
+					type: "item"
+					item: "create:speedometer"
+				}
+			]
+		}
+		{
+			id: "7873EFE1E65A80D8"
+			x: -4.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "转速感知：转速表"
+			subtitle: "测量转轴 RPM 转速"
+			icon: "create:speedometer"
+			description: [
+				"测量转轴 RPM 转速"
+			]
+			dependencies: [
+				"3D5944273BAD6025"
+			]
+			tasks: [
+				{
+					id: "6B03206FB0975255"
+					type: "item"
+					item: "create:speedometer"
+				}
+			]
+			rewards: [
+				{
+					id: "A9F1CC38721FB649"
+					type: "item"
+					item: "create:clutch"
+				}
+			]
+		}
+		{
+			id: "89D8840EA2A83D99"
+			x: -1.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "动力开关：离合器"
+			subtitle: "红石信号控制断开动力"
+			icon: "create:clutch"
+			description: [
+				"红石信号控制断开动力"
+			]
+			dependencies: [
+				"7873EFE1E65A80D8"
+			]
+			tasks: [
+				{
+					id: "89C0C87151ED23E6"
+					type: "item"
+					item: "create:clutch"
+				}
+			]
+			rewards: [
+				{
+					id: "317845BE05F88F9D"
+					type: "item"
+					item: "create:gearshift"
+				}
+			]
+		}
+		{
+			id: "FC90964BBEE2889F"
+			x: 1.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "转向倒逆：逆变器"
+			subtitle: "反向输出旋转动力"
+			icon: "create:gearshift"
+			description: [
+				"反向输出旋转动力"
+			]
+			dependencies: [
+				"89D8840EA2A83D99"
+			]
+			tasks: [
+				{
+					id: "E0F2257AD8AB3127"
+					type: "item"
+					item: "create:gearshift"
+				}
+			]
+			rewards: [
+				{
+					id: "F3330A679483AC3A"
+					type: "item"
+					item: "create:encased_chain_drive"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "9248141261CE1594"
+			x: 4.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "链条连接：链轮箱"
+			subtitle: "跨越距离平行传递动力"
+			icon: "create:encased_chain_drive"
+			description: [
+				"跨越距离平行传递动力"
+			]
+			dependencies: [
+				"FC90964BBEE2889F"
+			]
+			tasks: [
+				{
+					id: "09D2D1305D14131A"
+					type: "item"
+					item: "create:encased_chain_drive"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "98EA7135A85A5B8C"
+					type: "item"
+					item: "create:adjustable_chain_gearshift"
+				}
+			]
+		}
+		{
+			id: "99B2756B0053EA66"
+			x: 7.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "可调变速：链条变速箱"
+			subtitle: "红石比例精准调速"
+			icon: "create:adjustable_chain_gearshift"
+			description: [
+				"红石比例精准调速"
+			]
+			dependencies: [
+				"9248141261CE1594"
+			]
+			tasks: [
+				{
+					id: "36EDB6D9D00E14E1"
+					type: "item"
+					item: "create:adjustable_chain_gearshift"
+				}
+			]
+			rewards: [
+				{
+					id: "B845849A32016C85"
+					type: "item"
+					item: "create:sequenced_gearshift"
+				}
+			]
+		}
+		{
+			id: "A21894A956B071A0"
+			x: -7.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "精准指令：程序齿轮箱"
+			subtitle: "设置角度与距离控制"
+			icon: "create:sequenced_gearshift"
+			description: [
+				"设置角度与距离控制"
+			]
+			dependencies: [
+				"99B2756B0053EA66"
+			]
+			tasks: [
+				{
+					id: "9EA1C6A1E2B450DF"
+					type: "item"
+					item: "create:sequenced_gearshift"
+				}
+			]
+			rewards: [
+				{
+					id: "C2634A27F7272B8D"
+					type: "item"
+					item: "create:rotation_speed_controller"
+				}
+			]
+		}
+		{
+			id: "D132AFF253147FFA"
+			x: -4.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "极速掌控：转速控制器"
+			subtitle: "自由锁定 1-256 RPM 速率"
+			icon: "create:rotation_speed_controller"
+			description: [
+				"自由锁定 1-256 RPM 速率"
+			]
+			dependencies: [
+				"A21894A956B071A0"
+			]
+			tasks: [
+				{
+					id: "6417E90D1EA5C3A2"
+					type: "item"
+					item: "create:rotation_speed_controller"
+				}
+			]
+			rewards: [
+				{
+					id: "E1D7E21545605302"
+					type: "item"
+					item: "create:gantry_carriage"
+				}
+			]
+		}
+		{
+			id: "AD79B98FD5713167"
+			x: -1.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "直线滑轨：龙门架平移"
+			subtitle: "龙门齿条上的直线位移"
+			icon: "create:gantry_carriage"
+			description: [
+				"龙门齿条上的直线位移"
+			]
+			dependencies: [
+				"D132AFF253147FFA"
+			]
+			tasks: [
+				{
+					id: "EA975CF8D74C2B81"
+					type: "item"
+					item: "create:gantry_carriage"
+				}
+			]
+			rewards: [
+				{
+					id: "C452A73BE28ACA87"
+					type: "item"
+					item: "create:gantry_shaft"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "8F1D32E3D8F16FEE"
+			x: 1.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "导轨支撑：龙门齿条"
+			subtitle: "搭建直线机械臂跑道"
+			icon: "create:gantry_shaft"
+			description: [
+				"搭建直线机械臂跑道"
+			]
+			dependencies: [
+				"AD79B98FD5713167"
+			]
+			tasks: [
+				{
+					id: "56C924F25D7361C9"
+					type: "item"
+					item: "create:gantry_shaft"
 					count: 4L
 				}
 			]
 			rewards: [
 				{
-					id: "3F70863F481C2EC9"
+					id: "BC5664D36945C243"
 					type: "item"
-					item: { count: 4, id: "create:large_cogwheel" }
-					count: 4
-					title: "大齿轮（拿去接风车）"
-				}
-			]
-		},
-		{
-			id: "1300000000000005"
-			x: 1.0d
-			y: 0.0d
-			shape: "diamond"
-			size: 1.5d
-			title: "解放双手！搭建水轮与风车"
-			subtitle: "永动机关，源源不绝"
-			icon: "create:water_wheel"
-			description: [
-				"别再手摇啦！用水流冲水轮，或者搭风车，就能源源不断地提供免费应力！"
-			]
-			dependencies: [
-				"1300000000000003"
-				"1300000000000004"
-			]
-			tasks: [
-				{
-					id: "3612DDD5C447376D"
-					type: "item"
-					item: { count: 1, id: "create:water_wheel" }
-				}
-				{
-					id: "EFC9B800F62C54FD"
-					type: "item"
-					item: { count: 1, id: "create:windmill_bearing" }
-				}
-			]
-			rewards: [
-				{
-					id: "70C744D53587E14D"
-					type: "item"
-					item: { count: 8, id: "create:white_sail" }
+					item: "create:piston_extension_pole"
 					count: 8
-					title: "风帆补给"
-				}
-				{
-					id: "364BCE6A12318CAF"
-					type: "item"
-					item: { count: 1, id: "create:large_water_wheel" }
-					title: "大水轮（动力更强）"
 				}
 			]
-		},
+		}
 		{
-			id: "1300000000000012"
-			x: 3.0d
-			y: 0.0d
-			shape: "rsquare"
-			size: 1.2d
-			title: "精确控制转速：转速控制器"
-			subtitle: "想转多快你说了算"
-			icon: "create:rotation_speed_controller"
+			id: "EA60492DC03432EE"
+			x: 4.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "活塞延伸：活塞杆"
+			subtitle: "机械活塞的长距离推拉"
+			icon: "create:piston_extension_pole"
 			description: [
-				"配合上方的大齿轮，转速控制器可以自由调控转速 RPM 和旋转方向！"
+				"机械活塞的长距离推拉"
 			]
 			dependencies: [
-				"1300000000000005"
+				"8F1D32E3D8F16FEE"
 			]
 			tasks: [
 				{
-					id: "54A03E13B281F682"
+					id: "BD2FB0B10B77CD00"
 					type: "item"
-					item: { count: 1, id: "create:rotation_speed_controller" }
+					item: "create:piston_extension_pole"
+					count: 8L
 				}
 			]
 			rewards: [
 				{
-					id: "916E2A3FBDCE1C3F"
+					id: "04D602CCB50F89B1"
 					type: "item"
-					item: { count: 1, id: "create:precision_mechanism" }
-					title: "精密机制补贴"
+					item: "create:mechanical_piston"
+				}
+			]
+		}
+		{
+			id: "D7A6D4F3D703443D"
+			x: 7.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "推拉机械：机械活塞"
+			subtitle: "推拉大型结构与方块组"
+			icon: "create:mechanical_piston"
+			description: [
+				"推拉大型结构与方块组"
+			]
+			dependencies: [
+				"EA60492DC03432EE"
+			]
+			tasks: [
+				{
+					id: "68094D349E71535F"
+					type: "item"
+					item: "create:mechanical_piston"
+				}
+			]
+			rewards: [
+				{
+					id: "01DAAA82D48AB376"
+					type: "item"
+					item: "create:sticky_mechanical_piston"
+				}
+			]
+		}
+		{
+			id: "9BF06E8C9749519A"
+			x: -7.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "双向附着：黏性机械活塞"
+			subtitle: "拉回结构的强大拉力"
+			icon: "create:sticky_mechanical_piston"
+			description: [
+				"拉回结构的强大拉力"
+			]
+			dependencies: [
+				"D7A6D4F3D703443D"
+			]
+			tasks: [
+				{
+					id: "B8E9E2B9FC524EEF"
+					type: "item"
+					item: "create:sticky_mechanical_piston"
+				}
+			]
+			rewards: [
+				{
+					id: "BDEC53AB8E3AD8E1"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+			]
+		}
+		{
+			id: "9AF7E3D7FDE5706D"
+			x: -4.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "旋转枢纽：机械轴承"
+			subtitle: "旋转门与大型风车枢纽"
+			icon: "create:mechanical_bearing"
+			description: [
+				"旋转门与大型风车枢纽"
+			]
+			dependencies: [
+				"9BF06E8C9749519A"
+			]
+			tasks: [
+				{
+					id: "C36755FFC11935ED"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+			]
+			rewards: [
+				{
+					id: "8457C36D73B6CB83"
+					type: "item"
+					item: "create:clockwork_bearing"
+				}
+			]
+		}
+		{
+			id: "C9ECC50C45AB352C"
+			x: -1.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "时钟计时：时钟轴承"
+			subtitle: "按照真实时间旋转的时钟"
+			icon: "create:clockwork_bearing"
+			description: [
+				"按照真实时间旋转的时钟"
+			]
+			dependencies: [
+				"9AF7E3D7FDE5706D"
+			]
+			tasks: [
+				{
+					id: "32F0F43279462168"
+					type: "item"
+					item: "create:clockwork_bearing"
+				}
+			]
+			rewards: [
+				{
+					id: "F218CCEFA67C9983"
+					type: "item"
+					item: "create:rope_pulley"
+				}
+			]
+		}
+		{
+			id: "DA608AF58AF4322B"
+			x: 1.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "垂直升降：绳索滑轮"
+			subtitle: "升降梯与矿井提升机"
+			icon: "create:rope_pulley"
+			description: [
+				"升降梯与矿井提升机"
+			]
+			dependencies: [
+				"C9ECC50C45AB352C"
+			]
+			tasks: [
+				{
+					id: "212775AAA4D03056"
+					type: "item"
+					item: "create:rope_pulley"
+				}
+			]
+			rewards: [
+				{
+					id: "2AD5A57716DDF549"
+					type: "item"
+					item: "create:elevator_pulley"
+				}
+			]
+		}
+		{
+			id: "9A447E1A23680D17"
+			x: 4.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "楼层调度：电梯滑轮"
+			subtitle: "多楼层精确自动停靠"
+			icon: "create:elevator_pulley"
+			description: [
+				"多楼层精确自动停靠"
+			]
+			dependencies: [
+				"DA608AF58AF4322B"
+			]
+			tasks: [
+				{
+					id: "7517BCA674104CD3"
+					type: "item"
+					item: "create:elevator_pulley"
+				}
+			]
+			rewards: [
+				{
+					id: "DD606AF71B23EC60"
+					type: "item"
+					item: "create:contraption_controls"
+				}
+			]
+		}
+		{
+			id: "27EC99631913A769"
+			x: 7.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "毕业应力：旋转网络主控"
+			subtitle: "掌管整个工厂的旋转动能！"
+			icon: "create:contraption_controls"
+			description: [
+				"掌管整个工厂的旋转动能！"
+			]
+			dependencies: [
+				"9A447E1A23680D17"
+			]
+			tasks: [
+				{
+					id: "6C3AEC21E264C0FC"
+					type: "checkmark"
+					title: "点击完成"
+				}
+			]
+			rewards: [
+				{
+					id: "D6BBED1E058B5500"
+					type: "item"
+					item: "create:brass_ingot"
+					count: 16
 				}
 			]
 		}

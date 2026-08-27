@@ -1,198 +1,947 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "2200000000000000"
-	group: "2000000000000000"
 	id: "2200000000000000"
+	group: "2000000000000000"
 	order_index: 1
-	icon: "create:display_board"
+	filename: "2200000000000000"
 	title: "2.2 电网与电路控制"
-	quest_links: [ ]
+	icon: "create:display_board"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "2200000000000001"
-			x: -8.0d
-			y: 0.0d
-			shape: "hexagon"
+			id: "F0C3FA162FB392B3"
+			x: -7.5d
+			y: -5.0d
 			size: 1.4d
-			title: "通电！发电机线圈与导线"
-			subtitle: "把旋转动力变成电能"
+			shape: "gear"
+			title: "电气起点：发电线圈"
+			subtitle: "线圈磁场产生感应电流"
 			icon: "create_new_age:generator_coil"
 			description: [
-				"用柴油引擎带动发电机线圈发电！接上铜导线和接线柱，打造工厂自动化电网！"
-			]
-			dependencies: [
-				"2100000000000003"
+				"线圈磁场产生感应电流"
 			]
 			tasks: [
 				{
-					id: "D84AD7905100A77E"
+					id: "03939F7FAAE59E93"
 					type: "item"
-					item: { count: 1, id: "create_new_age:generator_coil" }
+					item: "create_new_age:generator_coil"
 				}
+			]
+			rewards: [
 				{
-					id: "CCC97272A9ED0AF7"
+					id: "95DA17BDC0492397"
 					type: "item"
-					item: { count: 8, id: "create_new_age:copper_wire" }
+					item: "create_new_age:copper_wire"
+					count: 16
+				}
+			]
+		}
+		{
+			id: "58B519DC348A20D7"
+			x: -4.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "电力输送：铜导线"
+			subtitle: "连接发电机与用电设备"
+			icon: "create_new_age:copper_wire"
+			description: [
+				"连接发电机与用电设备"
+			]
+			dependencies: [
+				"F0C3FA162FB392B3"
+			]
+			tasks: [
+				{
+					id: "E25A529855DE4F27"
+					type: "item"
+					item: "create_new_age:copper_wire"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "E2DB7EB052176090"
+					type: "item"
+					item: "create_new_age:electrical_connector"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "6DA36A72D4EE24C8"
+			x: -1.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "线路节点：接线柱"
+			subtitle: "导线引出与高压节点"
+			icon: "create_new_age:electrical_connector"
+			description: [
+				"导线引出与高压节点"
+			]
+			dependencies: [
+				"58B519DC348A20D7"
+			]
+			tasks: [
+				{
+					id: "47603ADF4FDE9810"
+					type: "item"
+					item: "create_new_age:electrical_connector"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "617CAB5CCB428017"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+			]
+		}
+		{
+			id: "166DB1C83011FA49"
+			x: 1.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "能量充能：充能台"
+			subtitle: "给高阶铁块与闪魂充能"
+			icon: "minecraft:stone"
+			description: [
+				"给高阶铁块与闪魂充能"
+			]
+			dependencies: [
+				"6DA36A72D4EE24C8"
+			]
+			tasks: [
+				{
+					id: "FB4F8C18861D6564"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+			]
+			rewards: [
+				{
+					id: "034351BFA55203BF"
+					type: "item"
+					item: "create_new_age:overcharged_iron"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "9F42B59D0DC82E78"
+			x: 4.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "过载材料：充能铁块"
+			subtitle: "制作高阶电机与电磁铁"
+			icon: "create_new_age:overcharged_iron"
+			description: [
+				"制作高阶电机与电磁铁"
+			]
+			dependencies: [
+				"166DB1C83011FA49"
+			]
+			tasks: [
+				{
+					id: "651688FD84F280E3"
+					type: "item"
+					item: "create_new_age:overcharged_iron"
 					count: 8L
 				}
 			]
 			rewards: [
 				{
-					id: "A5982E589A60230A"
+					id: "48B338FD94FBD1EC"
 					type: "item"
-					item: { count: 4, id: "create_new_age:electrical_connector" }
-					count: 4
-					title: "导电接线柱"
-				}
-				{
-					id: "AAA29C738ED0534E"
-					type: "item"
-					item: { count: 32, id: "minecraft:redstone" }
-					count: 32
-					title: "红石粉储备"
+					item: "create_new_age:basic_motor"
 				}
 			]
-		},
+		}
 		{
-			id: "2200000000000010"
-			x: -5.5d
-			y: -2.0d
-			shape: "rsquare"
+			id: "4A5A0E969A7D2248"
+			x: 7.5d
+			y: -5.0d
 			size: 1.1d
-			title: "发电量翻倍！磁铁与激发器"
-			subtitle: "提升发电效率"
-			icon: "create_new_age:basic_energiser"
-			description: [
-				"做个磁铁和普通激发器，让你的发电机输出更多电能！"
-			]
-			dependencies: [
-				"2200000000000001"
-			]
-			tasks: [
-				{
-					id: "EFA8560F05417A6E"
-					type: "item"
-					item: { count: 1, id: "create_new_age:basic_energiser" }
-				}
-			]
-			rewards: [
-				{
-					id: "879F478CE474F240"
-					type: "item"
-					item: { count: 4, id: "create_new_age:overcharged_iron" }
-					count: 4
-					title: "充电铁锭"
-				}
-			]
-		},
-		{
-			id: "2200000000000011"
-			x: -5.5d
-			y: 2.0d
 			shape: "rsquare"
-			size: 1.1d
-			title: "用电开机器：普通电动机"
-			subtitle: "把电变回旋转动力"
+			title: "电能驱动：基础马达"
+			subtitle: "将电能无缝逆向转化为旋转力"
 			icon: "create_new_age:basic_motor"
 			description: [
-				"做个普通电动机，远处的机器直接接电线就能转，不用再搭长距离传动轴了！"
+				"将电能无缝逆向转化为旋转力"
 			]
 			dependencies: [
-				"2200000000000001"
+				"9F42B59D0DC82E78"
 			]
 			tasks: [
 				{
-					id: "40451F31DBA0F350"
+					id: "27E4C216E3059A10"
 					type: "item"
-					item: { count: 1, id: "create_new_age:basic_motor" }
+					item: "create_new_age:basic_motor"
 				}
 			]
 			rewards: [
 				{
-					id: "5F7E08CB0B97A72B"
+					id: "9FB4E572C74972D6"
 					type: "item"
-					item: { count: 4, id: "create:electron_tube" }
+					item: "create:display_board"
 					count: 4
-					title: "电子管（拿去做显示屏）"
 				}
 			]
-		},
+		}
 		{
-			id: "2200000000000002"
-			x: -3.0d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.2d
-			title: "监控大屏！显示屏与阈值开关"
-			subtitle: "工厂自动化监控"
+			id: "A7BBC047D700A6EA"
+			x: -7.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "翻牌显示：显示面板"
+			subtitle: "显示电网负荷与电压数"
 			icon: "create:display_board"
 			description: [
-				"摆个大显示屏，加上阈值开关，工厂存了多少货、电网还剩多少电一目了然！"
+				"显示电网负荷与电压数"
 			]
 			dependencies: [
-				"2200000000000001"
+				"4A5A0E969A7D2248"
 			]
 			tasks: [
 				{
-					id: "CDC9A77C9A394824"
+					id: "4C66D1E6A4FE0362"
 					type: "item"
-					item: { count: 2, id: "create:display_board" }
+					item: "create:display_board"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "F9CD7C2150A77A8C"
+					type: "item"
+					item: "create:nixie_tube"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "8FFD15F3D10EDA04"
+			x: -4.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "数码指示：数码管"
+			subtitle: "复古发光数码管显示器"
+			icon: "create:nixie_tube"
+			description: [
+				"复古发光数码管显示器"
+			]
+			dependencies: [
+				"A7BBC047D700A6EA"
+			]
+			tasks: [
+				{
+					id: "DAF5F89631C94B20"
+					type: "item"
+					item: "create:nixie_tube"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "A355074DC417ECD0"
+					type: "item"
+					item: "create:redstone_link"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "FEC3EDBA79B5EEA6"
+			x: -1.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "无线红石：红石频率传输器"
+			subtitle: "跨空间无线控制开关"
+			icon: "create:redstone_link"
+			description: [
+				"跨空间无线控制开关"
+			]
+			dependencies: [
+				"8FFD15F3D10EDA04"
+			]
+			tasks: [
+				{
+					id: "61399ADB8042218F"
+					type: "item"
+					item: "create:redstone_link"
 					count: 2L
 				}
-				{
-					id: "AE654FCC992550F8"
-					type: "item"
-					item: { count: 1, id: "create:stockpile_switch" }
-				}
 			]
 			rewards: [
 				{
-					id: "866E18D16B2807F8"
+					id: "5A83BC7146A84EC3"
 					type: "item"
-					item: { count: 2, id: "create:pulse_repeater" }
-					count: 2
-					title: "脉冲重复器"
-				}
-				{
-					id: "D6004581C4785FD5"
-					type: "item"
-					item: { count: 4, id: "create:nixie_tube" }
-					count: 4
-					title: "数码管（显示数字）"
+					item: "create:pulse_repeater"
 				}
 			]
-		},
+		}
 		{
-			id: "2200000000000012"
-			x: -0.5d
-			y: 0.0d
-			shape: "star"
-			size: 1.4d
-			title: "狂暴输出：高级超频电动机"
-			subtitle: "超高转速旋转输出"
-			icon: "create_new_age:advanced_motor"
+			id: "704A284D6D6F3400"
+			x: 1.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "信号脉冲：脉冲重发器"
+			subtitle: "单次短暂脉冲转换器"
+			icon: "create:pulse_repeater"
 			description: [
-				"升级为高级电动机与超频器，输出难以置信的极限超高转速！"
+				"单次短暂脉冲转换器"
 			]
 			dependencies: [
-				"2200000000000002"
-				"2200000000000011"
+				"FEC3EDBA79B5EEA6"
 			]
 			tasks: [
 				{
-					id: "E8F35CFD133791F5"
+					id: "61B86CB431D2E411"
 					type: "item"
-					item: { count: 1, id: "create_new_age:advanced_motor" }
+					item: "create:pulse_repeater"
 				}
 			]
 			rewards: [
 				{
-					id: "1243F3C0C3E1AF65"
+					id: "A872F704CCFC09E8"
 					type: "item"
-					item: { count: 2, id: "create_new_age:overcharged_diamond" }
+					item: "create:powered_latch"
+				}
+			]
+		}
+		{
+			id: "18CD3292F7371AE5"
+			x: 4.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "电路锁存：锁存器"
+			subtitle: "保持高电平的开关电路"
+			icon: "create:powered_latch"
+			description: [
+				"保持高电平的开关电路"
+			]
+			dependencies: [
+				"704A284D6D6F3400"
+			]
+			tasks: [
+				{
+					id: "DB1A3D179F653120"
+					type: "item"
+					item: "create:powered_latch"
+				}
+			]
+			rewards: [
+				{
+					id: "651409C693865AAD"
+					type: "item"
+					item: "create:powered_toggle_latch"
+				}
+			]
+		}
+		{
+			id: "51D9A71F0457355F"
+			x: 7.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "双稳触发：触发锁存器"
+			subtitle: "按钮变开关的逻辑单元"
+			icon: "create:powered_toggle_latch"
+			description: [
+				"按钮变开关的逻辑单元"
+			]
+			dependencies: [
+				"18CD3292F7371AE5"
+			]
+			tasks: [
+				{
+					id: "13FE039A348B4291"
+					type: "item"
+					item: "create:powered_toggle_latch"
+				}
+			]
+			rewards: [
+				{
+					id: "0690E810DF1B64EB"
+					type: "item"
+					item: "create:stockpile_switch"
+				}
+			]
+		}
+		{
+			id: "9AAF16DE5F7D958C"
+			x: -7.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "阈值感知：储量开关"
+			subtitle: "监测容器储量阈值自动断电"
+			icon: "create:stockpile_switch"
+			description: [
+				"监测容器储量阈值自动断电"
+			]
+			dependencies: [
+				"51D9A71F0457355F"
+			]
+			tasks: [
+				{
+					id: "DBFB0ACC75116C32"
+					type: "item"
+					item: "create:stockpile_switch"
+				}
+			]
+			rewards: [
+				{
+					id: "3AED7BBB26021D81"
+					type: "item"
+					item: "create:content_observer"
+				}
+			]
+		}
+		{
+			id: "B07835E6917AE897"
+			x: -4.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "内容检测：内容观察者"
+			subtitle: "监测管道与传送带物品流动"
+			icon: "create:content_observer"
+			description: [
+				"监测管道与传送带物品流动"
+			]
+			dependencies: [
+				"9AAF16DE5F7D958C"
+			]
+			tasks: [
+				{
+					id: "FC1BCA26EC666284"
+					type: "item"
+					item: "create:content_observer"
+				}
+			]
+			rewards: [
+				{
+					id: "04F59FC6C0A10FA3"
+					type: "item"
+					item: "createbigcannons:solid_shot"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "5AC07A86A66FA6B2"
+			x: -1.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "毕业电网：智能化工厂中控台"
+			subtitle: "电网全自动化调控与防过载！"
+			icon: "create:display_link"
+			description: [
+				"电网全自动化调控与防过载！"
+			]
+			dependencies: [
+				"B07835E6917AE897"
+			]
+			tasks: [
+				{
+					id: "6C8B0A0EC0957627"
+					type: "checkmark"
+					title: "点击完成"
+				}
+			]
+			rewards: [
+				{
+					id: "67F1E8F0E8764E0A"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 16
+				}
+			]
+		}
+		{
+			id: "835C656A3F65DB54"
+			x: 1.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "整流器：交流变直流"
+			subtitle: "转换稳定电流供给高阶电子"
+			icon: "create_new_age:electrical_connector"
+			description: [
+				"转换稳定电流供给高阶电子"
+			]
+			dependencies: [
+				"5AC07A86A66FA6B2"
+			]
+			tasks: [
+				{
+					id: "A17CAA47CBC5A930"
+					type: "item"
+					item: "create_new_age:electrical_connector"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "297744C17E5C66C3"
+					type: "item"
+					item: "create_new_age:overcharged_iron"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "9C6126BC9DF22115"
+			x: 4.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "超导电缆：低损耗高压线"
+			subtitle: "超远距离电能无损传输"
+			icon: "create_new_age:copper_wire"
+			description: [
+				"超远距离电能无损传输"
+			]
+			dependencies: [
+				"835C656A3F65DB54"
+			]
+			tasks: [
+				{
+					id: "416476BC54979FF0"
+					type: "item"
+					item: "create_new_age:copper_wire"
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "B2B30E1044B1E4F1"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+			]
+		}
+		{
+			id: "04AEBA30062BFF04"
+			x: 7.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "高阶充能台：二阶充能塔"
+			subtitle: "更高功率的电能充能灌注"
+			icon: "minecraft:stone"
+			description: [
+				"更高功率的电能充能灌注"
+			]
+			dependencies: [
+				"9C6126BC9DF22115"
+			]
+			tasks: [
+				{
+					id: "FCB38C7493925644"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+			]
+			rewards: [
+				{
+					id: "FC0327980BBF5DD8"
+					type: "item"
+					item: "create_new_age:overcharged_iron"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "2A8EC55FE2FECE7B"
+			x: -7.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "磁悬浮枢纽：强力电磁铁"
+			subtitle: "产生强磁场吸附与悬浮"
+			icon: "create_new_age:overcharged_iron"
+			description: [
+				"产生强磁场吸附与悬浮"
+			]
+			dependencies: [
+				"04AEBA30062BFF04"
+			]
+			tasks: [
+				{
+					id: "94A8D5382871C3E3"
+					type: "item"
+					item: "create_new_age:overcharged_iron"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "899925A4A50388D4"
+					type: "item"
+					item: "create_new_age:basic_motor"
 					count: 2
-					title: "充电钻石"
+				}
+			]
+		}
+		{
+			id: "EEC841C80460120B"
+			x: -4.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "高速电机：高转速马达"
+			subtitle: "提供 256 RPM 满速旋转动力"
+			icon: "create_new_age:basic_motor"
+			description: [
+				"提供 256 RPM 满速旋转动力"
+			]
+			dependencies: [
+				"2A8EC55FE2FECE7B"
+			]
+			tasks: [
+				{
+					id: "F00BCD787FE667A4"
+					type: "item"
+					item: "create_new_age:basic_motor"
+				}
+			]
+			rewards: [
+				{
+					id: "4AC07033BA994718"
+					type: "item"
+					item: "create:display_board"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "614A4FE941AC9F08"
+			x: -1.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "大屏矩阵：多排翻牌显示屏"
+			subtitle: "拼合大型机场航班式大屏"
+			icon: "create:display_board"
+			description: [
+				"拼合大型机场航班式大屏"
+			]
+			dependencies: [
+				"EEC841C80460120B"
+			]
+			tasks: [
+				{
+					id: "37F0C01CBA7703DF"
+					type: "item"
+					item: "create:display_board"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "7807BA380CCD28B5"
+					type: "item"
+					item: "create:nixie_tube"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "4CC1774B7B228C43"
+			x: 1.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "数码列阵：发光数字仪表盘"
+			subtitle: "工业仪表盘实时数码显示"
+			icon: "create:nixie_tube"
+			description: [
+				"工业仪表盘实时数码显示"
+			]
+			dependencies: [
+				"614A4FE941AC9F08"
+			]
+			tasks: [
+				{
+					id: "809B55120A06E7A6"
+					type: "item"
+					item: "create:nixie_tube"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "7FAFA20E10B26436"
+					type: "item"
+					item: "create:redstone_link"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "9F934AE8E8E5DC8D"
+			x: 4.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "频段分组：无线红石网络"
+			subtitle: "多频段独立控制工厂各车间"
+			icon: "create:redstone_link"
+			description: [
+				"多频段独立控制工厂各车间"
+			]
+			dependencies: [
+				"4CC1774B7B228C43"
+			]
+			tasks: [
+				{
+					id: "D94FA224A4A81F88"
+					type: "item"
+					item: "create:redstone_link"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "CCACEE641E36B12C"
+					type: "item"
+					item: "create:pulse_repeater"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "519EAE92D65A5229"
+			x: 7.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "延时触发：脉冲延时器"
+			subtitle: "精准毫秒级电路时序控制"
+			icon: "create:pulse_repeater"
+			description: [
+				"精准毫秒级电路时序控制"
+			]
+			dependencies: [
+				"9F934AE8E8E5DC8D"
+			]
+			tasks: [
+				{
+					id: "A6005B704035775A"
+					type: "item"
+					item: "create:pulse_repeater"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "E94327B51669E1B7"
+					type: "item"
+					item: "create:powered_latch"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "C65E3D706B3A7448"
+			x: -7.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "逻辑门电路：与门与或门"
+			subtitle: "组合复杂红石自动化逻辑"
+			icon: "create:powered_latch"
+			description: [
+				"组合复杂红石自动化逻辑"
+			]
+			dependencies: [
+				"519EAE92D65A5229"
+			]
+			tasks: [
+				{
+					id: "1B59729D20CFB4CE"
+					type: "item"
+					item: "create:powered_latch"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "6A731A969E8333C3"
+					type: "item"
+					item: "create:powered_toggle_latch"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "FCAE7CF47E04498F"
+			x: -4.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "自动警报器：红石警笛"
+			subtitle: "危险状态红石声光警报"
+			icon: "create:powered_toggle_latch"
+			description: [
+				"危险状态红石声光警报"
+			]
+			dependencies: [
+				"C65E3D706B3A7448"
+			]
+			tasks: [
+				{
+					id: "08D24590F4D7DA8E"
+					type: "item"
+					item: "create:powered_toggle_latch"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "4DAD950096244FA7"
+					type: "item"
+					item: "create:stockpile_switch"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "425BE3BB74DF2B72"
+			x: -1.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "液体位传感器：油罐高低位断路"
+			subtitle: "油箱加满自动切断抽油泵"
+			icon: "create:stockpile_switch"
+			description: [
+				"油箱加满自动切断抽油泵"
+			]
+			dependencies: [
+				"FCAE7CF47E04498F"
+			]
+			tasks: [
+				{
+					id: "16A4F1A34C14D4D6"
+					type: "item"
+					item: "create:stockpile_switch"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "68A4E80C92C3A310"
+					type: "item"
+					item: "create:content_observer"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "4F3B903F8F60CC0D"
+			x: 1.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "物品计数器：高速传送带计数"
+			subtitle: "统计生产线上通过的成品数"
+			icon: "create:content_observer"
+			description: [
+				"统计生产线上通过的成品数"
+			]
+			dependencies: [
+				"425BE3BB74DF2B72"
+			]
+			tasks: [
+				{
+					id: "BA57572FEB0371D1"
+					type: "item"
+					item: "create:content_observer"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "08B76C6AB5DADE42"
+					type: "item"
+					item: "create:display_link"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "01DEAB38C721AAB4"
+			x: 4.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "中控数显：工厂大屏总览"
+			subtitle: "汇总所有传感器信息至大屏"
+			icon: "create:display_link"
+			description: [
+				"汇总所有传感器信息至大屏"
+			]
+			dependencies: [
+				"4F3B903F8F60CC0D"
+			]
+			tasks: [
+				{
+					id: "1DED500C0224D33E"
+					type: "item"
+					item: "create:display_link"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "1A44DCE063A99368"
+					type: "item"
+					item: "create_new_age:generator_coil"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "4AAA6C3CE6C9713B"
+			x: 7.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "毕业电气：全工厂SCADA中控系统"
+			subtitle: "数字化智能工厂，一键管控全厂动力与电网！"
+			icon: "create_new_age:basic_motor"
+			description: [
+				"数字化智能工厂，一键管控全厂动力与电网！"
+			]
+			dependencies: [
+				"01DEAB38C721AAB4"
+			]
+			tasks: [
+				{
+					id: "CBFD8E2DEC3744FD"
+					type: "checkmark"
+					title: "点击完成"
+				}
+			]
+			rewards: [
+				{
+					id: "AC05F70CD516558B"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 16
 				}
 			]
 		}

@@ -1,50 +1,37 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "5300000000000000"
-	group: "5000000000000000"
 	id: "5300000000000000"
+	group: "5000000000000000"
 	order_index: 2
-	icon: "minecraft:dragon_egg"
+	filename: "5300000000000000"
 	title: "5.3 驯龙高手与巨龙骑乘"
-	quest_links: [ ]
+	icon: "minecraft:dragon_egg"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "5300000000000001"
-			x: -6.0d
-			y: 0.0d
-			shape: "diamond"
-			size: 1.2d
-			title: "驯服巨龙，翱翔天际！"
-			subtitle: "Dragon Mounts Remastered"
+			id: "5004BE10D1B845D0"
+			x: -7.5d
+			y: -5.0d
+			size: 1.4d
+			shape: "gear"
+			title: "驯龙高手：龙蛋孵化"
+			subtitle: "孵化并驯服你的专属巨龙"
 			icon: "minecraft:dragon_egg"
 			description: [
-				"去遗迹或山脉深处搜寻龙蛋！"
-				"孵化龙蛋并驯服属于你的巨龙骑宠，套上鞍骑着它翱翔天际！"
-			]
-			dependencies: [
-				"3300000000000001"
+				"孵化并驯服你的专属巨龙"
 			]
 			tasks: [
 				{
-					id: "1380F41BF34E73B0"
-					type: "checkmark"
-					title: "寻找并孵化龙蛋"
+					id: "AEA2E5C0308C2754"
+					type: "item"
+					item: "minecraft:dragon_egg"
 				}
 			]
 			rewards: [
 				{
-					id: "A30BF0E3499B7278"
+					id: "2CD16E3FDB0E0C97"
 					type: "item"
-					item: { count: 1, id: "minecraft:saddle" }
-					title: "鞍（骑龙用）"
-				}
-				{
-					id: "2AF8B74AAB66E456"
-					type: "item"
-					item: { count: 4, id: "minecraft:golden_apple" }
-					count: 4
-					title: "金苹果（给龙回血）"
+					item: "minecraft:dirt"
 				}
 			]
 		}

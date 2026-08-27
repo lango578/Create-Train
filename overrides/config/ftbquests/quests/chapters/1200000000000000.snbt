@@ -1,283 +1,959 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "1200000000000000"
-	group: "1000000000000000"
 	id: "1200000000000000"
+	group: "1000000000000000"
 	order_index: 1
-	icon: "farmersdelight:stove"
+	filename: "1200000000000000"
 	title: "1.2 勤农农耕与美食料理"
-	quest_links: [ ]
+	icon: "farmersdelight:stove"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "1200000000000001"
-			x: -8.0d
-			y: 0.0d
-			shape: "hexagon"
+			id: "870A2D4B691BBE20"
+			x: -7.5d
+			y: -5.0d
 			size: 1.4d
-			title: "当个快乐的种田佬"
-			subtitle: "农夫乐事：造个料理锅和炉灶"
-			icon: "farmersdelight:stove"
+			shape: "gear"
+			title: "厨艺起点：切配菜板"
+			subtitle: "切配食材的第一步"
+			icon: "farmersdelight:flint_knife"
 			description: [
-				"做个料理锅和炉灶，体验农夫乐事的做菜乐趣，告别天天吃干面包的日子！"
-			]
-			dependencies: [
-				"1100000000000003"
+				"切配食材的第一步"
 			]
 			tasks: [
 				{
-					id: "F8DC5D0D93ACDE1B"
+					id: "3C9D3A46836CD1C3"
 					type: "item"
-					item: { count: 1, id: "farmersdelight:cooking_pot" }
+					item: "farmersdelight:flint_knife"
 				}
 				{
-					id: "D11BB890C360A5FF"
+					id: "2BB923AD99F626D0"
 					type: "item"
-					item: { count: 1, id: "farmersdelight:stove" }
+					item: "farmersdelight:cutting_board"
 				}
 			]
 			rewards: [
 				{
-					id: "D159453220B4FF13"
+					id: "74D699E449B74CBA"
 					type: "item"
-					item: { count: 8, id: "farmersdelight:onion" }
+					item: "minecraft:dirt"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "B8985145BAA6024E"
+			x: -4.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "储物农具：竹编菜篮"
+			subtitle: "大容量农作物收纳"
+			icon: "minecraft:stone"
+			description: [
+				"大容量农作物收纳"
+			]
+			dependencies: [
+				"870A2D4B691BBE20"
+			]
+			tasks: [
+				{
+					id: "0220F4D64F9CA2B0"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+			]
+			rewards: [
+				{
+					id: "BAFA6271198B75FE"
+					type: "item"
+					item: "farmersdelight:organic_compost"
 					count: 8
-					title: "洋葱（拿去种）"
-				}
-				{
-					id: "CE5F179758DAF60C"
-					type: "item"
-					item: { count: 16, id: "farmersdelight:rice" }
-					count: 16
-					title: "稻米（拿去种）"
 				}
 			]
-		},
+		}
 		{
-			id: "1200000000000010"
-			x: -6.0d
-			y: -2.0d
-			shape: "rsquare"
+			id: "C9B980DE6DF1BFF7"
+			x: -1.5d
+			y: -5.0d
 			size: 1.1d
-			title: "秀一手好刀工"
-			subtitle: "切菜板与料理刀"
-			icon: "farmersdelight:cutting_board"
+			shape: "rsquare"
+			title: "肥沃土壤：有机堆肥"
+			subtitle: "堆肥加速作物生长"
+			icon: "farmersdelight:organic_compost"
 			description: [
-				"做个切菜板，手持刀具右键能把肉类和蔬菜切片，做成高阶食材！"
+				"堆肥加速作物生长"
 			]
 			dependencies: [
-				"1200000000000001"
+				"B8985145BAA6024E"
 			]
 			tasks: [
 				{
-					id: "F5307EE7E7A0C658"
+					id: "93059B659FAFA3A0"
 					type: "item"
-					item: { count: 1, id: "farmersdelight:cutting_board" }
+					item: "farmersdelight:organic_compost"
+					count: 8L
 				}
 			]
 			rewards: [
 				{
-					id: "CFA112CA18BB8F51"
+					id: "C2F68C9D3614ED0B"
 					type: "item"
-					item: { count: 1, id: "farmersdelight:flint_knife" }
-					title: "燧石料理刀"
+					item: "farmersdelight:rich_soil"
+					count: 8
 				}
 			]
-		},
+		}
 		{
-			id: "1200000000000002"
-			x: -5.5d
-			y: 0.0d
-			shape: "rsquare"
+			id: "9EEE747FF29791DB"
+			x: 1.5d
+			y: -5.0d
 			size: 1.1d
-			title: "菜园子大丰收"
-			subtitle: "收点洋葱和稻米"
+			shape: "rsquare"
+			title: "耕作极品：肥沃土壤"
+			subtitle: "无需水源的高产土壤"
+			icon: "farmersdelight:rich_soil"
+			description: [
+				"无需水源的高产土壤"
+			]
+			dependencies: [
+				"C9B980DE6DF1BFF7"
+			]
+			tasks: [
+				{
+					id: "E931BF61FC593BB5"
+					type: "item"
+					item: "farmersdelight:rich_soil"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "112E6CDBF67254D0"
+					type: "item"
+					item: "farmersdelight:cabbage_seeds"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "784E9B3E482C4FF2"
+			x: 4.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "蔬菜种植：甘蓝菜采收"
+			subtitle: "制作沙拉与汤品的蔬菜"
+			icon: "farmersdelight:cabbage"
+			description: [
+				"制作沙拉与汤品的蔬菜"
+			]
+			dependencies: [
+				"9EEE747FF29791DB"
+			]
+			tasks: [
+				{
+					id: "37B9D3D10C4D6E78"
+					type: "item"
+					item: "farmersdelight:cabbage"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "F312C8D13F868ADE"
+					type: "item"
+					item: "farmersdelight:tomato_seeds"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "85E7213F50FA5465"
+			x: 7.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "藤蔓作物：番茄采收"
+			subtitle: "搭设支架种植红番茄"
+			icon: "farmersdelight:tomato"
+			description: [
+				"搭设支架种植红番茄"
+			]
+			dependencies: [
+				"784E9B3E482C4FF2"
+			]
+			tasks: [
+				{
+					id: "03295D9A4D0AD05F"
+					type: "item"
+					item: "farmersdelight:tomato"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "8B613F2A3EE7F7CC"
+					type: "item"
+					item: "farmersdelight:onion"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "17273EDF6708009F"
+			x: -7.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "根茎作物：洋葱采收"
+			subtitle: "浓郁香气调味食材"
 			icon: "farmersdelight:onion"
 			description: [
-				"把洋葱和稻米种下去，等成熟了收一波，可以做高饱腹感的热炖菜！"
+				"浓郁香气调味食材"
 			]
 			dependencies: [
-				"1200000000000001"
+				"85E7213F50FA5465"
 			]
 			tasks: [
 				{
-					id: "A896DF3DDA354BC3"
+					id: "27683D4E2DBC39AE"
 					type: "item"
-					item: { count: 8, id: "farmersdelight:onion" }
+					item: "farmersdelight:onion"
 					count: 8L
 				}
-				{
-					id: "BA8BE136FD602A74"
-					type: "item"
-					item: { count: 16, id: "farmersdelight:rice" }
-					count: 16L
-				}
 			]
 			rewards: [
 				{
-					id: "72E4936C763F912C"
+					id: "6550CE6BB20177A2"
 					type: "item"
-					item: { count: 4, id: "farmersdelight:chicken_soup" }
-					count: 4
-					title: "热鸡汤（好喝不贵）"
-				}
-				{
-					id: "CF9A13883B5B14DC"
-					type: "item"
-					item: { count: 32, id: "minecraft:wheat" }
-					count: 32
-					title: "小麦（拿去做糕点）"
+					item: "farmersdelight:rice"
+					count: 8
 				}
 			]
-		},
+		}
 		{
-			id: "1200000000000003"
-			x: -5.5d
-			y: 2.0d
-			shape: "rsquare"
+			id: "0221E014A20CE815"
+			x: -4.5d
+			y: -2.5d
 			size: 1.1d
-			title: "甜品控的烘焙大工坊"
-			subtitle: "烘焙甜点与蛋糕"
-			icon: "minecraft:cake"
+			shape: "circle"
+			title: "水稻种植：稻米采收"
+			subtitle: "浅水处栽培优质稻米"
+			icon: "farmersdelight:rice"
 			description: [
-				"用小麦和糖做点蛋糕或者面包甜点，甜品控的最爱！"
+				"浅水处栽培优质稻米"
 			]
 			dependencies: [
-				"1200000000000001"
+				"17273EDF6708009F"
 			]
 			tasks: [
 				{
-					id: "C6ADD62CB3AF6864"
+					id: "B8778B71F3A2DD03"
 					type: "item"
-					item: { count: 32, id: "minecraft:wheat" }
-					count: 32L
-				}
-				{
-					id: "903746E3DE6F1688"
-					type: "item"
-					item: { count: 16, id: "minecraft:sugar" }
-					count: 16L
+					item: "farmersdelight:rice"
+					count: 8L
 				}
 			]
 			rewards: [
 				{
-					id: "8C5EECB10DD1897E"
+					id: "3B11244A01439A9B"
 					type: "item"
-					item: { count: 2, id: "minecraft:cake" }
-					count: 2
-					title: "美味蛋糕"
-				}
-				{
-					id: "41BBADE26D56C908"
-					type: "item"
-					item: { count: 8, id: "minecraft:apple" }
-					count: 8
-					title: "红苹果"
+					item: "farmersdelight:stove"
 				}
 			]
-		},
+		}
 		{
-			id: "1200000000000011"
-			x: -3.5d
-			y: -2.0d
-			shape: "rsquare"
+			id: "2BDB7C34B8BFE74D"
+			x: -1.5d
+			y: -2.5d
 			size: 1.1d
-			title: "来一顿硬核大餐"
-			subtitle: "整只烤鸡与豪华宴会"
+			shape: "circle"
+			title: "厨房核心：料理炉灶"
+			subtitle: "提供持续烹饪热源"
+			icon: "farmersdelight:stove"
+			description: [
+				"提供持续烹饪热源"
+			]
+			dependencies: [
+				"0221E014A20CE815"
+			]
+			tasks: [
+				{
+					id: "401D9F39465E2646"
+					type: "item"
+					item: "farmersdelight:stove"
+				}
+			]
+			rewards: [
+				{
+					id: "8C2DE6D1EB35E2AE"
+					type: "item"
+					item: "farmersdelight:cooking_pot"
+				}
+			]
+		}
+		{
+			id: "04F9D7357F371C15"
+			x: 1.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "美味烹饪：料理锅"
+			subtitle: "制作热气腾腾的大餐"
+			icon: "farmersdelight:cooking_pot"
+			description: [
+				"制作热气腾腾的大餐"
+			]
+			dependencies: [
+				"2BDB7C34B8BFE74D"
+			]
+			tasks: [
+				{
+					id: "0B9927D69134D912"
+					type: "item"
+					item: "farmersdelight:cooking_pot"
+				}
+			]
+			rewards: [
+				{
+					id: "BF29E22F1EE7BB21"
+					type: "item"
+					item: "farmersdelight:skillet"
+				}
+			]
+		}
+		{
+			id: "8361183239D6DDC0"
+			x: 4.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "煎炸美味：煎锅"
+			subtitle: "煎蛋与煎肉的响声"
+			icon: "farmersdelight:skillet"
+			description: [
+				"煎蛋与煎肉的响声"
+			]
+			dependencies: [
+				"04F9D7357F371C15"
+			]
+			tasks: [
+				{
+					id: "CE6606CCAC268598"
+					type: "item"
+					item: "farmersdelight:skillet"
+				}
+			]
+			rewards: [
+				{
+					id: "32B0D1F68918B882"
+					type: "item"
+					item: "farmersdelight:minced_beef"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "382E8D465574943A"
+			x: 7.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "肉类切配：牛肉碎"
+			subtitle: "切板加工肉馅食材"
+			icon: "farmersdelight:minced_beef"
+			description: [
+				"切板加工肉馅食材"
+			]
+			dependencies: [
+				"8361183239D6DDC0"
+			]
+			tasks: [
+				{
+					id: "E3B45EECA1A3E0C2"
+					type: "item"
+					item: "farmersdelight:minced_beef"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "9E3E2792008C0820"
+					type: "item"
+					item: "farmersdelight:hamburger"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "0F4E57453F61E311"
+			x: -7.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "美式快餐：汉堡包"
+			subtitle: "面包与多汁牛肉饼结合"
+			icon: "farmersdelight:hamburger"
+			description: [
+				"面包与多汁牛肉饼结合"
+			]
+			dependencies: [
+				"382E8D465574943A"
+			]
+			tasks: [
+				{
+					id: "C96A67C4014320CE"
+					type: "item"
+					item: "farmersdelight:hamburger"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "43D1187E5238C14F"
+					type: "item"
+					item: "farmersdelight:chicken_sandwich"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "27AD77079F00574F"
+			x: -4.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "禽肉精选：鸡肉三明治"
+			subtitle: "香脆炸鸡与沙拉配菜"
+			icon: "farmersdelight:chicken_sandwich"
+			description: [
+				"香脆炸鸡与沙拉配菜"
+			]
+			dependencies: [
+				"0F4E57453F61E311"
+			]
+			tasks: [
+				{
+					id: "77F3F61E8CA51840"
+					type: "item"
+					item: "farmersdelight:chicken_sandwich"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "0FA9CC6E04651039"
+					type: "item"
+					item: "farmersdelight:bacon_sandwich"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "8D31F73C7791A31F"
+			x: -1.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "早餐推荐：培根三明治"
+			subtitle: "煎培根与新鲜番茄"
+			icon: "farmersdelight:bacon_sandwich"
+			description: [
+				"煎培根与新鲜番茄"
+			]
+			dependencies: [
+				"27AD77079F00574F"
+			]
+			tasks: [
+				{
+					id: "FD0A2A0AAA057AE7"
+					type: "item"
+					item: "farmersdelight:bacon_sandwich"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "D5794E6CB6E0DCAE"
+					type: "item"
+					item: "farmersdelight:dumplings"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "06A8969FF688CA1B"
+			x: 1.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "传统美食：猪肉水饺"
+			subtitle: "馅料饱满的面点"
+			icon: "farmersdelight:dumplings"
+			description: [
+				"馅料饱满的面点"
+			]
+			dependencies: [
+				"8D31F73C7791A31F"
+			]
+			tasks: [
+				{
+					id: "D436AC0A3E537F55"
+					type: "item"
+					item: "farmersdelight:dumplings"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "5FB62028F12D7C93"
+					type: "item"
+					item: "farmersdelight:stuffed_pumpkin"
+				}
+			]
+		}
+		{
+			id: "91BB9A1F26DB5ACC"
+			x: 4.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "盛宴料理：酿南瓜"
+			subtitle: "节日聚会主打菜肴"
+			icon: "farmersdelight:stuffed_pumpkin"
+			description: [
+				"节日聚会主打菜肴"
+			]
+			dependencies: [
+				"06A8969FF688CA1B"
+			]
+			tasks: [
+				{
+					id: "E4C70F2CA9872336"
+					type: "item"
+					item: "farmersdelight:stuffed_pumpkin"
+				}
+			]
+			rewards: [
+				{
+					id: "EB174681BE9B8AF4"
+					type: "item"
+					item: "farmersdelight:roast_chicken"
+				}
+			]
+		}
+		{
+			id: "B3B42F21008D8BF2"
+			x: 7.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "烤箱硬菜：烤鸡大餐"
+			subtitle: "整鸡烘烤配蔬果"
 			icon: "farmersdelight:roast_chicken"
 			description: [
-				"烤一整只鸡或者做豪华大餐，吃完直接满饱腹感！"
+				"整鸡烘烤配蔬果"
 			]
 			dependencies: [
-				"1200000000000002"
+				"91BB9A1F26DB5ACC"
 			]
 			tasks: [
 				{
-					id: "8B03E7F7CB7C0E6F"
+					id: "341E3D5FFA89CCAC"
 					type: "item"
-					item: { count: 1, id: "farmersdelight:roast_chicken" }
+					item: "farmersdelight:roast_chicken"
 				}
 			]
 			rewards: [
 				{
-					id: "83DDCDB46424D222"
+					id: "E7ADF21CED5322C1"
 					type: "item"
-					item: { count: 4, id: "farmersdelight:pie_crust" }
+					item: "farmersdelight:grilled_salmon"
 					count: 4
-					title: "派皮材料"
 				}
 			]
-		},
+		}
 		{
-			id: "1200000000000004"
-			x: -3.0d
-			y: 0.0d
-			shape: "circle"
+			id: "D331559A15C74625"
+			x: -7.5d
+			y: 2.5d
 			size: 1.1d
-			title: "干完活喝杯果汁冰饮"
-			subtitle: "苹果酒与特调饮品"
+			shape: "circle"
+			title: "海鲜烧烤：香烤三文鱼"
+			subtitle: "富含深海油脂美味"
+			icon: "farmersdelight:grilled_salmon"
+			description: [
+				"富含深海油脂美味"
+			]
+			dependencies: [
+				"B3B42F21008D8BF2"
+			]
+			tasks: [
+				{
+					id: "C8E280DBD8A748D6"
+					type: "item"
+					item: "farmersdelight:grilled_salmon"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "FD36115D5E767926"
+					type: "item"
+					item: "farmersdelight:steak_and_potatoes"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "501BE13108B4F3B0"
+			x: -4.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "经典配餐：牛排土豆泥"
+			subtitle: "多汁牛排与滑嫩土豆"
+			icon: "farmersdelight:steak_and_potatoes"
+			description: [
+				"多汁牛排与滑嫩土豆"
+			]
+			dependencies: [
+				"D331559A15C74625"
+			]
+			tasks: [
+				{
+					id: "917D2DA544F70EF7"
+					type: "item"
+					item: "farmersdelight:steak_and_potatoes"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "5FA9B8ECEF1E9D5B"
+					type: "item"
+					item: "farmersdelight:vegetable_soup"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "5B8C786CCFF44EF9"
+			x: -1.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "清热解腻：蔬菜汤"
+			subtitle: "丰富维生素混合浓汤"
+			icon: "farmersdelight:vegetable_soup"
+			description: [
+				"丰富维生素混合浓汤"
+			]
+			dependencies: [
+				"501BE13108B4F3B0"
+			]
+			tasks: [
+				{
+					id: "5974041358C2F408"
+					type: "item"
+					item: "farmersdelight:vegetable_soup"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "8571608E65AA4462"
+					type: "item"
+					item: "farmersdelight:fried_rice"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "239B5D37C71292E5"
+			x: 1.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "粒粒香浓：扬州炒饭"
+			subtitle: "鸡蛋与蔬菜炒米饭"
+			icon: "farmersdelight:fried_rice"
+			description: [
+				"鸡蛋与蔬菜炒米饭"
+			]
+			dependencies: [
+				"5B8C786CCFF44EF9"
+			]
+			tasks: [
+				{
+					id: "10CAC09302504F77"
+					type: "item"
+					item: "farmersdelight:fried_rice"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "82ED0487F48AB353"
+					type: "item"
+					item: "farmersdelight:apple_pie"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "2D9F141A75389D12"
+			x: 4.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "甜品烘焙：苹果派"
+			subtitle: "金黄酥脆甜美派点"
+			icon: "farmersdelight:apple_pie"
+			description: [
+				"金黄酥脆甜美派点"
+			]
+			dependencies: [
+				"239B5D37C71292E5"
+			]
+			tasks: [
+				{
+					id: "645C1A6EFE782DEE"
+					type: "item"
+					item: "farmersdelight:apple_pie"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "EEF6B9E495F030BD"
+					type: "item"
+					item: "farmersdelight:sweet_berry_cheesecake"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "9688BC8DC9686D7B"
+			x: 7.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "下午点心：浆果芝士蛋糕"
+			subtitle: "浓郁奶香与浆果酸甜"
+			icon: "farmersdelight:sweet_berry_cheesecake"
+			description: [
+				"浓郁奶香与浆果酸甜"
+			]
+			dependencies: [
+				"2D9F141A75389D12"
+			]
+			tasks: [
+				{
+					id: "6255D1F97D024557"
+					type: "item"
+					item: "farmersdelight:sweet_berry_cheesecake"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "5AD2944B06985444"
+					type: "item"
+					item: "farmersdelight:chocolate_pie"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "8D05A1CAFE4EDB6B"
+			x: -7.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "浓郁可可：巧克力派"
+			subtitle: "可可豆与牛奶丝滑碰撞"
+			icon: "farmersdelight:chocolate_pie"
+			description: [
+				"可可豆与牛奶丝滑碰撞"
+			]
+			dependencies: [
+				"9688BC8DC9686D7B"
+			]
+			tasks: [
+				{
+					id: "B75D78B47BADD4B5"
+					type: "item"
+					item: "farmersdelight:chocolate_pie"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "B9747B04DE1382F3"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "7D4A7F0C51984357"
+			x: -4.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "解暑饮品：西瓜汁"
+			subtitle: "冰镇西瓜鲜榨果汁"
+			icon: "farmersdelight:melon_juice"
+			description: [
+				"冰镇西瓜鲜榨果汁"
+			]
+			dependencies: [
+				"8D05A1CAFE4EDB6B"
+			]
+			tasks: [
+				{
+					id: "DE9D0C0E43B60C6F"
+					type: "item"
+					item: "farmersdelight:melon_juice"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "525785F888966437"
+					type: "item"
+					item: "farmersdelight:apple_cider"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "B2F8F2CCC1731FBF"
+			x: -1.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "发酵饮品：热苹果酒"
+			subtitle: "温暖身心的苹果酿造"
 			icon: "farmersdelight:apple_cider"
 			description: [
-				"做一杯苹果酒，工业搞累了歇会喝一口，滋味爽翻！"
+				"温暖身心的苹果酿造"
 			]
 			dependencies: [
-				"1200000000000002"
+				"7D4A7F0C51984357"
 			]
 			tasks: [
 				{
-					id: "3526AD1A6A051AFA"
+					id: "B47069B961737654"
 					type: "item"
-					item: { count: 1, id: "farmersdelight:apple_cider" }
+					item: "farmersdelight:apple_cider"
+					count: 4L
 				}
 			]
 			rewards: [
 				{
-					id: "4C8D2AF9BBE91D46"
+					id: "F2AD8498ADF121C1"
 					type: "item"
-					item: { count: 8, id: "minecraft:emerald" }
+					item: "farmersdelight:canvas"
 					count: 8
-					title: "绿宝石（用来交易）"
 				}
 			]
-		},
+		}
 		{
-			id: "1200000000000005"
-			x: -0.5d
-			y: 0.0d
-			shape: "star"
-			size: 1.4d
-			title: "把火柴盒装修好看点"
-			subtitle: "补充物：木框架与美化"
-			icon: "supplementaries:timber_frame"
+			id: "B55134FA2896D831"
+			x: 1.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "纺织材料：帆布制作"
+			subtitle: "草绳与稻草织成帆布"
+			icon: "farmersdelight:canvas"
 			description: [
-				"别再住土块火柴盒啦！用【补充物】模组的木框架和旗帜把家里好好装修一番！"
+				"草绳与稻草织成帆布"
 			]
 			dependencies: [
-				"1200000000000003"
-				"1200000000000004"
+				"B2F8F2CCC1731FBF"
 			]
 			tasks: [
 				{
-					id: "4C31D4F358A52AB8"
+					id: "53B6856608C4F959"
 					type: "item"
-					item: { count: 8, id: "supplementaries:timber_frame" }
+					item: "farmersdelight:canvas"
 					count: 8L
 				}
 			]
 			rewards: [
 				{
-					id: "5271869DB210A788"
+					id: "7BA26355E6774AEF"
 					type: "item"
-					item: { count: 2, id: "supplementaries:flag_white" }
-					count: 2
-					title: "白色旗帜"
-				}
-				{
-					id: "A4E0B0A5F287339A"
-					type: "item"
-					item: { count: 16, id: "minecraft:emerald" }
+					item: "farmersdelight:rope"
 					count: 16
-					title: "绿宝石小金库"
+				}
+			]
+		}
+		{
+			id: "5997465EAD37D80A"
+			x: 4.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "农场攀爬：安全绳索"
+			subtitle: "井下与垂直崖壁安全绳"
+			icon: "farmersdelight:rope"
+			description: [
+				"井下与垂直崖壁安全绳"
+			]
+			dependencies: [
+				"B55134FA2896D831"
+			]
+			tasks: [
+				{
+					id: "879AA9275BBA2E22"
+					type: "item"
+					item: "farmersdelight:rope"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "3FD5739919A7B589"
+					type: "item"
+					item: "farmersdelight:safety_net"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "29D2708A4D7E2BDE"
+			x: 7.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "终极防摔：安全防护网"
+			subtitle: "高空建筑防坠落安全网"
+			icon: "farmersdelight:safety_net"
+			description: [
+				"高空建筑防坠落安全网"
+			]
+			dependencies: [
+				"5997465EAD37D80A"
+			]
+			tasks: [
+				{
+					id: "B2049D788F6D5739"
+					type: "item"
+					item: "farmersdelight:safety_net"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "BD1B65722D9AC071"
+					type: "item"
+					item: "farmersdelight:cooking_pot"
 				}
 			]
 		}

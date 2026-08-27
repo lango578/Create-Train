@@ -1,340 +1,1003 @@
 {
-	default_hide_dependency_lines: false
-	default_quest_shape: ""
-	filename: "1100000000000000"
-	group: "1000000000000000"
 	id: "1100000000000000"
+	group: "1000000000000000"
 	order_index: 0
-	icon: "minecraft:crafting_table"
+	filename: "1100000000000000"
 	title: "1.1 新手启程与原版生存"
-	quest_links: [ ]
+	icon: "minecraft:crafting_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "00988E575B98043E"
-			x: -10.0d
-			y: 0.0d
+			id: "98079B084339BA82"
+			x: -7.5d
+			y: -5.0d
+			size: 1.4d
 			shape: "gear"
-			size: 1.6d
 			title: "你好！欢迎来到机械列车世界"
-			subtitle: "先拿好开局口粮和木制工具！"
+			subtitle: "先领开局口粮和木工具"
 			icon: "minecraft:grass_block"
 			description: [
-				"欢迎来到 【Create Train】 机械列车整合包！"
-				""
-				"【给玩家的小提示】：本整合包的任务奖励都是直接给下一个任务要用的干货材料或工具，做完顺手就能用！"
-				"【按 W 键思索】：对着任何机械动力的方块按住 'W' 键，就能直接看 3D 动画教程，非常直观！"
+				"先领开局口粮和木工具"
 			]
 			tasks: [
 				{
-					id: "D67CF84C8688D269"
+					id: "917EF724C1EC9B97"
 					type: "checkmark"
-					title: "点一下领开局大礼包"
+					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "A17E935426B3A704"
+					id: "73226B9F590CD10C"
 					type: "item"
-					item: { count: 64, id: "minecraft:bread" }
+					item: "minecraft:bread"
 					count: 64
-					title: "一组面包（先填饱肚子）"
 				}
 				{
-					id: "4D9194F39EFB04C0"
+					id: "D2295D3D2F1954B9"
 					type: "item"
-					item: { count: 1, id: "minecraft:wooden_sword" }
-					title: "木剑"
-				}
-				{
-					id: "103A5A7768139C21"
-					type: "item"
-					item: { count: 1, id: "minecraft:wooden_pickaxe" }
-					title: "木镐"
-				}
-				{
-					id: "BB6E92A481ED7B1F"
-					type: "item"
-					item: { count: 1, id: "minecraft:wooden_axe" }
-					title: "木斧（拿去砍树）"
-				}
-				{
-					id: "1A93828B6145909D"
-					type: "item"
-					item: { count: 1, id: "minecraft:wooden_shovel" }
-					title: "木锹"
-				}
-				{
-					id: "94F3850367FA122A"
-					type: "item"
-					item: { count: 1, id: "minecraft:wooden_hoe" }
-					title: "木锄"
+					item: "minecraft:wooden_pickaxe"
 				}
 			]
-		},
+		}
 		{
-			id: "1100000000000001"
-			x: -8.0d
-			y: 0.0d
+			id: "E0A45437FFE853EB"
+			x: -4.5d
+			y: -5.0d
+			size: 1.1d
 			shape: "rsquare"
-			size: 1.2d
 			title: "想致富先砍树"
-			subtitle: "砍点原木，摆个工作台"
+			subtitle: "砍原木并摆出工作台"
 			icon: "minecraft:oak_log"
 			description: [
-				"拿着送的木斧去砍树，先把工作台做出来。万物起源第一步！"
+				"砍原木并摆出工作台"
 			]
 			dependencies: [
-				"00988E575B98043E"
+				"98079B084339BA82"
 			]
 			tasks: [
 				{
-					id: "525233F2A1CBDB7D"
+					id: "9E2490FFDF7DCDDD"
 					type: "item"
-					item: { count: 16, id: "minecraft:oak_log" }
+					item: "minecraft:oak_log"
 					count: 16L
 				}
 				{
-					id: "4E850EEC2F02A211"
+					id: "39521D3C8D050B7A"
 					type: "item"
-					item: { count: 1, id: "minecraft:crafting_table" }
+					item: "minecraft:crafting_table"
 				}
 			]
 			rewards: [
 				{
-					id: "1854DCA12C5BB68A"
+					id: "879E1E56A0F6A057"
 					type: "item"
-					item: { count: 16, id: "minecraft:stick" }
+					item: "minecraft:stick"
 					count: 16
-					title: "木棍（拿去防身或做火把）"
-				}
-				{
-					id: "48828573AAD73921"
-					type: "xp"
-					xp: 50
 				}
 			]
-		},
+		}
 		{
-			id: "1100000000000010"
-			x: -6.5d
-			y: -2.0d
-			shape: "circle"
-			size: 1.0d
-			title: "今晚住哪？点个火把"
-			subtitle: "把小屋照亮，别让怪物乱刷"
-			icon: "minecraft:torch"
-			description: [
-				"插几根火把把你的小屋照亮，夜里安全第一！"
-			]
-			dependencies: [
-				"1100000000000001"
-			]
-			tasks: [
-				{
-					id: "A2DA16A40EB2A5C2"
-					type: "item"
-					item: { count: 16, id: "minecraft:torch" }
-					count: 16L
-				}
-			]
-			rewards: [
-				{
-					id: "8616028B0BBAFF1C"
-					type: "item"
-					item: { count: 8, id: "minecraft:charcoal" }
-					count: 8
-					title: "木炭（留着烧铁）"
-				}
-			]
-		},
-		{
-			id: "1100000000000011"
-			x: -6.5d
-			y: 2.0d
-			shape: "circle"
-			size: 1.0d
-			title: "赶紧做张床跳过黑夜"
-			subtitle: "睡一觉顺便把复活点给设了"
-			icon: "minecraft:red_bed"
-			description: [
-				"去找羊搞点羊毛做张床，晚上右键睡觉直接一觉到天亮。"
-			]
-			dependencies: [
-				"1100000000000001"
-			]
-			tasks: [
-				{
-					id: "FD3778B9DD417312"
-					type: "item"
-					item: { count: 1, id: "minecraft:red_bed" }
-				}
-			]
-			rewards: [
-				{
-					id: "FC34E1EC3064D75A"
-					type: "item"
-					item: { count: 4, id: "minecraft:white_wool" }
-					count: 4
-					title: "羊毛储备"
-				}
-			]
-		},
-		{
-			id: "1100000000000002"
-			x: -5.5d
-			y: 0.0d
+			id: "CB187CEC864933B8"
+			x: -1.5d
+			y: -5.0d
+			size: 1.1d
 			shape: "rsquare"
-			size: 1.2d
-			title: "挖点石头做熔炉"
-			subtitle: "淘汰木镐，进入石器时代"
+			title: "敲点圆石做熔炉"
+			subtitle: "石器时代与熔炉烘烤"
 			icon: "minecraft:furnace"
 			description: [
-				"往地下挖点圆石，做把石镐，顺便造个熔炉准备烧矿。"
+				"石器时代与熔炉烘烤"
 			]
 			dependencies: [
-				"1100000000000001"
+				"E0A45437FFE853EB"
 			]
 			tasks: [
 				{
-					id: "CE575D17B0B3D0C9"
+					id: "83E589E534C9F26A"
 					type: "item"
-					item: { count: 32, id: "minecraft:cobblestone" }
+					item: "minecraft:cobblestone"
 					count: 32L
 				}
 				{
-					id: "7C7C2189C59B4A1C"
+					id: "8029A396FB73A744"
 					type: "item"
-					item: { count: 1, id: "minecraft:furnace" }
+					item: "minecraft:furnace"
 				}
 			]
 			rewards: [
 				{
-					id: "9900ACCDE39DD705"
+					id: "987B5A71834779D7"
 					type: "item"
-					item: { count: 16, id: "minecraft:coal" }
+					item: "minecraft:coal"
 					count: 16
-					title: "煤炭（直接拿去烧矿）"
 				}
 			]
-		},
+		}
 		{
-			id: "1100000000000012"
-			x: -3.5d
-			y: 0.0d
-			shape: "circle"
-			size: 1.0d
-			title: "换一套石镐石剑"
-			subtitle: "挖矿打怪效率更高"
+			id: "773A03F32401C85C"
+			x: 1.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "更换一套石制工具"
+			subtitle: "石镐与石剑准备"
 			icon: "minecraft:stone_pickaxe"
 			description: [
-				"做一把石镐和石剑，防身又耐用，准备深入地下找铁矿。"
+				"石镐与石剑准备"
 			]
 			dependencies: [
-				"1100000000000002"
+				"CB187CEC864933B8"
 			]
 			tasks: [
 				{
-					id: "9AB0D9D6A526BBC7"
+					id: "44F7EDD73D65C3DC"
 					type: "item"
-					item: { count: 1, id: "minecraft:stone_pickaxe" }
+					item: "minecraft:stone_pickaxe"
 				}
 				{
-					id: "7B15C815CEFCF128"
+					id: "C7CEC12FC0DA92D2"
 					type: "item"
-					item: { count: 1, id: "minecraft:stone_sword" }
+					item: "minecraft:stone_sword"
 				}
 			]
 			rewards: [
 				{
-					id: "F8FA48790B1E5CEF"
+					id: "F2EA7A70C322B226"
 					type: "item"
-					item: { count: 16, id: "minecraft:cooked_beef" }
+					item: "minecraft:cooked_beef"
 					count: 16
-					title: "熟牛肉（下井干粮）"
 				}
 			]
-		},
+		}
 		{
-			id: "1100000000000003"
-			x: -1.5d
-			y: 0.0d
-			shape: "hexagon"
-			size: 1.4d
-			title: "下井挖铁，换铁装备"
-			subtitle: "烧点铁锭做铁镐与胸甲"
+			id: "B4DD3199F8A5F89A"
+			x: 4.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "深井下矿：挖掘铁矿"
+			subtitle: "冶炼铁锭开启工业"
 			icon: "minecraft:iron_ingot"
 			description: [
-				"去矿洞里挖点铁矿回来烧成铁锭，做把铁镐和铁胸甲护体！奖励的粗铜直接拿去开机械动力。"
+				"冶炼铁锭开启工业"
 			]
 			dependencies: [
-				"1100000000000012"
+				"773A03F32401C85C"
 			]
 			tasks: [
 				{
-					id: "B21C96634D0E9F4A"
+					id: "5CE087F617633185"
 					type: "item"
-					item: { count: 16, id: "minecraft:iron_ingot" }
+					item: "minecraft:iron_ingot"
 					count: 16L
 				}
 			]
 			rewards: [
 				{
-					id: "7F14EC24C6A2AFC2"
+					id: "1611C1BDBA2CF9AF"
 					type: "item"
-					item: { count: 1, id: "minecraft:iron_pickaxe" }
-					title: "铁镐"
+					item: "minecraft:iron_pickaxe"
 				}
 				{
-					id: "57E9E79BE4EBB444"
+					id: "1D38BD8900531124"
 					type: "item"
-					item: { count: 1, id: "minecraft:iron_chestplate" }
-					title: "铁胸甲"
-				}
-				{
-					id: "EB8221D10277EF05"
-					type: "item"
-					item: { count: 16, id: "minecraft:raw_copper" }
-					count: 16
-					title: "粗铜（直接拿去 1.3 烧铜锭）"
+					item: "minecraft:iron_chestplate"
 				}
 			]
-		},
+		}
 		{
-			id: "1100000000000015"
-			x: 0.5d
-			y: 0.0d
-			shape: "star"
-			size: 1.4d
-			title: "搭个地狱门准备出远门"
-			subtitle: "挖点黑曜石去下界探险"
-			icon: "minecraft:obsidian"
+			id: "7DA9611D1A96FBD3"
+			x: 7.5d
+			y: -5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "采集粗铜：为机械动力准备"
+			subtitle: "铜锭与黄铜的基础"
+			icon: "minecraft:raw_copper"
 			description: [
-				"用铁镐做水岩浆浇筑或者挖 10 块黑曜石，搭个下界传送门，里面有好多工业资源！"
+				"铜锭与黄铜的基础"
 			]
 			dependencies: [
-				"1100000000000003"
+				"B4DD3199F8A5F89A"
 			]
 			tasks: [
 				{
-					id: "3ECF10B654ECCCF7"
+					id: "A05F53B138B1A66D"
 					type: "item"
-					item: { count: 10, id: "minecraft:obsidian" }
+					item: "minecraft:raw_copper"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "C8DC55A4F6846D54"
+					type: "item"
+					item: "minecraft:copper_ingot"
+					count: 16
+				}
+			]
+		}
+		{
+			id: "BE414EC7946B4B8C"
+			x: -7.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "光明避难所：点插火把"
+			subtitle: "防止夜间怪物滋生"
+			icon: "minecraft:torch"
+			description: [
+				"防止夜间怪物滋生"
+			]
+			dependencies: [
+				"7DA9611D1A96FBD3"
+			]
+			tasks: [
+				{
+					id: "C7CDBBF4BFA76CAE"
+					type: "item"
+					item: "minecraft:torch"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "C2E4DF7CCCCC094F"
+					type: "item"
+					item: "minecraft:charcoal"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "F69107736CBF15CB"
+			x: -4.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "安稳入睡：制作红床"
+			subtitle: "跳过危险黑夜设复活点"
+			icon: "minecraft:red_bed"
+			description: [
+				"跳过危险黑夜设复活点"
+			]
+			dependencies: [
+				"BE414EC7946B4B8C"
+			]
+			tasks: [
+				{
+					id: "9C5D309C87B6CBEA"
+					type: "item"
+					item: "minecraft:red_bed"
+				}
+			]
+			rewards: [
+				{
+					id: "5C5480D7893CF2C2"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "94193DFD23CEA774"
+			x: -1.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "温馨小屋：橡木门与窗"
+			subtitle: "搭建庇护所墙壁与门窗"
+			icon: "minecraft:oak_door"
+			description: [
+				"搭建庇护所墙壁与门窗"
+			]
+			dependencies: [
+				"F69107736CBF15CB"
+			]
+			tasks: [
+				{
+					id: "ED490E65EB87D6FB"
+					type: "item"
+					item: "minecraft:oak_door"
+				}
+				{
+					id: "A15B719BBD062E9E"
+					type: "item"
+					item: "minecraft:glass_pane"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "3ED01E2B745BB18C"
+					type: "item"
+					item: "minecraft:glass"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "089DC4789897FB12"
+			x: 1.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "物资储藏：制作大箱子"
+			subtitle: "分类归藏矿石与杂物"
+			icon: "minecraft:chest"
+			description: [
+				"分类归藏矿石与杂物"
+			]
+			dependencies: [
+				"94193DFD23CEA774"
+			]
+			tasks: [
+				{
+					id: "448688E92CB2174F"
+					type: "item"
+					item: "minecraft:chest"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "C0061749F19C310A"
+					type: "item"
+					item: "minecraft:barrel"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "8433DA65A0C1FB9A"
+			x: 4.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "流体打水：制作铁桶"
+			subtitle: "盛装冷却水与岩浆"
+			icon: "minecraft:water_bucket"
+			description: [
+				"盛装冷却水与岩浆"
+			]
+			dependencies: [
+				"089DC4789897FB12"
+			]
+			tasks: [
+				{
+					id: "A217E2BC9BB30C15"
+					type: "item"
+					item: "minecraft:bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "52B602DE44917C69"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+			]
+		}
+		{
+			id: "D873FF19B595112D"
+			x: 7.5d
+			y: -2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "提桶岩浆：热源储备"
+			subtitle: "寻找地下岩浆流"
+			icon: "minecraft:lava_bucket"
+			description: [
+				"寻找地下岩浆流"
+			]
+			dependencies: [
+				"8433DA65A0C1FB9A"
+			]
+			tasks: [
+				{
+					id: "B4A026C3A80BA8C6"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "3B6D67967556C483"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 16
+				}
+			]
+		}
+		{
+			id: "B67DE6866C7C0B8E"
+			x: -7.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "防身护体：举起木盾"
+			subtitle: "格挡骷髅箭矢与近战"
+			icon: "minecraft:shield"
+			description: [
+				"格挡骷髅箭矢与近战"
+			]
+			dependencies: [
+				"D873FF19B595112D"
+			]
+			tasks: [
+				{
+					id: "A9104EE43EEEDC1B"
+					type: "item"
+					item: "minecraft:shield"
+				}
+			]
+			rewards: [
+				{
+					id: "AB17BD56E02AC742"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "231C0FC27B7D3ED4"
+			x: -4.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "远程打击：制作弓箭"
+			subtitle: "远距离精准猎杀怪物"
+			icon: "minecraft:bow"
+			description: [
+				"远距离精准猎杀怪物"
+			]
+			dependencies: [
+				"B67DE6866C7C0B8E"
+			]
+			tasks: [
+				{
+					id: "5C32D271AF05AB48"
+					type: "item"
+					item: "minecraft:bow"
+				}
+				{
+					id: "5801E28CE8E68999"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "0AAFE70474F2997F"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 32
+				}
+			]
+		}
+		{
+			id: "EA69D363ED81F8FE"
+			x: -1.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "全副武装：铁质盔甲"
+			subtitle: "铁头盔与铁靴子"
+			icon: "minecraft:iron_helmet"
+			description: [
+				"铁头盔与铁靴子"
+			]
+			dependencies: [
+				"231C0FC27B7D3ED4"
+			]
+			tasks: [
+				{
+					id: "63619E24BA7330D6"
+					type: "item"
+					item: "minecraft:iron_helmet"
+				}
+				{
+					id: "62909D686D2EEDC9"
+					type: "item"
+					item: "minecraft:iron_boots"
+				}
+			]
+			rewards: [
+				{
+					id: "FBE8602D2639CFE7"
+					type: "item"
+					item: "minecraft:iron_leggings"
+				}
+			]
+		}
+		{
+			id: "AF2746089C434BA8"
+			x: 1.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "荒野耕作：制作石锄"
+			subtitle: "开垦河畔第一块农田"
+			icon: "minecraft:stone_hoe"
+			description: [
+				"开垦河畔第一块农田"
+			]
+			dependencies: [
+				"EA69D363ED81F8FE"
+			]
+			tasks: [
+				{
+					id: "E506348ECE060014"
+					type: "item"
+					item: "minecraft:stone_hoe"
+				}
+			]
+			rewards: [
+				{
+					id: "850E532AA91E0967"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 16
+				}
+			]
+		}
+		{
+			id: "B496CF519EBDCAA8"
+			x: 4.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "播种小麦：源源口粮"
+			subtitle: "收获小麦烘焙面包"
+			icon: "minecraft:wheat"
+			description: [
+				"收获小麦烘焙面包"
+			]
+			dependencies: [
+				"AF2746089C434BA8"
+			]
+			tasks: [
+				{
+					id: "B50E36F53B699536"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 16L
+				}
+				{
+					id: "F8E57A9606178F78"
+					type: "item"
+					item: "minecraft:bread"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "36448EC3A0489FC9"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 16
+				}
+			]
+		}
+		{
+			id: "4820997199FDA26E"
+			x: 7.5d
+			y: 0.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "圈养牛羊：橡木栅栏"
+			subtitle: "搭设牧场繁育家畜"
+			icon: "minecraft:oak_fence"
+			description: [
+				"搭设牧场繁育家畜"
+			]
+			dependencies: [
+				"B496CF519EBDCAA8"
+			]
+			tasks: [
+				{
+					id: "2B1057AA5AFDFB1A"
+					type: "item"
+					item: "minecraft:oak_fence"
+					count: 16L
+				}
+				{
+					id: "7C5708F3CEF99657"
+					type: "item"
+					item: "minecraft:hay_block"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "9A3057D88608152F"
+					type: "item"
+					item: "minecraft:leather"
+					count: 8
+				}
+			]
+		}
+		{
+			id: "CC992E9E610BB3C9"
+			x: -7.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "烘烤牛排：充足体力"
+			subtitle: "高饱腹感优质肉类"
+			icon: "minecraft:cooked_beef"
+			description: [
+				"高饱腹感优质肉类"
+			]
+			dependencies: [
+				"4820997199FDA26E"
+			]
+			tasks: [
+				{
+					id: "FBEDACEC549A70E3"
+					type: "item"
+					item: "minecraft:cooked_beef"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "8C57DEAA9756EC3D"
+					type: "item"
+					item: "farmersdelight:apple_pie"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "C000879952528BD1"
+			x: -4.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "深入深层：寻找红石"
+			subtitle: "自动化电路与机器开关"
+			icon: "minecraft:redstone"
+			description: [
+				"自动化电路与机器开关"
+			]
+			dependencies: [
+				"CC992E9E610BB3C9"
+			]
+			tasks: [
+				{
+					id: "D76CAD40A36C1CBB"
+					type: "item"
+					item: "minecraft:redstone"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "6E80B4600FECA47C"
+					type: "item"
+					item: "minecraft:redstone_block"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "A729DDFD5BC5CE13"
+			x: -1.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "掘金矿脉：淘金准备"
+			subtitle: "黄金与高阶合金材料"
+			icon: "minecraft:gold_ingot"
+			description: [
+				"黄金与高阶合金材料"
+			]
+			dependencies: [
+				"C000879952528BD1"
+			]
+			tasks: [
+				{
+					id: "80EFE6F67CA4BB5A"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "FC4A7111059683F9"
+					type: "item"
+					item: "minecraft:golden_apple"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "F55EAF1B51E6B613"
+			x: 1.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "闪耀矿物：发现钻石"
+			subtitle: "原版最高阶硬度矿物"
+			icon: "minecraft:diamond"
+			description: [
+				"原版最高阶硬度矿物"
+			]
+			dependencies: [
+				"A729DDFD5BC5CE13"
+			]
+			tasks: [
+				{
+					id: "79C3D008EA0B7E49"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "7E43202619B61E7D"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 2
+				}
+			]
+		}
+		{
+			id: "61B41B2ADC6E6F7F"
+			x: 4.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "硬度巅峰：黑曜石"
+			subtitle: "使用钻石镐开采黑曜石"
+			icon: "minecraft:obsidian"
+			description: [
+				"使用钻石镐开采黑曜石"
+			]
+			dependencies: [
+				"F55EAF1B51E6B613"
+			]
+			tasks: [
+				{
+					id: "3CFED75296DBEA31"
+					type: "item"
+					item: "minecraft:obsidian"
 					count: 10L
 				}
 			]
 			rewards: [
 				{
-					id: "D951F7EB6FA7028B"
+					id: "8C6880411A37FB14"
 					type: "item"
-					item: { count: 1, id: "minecraft:flint_and_steel" }
-					title: "打火石"
+					item: "minecraft:flint_and_steel"
 				}
+			]
+		}
+		{
+			id: "50CEE31B6DA2F03C"
+			x: 7.5d
+			y: 2.5d
+			size: 1.1d
+			shape: "circle"
+			title: "异界通道：下界传送门"
+			subtitle: "搭设并点燃下界之门"
+			icon: "minecraft:flint_and_steel"
+			description: [
+				"搭设并点燃下界之门"
+			]
+			dependencies: [
+				"61B41B2ADC6E6F7F"
+			]
+			tasks: [
 				{
-					id: "A532866DDA67CE5B"
+					id: "6A35A8DF784ED23B"
 					type: "item"
-					item: { count: 2, id: "minecraft:golden_apple" }
+					item: "minecraft:flint_and_steel"
+				}
+			]
+			rewards: [
+				{
+					id: "3C543A6964D0A44A"
+					type: "item"
+					item: "minecraft:blaze_rod"
 					count: 2
-					title: "金苹果（下界防暴毙）"
+				}
+			]
+		}
+		{
+			id: "01A3D377FA1C59BB"
+			x: -7.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "下界开采：荧石与石魂"
+			subtitle: "收集下界照明与材料"
+			icon: "minecraft:glowstone"
+			description: [
+				"收集下界照明与材料"
+			]
+			dependencies: [
+				"50CEE31B6DA2F03C"
+			]
+			tasks: [
+				{
+					id: "C44519C693696FB7"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "D94A2BB45EF49F93"
+					type: "item"
+					item: "minecraft:glowstone_dust"
+					count: 16
+				}
+			]
+		}
+		{
+			id: "7D3FB191E839CB28"
+			x: -4.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "下界石英：精密电子"
+			subtitle: "机械动力玫瑰石英原料"
+			icon: "minecraft:quartz"
+			description: [
+				"机械动力玫瑰石英原料"
+			]
+			dependencies: [
+				"01A3D377FA1C59BB"
+			]
+			tasks: [
+				{
+					id: "B2700E9634913CC2"
+					type: "item"
+					item: "minecraft:quartz"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "C658D2C072B8E30C"
+					type: "item"
+					item: "minecraft:quartz_block"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "17125BF233128F7D"
+			x: -1.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "灵魂沙地：制作脚手架"
+			subtitle: "建筑高空搭设工具"
+			icon: "minecraft:scaffolding"
+			description: [
+				"建筑高空搭设工具"
+			]
+			dependencies: [
+				"7D3FB191E839CB28"
+			]
+			tasks: [
+				{
+					id: "1A313BECFD05E271"
+					type: "item"
+					item: "minecraft:scaffolding"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "9762D29B9267FD75"
+					type: "item"
+					item: "minecraft:bamboo"
+					count: 16
+				}
+			]
+		}
+		{
+			id: "0976E52C528B79BE"
+			x: 1.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "铁轨铺设：普通铁轨"
+			subtitle: "早期运输矿车网络"
+			icon: "minecraft:rail"
+			description: [
+				"早期运输矿车网络"
+			]
+			dependencies: [
+				"17125BF233128F7D"
+			]
+			tasks: [
+				{
+					id: "4C851249869C31EC"
+					type: "item"
+					item: "minecraft:rail"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "7732CD5AEE5E587E"
+					type: "item"
+					item: "minecraft:minecart"
+				}
+			]
+		}
+		{
+			id: "86775F6C5667E753"
+			x: 4.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "动力加速：充能铁轨"
+			subtitle: "红石驱动的极速矿车"
+			icon: "minecraft:powered_rail"
+			description: [
+				"红石驱动的极速矿车"
+			]
+			dependencies: [
+				"0976E52C528B79BE"
+			]
+			tasks: [
+				{
+					id: "5BA086DB51F329AA"
+					type: "item"
+					item: "minecraft:powered_rail"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "55D052496D824848"
+					type: "item"
+					item: "minecraft:redstone_torch"
+					count: 4
+				}
+			]
+		}
+		{
+			id: "E5DED89C518CC562"
+			x: 7.5d
+			y: 5.0d
+			size: 1.1d
+			shape: "rsquare"
+			title: "毕业大章：迈向机械时代"
+			subtitle: "完成原版生存，迎接工业旋转！"
+			icon: "create:cogwheel"
+			description: [
+				"完成原版生存，迎接工业旋转！"
+			]
+			dependencies: [
+				"86775F6C5667E753"
+			]
+			tasks: [
+				{
+					id: "CCA2F55CD9FA8BFB"
+					type: "checkmark"
+					title: "点击完成"
+				}
+			]
+			rewards: [
+				{
+					id: "82CBBC20D68903DB"
+					type: "item"
+					item: "create:wrench"
 				}
 			]
 		}
