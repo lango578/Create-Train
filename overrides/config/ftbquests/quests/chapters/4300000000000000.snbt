@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "97A88C59C4D5A1A2"
+			id: "CEEA8212CA90A68B"
 			x: -7.5d
 			y: -5.0d
 			size: 1.4d
@@ -22,14 +22,14 @@
 			]
 			tasks: [
 				{
-					id: "F3EFD45F8E37C5A8"
+					id: "250AF2FE905A6F8F"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "F9122974EB87E1E3"
+					id: "F9B08FC6783876B9"
 					type: "item"
 					item: "create:brass_block"
 					count: 16

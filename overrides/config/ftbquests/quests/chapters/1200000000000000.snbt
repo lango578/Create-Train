@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "870A2D4B691BBE20"
+			id: "7D9F965FA97CD0E9"
 			x: -7.5d
 			y: -5.0d
 			size: 1.4d
@@ -22,19 +22,19 @@
 			]
 			tasks: [
 				{
-					id: "3C9D3A46836CD1C3"
+					id: "E28F02989ED5D2DF"
 					type: "item"
 					item: "farmersdelight:flint_knife"
 				}
 				{
-					id: "2BB923AD99F626D0"
+					id: "B41E285C5593C22C"
 					type: "item"
 					item: "farmersdelight:cutting_board"
 				}
 			]
 			rewards: [
 				{
-					id: "74D699E449B74CBA"
+					id: "C5950537C02FDC9C"
 					type: "item"
 					item: "minecraft:dirt"
 					count: 2
@@ -42,7 +42,7 @@
 			]
 		}
 		{
-			id: "B8985145BAA6024E"
+			id: "E7F5067D03C76FA8"
 			x: -4.5d
 			y: -5.0d
 			size: 1.1d
@@ -54,18 +54,18 @@
 				"大容量农作物收纳"
 			]
 			dependencies: [
-				"870A2D4B691BBE20"
+				"7D9F965FA97CD0E9"
 			]
 			tasks: [
 				{
-					id: "0220F4D64F9CA2B0"
+					id: "9A0ADC58EA35EC71"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "BAFA6271198B75FE"
+					id: "D32EA2569A979EEA"
 					type: "item"
 					item: "farmersdelight:organic_compost"
 					count: 8
@@ -73,7 +73,7 @@
 			]
 		}
 		{
-			id: "C9B980DE6DF1BFF7"
+			id: "8BD73A11D7886A54"
 			x: -1.5d
 			y: -5.0d
 			size: 1.1d
@@ -85,11 +85,11 @@
 				"堆肥加速作物生长"
 			]
 			dependencies: [
-				"B8985145BAA6024E"
+				"E7F5067D03C76FA8"
 			]
 			tasks: [
 				{
-					id: "93059B659FAFA3A0"
+					id: "2DEC647629FD383F"
 					type: "item"
 					item: "farmersdelight:organic_compost"
 					count: 8L
@@ -97,7 +97,7 @@
 			]
 			rewards: [
 				{
-					id: "C2F68C9D3614ED0B"
+					id: "E90813BB2E11DA06"
 					type: "item"
 					item: "farmersdelight:rich_soil"
 					count: 8
@@ -105,7 +105,7 @@
 			]
 		}
 		{
-			id: "9EEE747FF29791DB"
+			id: "9BBA7AC349F10613"
 			x: 1.5d
 			y: -5.0d
 			size: 1.1d
@@ -117,11 +117,11 @@
 				"无需水源的高产土壤"
 			]
 			dependencies: [
-				"C9B980DE6DF1BFF7"
+				"8BD73A11D7886A54"
 			]
 			tasks: [
 				{
-					id: "E931BF61FC593BB5"
+					id: "27F5473886529BA1"
 					type: "item"
 					item: "farmersdelight:rich_soil"
 					count: 8L
@@ -129,7 +129,7 @@
 			]
 			rewards: [
 				{
-					id: "112E6CDBF67254D0"
+					id: "367E80DC5F979C05"
 					type: "item"
 					item: "farmersdelight:cabbage_seeds"
 					count: 8
@@ -137,7 +137,7 @@
 			]
 		}
 		{
-			id: "784E9B3E482C4FF2"
+			id: "CBD485A4E5B4A17F"
 			x: 4.5d
 			y: -5.0d
 			size: 1.1d
@@ -149,11 +149,11 @@
 				"制作沙拉与汤品的蔬菜"
 			]
 			dependencies: [
-				"9EEE747FF29791DB"
+				"9BBA7AC349F10613"
 			]
 			tasks: [
 				{
-					id: "37B9D3D10C4D6E78"
+					id: "3474DBBC181B43AF"
 					type: "item"
 					item: "farmersdelight:cabbage"
 					count: 8L
@@ -161,7 +161,7 @@
 			]
 			rewards: [
 				{
-					id: "F312C8D13F868ADE"
+					id: "6BB05DB684337E3F"
 					type: "item"
 					item: "farmersdelight:tomato_seeds"
 					count: 8
@@ -169,7 +169,7 @@
 			]
 		}
 		{
-			id: "85E7213F50FA5465"
+			id: "C1C817877C7E90F5"
 			x: 7.5d
 			y: -5.0d
 			size: 1.1d
@@ -181,11 +181,11 @@
 				"搭设支架种植红番茄"
 			]
 			dependencies: [
-				"784E9B3E482C4FF2"
+				"CBD485A4E5B4A17F"
 			]
 			tasks: [
 				{
-					id: "03295D9A4D0AD05F"
+					id: "B9CC3817A89790A2"
 					type: "item"
 					item: "farmersdelight:tomato"
 					count: 8L
@@ -193,7 +193,7 @@
 			]
 			rewards: [
 				{
-					id: "8B613F2A3EE7F7CC"
+					id: "44AFA55DFC1A349E"
 					type: "item"
 					item: "farmersdelight:onion"
 					count: 8
@@ -201,7 +201,7 @@
 			]
 		}
 		{
-			id: "17273EDF6708009F"
+			id: "DAD31EEB29A032F8"
 			x: -7.5d
 			y: -2.5d
 			size: 1.1d
@@ -213,11 +213,11 @@
 				"浓郁香气调味食材"
 			]
 			dependencies: [
-				"85E7213F50FA5465"
+				"C1C817877C7E90F5"
 			]
 			tasks: [
 				{
-					id: "27683D4E2DBC39AE"
+					id: "85D3635C81FCEE8A"
 					type: "item"
 					item: "farmersdelight:onion"
 					count: 8L
@@ -225,7 +225,7 @@
 			]
 			rewards: [
 				{
-					id: "6550CE6BB20177A2"
+					id: "0345D402FFCBEA09"
 					type: "item"
 					item: "farmersdelight:rice"
 					count: 8
@@ -233,7 +233,7 @@
 			]
 		}
 		{
-			id: "0221E014A20CE815"
+			id: "CFC2C4B1D40E0ECC"
 			x: -4.5d
 			y: -2.5d
 			size: 1.1d
@@ -245,11 +245,11 @@
 				"浅水处栽培优质稻米"
 			]
 			dependencies: [
-				"17273EDF6708009F"
+				"DAD31EEB29A032F8"
 			]
 			tasks: [
 				{
-					id: "B8778B71F3A2DD03"
+					id: "81CFAAB52615BDF3"
 					type: "item"
 					item: "farmersdelight:rice"
 					count: 8L
@@ -257,14 +257,14 @@
 			]
 			rewards: [
 				{
-					id: "3B11244A01439A9B"
+					id: "6E6BC88B3016B284"
 					type: "item"
 					item: "farmersdelight:stove"
 				}
 			]
 		}
 		{
-			id: "2BDB7C34B8BFE74D"
+			id: "E752E2A7A61412EA"
 			x: -1.5d
 			y: -2.5d
 			size: 1.1d
@@ -276,25 +276,25 @@
 				"提供持续烹饪热源"
 			]
 			dependencies: [
-				"0221E014A20CE815"
+				"CFC2C4B1D40E0ECC"
 			]
 			tasks: [
 				{
-					id: "401D9F39465E2646"
+					id: "C686DB8AC782862C"
 					type: "item"
 					item: "farmersdelight:stove"
 				}
 			]
 			rewards: [
 				{
-					id: "8C2DE6D1EB35E2AE"
+					id: "845FDE801E97AD93"
 					type: "item"
 					item: "farmersdelight:cooking_pot"
 				}
 			]
 		}
 		{
-			id: "04F9D7357F371C15"
+			id: "CE295E555A19F6E1"
 			x: 1.5d
 			y: -2.5d
 			size: 1.1d
@@ -306,25 +306,25 @@
 				"制作热气腾腾的大餐"
 			]
 			dependencies: [
-				"2BDB7C34B8BFE74D"
+				"E752E2A7A61412EA"
 			]
 			tasks: [
 				{
-					id: "0B9927D69134D912"
+					id: "AAC70EC9B0916C94"
 					type: "item"
 					item: "farmersdelight:cooking_pot"
 				}
 			]
 			rewards: [
 				{
-					id: "BF29E22F1EE7BB21"
+					id: "DF24B652800CDE6E"
 					type: "item"
 					item: "farmersdelight:skillet"
 				}
 			]
 		}
 		{
-			id: "8361183239D6DDC0"
+			id: "70CD704F81B408A7"
 			x: 4.5d
 			y: -2.5d
 			size: 1.1d
@@ -336,18 +336,18 @@
 				"煎蛋与煎肉的响声"
 			]
 			dependencies: [
-				"04F9D7357F371C15"
+				"CE295E555A19F6E1"
 			]
 			tasks: [
 				{
-					id: "CE6606CCAC268598"
+					id: "3ED1F99E49A36DAB"
 					type: "item"
 					item: "farmersdelight:skillet"
 				}
 			]
 			rewards: [
 				{
-					id: "32B0D1F68918B882"
+					id: "E62899C98D1FBA85"
 					type: "item"
 					item: "farmersdelight:minced_beef"
 					count: 8
@@ -355,7 +355,7 @@
 			]
 		}
 		{
-			id: "382E8D465574943A"
+			id: "97C384CFB22469C8"
 			x: 7.5d
 			y: -2.5d
 			size: 1.1d
@@ -367,11 +367,11 @@
 				"切板加工肉馅食材"
 			]
 			dependencies: [
-				"8361183239D6DDC0"
+				"70CD704F81B408A7"
 			]
 			tasks: [
 				{
-					id: "E3B45EECA1A3E0C2"
+					id: "D32CF37A1DAEC4E5"
 					type: "item"
 					item: "farmersdelight:minced_beef"
 					count: 8L
@@ -379,7 +379,7 @@
 			]
 			rewards: [
 				{
-					id: "9E3E2792008C0820"
+					id: "3FBF3C44DE2A1530"
 					type: "item"
 					item: "farmersdelight:hamburger"
 					count: 4
@@ -387,7 +387,7 @@
 			]
 		}
 		{
-			id: "0F4E57453F61E311"
+			id: "B542A480D680C990"
 			x: -7.5d
 			y: 0.0d
 			size: 1.1d
@@ -399,11 +399,11 @@
 				"面包与多汁牛肉饼结合"
 			]
 			dependencies: [
-				"382E8D465574943A"
+				"97C384CFB22469C8"
 			]
 			tasks: [
 				{
-					id: "C96A67C4014320CE"
+					id: "DFD5A0182ECF6120"
 					type: "item"
 					item: "farmersdelight:hamburger"
 					count: 4L
@@ -411,7 +411,7 @@
 			]
 			rewards: [
 				{
-					id: "43D1187E5238C14F"
+					id: "4759B57E3D53FC8F"
 					type: "item"
 					item: "farmersdelight:chicken_sandwich"
 					count: 4
@@ -419,7 +419,7 @@
 			]
 		}
 		{
-			id: "27AD77079F00574F"
+			id: "E116DFE04E89A762"
 			x: -4.5d
 			y: 0.0d
 			size: 1.1d
@@ -431,11 +431,11 @@
 				"香脆炸鸡与沙拉配菜"
 			]
 			dependencies: [
-				"0F4E57453F61E311"
+				"B542A480D680C990"
 			]
 			tasks: [
 				{
-					id: "77F3F61E8CA51840"
+					id: "967B6556A19658F3"
 					type: "item"
 					item: "farmersdelight:chicken_sandwich"
 					count: 4L
@@ -443,7 +443,7 @@
 			]
 			rewards: [
 				{
-					id: "0FA9CC6E04651039"
+					id: "1B8DD7B5BE8BB054"
 					type: "item"
 					item: "farmersdelight:bacon_sandwich"
 					count: 4
@@ -451,7 +451,7 @@
 			]
 		}
 		{
-			id: "8D31F73C7791A31F"
+			id: "285A16E0A5E38627"
 			x: -1.5d
 			y: 0.0d
 			size: 1.1d
@@ -463,11 +463,11 @@
 				"煎培根与新鲜番茄"
 			]
 			dependencies: [
-				"27AD77079F00574F"
+				"E116DFE04E89A762"
 			]
 			tasks: [
 				{
-					id: "FD0A2A0AAA057AE7"
+					id: "BBBB85894E109528"
 					type: "item"
 					item: "farmersdelight:bacon_sandwich"
 					count: 4L
@@ -475,7 +475,7 @@
 			]
 			rewards: [
 				{
-					id: "D5794E6CB6E0DCAE"
+					id: "ADFEBE797E6A6483"
 					type: "item"
 					item: "farmersdelight:dumplings"
 					count: 8
@@ -483,7 +483,7 @@
 			]
 		}
 		{
-			id: "06A8969FF688CA1B"
+			id: "4F13560B063F7595"
 			x: 1.5d
 			y: 0.0d
 			size: 1.1d
@@ -495,11 +495,11 @@
 				"馅料饱满的面点"
 			]
 			dependencies: [
-				"8D31F73C7791A31F"
+				"285A16E0A5E38627"
 			]
 			tasks: [
 				{
-					id: "D436AC0A3E537F55"
+					id: "C18B348205EEA791"
 					type: "item"
 					item: "farmersdelight:dumplings"
 					count: 8L
@@ -507,14 +507,14 @@
 			]
 			rewards: [
 				{
-					id: "5FB62028F12D7C93"
+					id: "7DB355DE255E71C8"
 					type: "item"
 					item: "farmersdelight:stuffed_pumpkin"
 				}
 			]
 		}
 		{
-			id: "91BB9A1F26DB5ACC"
+			id: "27FFE4C3B632DC59"
 			x: 4.5d
 			y: 0.0d
 			size: 1.1d
@@ -526,25 +526,25 @@
 				"节日聚会主打菜肴"
 			]
 			dependencies: [
-				"06A8969FF688CA1B"
+				"4F13560B063F7595"
 			]
 			tasks: [
 				{
-					id: "E4C70F2CA9872336"
+					id: "2AE9EBE1207062A7"
 					type: "item"
 					item: "farmersdelight:stuffed_pumpkin"
 				}
 			]
 			rewards: [
 				{
-					id: "EB174681BE9B8AF4"
+					id: "E397A93E894362B9"
 					type: "item"
 					item: "farmersdelight:roast_chicken"
 				}
 			]
 		}
 		{
-			id: "B3B42F21008D8BF2"
+			id: "97445D15D5F3E328"
 			x: 7.5d
 			y: 0.0d
 			size: 1.1d
@@ -556,18 +556,18 @@
 				"整鸡烘烤配蔬果"
 			]
 			dependencies: [
-				"91BB9A1F26DB5ACC"
+				"27FFE4C3B632DC59"
 			]
 			tasks: [
 				{
-					id: "341E3D5FFA89CCAC"
+					id: "FD4632ABCC47095D"
 					type: "item"
 					item: "farmersdelight:roast_chicken"
 				}
 			]
 			rewards: [
 				{
-					id: "E7ADF21CED5322C1"
+					id: "F35F4395EACAFC9D"
 					type: "item"
 					item: "farmersdelight:grilled_salmon"
 					count: 4
@@ -575,7 +575,7 @@
 			]
 		}
 		{
-			id: "D331559A15C74625"
+			id: "386E1D45E3CF2103"
 			x: -7.5d
 			y: 2.5d
 			size: 1.1d
@@ -587,11 +587,11 @@
 				"富含深海油脂美味"
 			]
 			dependencies: [
-				"B3B42F21008D8BF2"
+				"97445D15D5F3E328"
 			]
 			tasks: [
 				{
-					id: "C8E280DBD8A748D6"
+					id: "3EB236889A1B4434"
 					type: "item"
 					item: "farmersdelight:grilled_salmon"
 					count: 4L
@@ -599,7 +599,7 @@
 			]
 			rewards: [
 				{
-					id: "FD36115D5E767926"
+					id: "307EACA1C8D8E7CA"
 					type: "item"
 					item: "farmersdelight:steak_and_potatoes"
 					count: 4
@@ -607,7 +607,7 @@
 			]
 		}
 		{
-			id: "501BE13108B4F3B0"
+			id: "ADB117628EB4EE8E"
 			x: -4.5d
 			y: 2.5d
 			size: 1.1d
@@ -619,11 +619,11 @@
 				"多汁牛排与滑嫩土豆"
 			]
 			dependencies: [
-				"D331559A15C74625"
+				"386E1D45E3CF2103"
 			]
 			tasks: [
 				{
-					id: "917D2DA544F70EF7"
+					id: "32428030B027A3D9"
 					type: "item"
 					item: "farmersdelight:steak_and_potatoes"
 					count: 4L
@@ -631,7 +631,7 @@
 			]
 			rewards: [
 				{
-					id: "5FA9B8ECEF1E9D5B"
+					id: "E6A441CDBB2851AA"
 					type: "item"
 					item: "farmersdelight:vegetable_soup"
 					count: 4
@@ -639,7 +639,7 @@
 			]
 		}
 		{
-			id: "5B8C786CCFF44EF9"
+			id: "33175C007700E70F"
 			x: -1.5d
 			y: 2.5d
 			size: 1.1d
@@ -651,11 +651,11 @@
 				"丰富维生素混合浓汤"
 			]
 			dependencies: [
-				"501BE13108B4F3B0"
+				"ADB117628EB4EE8E"
 			]
 			tasks: [
 				{
-					id: "5974041358C2F408"
+					id: "C0565C702A427A1F"
 					type: "item"
 					item: "farmersdelight:vegetable_soup"
 					count: 4L
@@ -663,7 +663,7 @@
 			]
 			rewards: [
 				{
-					id: "8571608E65AA4462"
+					id: "26B0FC7B7E5BA14E"
 					type: "item"
 					item: "farmersdelight:fried_rice"
 					count: 4
@@ -671,7 +671,7 @@
 			]
 		}
 		{
-			id: "239B5D37C71292E5"
+			id: "902E32FAF0FFDE19"
 			x: 1.5d
 			y: 2.5d
 			size: 1.1d
@@ -683,11 +683,11 @@
 				"鸡蛋与蔬菜炒米饭"
 			]
 			dependencies: [
-				"5B8C786CCFF44EF9"
+				"33175C007700E70F"
 			]
 			tasks: [
 				{
-					id: "10CAC09302504F77"
+					id: "2ACDACD40AF70F6E"
 					type: "item"
 					item: "farmersdelight:fried_rice"
 					count: 4L
@@ -695,7 +695,7 @@
 			]
 			rewards: [
 				{
-					id: "82ED0487F48AB353"
+					id: "C72DD87608A6ADC3"
 					type: "item"
 					item: "farmersdelight:apple_pie"
 					count: 2
@@ -703,7 +703,7 @@
 			]
 		}
 		{
-			id: "2D9F141A75389D12"
+			id: "54966CD6E7271970"
 			x: 4.5d
 			y: 2.5d
 			size: 1.1d
@@ -715,11 +715,11 @@
 				"金黄酥脆甜美派点"
 			]
 			dependencies: [
-				"239B5D37C71292E5"
+				"902E32FAF0FFDE19"
 			]
 			tasks: [
 				{
-					id: "645C1A6EFE782DEE"
+					id: "BDC77F43F30BF883"
 					type: "item"
 					item: "farmersdelight:apple_pie"
 					count: 2L
@@ -727,7 +727,7 @@
 			]
 			rewards: [
 				{
-					id: "EEF6B9E495F030BD"
+					id: "A48A05FE69DB8AF1"
 					type: "item"
 					item: "farmersdelight:sweet_berry_cheesecake"
 					count: 2
@@ -735,7 +735,7 @@
 			]
 		}
 		{
-			id: "9688BC8DC9686D7B"
+			id: "A5AB65957B0FFC59"
 			x: 7.5d
 			y: 2.5d
 			size: 1.1d
@@ -747,11 +747,11 @@
 				"浓郁奶香与浆果酸甜"
 			]
 			dependencies: [
-				"2D9F141A75389D12"
+				"54966CD6E7271970"
 			]
 			tasks: [
 				{
-					id: "6255D1F97D024557"
+					id: "E1A05A197EFFBE77"
 					type: "item"
 					item: "farmersdelight:sweet_berry_cheesecake"
 					count: 2L
@@ -759,7 +759,7 @@
 			]
 			rewards: [
 				{
-					id: "5AD2944B06985444"
+					id: "78D9CABE25A793C1"
 					type: "item"
 					item: "farmersdelight:chocolate_pie"
 					count: 2
@@ -767,7 +767,7 @@
 			]
 		}
 		{
-			id: "8D05A1CAFE4EDB6B"
+			id: "A110F94C83D2CAD7"
 			x: -7.5d
 			y: 5.0d
 			size: 1.1d
@@ -779,11 +779,11 @@
 				"可可豆与牛奶丝滑碰撞"
 			]
 			dependencies: [
-				"9688BC8DC9686D7B"
+				"A5AB65957B0FFC59"
 			]
 			tasks: [
 				{
-					id: "B75D78B47BADD4B5"
+					id: "CA270BF873D9D81E"
 					type: "item"
 					item: "farmersdelight:chocolate_pie"
 					count: 2L
@@ -791,7 +791,7 @@
 			]
 			rewards: [
 				{
-					id: "B9747B04DE1382F3"
+					id: "70F2BD79766F4229"
 					type: "item"
 					item: "farmersdelight:melon_juice"
 					count: 4
@@ -799,7 +799,7 @@
 			]
 		}
 		{
-			id: "7D4A7F0C51984357"
+			id: "98F238D49AA61614"
 			x: -4.5d
 			y: 5.0d
 			size: 1.1d
@@ -811,11 +811,11 @@
 				"冰镇西瓜鲜榨果汁"
 			]
 			dependencies: [
-				"8D05A1CAFE4EDB6B"
+				"A110F94C83D2CAD7"
 			]
 			tasks: [
 				{
-					id: "DE9D0C0E43B60C6F"
+					id: "7A7121A28862C0A0"
 					type: "item"
 					item: "farmersdelight:melon_juice"
 					count: 4L
@@ -823,7 +823,7 @@
 			]
 			rewards: [
 				{
-					id: "525785F888966437"
+					id: "53862A6794171412"
 					type: "item"
 					item: "farmersdelight:apple_cider"
 					count: 4
@@ -831,7 +831,7 @@
 			]
 		}
 		{
-			id: "B2F8F2CCC1731FBF"
+			id: "5D2CFC67DD45D5C6"
 			x: -1.5d
 			y: 5.0d
 			size: 1.1d
@@ -843,11 +843,11 @@
 				"温暖身心的苹果酿造"
 			]
 			dependencies: [
-				"7D4A7F0C51984357"
+				"98F238D49AA61614"
 			]
 			tasks: [
 				{
-					id: "B47069B961737654"
+					id: "D47FCF6ED4DD6DF5"
 					type: "item"
 					item: "farmersdelight:apple_cider"
 					count: 4L
@@ -855,7 +855,7 @@
 			]
 			rewards: [
 				{
-					id: "F2AD8498ADF121C1"
+					id: "2E608C389E55860E"
 					type: "item"
 					item: "farmersdelight:canvas"
 					count: 8
@@ -863,7 +863,7 @@
 			]
 		}
 		{
-			id: "B55134FA2896D831"
+			id: "B046B8164CBFE205"
 			x: 1.5d
 			y: 5.0d
 			size: 1.1d
@@ -875,11 +875,11 @@
 				"草绳与稻草织成帆布"
 			]
 			dependencies: [
-				"B2F8F2CCC1731FBF"
+				"5D2CFC67DD45D5C6"
 			]
 			tasks: [
 				{
-					id: "53B6856608C4F959"
+					id: "E42F107C0FE50B07"
 					type: "item"
 					item: "farmersdelight:canvas"
 					count: 8L
@@ -887,7 +887,7 @@
 			]
 			rewards: [
 				{
-					id: "7BA26355E6774AEF"
+					id: "75F042568D362727"
 					type: "item"
 					item: "farmersdelight:rope"
 					count: 16
@@ -895,7 +895,7 @@
 			]
 		}
 		{
-			id: "5997465EAD37D80A"
+			id: "E54227868FF137DF"
 			x: 4.5d
 			y: 5.0d
 			size: 1.1d
@@ -907,11 +907,11 @@
 				"井下与垂直崖壁安全绳"
 			]
 			dependencies: [
-				"B55134FA2896D831"
+				"B046B8164CBFE205"
 			]
 			tasks: [
 				{
-					id: "879AA9275BBA2E22"
+					id: "CF8FC6089986D3E5"
 					type: "item"
 					item: "farmersdelight:rope"
 					count: 16L
@@ -919,7 +919,7 @@
 			]
 			rewards: [
 				{
-					id: "3FD5739919A7B589"
+					id: "7A44A95F09FA9222"
 					type: "item"
 					item: "farmersdelight:safety_net"
 					count: 4
@@ -927,7 +927,7 @@
 			]
 		}
 		{
-			id: "29D2708A4D7E2BDE"
+			id: "8781C61923A33F03"
 			x: 7.5d
 			y: 5.0d
 			size: 1.1d
@@ -939,11 +939,11 @@
 				"高空建筑防坠落安全网"
 			]
 			dependencies: [
-				"5997465EAD37D80A"
+				"E54227868FF137DF"
 			]
 			tasks: [
 				{
-					id: "B2049D788F6D5739"
+					id: "77B73D5EFD2AAB1C"
 					type: "item"
 					item: "farmersdelight:safety_net"
 					count: 4L
@@ -951,7 +951,7 @@
 			]
 			rewards: [
 				{
-					id: "BD1B65722D9AC071"
+					id: "D9B66F3666F6F9F6"
 					type: "item"
 					item: "farmersdelight:cooking_pot"
 				}

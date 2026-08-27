@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "17EB272406F9FF8D"
+			id: "DCEEE2D022DBF8A6"
 			x: -7.5d
 			y: -5.0d
 			size: 1.4d
@@ -22,21 +22,21 @@
 			]
 			tasks: [
 				{
-					id: "C1E941BFE7ED2803"
+					id: "D3B7011BB4F819D1"
 					type: "item"
 					item: "ars_nouveau:novice_spell_book"
 				}
 			]
 			rewards: [
 				{
-					id: "360FCF3CEF8AF683"
+					id: "7363F4BEF1A81B46"
 					type: "item"
 					item: "ars_nouveau:apprentice_spell_book"
 				}
 			]
 		}
 		{
-			id: "BF51C7160400CE8E"
+			id: "2C2F43F711D12271"
 			x: -4.5d
 			y: -5.0d
 			size: 1.1d
@@ -48,25 +48,25 @@
 				"解锁二阶符文与二阶槽位"
 			]
 			dependencies: [
-				"17EB272406F9FF8D"
+				"DCEEE2D022DBF8A6"
 			]
 			tasks: [
 				{
-					id: "CB3B3BD9E19767D6"
+					id: "F1C993E0159C2526"
 					type: "item"
 					item: "ars_nouveau:apprentice_spell_book"
 				}
 			]
 			rewards: [
 				{
-					id: "5858AE2931B8FC0E"
+					id: "5BF531AC00B3AD80"
 					type: "item"
 					item: "ars_nouveau:archmage_spell_book"
 				}
 			]
 		}
 		{
-			id: "627F402730A1D865"
+			id: "A5B3431C9DA09572"
 			x: -1.5d
 			y: -5.0d
 			size: 1.1d
@@ -78,25 +78,25 @@
 				"掌握毁天灭地的高阶魔法符文"
 			]
 			dependencies: [
-				"BF51C7160400CE8E"
+				"2C2F43F711D12271"
 			]
 			tasks: [
 				{
-					id: "C95254A13C690BA2"
+					id: "51878BA7244C74A8"
 					type: "item"
 					item: "ars_nouveau:archmage_spell_book"
 				}
 			]
 			rewards: [
 				{
-					id: "ECABB0BABF3D2687"
+					id: "BC29773DF4F91A82"
 					type: "item"
 					item: "ars_nouveau:wilden_tribute"
 				}
 			]
 		}
 		{
-			id: "0B665FF7187D0763"
+			id: "F7541F9DCB7D2DF5"
 			x: 1.5d
 			y: -5.0d
 			size: 1.1d
@@ -108,18 +108,18 @@
 				"摆设奥术底座供奉荒野材料"
 			]
 			dependencies: [
-				"627F402730A1D865"
+				"A5B3431C9DA09572"
 			]
 			tasks: [
 				{
-					id: "4834DF41552079E2"
+					id: "C472C64B06781905"
 					type: "item"
 					item: "ars_nouveau:wilden_tribute"
 				}
 			]
 			rewards: [
 				{
-					id: "CCADF4D34550F25F"
+					id: "5442E3852BAA7D7E"
 					type: "item"
 					item: "ars_nouveau:wilden_spike"
 					count: 2
@@ -127,7 +127,7 @@
 			]
 		}
 		{
-			id: "A508F488F54D8CE4"
+			id: "DD06673EA8746E55"
 			x: 4.5d
 			y: -5.0d
 			size: 1.1d
@@ -139,11 +139,11 @@
 				"击败荒野奇美拉，获得守卫者角刺"
 			]
 			dependencies: [
-				"0B665FF7187D0763"
+				"F7541F9DCB7D2DF5"
 			]
 			tasks: [
 				{
-					id: "4462E4446215C12B"
+					id: "76DC1499A7ADAAC7"
 					type: "item"
 					item: "ars_nouveau:wilden_spike"
 					count: 2L
@@ -151,7 +151,7 @@
 			]
 			rewards: [
 				{
-					id: "A53C048CF3DA8F3E"
+					id: "2BE7215F0389F71A"
 					type: "item"
 					item: "ars_nouveau:wilden_wing"
 					count: 2
@@ -159,7 +159,7 @@
 			]
 		}
 		{
-			id: "F1679E0231C8BC7A"
+			id: "8E535B0CB4F4A749"
 			x: 7.5d
 			y: -5.0d
 			size: 1.1d
@@ -171,11 +171,11 @@
 				"制作滑翔法术与高空飞行装备"
 			]
 			dependencies: [
-				"A508F488F54D8CE4"
+				"DD06673EA8746E55"
 			]
 			tasks: [
 				{
-					id: "210BCFE7F68EFF3B"
+					id: "E4C30E31CF7FDB90"
 					type: "item"
 					item: "ars_nouveau:wilden_wing"
 					count: 2L
@@ -183,7 +183,7 @@
 			]
 			rewards: [
 				{
-					id: "A4E2318E4303F184"
+					id: "231CC5C93D96610A"
 					type: "item"
 					item: "ars_nouveau:wilden_horn"
 					count: 2
@@ -191,7 +191,7 @@
 			]
 		}
 		{
-			id: "9CDD6C4AD80AA267"
+			id: "51998144A07F5405"
 			x: -7.5d
 			y: -2.5d
 			size: 1.1d
@@ -203,11 +203,11 @@
 				"召唤荒野守卫兽与力量加成"
 			]
 			dependencies: [
-				"F1679E0231C8BC7A"
+				"8E535B0CB4F4A749"
 			]
 			tasks: [
 				{
-					id: "9958FD190730132B"
+					id: "F0B53E1DEEFA03EE"
 					type: "item"
 					item: "ars_nouveau:wilden_horn"
 					count: 2L
@@ -215,14 +215,14 @@
 			]
 			rewards: [
 				{
-					id: "EB049D96F74B6412"
+					id: "4A8200BD0F1B2A56"
 					type: "item"
 					item: "ars_nouveau:enchanters_shield"
 				}
 			]
 		}
 		{
-			id: "00DE2013A921303C"
+			id: "B1350580A353006C"
 			x: -4.5d
 			y: -2.5d
 			size: 1.1d
@@ -234,25 +234,25 @@
 				"消耗魔源自动抵挡致命伤害"
 			]
 			dependencies: [
-				"9CDD6C4AD80AA267"
+				"51998144A07F5405"
 			]
 			tasks: [
 				{
-					id: "3FA272BD558204CE"
+					id: "1801983711896416"
 					type: "item"
 					item: "ars_nouveau:enchanters_shield"
 				}
 			]
 			rewards: [
 				{
-					id: "608FAEA0D5296A8D"
+					id: "831F156B4EF0DA4A"
 					type: "item"
 					item: "ars_nouveau:spell_bow"
 				}
 			]
 		}
 		{
-			id: "3405D594581F64E8"
+			id: "82E0A1D34CF75460"
 			x: -1.5d
 			y: -2.5d
 			size: 1.1d
@@ -264,25 +264,25 @@
 				"将符文附着在箭矢上远距离引爆"
 			]
 			dependencies: [
-				"00DE2013A921303C"
+				"B1350580A353006C"
 			]
 			tasks: [
 				{
-					id: "108393B866CDB5E7"
+					id: "66CBEB2889C25504"
 					type: "item"
 					item: "ars_nouveau:spell_bow"
 				}
 			]
 			rewards: [
 				{
-					id: "2E9FF850BCD5D45D"
+					id: "394D8BF1C6602CF2"
 					type: "item"
 					item: "ars_nouveau:spell_crossbow"
 				}
 			]
 		}
 		{
-			id: "6EFA768CB2076653"
+			id: "BA29D2CDCAFD8E8D"
 			x: 1.5d
 			y: -2.5d
 			size: 1.1d
@@ -294,25 +294,25 @@
 				"高压蓄力发射多重法术箭"
 			]
 			dependencies: [
-				"3405D594581F64E8"
+				"82E0A1D34CF75460"
 			]
 			tasks: [
 				{
-					id: "AF2427AE519B83A4"
+					id: "857F521418B09F03"
 					type: "item"
 					item: "ars_nouveau:spell_crossbow"
 				}
 			]
 			rewards: [
 				{
-					id: "E4CAB6439DF06D50"
+					id: "0E607C14853B76A5"
 					type: "item"
 					item: "ars_nouveau:enchanters_sword"
 				}
 			]
 		}
 		{
-			id: "73394C7306B6710B"
+			id: "337C5C7EEEB08E0A"
 			x: 4.5d
 			y: -2.5d
 			size: 1.1d
@@ -324,25 +324,25 @@
 				"近战挥砍触发强力元素爆发"
 			]
 			dependencies: [
-				"6EFA768CB2076653"
+				"BA29D2CDCAFD8E8D"
 			]
 			tasks: [
 				{
-					id: "3F40EEFD8EFD9220"
+					id: "93944DA5C6B12005"
 					type: "item"
 					item: "ars_nouveau:enchanters_sword"
 				}
 			]
 			rewards: [
 				{
-					id: "EA7D6E4439D636E9"
+					id: "BD75C4785E8FFEB8"
 					type: "item"
 					item: "ars_nouveau:ritual_flight"
 				}
 			]
 		}
 		{
-			id: "438B4DDF184CD641"
+			id: "BB2A5039707AF7BE"
 			x: 7.5d
 			y: -2.5d
 			size: 1.1d
@@ -354,25 +354,25 @@
 				"让整座工坊范围内的玩家获得飞行能力"
 			]
 			dependencies: [
-				"73394C7306B6710B"
+				"337C5C7EEEB08E0A"
 			]
 			tasks: [
 				{
-					id: "035F44961D95E4E2"
+					id: "E6ED53712C9E01F5"
 					type: "item"
 					item: "ars_nouveau:ritual_flight"
 				}
 			]
 			rewards: [
 				{
-					id: "31EF32E5A5961A55"
+					id: "7FD4EAA4142E0A1A"
 					type: "item"
 					item: "ars_nouveau:ritual_sunrise"
 				}
 			]
 		}
 		{
-			id: "EAFE55947712F04A"
+			id: "F262FAE00E2D8DB3"
 			x: -7.5d
 			y: 0.0d
 			size: 1.1d
@@ -384,25 +384,25 @@
 				"驱散黑夜，驱赶怪物与暴雨"
 			]
 			dependencies: [
-				"438B4DDF184CD641"
+				"BB2A5039707AF7BE"
 			]
 			tasks: [
 				{
-					id: "259F281DC5824E77"
+					id: "3201A0EDEA3B1D85"
 					type: "item"
 					item: "ars_nouveau:ritual_sunrise"
 				}
 			]
 			rewards: [
 				{
-					id: "0AA0CBCF5A0516AD"
+					id: "5D72D5CEF40FEF0A"
 					type: "item"
 					item: "ars_nouveau:ritual_moonfall"
 				}
 			]
 		}
 		{
-			id: "FDFAB9A3B958D9C9"
+			id: "C91849F432BD23CD"
 			x: -4.5d
 			y: 0.0d
 			size: 1.1d
@@ -414,18 +414,18 @@
 				"召唤黑夜与流星雨事件"
 			]
 			dependencies: [
-				"EAFE55947712F04A"
+				"F262FAE00E2D8DB3"
 			]
 			tasks: [
 				{
-					id: "04A818F77A538D32"
+					id: "215A593A9873A2A3"
 					type: "item"
 					item: "ars_nouveau:ritual_moonfall"
 				}
 			]
 			rewards: [
 				{
-					id: "0BB7901BD0E38740"
+					id: "BEF975FC8CF07CA9"
 					type: "item"
 					item: "ars_nouveau:source_gem"
 					count: 32
@@ -433,7 +433,7 @@
 			]
 		}
 		{
-			id: "BF219CA12E7F2A1F"
+			id: "A1FB7825A33E4915"
 			x: -1.5d
 			y: 0.0d
 			size: 1.1d
@@ -445,25 +445,25 @@
 				"掌握天下所有符文法术，屹立于魔艺之巅！"
 			]
 			dependencies: [
-				"FDFAB9A3B958D9C9"
+				"C91849F432BD23CD"
 			]
 			tasks: [
 				{
-					id: "C94CF752A641EDB3"
+					id: "764CB25A3D3AF710"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "46603C24AE414996"
+					id: "96A08AD7856AE337"
 					type: "item"
 					item: "ars_nouveau:creative_source_jar"
 				}
 			]
 		}
 		{
-			id: "916A288DA269965D"
+			id: "FB7A0DBAD828527A"
 			x: 1.5d
 			y: 0.0d
 			size: 1.1d
@@ -475,25 +475,25 @@
 				"从天而降强力雷击"
 			]
 			dependencies: [
-				"BF219CA12E7F2A1F"
+				"A1FB7825A33E4915"
 			]
 			tasks: [
 				{
-					id: "4FD6BFB19BFDB5C1"
+					id: "A04B214B2583A0FB"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "59CB7CC067BF62F3"
+					id: "FB2EAF1F1B206042"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "4589D387BEC3E221"
+			id: "31D4F4CA62D75DBB"
 			x: 4.5d
 			y: 0.0d
 			size: 1.1d
@@ -505,25 +505,25 @@
 				"冰冻目标并制造冰块"
 			]
 			dependencies: [
-				"916A288DA269965D"
+				"FB7A0DBAD828527A"
 			]
 			tasks: [
 				{
-					id: "8FF98D4F44F4F8A7"
+					id: "2E6C74982BC50BCA"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "DFD3162AF4C3776F"
+					id: "F6E939135855CB95"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "2444A3DB3D657911"
+			id: "3858D5542603695D"
 			x: 7.5d
 			y: 0.0d
 			size: 1.1d
@@ -535,25 +535,25 @@
 				"提供强力向上弹跳避险"
 			]
 			dependencies: [
-				"4589D387BEC3E221"
+				"31D4F4CA62D75DBB"
 			]
 			tasks: [
 				{
-					id: "1B801D8E7F2BCC78"
+					id: "2D0C2B17BCE887A5"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "6DCFBD8243C22317"
+					id: "5CDFC6B96A45C52E"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "B2ECA4FCA9315190"
+			id: "185529284DF74EE7"
 			x: -7.5d
 			y: 2.5d
 			size: 1.1d
@@ -565,25 +565,25 @@
 				"无视坠落伤害平稳着陆"
 			]
 			dependencies: [
-				"2444A3DB3D657911"
+				"3858D5542603695D"
 			]
 			tasks: [
 				{
-					id: "93623F756E20A203"
+					id: "7F60345E38C39185"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "8615A3A9CA42B51A"
+					id: "4492BF9A6B880AE5"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "D27D29240B14A496"
+			id: "E9195C1B03C33B49"
 			x: -4.5d
 			y: 2.5d
 			size: 1.1d
@@ -595,25 +595,25 @@
 				"向前高程位移突进"
 			]
 			dependencies: [
-				"B2ECA4FCA9315190"
+				"185529284DF74EE7"
 			]
 			tasks: [
 				{
-					id: "07F2F6358C4CB91E"
+					id: "BB42F1AD461F7960"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "D04B26C2AEED2B7B"
+					id: "2A4CCD7966802CB9"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "1EEC5741AE525367"
+			id: "BD4DD913A438E0D0"
 			x: -1.5d
 			y: 2.5d
 			size: 1.1d
@@ -625,25 +625,25 @@
 				"穿墙与无视障碍闪现"
 			]
 			dependencies: [
-				"D27D29240B14A496"
+				"E9195C1B03C33B49"
 			]
 			tasks: [
 				{
-					id: "C175351D52F8CB38"
+					id: "A94438A8792DA93D"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "847DA042C8308C6C"
+					id: "C303D9B98229BED7"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "0DDDCFC2B876172A"
+			id: "096185C7AE96087E"
 			x: 1.5d
 			y: 2.5d
 			size: 1.1d
@@ -655,25 +655,25 @@
 				"避开敌对生物仇恨潜行"
 			]
 			dependencies: [
-				"1EEC5741AE525367"
+				"BD4DD913A438E0D0"
 			]
 			tasks: [
 				{
-					id: "558C373383D4B4F7"
+					id: "4D9128125C60E799"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "395C5CDAADE73678"
+					id: "BCADC741E11F43C2"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "4518EA688E95B5AD"
+			id: "606C70F540131490"
 			x: 4.5d
 			y: 2.5d
 			size: 1.1d
@@ -685,25 +685,25 @@
 				"高切削力的物理风刃风暴"
 			]
 			dependencies: [
-				"0DDDCFC2B876172A"
+				"096185C7AE96087E"
 			]
 			tasks: [
 				{
-					id: "E6B1D9A0DBB185A0"
+					id: "3813533C073791D7"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "4C1ECEC973FECA22"
+					id: "974F2CB157C11895"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "4CCA6BC687DD982B"
+			id: "47121DEAD01DA683"
 			x: 7.5d
 			y: 2.5d
 			size: 1.1d
@@ -715,25 +715,25 @@
 				"范围魔法大爆炸"
 			]
 			dependencies: [
-				"4518EA688E95B5AD"
+				"606C70F540131490"
 			]
 			tasks: [
 				{
-					id: "9C5B4CE23BC32173"
+					id: "908580FD8F057FE8"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "666A68DDFC3DAEBA"
+					id: "5B3937A28AC806E4"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "511E42533A5FB428"
+			id: "19A28D7E5C69EBC3"
 			x: -7.5d
 			y: 5.0d
 			size: 1.1d
@@ -745,25 +745,25 @@
 				"随时召唤高速幻影战马"
 			]
 			dependencies: [
-				"4CCA6BC687DD982B"
+				"47121DEAD01DA683"
 			]
 			tasks: [
 				{
-					id: "9315F45D74328154"
+					id: "17BDFBA88F24E6AC"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "D176574AD74A73D7"
+					id: "FBB56A7D2FF300B5"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "B7DD2C24C2CE76BE"
+			id: "7F6B2D1D3C6EA993"
 			x: -4.5d
 			y: 5.0d
 			size: 1.1d
@@ -775,25 +775,25 @@
 				"召唤魔法狼群协助战斗"
 			]
 			dependencies: [
-				"511E42533A5FB428"
+				"19A28D7E5C69EBC3"
 			]
 			tasks: [
 				{
-					id: "246D70F484A3C6EF"
+					id: "AD8D503F68FD382D"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "9D0E94E948C3DF08"
+					id: "2AED81D94600F140"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "1FFAAE8D1C2AA2BE"
+			id: "B31017FD07B49ABE"
 			x: -1.5d
 			y: 5.0d
 			size: 1.1d
@@ -805,18 +805,18 @@
 				"全队赋予漂浮羽落状态"
 			]
 			dependencies: [
-				"B7DD2C24C2CE76BE"
+				"7F6B2D1D3C6EA993"
 			]
 			tasks: [
 				{
-					id: "2D87D4F31283FAD2"
+					id: "7796E60ABDB2F4EB"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "E3C735D95FFD54E2"
+					id: "7FAC7711E44C6087"
 					type: "item"
 					item: "ars_nouveau:source_gem"
 					count: 32
@@ -824,7 +824,7 @@
 			]
 		}
 		{
-			id: "E8B154E308493808"
+			id: "409C81F76D3D6E1E"
 			x: 1.5d
 			y: 5.0d
 			size: 1.1d
@@ -836,18 +836,18 @@
 				"将弹射+高爆+治愈融合为一体施放"
 			]
 			dependencies: [
-				"1FFAAE8D1C2AA2BE"
+				"B31017FD07B49ABE"
 			]
 			tasks: [
 				{
-					id: "5DE6CCF980DABD9F"
+					id: "60E9F1210D14DFD1"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "34B07CB8B82DD978"
+					id: "0677A091312C02A2"
 					type: "item"
 					item: "ars_nouveau:source_gem_block"
 					count: 2
@@ -855,7 +855,7 @@
 			]
 		}
 		{
-			id: "19E890F2C40812F3"
+			id: "95E673FD7440CE2A"
 			x: 4.5d
 			y: 5.0d
 			size: 1.1d
@@ -867,25 +867,25 @@
 				"唤醒天地所有元素力量为己所用"
 			]
 			dependencies: [
-				"E8B154E308493808"
+				"409C81F76D3D6E1E"
 			]
 			tasks: [
 				{
-					id: "786E1D6363DB9D49"
+					id: "0F4558DE4FD066C5"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "7842C5F1EE3C6521"
+					id: "5EB7FD2007A11828"
 					type: "item"
 					item: "ars_nouveau:creative_source_jar"
 				}
 			]
 		}
 		{
-			id: "C4A563E440D9DC2E"
+			id: "C3429C9F6B48174E"
 			x: 7.5d
 			y: 5.0d
 			size: 1.1d
@@ -897,18 +897,18 @@
 				"登顶奥术之巅，万法归宗！"
 			]
 			dependencies: [
-				"19E890F2C40812F3"
+				"95E673FD7440CE2A"
 			]
 			tasks: [
 				{
-					id: "C3C1511FED1C82A8"
+					id: "304732A2D9C1D16E"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "90D4DFFC3BD61EF3"
+					id: "55068723A9D3C6F9"
 					type: "item"
 					item: "ars_nouveau:creative_source_jar"
 				}

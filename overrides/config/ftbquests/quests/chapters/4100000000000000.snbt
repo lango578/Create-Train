@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "2947BECFC1200FFC"
+			id: "849B0316E61C90B2"
 			x: -7.5d
 			y: -5.0d
 			size: 1.4d
@@ -22,21 +22,21 @@
 			]
 			tasks: [
 				{
-					id: "BFA05872F623F8CB"
+					id: "D36867AD94A8F526"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "F858B7EF2F9172AC"
+					id: "4E9478D4EBA17A05"
 					type: "item"
 					item: "create:schematic_and_quill"
 				}
 			]
 		}
 		{
-			id: "731D86AD307E5EB1"
+			id: "A26C5A1441F8EF7C"
 			x: -4.5d
 			y: -5.0d
 			size: 1.1d
@@ -48,18 +48,18 @@
 				"框选保存自定义建筑结构"
 			]
 			dependencies: [
-				"2947BECFC1200FFC"
+				"849B0316E61C90B2"
 			]
 			tasks: [
 				{
-					id: "5A07B5286546CB0C"
+					id: "032D0070FBD1DA3D"
 					type: "item"
 					item: "create:schematic_and_quill"
 				}
 			]
 			rewards: [
 				{
-					id: "31F704D13D9652DE"
+					id: "0FA1415E0A39683B"
 					type: "item"
 					item: "minecraft:dirt"
 				}

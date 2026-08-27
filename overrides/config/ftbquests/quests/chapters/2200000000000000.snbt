@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "F0C3FA162FB392B3"
+			id: "E83A5A1E1F8D0623"
 			x: -7.5d
 			y: -5.0d
 			size: 1.4d
@@ -22,14 +22,14 @@
 			]
 			tasks: [
 				{
-					id: "03939F7FAAE59E93"
+					id: "F59270316C0790D4"
 					type: "item"
 					item: "create_new_age:generator_coil"
 				}
 			]
 			rewards: [
 				{
-					id: "95DA17BDC0492397"
+					id: "C531E8738DC3FF77"
 					type: "item"
 					item: "create_new_age:copper_wire"
 					count: 16
@@ -37,7 +37,7 @@
 			]
 		}
 		{
-			id: "58B519DC348A20D7"
+			id: "5FD1B704314881BB"
 			x: -4.5d
 			y: -5.0d
 			size: 1.1d
@@ -49,11 +49,11 @@
 				"连接发电机与用电设备"
 			]
 			dependencies: [
-				"F0C3FA162FB392B3"
+				"E83A5A1E1F8D0623"
 			]
 			tasks: [
 				{
-					id: "E25A529855DE4F27"
+					id: "373A21BF3DBB6025"
 					type: "item"
 					item: "create_new_age:copper_wire"
 					count: 16L
@@ -61,7 +61,7 @@
 			]
 			rewards: [
 				{
-					id: "E2DB7EB052176090"
+					id: "3A3C084653F03EE2"
 					type: "item"
 					item: "create_new_age:electrical_connector"
 					count: 4
@@ -69,7 +69,7 @@
 			]
 		}
 		{
-			id: "6DA36A72D4EE24C8"
+			id: "B958AAC7A070990F"
 			x: -1.5d
 			y: -5.0d
 			size: 1.1d
@@ -81,11 +81,11 @@
 				"导线引出与高压节点"
 			]
 			dependencies: [
-				"58B519DC348A20D7"
+				"5FD1B704314881BB"
 			]
 			tasks: [
 				{
-					id: "47603ADF4FDE9810"
+					id: "7CAA7754F879AC46"
 					type: "item"
 					item: "create_new_age:electrical_connector"
 					count: 4L
@@ -93,14 +93,14 @@
 			]
 			rewards: [
 				{
-					id: "617CAB5CCB428017"
+					id: "164AD8F7A60FBB8B"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "166DB1C83011FA49"
+			id: "46254863A7C1FEDB"
 			x: 1.5d
 			y: -5.0d
 			size: 1.1d
@@ -112,18 +112,18 @@
 				"给高阶铁块与闪魂充能"
 			]
 			dependencies: [
-				"6DA36A72D4EE24C8"
+				"B958AAC7A070990F"
 			]
 			tasks: [
 				{
-					id: "FB4F8C18861D6564"
+					id: "2F29B8F45C3A4042"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "034351BFA55203BF"
+					id: "409CB8345E4F482C"
 					type: "item"
 					item: "create_new_age:overcharged_iron"
 					count: 8
@@ -131,7 +131,7 @@
 			]
 		}
 		{
-			id: "9F42B59D0DC82E78"
+			id: "C7AD5EC12017C603"
 			x: 4.5d
 			y: -5.0d
 			size: 1.1d
@@ -143,11 +143,11 @@
 				"制作高阶电机与电磁铁"
 			]
 			dependencies: [
-				"166DB1C83011FA49"
+				"46254863A7C1FEDB"
 			]
 			tasks: [
 				{
-					id: "651688FD84F280E3"
+					id: "A830D5CC8ABDA0B7"
 					type: "item"
 					item: "create_new_age:overcharged_iron"
 					count: 8L
@@ -155,14 +155,14 @@
 			]
 			rewards: [
 				{
-					id: "48B338FD94FBD1EC"
+					id: "E7298629E5D81F57"
 					type: "item"
 					item: "create_new_age:basic_motor"
 				}
 			]
 		}
 		{
-			id: "4A5A0E969A7D2248"
+			id: "CF501C69583BFA04"
 			x: 7.5d
 			y: -5.0d
 			size: 1.1d
@@ -174,18 +174,18 @@
 				"将电能无缝逆向转化为旋转力"
 			]
 			dependencies: [
-				"9F42B59D0DC82E78"
+				"C7AD5EC12017C603"
 			]
 			tasks: [
 				{
-					id: "27E4C216E3059A10"
+					id: "AA96C2D1CE420385"
 					type: "item"
 					item: "create_new_age:basic_motor"
 				}
 			]
 			rewards: [
 				{
-					id: "9FB4E572C74972D6"
+					id: "EBB7A79CB191F0C0"
 					type: "item"
 					item: "create:display_board"
 					count: 4
@@ -193,7 +193,7 @@
 			]
 		}
 		{
-			id: "A7BBC047D700A6EA"
+			id: "136A74874247BBB0"
 			x: -7.5d
 			y: -2.5d
 			size: 1.1d
@@ -205,11 +205,11 @@
 				"显示电网负荷与电压数"
 			]
 			dependencies: [
-				"4A5A0E969A7D2248"
+				"CF501C69583BFA04"
 			]
 			tasks: [
 				{
-					id: "4C66D1E6A4FE0362"
+					id: "0840A9003B5A957D"
 					type: "item"
 					item: "create:display_board"
 					count: 4L
@@ -217,7 +217,7 @@
 			]
 			rewards: [
 				{
-					id: "F9CD7C2150A77A8C"
+					id: "C44D08AC48A030C2"
 					type: "item"
 					item: "create:nixie_tube"
 					count: 4
@@ -225,7 +225,7 @@
 			]
 		}
 		{
-			id: "8FFD15F3D10EDA04"
+			id: "30F7E2DD2B1A058C"
 			x: -4.5d
 			y: -2.5d
 			size: 1.1d
@@ -237,11 +237,11 @@
 				"复古发光数码管显示器"
 			]
 			dependencies: [
-				"A7BBC047D700A6EA"
+				"136A74874247BBB0"
 			]
 			tasks: [
 				{
-					id: "DAF5F89631C94B20"
+					id: "DC57059C50CBCAB6"
 					type: "item"
 					item: "create:nixie_tube"
 					count: 4L
@@ -249,7 +249,7 @@
 			]
 			rewards: [
 				{
-					id: "A355074DC417ECD0"
+					id: "915AA21B28BFBD57"
 					type: "item"
 					item: "create:redstone_link"
 					count: 2
@@ -257,7 +257,7 @@
 			]
 		}
 		{
-			id: "FEC3EDBA79B5EEA6"
+			id: "0A70C6F0CCDFDBE8"
 			x: -1.5d
 			y: -2.5d
 			size: 1.1d
@@ -269,11 +269,11 @@
 				"跨空间无线控制开关"
 			]
 			dependencies: [
-				"8FFD15F3D10EDA04"
+				"30F7E2DD2B1A058C"
 			]
 			tasks: [
 				{
-					id: "61399ADB8042218F"
+					id: "1129DCE357FAC995"
 					type: "item"
 					item: "create:redstone_link"
 					count: 2L
@@ -281,14 +281,14 @@
 			]
 			rewards: [
 				{
-					id: "5A83BC7146A84EC3"
+					id: "972FCC215F006D83"
 					type: "item"
 					item: "create:pulse_repeater"
 				}
 			]
 		}
 		{
-			id: "704A284D6D6F3400"
+			id: "BF598029B05FAB55"
 			x: 1.5d
 			y: -2.5d
 			size: 1.1d
@@ -300,25 +300,25 @@
 				"单次短暂脉冲转换器"
 			]
 			dependencies: [
-				"FEC3EDBA79B5EEA6"
+				"0A70C6F0CCDFDBE8"
 			]
 			tasks: [
 				{
-					id: "61B86CB431D2E411"
+					id: "463E84FCFBDAB6C6"
 					type: "item"
 					item: "create:pulse_repeater"
 				}
 			]
 			rewards: [
 				{
-					id: "A872F704CCFC09E8"
+					id: "DBF705005B36CE0D"
 					type: "item"
 					item: "create:powered_latch"
 				}
 			]
 		}
 		{
-			id: "18CD3292F7371AE5"
+			id: "029E2292D5E76F77"
 			x: 4.5d
 			y: -2.5d
 			size: 1.1d
@@ -330,25 +330,25 @@
 				"保持高电平的开关电路"
 			]
 			dependencies: [
-				"704A284D6D6F3400"
+				"BF598029B05FAB55"
 			]
 			tasks: [
 				{
-					id: "DB1A3D179F653120"
+					id: "C89F55A9E764CA90"
 					type: "item"
 					item: "create:powered_latch"
 				}
 			]
 			rewards: [
 				{
-					id: "651409C693865AAD"
+					id: "BF5633E431C36604"
 					type: "item"
 					item: "create:powered_toggle_latch"
 				}
 			]
 		}
 		{
-			id: "51D9A71F0457355F"
+			id: "3C47B0D1017CFAE4"
 			x: 7.5d
 			y: -2.5d
 			size: 1.1d
@@ -360,25 +360,25 @@
 				"按钮变开关的逻辑单元"
 			]
 			dependencies: [
-				"18CD3292F7371AE5"
+				"029E2292D5E76F77"
 			]
 			tasks: [
 				{
-					id: "13FE039A348B4291"
+					id: "71D9660D8A63B6CB"
 					type: "item"
 					item: "create:powered_toggle_latch"
 				}
 			]
 			rewards: [
 				{
-					id: "0690E810DF1B64EB"
+					id: "C0F24ACEBB0F3BED"
 					type: "item"
 					item: "create:stockpile_switch"
 				}
 			]
 		}
 		{
-			id: "9AAF16DE5F7D958C"
+			id: "36C1BF129BA4072D"
 			x: -7.5d
 			y: 0.0d
 			size: 1.1d
@@ -390,25 +390,25 @@
 				"监测容器储量阈值自动断电"
 			]
 			dependencies: [
-				"51D9A71F0457355F"
+				"3C47B0D1017CFAE4"
 			]
 			tasks: [
 				{
-					id: "DBFB0ACC75116C32"
+					id: "929294E24A4800BD"
 					type: "item"
 					item: "create:stockpile_switch"
 				}
 			]
 			rewards: [
 				{
-					id: "3AED7BBB26021D81"
+					id: "BCF77A6960559024"
 					type: "item"
 					item: "create:content_observer"
 				}
 			]
 		}
 		{
-			id: "B07835E6917AE897"
+			id: "5297831EEEDE4582"
 			x: -4.5d
 			y: 0.0d
 			size: 1.1d
@@ -420,18 +420,18 @@
 				"监测管道与传送带物品流动"
 			]
 			dependencies: [
-				"9AAF16DE5F7D958C"
+				"36C1BF129BA4072D"
 			]
 			tasks: [
 				{
-					id: "FC1BCA26EC666284"
+					id: "A615B754B843DEE3"
 					type: "item"
 					item: "create:content_observer"
 				}
 			]
 			rewards: [
 				{
-					id: "04F59FC6C0A10FA3"
+					id: "ACAC4D9581851371"
 					type: "item"
 					item: "createbigcannons:solid_shot"
 					count: 4
@@ -439,7 +439,7 @@
 			]
 		}
 		{
-			id: "5AC07A86A66FA6B2"
+			id: "5C26583A7C5735FE"
 			x: -1.5d
 			y: 0.0d
 			size: 1.1d
@@ -451,18 +451,18 @@
 				"电网全自动化调控与防过载！"
 			]
 			dependencies: [
-				"B07835E6917AE897"
+				"5297831EEEDE4582"
 			]
 			tasks: [
 				{
-					id: "6C8B0A0EC0957627"
+					id: "C2C44AF36352D9BC"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "67F1E8F0E8764E0A"
+					id: "B20DCA13F6B15D50"
 					type: "item"
 					item: "minecraft:dirt"
 					count: 16
@@ -470,7 +470,7 @@
 			]
 		}
 		{
-			id: "835C656A3F65DB54"
+			id: "9B3A7BA5A64AE6AB"
 			x: 1.5d
 			y: 0.0d
 			size: 1.1d
@@ -482,11 +482,11 @@
 				"转换稳定电流供给高阶电子"
 			]
 			dependencies: [
-				"5AC07A86A66FA6B2"
+				"5C26583A7C5735FE"
 			]
 			tasks: [
 				{
-					id: "A17CAA47CBC5A930"
+					id: "C8EA702066FDECC5"
 					type: "item"
 					item: "create_new_age:electrical_connector"
 					count: 2L
@@ -494,7 +494,7 @@
 			]
 			rewards: [
 				{
-					id: "297744C17E5C66C3"
+					id: "90E3D30E87C28B14"
 					type: "item"
 					item: "create_new_age:overcharged_iron"
 					count: 4
@@ -502,7 +502,7 @@
 			]
 		}
 		{
-			id: "9C6126BC9DF22115"
+			id: "7F049D7D8BF6E1CE"
 			x: 4.5d
 			y: 0.0d
 			size: 1.1d
@@ -514,11 +514,11 @@
 				"超远距离电能无损传输"
 			]
 			dependencies: [
-				"835C656A3F65DB54"
+				"9B3A7BA5A64AE6AB"
 			]
 			tasks: [
 				{
-					id: "416476BC54979FF0"
+					id: "AEAB1122E5DF74C0"
 					type: "item"
 					item: "create_new_age:copper_wire"
 					count: 32L
@@ -526,14 +526,14 @@
 			]
 			rewards: [
 				{
-					id: "B2B30E1044B1E4F1"
+					id: "68E41FA04A4B50F6"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "04AEBA30062BFF04"
+			id: "7A5377B7C20AD6BC"
 			x: 7.5d
 			y: 0.0d
 			size: 1.1d
@@ -545,18 +545,18 @@
 				"更高功率的电能充能灌注"
 			]
 			dependencies: [
-				"9C6126BC9DF22115"
+				"7F049D7D8BF6E1CE"
 			]
 			tasks: [
 				{
-					id: "FCB38C7493925644"
+					id: "1E915ED4EF507B70"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "FC0327980BBF5DD8"
+					id: "C02E89871575809B"
 					type: "item"
 					item: "create_new_age:overcharged_iron"
 					count: 8
@@ -564,7 +564,7 @@
 			]
 		}
 		{
-			id: "2A8EC55FE2FECE7B"
+			id: "05A4BF96CED6AEAF"
 			x: -7.5d
 			y: 2.5d
 			size: 1.1d
@@ -576,11 +576,11 @@
 				"产生强磁场吸附与悬浮"
 			]
 			dependencies: [
-				"04AEBA30062BFF04"
+				"7A5377B7C20AD6BC"
 			]
 			tasks: [
 				{
-					id: "94A8D5382871C3E3"
+					id: "B3F3D83A80208516"
 					type: "item"
 					item: "create_new_age:overcharged_iron"
 					count: 4L
@@ -588,7 +588,7 @@
 			]
 			rewards: [
 				{
-					id: "899925A4A50388D4"
+					id: "981B67B691BBAA9F"
 					type: "item"
 					item: "create_new_age:basic_motor"
 					count: 2
@@ -596,7 +596,7 @@
 			]
 		}
 		{
-			id: "EEC841C80460120B"
+			id: "8C87666EFFFB40C1"
 			x: -4.5d
 			y: 2.5d
 			size: 1.1d
@@ -608,18 +608,18 @@
 				"提供 256 RPM 满速旋转动力"
 			]
 			dependencies: [
-				"2A8EC55FE2FECE7B"
+				"05A4BF96CED6AEAF"
 			]
 			tasks: [
 				{
-					id: "F00BCD787FE667A4"
+					id: "FC2F0E3BD9AC8EF4"
 					type: "item"
 					item: "create_new_age:basic_motor"
 				}
 			]
 			rewards: [
 				{
-					id: "4AC07033BA994718"
+					id: "E0C4BF3D5BBF65D4"
 					type: "item"
 					item: "create:display_board"
 					count: 8
@@ -627,7 +627,7 @@
 			]
 		}
 		{
-			id: "614A4FE941AC9F08"
+			id: "A0DCD5E3424B9417"
 			x: -1.5d
 			y: 2.5d
 			size: 1.1d
@@ -639,11 +639,11 @@
 				"拼合大型机场航班式大屏"
 			]
 			dependencies: [
-				"EEC841C80460120B"
+				"8C87666EFFFB40C1"
 			]
 			tasks: [
 				{
-					id: "37F0C01CBA7703DF"
+					id: "A46C9DB318712826"
 					type: "item"
 					item: "create:display_board"
 					count: 8L
@@ -651,7 +651,7 @@
 			]
 			rewards: [
 				{
-					id: "7807BA380CCD28B5"
+					id: "4DEB7AA1CA51F600"
 					type: "item"
 					item: "create:nixie_tube"
 					count: 8
@@ -659,7 +659,7 @@
 			]
 		}
 		{
-			id: "4CC1774B7B228C43"
+			id: "C5A1EAD2BFC776CD"
 			x: 1.5d
 			y: 2.5d
 			size: 1.1d
@@ -671,11 +671,11 @@
 				"工业仪表盘实时数码显示"
 			]
 			dependencies: [
-				"614A4FE941AC9F08"
+				"A0DCD5E3424B9417"
 			]
 			tasks: [
 				{
-					id: "809B55120A06E7A6"
+					id: "E70C1354953B2EE0"
 					type: "item"
 					item: "create:nixie_tube"
 					count: 8L
@@ -683,7 +683,7 @@
 			]
 			rewards: [
 				{
-					id: "7FAFA20E10B26436"
+					id: "F424B3AC98F5DBE0"
 					type: "item"
 					item: "create:redstone_link"
 					count: 4
@@ -691,7 +691,7 @@
 			]
 		}
 		{
-			id: "9F934AE8E8E5DC8D"
+			id: "F85A101FDF55BEEE"
 			x: 4.5d
 			y: 2.5d
 			size: 1.1d
@@ -703,11 +703,11 @@
 				"多频段独立控制工厂各车间"
 			]
 			dependencies: [
-				"4CC1774B7B228C43"
+				"C5A1EAD2BFC776CD"
 			]
 			tasks: [
 				{
-					id: "D94FA224A4A81F88"
+					id: "BD836AC4301034F3"
 					type: "item"
 					item: "create:redstone_link"
 					count: 4L
@@ -715,7 +715,7 @@
 			]
 			rewards: [
 				{
-					id: "CCACEE641E36B12C"
+					id: "6DC642E0CAC7D810"
 					type: "item"
 					item: "create:pulse_repeater"
 					count: 2
@@ -723,7 +723,7 @@
 			]
 		}
 		{
-			id: "519EAE92D65A5229"
+			id: "7D9C85F36114FACD"
 			x: 7.5d
 			y: 2.5d
 			size: 1.1d
@@ -735,11 +735,11 @@
 				"精准毫秒级电路时序控制"
 			]
 			dependencies: [
-				"9F934AE8E8E5DC8D"
+				"F85A101FDF55BEEE"
 			]
 			tasks: [
 				{
-					id: "A6005B704035775A"
+					id: "A6D55302A509CAF5"
 					type: "item"
 					item: "create:pulse_repeater"
 					count: 2L
@@ -747,7 +747,7 @@
 			]
 			rewards: [
 				{
-					id: "E94327B51669E1B7"
+					id: "0D2D65F0F9F30FDA"
 					type: "item"
 					item: "create:powered_latch"
 					count: 2
@@ -755,7 +755,7 @@
 			]
 		}
 		{
-			id: "C65E3D706B3A7448"
+			id: "90DFC78701358FE5"
 			x: -7.5d
 			y: 5.0d
 			size: 1.1d
@@ -767,11 +767,11 @@
 				"组合复杂红石自动化逻辑"
 			]
 			dependencies: [
-				"519EAE92D65A5229"
+				"7D9C85F36114FACD"
 			]
 			tasks: [
 				{
-					id: "1B59729D20CFB4CE"
+					id: "6344C78322B23D69"
 					type: "item"
 					item: "create:powered_latch"
 					count: 2L
@@ -779,7 +779,7 @@
 			]
 			rewards: [
 				{
-					id: "6A731A969E8333C3"
+					id: "6320DC49518BEE3E"
 					type: "item"
 					item: "create:powered_toggle_latch"
 					count: 2
@@ -787,7 +787,7 @@
 			]
 		}
 		{
-			id: "FCAE7CF47E04498F"
+			id: "CA14FE5426028598"
 			x: -4.5d
 			y: 5.0d
 			size: 1.1d
@@ -799,11 +799,11 @@
 				"危险状态红石声光警报"
 			]
 			dependencies: [
-				"C65E3D706B3A7448"
+				"90DFC78701358FE5"
 			]
 			tasks: [
 				{
-					id: "08D24590F4D7DA8E"
+					id: "CC22653305A2A418"
 					type: "item"
 					item: "create:powered_toggle_latch"
 					count: 2L
@@ -811,7 +811,7 @@
 			]
 			rewards: [
 				{
-					id: "4DAD950096244FA7"
+					id: "496970C880D113DD"
 					type: "item"
 					item: "create:stockpile_switch"
 					count: 2
@@ -819,7 +819,7 @@
 			]
 		}
 		{
-			id: "425BE3BB74DF2B72"
+			id: "D64BEC4FE1A83AEF"
 			x: -1.5d
 			y: 5.0d
 			size: 1.1d
@@ -831,11 +831,11 @@
 				"油箱加满自动切断抽油泵"
 			]
 			dependencies: [
-				"FCAE7CF47E04498F"
+				"CA14FE5426028598"
 			]
 			tasks: [
 				{
-					id: "16A4F1A34C14D4D6"
+					id: "664C4F174AA60FC3"
 					type: "item"
 					item: "create:stockpile_switch"
 					count: 2L
@@ -843,7 +843,7 @@
 			]
 			rewards: [
 				{
-					id: "68A4E80C92C3A310"
+					id: "9BF8C64103792D08"
 					type: "item"
 					item: "create:content_observer"
 					count: 2
@@ -851,7 +851,7 @@
 			]
 		}
 		{
-			id: "4F3B903F8F60CC0D"
+			id: "3365C075A30B99C6"
 			x: 1.5d
 			y: 5.0d
 			size: 1.1d
@@ -863,11 +863,11 @@
 				"统计生产线上通过的成品数"
 			]
 			dependencies: [
-				"425BE3BB74DF2B72"
+				"D64BEC4FE1A83AEF"
 			]
 			tasks: [
 				{
-					id: "BA57572FEB0371D1"
+					id: "18300DC1E573A9DD"
 					type: "item"
 					item: "create:content_observer"
 					count: 2L
@@ -875,7 +875,7 @@
 			]
 			rewards: [
 				{
-					id: "08B76C6AB5DADE42"
+					id: "C6395864F9ED3B1A"
 					type: "item"
 					item: "create:display_link"
 					count: 2
@@ -883,7 +883,7 @@
 			]
 		}
 		{
-			id: "01DEAB38C721AAB4"
+			id: "18088730B9527E88"
 			x: 4.5d
 			y: 5.0d
 			size: 1.1d
@@ -895,11 +895,11 @@
 				"汇总所有传感器信息至大屏"
 			]
 			dependencies: [
-				"4F3B903F8F60CC0D"
+				"3365C075A30B99C6"
 			]
 			tasks: [
 				{
-					id: "1DED500C0224D33E"
+					id: "5681ECBC86EC20A0"
 					type: "item"
 					item: "create:display_link"
 					count: 2L
@@ -907,7 +907,7 @@
 			]
 			rewards: [
 				{
-					id: "1A44DCE063A99368"
+					id: "067D18512BAED0A4"
 					type: "item"
 					item: "create_new_age:generator_coil"
 					count: 2
@@ -915,7 +915,7 @@
 			]
 		}
 		{
-			id: "4AAA6C3CE6C9713B"
+			id: "549E025C037212E7"
 			x: 7.5d
 			y: 5.0d
 			size: 1.1d
@@ -927,18 +927,18 @@
 				"数字化智能工厂，一键管控全厂动力与电网！"
 			]
 			dependencies: [
-				"01DEAB38C721AAB4"
+				"18088730B9527E88"
 			]
 			tasks: [
 				{
-					id: "CBFD8E2DEC3744FD"
+					id: "6315042C9BFAD73C"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "AC05F70CD516558B"
+					id: "AB884F39E646AC6F"
 					type: "item"
 					item: "minecraft:dirt"
 					count: 16

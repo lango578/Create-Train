@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "C31B3039604B0DE4"
+			id: "B84DB81CD13F1F45"
 			x: -7.5d
 			y: -5.0d
 			size: 1.4d
@@ -22,14 +22,14 @@
 			]
 			tasks: [
 				{
-					id: "7E8A19925672B3BE"
+					id: "A39327BF70D146C8"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "635AD73FCB657727"
+					id: "31D678CC43931261"
 					type: "item"
 					item: "minecraft:spruce_planks"
 					count: 32
@@ -37,7 +37,7 @@
 			]
 		}
 		{
-			id: "E7D0232F87CB47B3"
+			id: "D830552A55916889"
 			x: -4.5d
 			y: -5.0d
 			size: 1.1d
@@ -49,11 +49,11 @@
 				"制作轻质坚固机翼骨架"
 			]
 			dependencies: [
-				"C31B3039604B0DE4"
+				"B84DB81CD13F1F45"
 			]
 			tasks: [
 				{
-					id: "6E5F62A815DF9570"
+					id: "87AF50386FF64FC4"
 					type: "item"
 					item: "minecraft:spruce_planks"
 					count: 32L
@@ -61,7 +61,7 @@
 			]
 			rewards: [
 				{
-					id: "8260B50ED111BC36"
+					id: "F77AF5ABECE31485"
 					type: "item"
 					item: "farmersdelight:canvas"
 					count: 16
@@ -69,7 +69,7 @@
 			]
 		}
 		{
-			id: "D68C1E81789FFFB7"
+			id: "57156C58D22D6A45"
 			x: -1.5d
 			y: -5.0d
 			size: 1.1d
@@ -81,11 +81,11 @@
 				"张紧帆布形成空气动力抓升面"
 			]
 			dependencies: [
-				"E7D0232F87CB47B3"
+				"D830552A55916889"
 			]
 			tasks: [
 				{
-					id: "00AA1663F36110E6"
+					id: "760A2433E36F8668"
 					type: "item"
 					item: "farmersdelight:canvas"
 					count: 16L
@@ -93,7 +93,7 @@
 			]
 			rewards: [
 				{
-					id: "DA0F17BDAAF14409"
+					id: "CE027016E5EABE4E"
 					type: "item"
 					item: "immersive_aircraft:propeller"
 					count: 2
@@ -101,7 +101,7 @@
 			]
 		}
 		{
-			id: "E7E1F16D78260F6D"
+			id: "A23BE49DF4B6AA16"
 			x: 1.5d
 			y: -5.0d
 			size: 1.1d
@@ -113,11 +113,11 @@
 				"切削木质叶片产生前方拉力"
 			]
 			dependencies: [
-				"D68C1E81789FFFB7"
+				"57156C58D22D6A45"
 			]
 			tasks: [
 				{
-					id: "DF90774759DDDAD6"
+					id: "5EDF73816E97F8B0"
 					type: "item"
 					item: "immersive_aircraft:propeller"
 					count: 2L
@@ -125,14 +125,14 @@
 			]
 			rewards: [
 				{
-					id: "CCAAEFE5BABC039D"
+					id: "33425BB3EA1B4BC0"
 					type: "item"
 					item: "immersive_aircraft:boiler"
 				}
 			]
 		}
 		{
-			id: "FB192657DF32A2E9"
+			id: "24C0C8EDD11103AA"
 			x: 4.5d
 			y: -5.0d
 			size: 1.1d
@@ -144,25 +144,25 @@
 				"燃烧煤炭产生高压推力"
 			]
 			dependencies: [
-				"E7E1F16D78260F6D"
+				"A23BE49DF4B6AA16"
 			]
 			tasks: [
 				{
-					id: "F3F8A874FCFC7800"
+					id: "CA251FA03FB2CCAF"
 					type: "item"
 					item: "immersive_aircraft:boiler"
 				}
 			]
 			rewards: [
 				{
-					id: "8643138BB1D5D3F5"
+					id: "6E0E4475DAA30CC4"
 					type: "item"
 					item: "immersive_aircraft:engine"
 				}
 			]
 		}
 		{
-			id: "F9669180C4A19873"
+			id: "801D1CB8C211C87A"
 			x: 7.5d
 			y: -5.0d
 			size: 1.1d
@@ -174,25 +174,25 @@
 				"轻量化高马力飞行引擎"
 			]
 			dependencies: [
-				"FB192657DF32A2E9"
+				"24C0C8EDD11103AA"
 			]
 			tasks: [
 				{
-					id: "DB42AE8E7A832DC4"
+					id: "37CF0633247BB555"
 					type: "item"
 					item: "immersive_aircraft:engine"
 				}
 			]
 			rewards: [
 				{
-					id: "77978D354EF10420"
+					id: "F8E24B1D69E0EA96"
 					type: "item"
 					item: "immersive_aircraft:biplane"
 				}
 			]
 		}
 		{
-			id: "AF6C95C6DECA52F6"
+			id: "1AFCE67587448D1B"
 			x: -7.5d
 			y: -2.5d
 			size: 1.1d
@@ -204,25 +204,25 @@
 				"第一架可自由驾驶的双翼飞机"
 			]
 			dependencies: [
-				"F9669180C4A19873"
+				"801D1CB8C211C87A"
 			]
 			tasks: [
 				{
-					id: "1EC453DD3226C547"
+					id: "1303B13B1F03BD19"
 					type: "item"
 					item: "immersive_aircraft:biplane"
 				}
 			]
 			rewards: [
 				{
-					id: "50CB59C57F3B995F"
+					id: "F3A37B9680102A23"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "4FB441D8A68D672B"
+			id: "400DAECAFFA49DC2"
 			x: -4.5d
 			y: -2.5d
 			size: 1.1d
@@ -234,25 +234,25 @@
 				"无声热差驱动探索无人区"
 			]
 			dependencies: [
-				"AF6C95C6DECA52F6"
+				"1AFCE67587448D1B"
 			]
 			tasks: [
 				{
-					id: "488D5E925C06F929"
+					id: "F0EA71EECF145A63"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "C705AD4AB1E3C322"
+					id: "1A8EE3E5B229AD3F"
 					type: "item"
 					item: "immersive_aircraft:gyrodyne"
 				}
 			]
 		}
 		{
-			id: "20F027CE023CEA88"
+			id: "3348634EB7EA64A0"
 			x: -1.5d
 			y: -2.5d
 			size: 1.1d
@@ -264,25 +264,25 @@
 				"超小场地垂直起降旋翼机"
 			]
 			dependencies: [
-				"4FB441D8A68D672B"
+				"400DAECAFFA49DC2"
 			]
 			tasks: [
 				{
-					id: "FD2318E1532051EF"
+					id: "9D438DB013CFE5AB"
 					type: "item"
 					item: "immersive_aircraft:gyrodyne"
 				}
 			]
 			rewards: [
 				{
-					id: "01FA7AE19BAD084C"
+					id: "C9C673D63DCF63D9"
 					type: "item"
 					item: "immersive_aircraft:quadrocopter"
 				}
 			]
 		}
 		{
-			id: "BF2D96050D5E2BD6"
+			id: "1E01E2EE810644D1"
 			x: 1.5d
 			y: -2.5d
 			size: 1.1d
@@ -294,25 +294,25 @@
 				"极高稳定度的空中摄影与侦察机"
 			]
 			dependencies: [
-				"20F027CE023CEA88"
+				"3348634EB7EA64A0"
 			]
 			tasks: [
 				{
-					id: "6644B45FB3E5A46C"
+					id: "B6CBBF85A04196F8"
 					type: "item"
 					item: "immersive_aircraft:quadrocopter"
 				}
 			]
 			rewards: [
 				{
-					id: "B4D1D3C04F69D5FE"
+					id: "3224D08DA2D04D68"
 					type: "item"
 					item: "immersive_aircraft:airship"
 				}
 			]
 		}
 		{
-			id: "B6B102329C53D1F9"
+			id: "1590822882759CA3"
 			x: 4.5d
 			y: -2.5d
 			size: 1.1d
@@ -324,25 +324,25 @@
 				"充满氦气的平稳跨洲飞艇"
 			]
 			dependencies: [
-				"BF2D96050D5E2BD6"
+				"1E01E2EE810644D1"
 			]
 			tasks: [
 				{
-					id: "7A49C2CE5F6566AA"
+					id: "BC38AEA2765C5A99"
 					type: "item"
 					item: "immersive_aircraft:airship"
 				}
 			]
 			rewards: [
 				{
-					id: "54337D3F284BFFAF"
+					id: "AA833FB71D7D83CB"
 					type: "item"
 					item: "immersive_aircraft:cargo_airship"
 				}
 			]
 		}
 		{
-			id: "A1B74C0F5E27F018"
+			id: "A1AD44C91DC60E3B"
 			x: 7.5d
 			y: -2.5d
 			size: 1.1d
@@ -354,18 +354,18 @@
 				"大容量箱体空中运输飞艇"
 			]
 			dependencies: [
-				"B6B102329C53D1F9"
+				"1590822882759CA3"
 			]
 			tasks: [
 				{
-					id: "5BC7F667AD94B9B6"
+					id: "21785FD4DE5CE1F7"
 					type: "item"
 					item: "immersive_aircraft:cargo_airship"
 				}
 			]
 			rewards: [
 				{
-					id: "0BE8C305F054F4C7"
+					id: "8BC1B489AF5B4443"
 					type: "item"
 					item: "immersive_aircraft:propeller"
 					count: 4
@@ -373,7 +373,7 @@
 			]
 		}
 		{
-			id: "7CC7E71EBA3D4D6B"
+			id: "7BABF1034B43B14D"
 			x: -7.5d
 			y: 0.0d
 			size: 1.1d
@@ -385,11 +385,11 @@
 				"加装侧翼双发动机增加巡航速度"
 			]
 			dependencies: [
-				"A1B74C0F5E27F018"
+				"A1AD44C91DC60E3B"
 			]
 			tasks: [
 				{
-					id: "3F58C307F96B3DDD"
+					id: "FB8706022255EEB4"
 					type: "item"
 					item: "immersive_aircraft:propeller"
 					count: 4L
@@ -397,7 +397,7 @@
 			]
 			rewards: [
 				{
-					id: "312D6A478541341F"
+					id: "67485101B57061C3"
 					type: "item"
 					item: "create:brass_ingot"
 					count: 16
@@ -405,7 +405,7 @@
 			]
 		}
 		{
-			id: "059896E9AF816D2E"
+			id: "AB92596EDFAFD06B"
 			x: -4.5d
 			y: 0.0d
 			size: 1.1d
@@ -417,25 +417,25 @@
 				"高空防迷航与定位仪表"
 			]
 			dependencies: [
-				"7CC7E71EBA3D4D6B"
+				"7BABF1034B43B14D"
 			]
 			tasks: [
 				{
-					id: "8D8E844B91C7FC41"
+					id: "EA3D312D877BAECC"
 					type: "item"
 					item: "minecraft:compass"
 				}
 			]
 			rewards: [
 				{
-					id: "ECB6B753AF9A8E4B"
+					id: "D015022206819854"
 					type: "item"
 					item: "create:controls"
 				}
 			]
 		}
 		{
-			id: "CC62AA6A28DEA5E3"
+			id: "1351873A05CE0CE3"
 			x: -1.5d
 			y: 0.0d
 			size: 1.1d
@@ -447,25 +447,25 @@
 				"征服天空，俯瞰整片地形大地！"
 			]
 			dependencies: [
-				"059896E9AF816D2E"
+				"AB92596EDFAFD06B"
 			]
 			tasks: [
 				{
-					id: "3C262D27755D6D45"
+					id: "E5264878A3221292"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "AFD1C626B547916F"
+					id: "3F005D75502AB6EB"
 					type: "item"
 					item: "create:controls"
 				}
 			]
 		}
 		{
-			id: "3076C86AF2182D01"
+			id: "75E31024EC1E8832"
 			x: 1.5d
 			y: 0.0d
 			size: 1.1d
@@ -477,11 +477,11 @@
 				"高空跳伞保命安全伞"
 			]
 			dependencies: [
-				"CC62AA6A28DEA5E3"
+				"1351873A05CE0CE3"
 			]
 			tasks: [
 				{
-					id: "BD873FB2EAB8A76C"
+					id: "2D91CF4B51B6567A"
 					type: "item"
 					item: "farmersdelight:canvas"
 					count: 4L
@@ -489,7 +489,7 @@
 			]
 			rewards: [
 				{
-					id: "F5CC603770865225"
+					id: "F4D0CB8F4C85EA55"
 					type: "item"
 					item: "minecraft:leather"
 					count: 8
@@ -497,7 +497,7 @@
 			]
 		}
 		{
-			id: "7613A7D00DE32CE9"
+			id: "A990ED608DEF6E0B"
 			x: 4.5d
 			y: 0.0d
 			size: 1.1d
@@ -509,11 +509,11 @@
 				"增加续航飞行里程"
 			]
 			dependencies: [
-				"3076C86AF2182D01"
+				"75E31024EC1E8832"
 			]
 			tasks: [
 				{
-					id: "78DD829A0CD00868"
+					id: "4ABB10CDA6FABF60"
 					type: "item"
 					item: "create:fluid_tank"
 					count: 2L
@@ -521,14 +521,14 @@
 			]
 			rewards: [
 				{
-					id: "EFFC045BD4314751"
+					id: "3C95919DF27C6216"
 					type: "item"
 					item: "createdieselgenerators:gasoline_bucket"
 				}
 			]
 		}
 		{
-			id: "D6DE72297BF7DAB8"
+			id: "C6B9CF16C6AC19ED"
 			x: 7.5d
 			y: 0.0d
 			size: 1.1d
@@ -540,11 +540,11 @@
 				"夜间高空降落照明跑道"
 			]
 			dependencies: [
-				"7613A7D00DE32CE9"
+				"A990ED608DEF6E0B"
 			]
 			tasks: [
 				{
-					id: "D7DE5105D7AEDD64"
+					id: "617C75ED5F9077D9"
 					type: "item"
 					item: "minecraft:glowstone"
 					count: 4L
@@ -552,7 +552,7 @@
 			]
 			rewards: [
 				{
-					id: "05EF2EA7A766576C"
+					id: "9F5E387B7B1819DA"
 					type: "item"
 					item: "minecraft:redstone_lamp"
 					count: 4
@@ -560,7 +560,7 @@
 			]
 		}
 		{
-			id: "EDC460C8373051ED"
+			id: "E8A7FE8132D5931E"
 			x: -7.5d
 			y: 2.5d
 			size: 1.1d
@@ -572,11 +572,11 @@
 				"建造滑行起飞跑道"
 			]
 			dependencies: [
-				"D6DE72297BF7DAB8"
+				"C6B9CF16C6AC19ED"
 			]
 			tasks: [
 				{
-					id: "9E155274D3961746"
+					id: "C8921B40A56336E9"
 					type: "item"
 					item: "minecraft:smooth_stone"
 					count: 32L
@@ -584,7 +584,7 @@
 			]
 			rewards: [
 				{
-					id: "8AE951999D7B782B"
+					id: "2E0D0A7C0B6462A3"
 					type: "item"
 					item: "create:railway_casing"
 					count: 8
@@ -592,7 +592,7 @@
 			]
 		}
 		{
-			id: "6070F4BDFD084A65"
+			id: "C704810136309EE4"
 			x: -4.5d
 			y: 2.5d
 			size: 1.1d
@@ -604,11 +604,11 @@
 				"测定高空气流方向"
 			]
 			dependencies: [
-				"EDC460C8373051ED"
+				"E8A7FE8132D5931E"
 			]
 			tasks: [
 				{
-					id: "0F89620178B43B08"
+					id: "298B507424886510"
 					type: "item"
 					item: "minecraft:white_wool"
 					count: 8L
@@ -616,7 +616,7 @@
 			]
 			rewards: [
 				{
-					id: "22CC97C7FA1EB1C8"
+					id: "C946B15DC043DA9E"
 					type: "item"
 					item: "minecraft:feather"
 					count: 16
@@ -624,7 +624,7 @@
 			]
 		}
 		{
-			id: "CEF9F09F3CF886D1"
+			id: "E4337140D32FD253"
 			x: -1.5d
 			y: 2.5d
 			size: 1.1d
@@ -636,25 +636,25 @@
 				"抵抗万米高空极寒气流"
 			]
 			dependencies: [
-				"6070F4BDFD084A65"
+				"C704810136309EE4"
 			]
 			tasks: [
 				{
-					id: "CD95F2648A1E63E9"
+					id: "1E3E32939A6551EF"
 					type: "item"
 					item: "minecraft:leather_chestplate"
 				}
 			]
 			rewards: [
 				{
-					id: "EE7E014E418FD123"
+					id: "E4BA18B8EF70979D"
 					type: "item"
 					item: "minecraft:leather_helmet"
 				}
 			]
 		}
 		{
-			id: "478F0BA5A28177DC"
+			id: "F16F9FD8FE079E2E"
 			x: 1.5d
 			y: 2.5d
 			size: 1.1d
@@ -666,18 +666,18 @@
 				"挡风遮光视野清晰"
 			]
 			dependencies: [
-				"CEF9F09F3CF886D1"
+				"E4337140D32FD253"
 			]
 			tasks: [
 				{
-					id: "7F4C1792AAC0FCD6"
+					id: "F446D1605FD96B90"
 					type: "item"
 					item: "minecraft:leather_helmet"
 				}
 			]
 			rewards: [
 				{
-					id: "3CEFB3C80DA2CD4C"
+					id: "8877E265D3E8EED5"
 					type: "item"
 					item: "minecraft:gold_ingot"
 					count: 4
@@ -685,7 +685,7 @@
 			]
 		}
 		{
-			id: "E3CBEEFD2F65D3D7"
+			id: "EC6C440B3C24A051"
 			x: 4.5d
 			y: 2.5d
 			size: 1.1d
@@ -697,11 +697,11 @@
 				"基地与战机无线通话"
 			]
 			dependencies: [
-				"478F0BA5A28177DC"
+				"F16F9FD8FE079E2E"
 			]
 			tasks: [
 				{
-					id: "1D181C41878C143E"
+					id: "4E39EE2AC6CF6948"
 					type: "item"
 					item: "create:redstone_link"
 					count: 2L
@@ -709,7 +709,7 @@
 			]
 			rewards: [
 				{
-					id: "B72EED812A9C7B15"
+					id: "B76EFF719BBB5211"
 					type: "item"
 					item: "create:nixie_tube"
 					count: 2
@@ -717,7 +717,7 @@
 			]
 		}
 		{
-			id: "955D1C58AEF7F3EA"
+			id: "8B64B9EDC2050509"
 			x: 7.5d
 			y: 2.5d
 			size: 1.1d
@@ -729,11 +729,11 @@
 				"战机挂载高爆炸弹空袭"
 			]
 			dependencies: [
-				"E3CBEEFD2F65D3D7"
+				"EC6C440B3C24A051"
 			]
 			tasks: [
 				{
-					id: "B7B2696DB3C6BAB1"
+					id: "02419445A0C6E727"
 					type: "item"
 					item: "minecraft:dirt"
 					count: 2L
@@ -741,7 +741,7 @@
 			]
 			rewards: [
 				{
-					id: "0CD2D3F23513675C"
+					id: "F972CC558538EE4D"
 					type: "item"
 					item: "createbigcannons:powder_charge"
 					count: 8
@@ -749,7 +749,7 @@
 			]
 		}
 		{
-			id: "39023ADC511E0FBA"
+			id: "D048B4A6ED781481"
 			x: -7.5d
 			y: 5.0d
 			size: 1.1d
@@ -761,25 +761,25 @@
 				"锁定航向自动巡航"
 			]
 			dependencies: [
-				"955D1C58AEF7F3EA"
+				"8B64B9EDC2050509"
 			]
 			tasks: [
 				{
-					id: "9188DED30BB1A882"
+					id: "66C7091743245F90"
 					type: "item"
 					item: "create:rotation_speed_controller"
 				}
 			]
 			rewards: [
 				{
-					id: "2B3928862A387D91"
+					id: "5F04E5758F107BB1"
 					type: "item"
 					item: "create:precision_mechanism"
 				}
 			]
 		}
 		{
-			id: "45D6C6BB8EC33C0D"
+			id: "E79EE3683B91C14D"
 			x: -4.5d
 			y: 5.0d
 			size: 1.1d
@@ -791,18 +791,18 @@
 				"平流层稀薄空气呼吸保障"
 			]
 			dependencies: [
-				"39023ADC511E0FBA"
+				"D048B4A6ED781481"
 			]
 			tasks: [
 				{
-					id: "38BA3880345F232C"
+					id: "C7DA708AD41312DC"
 					type: "item"
 					item: "create:fluid_tank"
 				}
 			]
 			rewards: [
 				{
-					id: "6059C8345A8780A3"
+					id: "8E4183AD197D1B29"
 					type: "item"
 					item: "minecraft:glass_bottle"
 					count: 4
@@ -810,7 +810,7 @@
 			]
 		}
 		{
-			id: "353B47EB6C4474BC"
+			id: "48CB6C8D094C3CA0"
 			x: -1.5d
 			y: 5.0d
 			size: 1.1d
@@ -822,11 +822,11 @@
 				"遮风挡雨的战机停放庇护所"
 			]
 			dependencies: [
-				"45D6C6BB8EC33C0D"
+				"E79EE3683B91C14D"
 			]
 			tasks: [
 				{
-					id: "3D36694C56C6C81A"
+					id: "3FE16A10A8A072EB"
 					type: "item"
 					item: "minecraft:dirt"
 					count: 16L
@@ -834,7 +834,7 @@
 			]
 			rewards: [
 				{
-					id: "07579E5686B50C6E"
+					id: "5DD3AF2AC74D707C"
 					type: "item"
 					item: "create:andesite_casing"
 					count: 16
@@ -842,7 +842,7 @@
 			]
 		}
 		{
-			id: "3A44ECAB81BC5F82"
+			id: "26665F2B27A3F6BA"
 			x: 1.5d
 			y: 5.0d
 			size: 1.1d
@@ -854,11 +854,11 @@
 				"空中拉彩烟空中表演"
 			]
 			dependencies: [
-				"353B47EB6C4474BC"
+				"48CB6C8D094C3CA0"
 			]
 			tasks: [
 				{
-					id: "CF6FC02309210328"
+					id: "EEB087CAC87D1F78"
 					type: "item"
 					item: "minecraft:firework_rocket"
 					count: 16L
@@ -866,7 +866,7 @@
 			]
 			rewards: [
 				{
-					id: "59D4F228CFF5D15C"
+					id: "105D61730B3A789F"
 					type: "item"
 					item: "minecraft:gunpowder"
 					count: 16
@@ -874,7 +874,7 @@
 			]
 		}
 		{
-			id: "9BB1163D1094F213"
+			id: "43BE9483308D41C9"
 			x: 4.5d
 			y: 5.0d
 			size: 1.1d
@@ -886,11 +886,11 @@
 				"机坪地勤快速补充航空燃油"
 			]
 			dependencies: [
-				"3A44ECAB81BC5F82"
+				"26665F2B27A3F6BA"
 			]
 			tasks: [
 				{
-					id: "A044EDFC03EC9FFC"
+					id: "942F689FA4538156"
 					type: "item"
 					item: "minecraft:dirt"
 					count: 2L
@@ -898,7 +898,7 @@
 			]
 			rewards: [
 				{
-					id: "A6A13EC6F249EE62"
+					id: "C69D4F15959D2EE1"
 					type: "item"
 					item: "createdieselgenerators:biodiesel_bucket"
 					count: 2
@@ -906,7 +906,7 @@
 			]
 		}
 		{
-			id: "D2DC4AA4D44FE493"
+			id: "E2F4A9B188B5A349"
 			x: 7.5d
 			y: 5.0d
 			size: 1.1d
@@ -918,18 +918,18 @@
 				"穿梭风暴与云海，立于天空之巅！"
 			]
 			dependencies: [
-				"9BB1163D1094F213"
+				"43BE9483308D41C9"
 			]
 			tasks: [
 				{
-					id: "73522DD1AB722285"
+					id: "380CD54F1B9E89B3"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "9FDA8DF2AD36E49E"
+					id: "BD18E63DDF7D8963"
 					type: "item"
 					item: "create:controls"
 				}

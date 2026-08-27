@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "67602CDB0C91F5A0"
+			id: "0FA803D2DA5D3D1A"
 			x: -7.5d
 			y: -5.0d
 			size: 1.4d
@@ -22,7 +22,7 @@
 			]
 			tasks: [
 				{
-					id: "2CE1C19EBA89A67C"
+					id: "8AF654CA74A8B6BC"
 					type: "item"
 					item: "createdieselgenerators:engine_piston"
 					count: 2L
@@ -30,14 +30,14 @@
 			]
 			rewards: [
 				{
-					id: "26C9FD43F6B17E45"
+					id: "543AB30EC49FEB11"
 					type: "item"
 					item: "createdieselgenerators:engine_silencer"
 				}
 			]
 		}
 		{
-			id: "C6AB620B5F7CCA93"
+			id: "DAFE21499E4CA3D2"
 			x: -4.5d
 			y: -5.0d
 			size: 1.1d
@@ -49,25 +49,25 @@
 				"降低柴油机强力轰鸣声"
 			]
 			dependencies: [
-				"67602CDB0C91F5A0"
+				"0FA803D2DA5D3D1A"
 			]
 			tasks: [
 				{
-					id: "F509AF042BBB93CD"
+					id: "45857900984D7D9A"
 					type: "item"
 					item: "createdieselgenerators:engine_silencer"
 				}
 			]
 			rewards: [
 				{
-					id: "BF7CAE91F9DFA6DE"
+					id: "4B44567C88028F0F"
 					type: "item"
 					item: "createdieselgenerators:diesel_engine"
 				}
 			]
 		}
 		{
-			id: "3B74C9CBE03CF356"
+			id: "4CD94B5071721E5A"
 			x: -1.5d
 			y: -5.0d
 			size: 1.1d
@@ -79,25 +79,25 @@
 				"消耗燃油提供极高应力"
 			]
 			dependencies: [
-				"C6AB620B5F7CCA93"
+				"DAFE21499E4CA3D2"
 			]
 			tasks: [
 				{
-					id: "523A6B580301CED5"
+					id: "4EEA6A5C521D7F82"
 					type: "item"
 					item: "createdieselgenerators:diesel_engine"
 				}
 			]
 			rewards: [
 				{
-					id: "1A41D95C1C203203"
+					id: "5F5995B48EEAC26B"
 					type: "item"
 					item: "createdieselgenerators:large_diesel_engine"
 				}
 			]
 		}
 		{
-			id: "FF7F34460C669646"
+			id: "53F56F56B711C6F9"
 			x: 1.5d
 			y: -5.0d
 			size: 1.1d
@@ -109,25 +109,25 @@
 				"多模块并联的超强扭矩"
 			]
 			dependencies: [
-				"3B74C9CBE03CF356"
+				"4CD94B5071721E5A"
 			]
 			tasks: [
 				{
-					id: "E4BB6CC056C8C22F"
+					id: "C4D52159117F26B3"
 					type: "item"
 					item: "createdieselgenerators:large_diesel_engine"
 				}
 			]
 			rewards: [
 				{
-					id: "0083E3BC5BE9E669"
+					id: "6AE5605DC28AD097"
 					type: "item"
 					item: "createdieselgenerators:pumpjack_bearing"
 				}
 			]
 		}
 		{
-			id: "DD7A3A00EB93E5BD"
+			id: "B52380FA4F457E2E"
 			x: 4.5d
 			y: -5.0d
 			size: 1.1d
@@ -139,25 +139,25 @@
 				"组装磕头机抽取地下原油"
 			]
 			dependencies: [
-				"FF7F34460C669646"
+				"53F56F56B711C6F9"
 			]
 			tasks: [
 				{
-					id: "2884128FF2FDEA08"
+					id: "C9188E43BCF2BEA9"
 					type: "item"
 					item: "createdieselgenerators:pumpjack_bearing"
 				}
 			]
 			rewards: [
 				{
-					id: "BE4BC3E709554E2E"
+					id: "2AF1FB319B07BEB4"
 					type: "item"
 					item: "createdieselgenerators:pumpjack_crank"
 				}
 			]
 		}
 		{
-			id: "57251F02CBD443B2"
+			id: "B5DE24C3497AFDDE"
 			x: 7.5d
 			y: -5.0d
 			size: 1.1d
@@ -169,25 +169,25 @@
 				"曲柄摇杆传动抽油"
 			]
 			dependencies: [
-				"DD7A3A00EB93E5BD"
+				"B52380FA4F457E2E"
 			]
 			tasks: [
 				{
-					id: "C76C50CFE11BE11C"
+					id: "5B1ECF9F01BC9562"
 					type: "item"
 					item: "createdieselgenerators:pumpjack_crank"
 				}
 			]
 			rewards: [
 				{
-					id: "E9D912DE60928359"
+					id: "64AB3D5E6FE69A98"
 					type: "item"
 					item: "createdieselgenerators:oil_scanner"
 				}
 			]
 		}
 		{
-			id: "0B3F2D92C6B8C25D"
+			id: "001402EAE5BC6D0D"
 			x: -7.5d
 			y: -2.5d
 			size: 1.1d
@@ -199,25 +199,25 @@
 				"探测地下蕴藏的原油矿脉"
 			]
 			dependencies: [
-				"57251F02CBD443B2"
+				"B5DE24C3497AFDDE"
 			]
 			tasks: [
 				{
-					id: "C27EAB5A01987A94"
+					id: "4C4A7B9CEB10FF94"
 					type: "item"
 					item: "createdieselgenerators:oil_scanner"
 				}
 			]
 			rewards: [
 				{
-					id: "4960BD3D4FB3097B"
+					id: "38F8D40C167845E4"
 					type: "item"
 					item: "createdieselgenerators:distillation_controller"
 				}
 			]
 		}
 		{
-			id: "5150DD11B3D248B6"
+			id: "54CE97C6C1F6FF0E"
 			x: -4.5d
 			y: -2.5d
 			size: 1.1d
@@ -229,18 +229,18 @@
 				"高温分馏原油获得各种燃料"
 			]
 			dependencies: [
-				"0B3F2D92C6B8C25D"
+				"001402EAE5BC6D0D"
 			]
 			tasks: [
 				{
-					id: "03C697C7120EAB46"
+					id: "EF1790633ABFB851"
 					type: "item"
 					item: "createdieselgenerators:distillation_controller"
 				}
 			]
 			rewards: [
 				{
-					id: "983A04159B12B769"
+					id: "D13A63CDE297880B"
 					type: "item"
 					item: "minecraft:dirt"
 					count: 2
@@ -248,7 +248,7 @@
 			]
 		}
 		{
-			id: "96353199E42227E3"
+			id: "710D33BAC9D1774F"
 			x: -1.5d
 			y: -2.5d
 			size: 1.1d
@@ -260,11 +260,11 @@
 				"装载各种炼制油品"
 			]
 			dependencies: [
-				"5150DD11B3D248B6"
+				"54CE97C6C1F6FF0E"
 			]
 			tasks: [
 				{
-					id: "3F7962FA24206CA1"
+					id: "EB197314E52581E3"
 					type: "item"
 					item: "minecraft:dirt"
 					count: 2L
@@ -272,7 +272,7 @@
 			]
 			rewards: [
 				{
-					id: "C61173B9D840C34E"
+					id: "EE1C79680D8A0DE2"
 					type: "item"
 					item: "createdieselgenerators:oil_barrel"
 					count: 4
@@ -280,7 +280,7 @@
 			]
 		}
 		{
-			id: "DA4FD52F41294954"
+			id: "336E13C27CE6A049"
 			x: 1.5d
 			y: -2.5d
 			size: 1.1d
@@ -292,11 +292,11 @@
 				"储存抽取的黑金原油"
 			]
 			dependencies: [
-				"96353199E42227E3"
+				"710D33BAC9D1774F"
 			]
 			tasks: [
 				{
-					id: "3B5AF7E7BCB31398"
+					id: "442C8E50A498476A"
 					type: "item"
 					item: "createdieselgenerators:oil_barrel"
 					count: 4L
@@ -304,14 +304,14 @@
 			]
 			rewards: [
 				{
-					id: "25A90F7CA0AA802B"
+					id: "FEC364DE23AC95F6"
 					type: "item"
 					item: "createdieselgenerators:biodiesel_bucket"
 				}
 			]
 		}
 		{
-			id: "DF84D6D161D2F787"
+			id: "2787CCB2844C93DC"
 			x: 4.5d
 			y: -2.5d
 			size: 1.1d
@@ -323,25 +323,25 @@
 				"植物油与乙醇的化学酯化"
 			]
 			dependencies: [
-				"DA4FD52F41294954"
+				"336E13C27CE6A049"
 			]
 			tasks: [
 				{
-					id: "50FFB7FEC166EB2A"
+					id: "B9EB47BD1888616F"
 					type: "item"
 					item: "createdieselgenerators:biodiesel_bucket"
 				}
 			]
 			rewards: [
 				{
-					id: "579611C92FCBB4AA"
+					id: "6B7CB7198B38D665"
 					type: "item"
 					item: "createdieselgenerators:gasoline_bucket"
 				}
 			]
 		}
 		{
-			id: "0005E2AA17189A35"
+			id: "48B9266BE3B14697"
 			x: 7.5d
 			y: -2.5d
 			size: 1.1d
@@ -353,25 +353,25 @@
 				"极高挥发性高爆燃油"
 			]
 			dependencies: [
-				"DF84D6D161D2F787"
+				"2787CCB2844C93DC"
 			]
 			tasks: [
 				{
-					id: "A425144FA22E7F22"
+					id: "C99CE6D77EC57596"
 					type: "item"
 					item: "createdieselgenerators:gasoline_bucket"
 				}
 			]
 			rewards: [
 				{
-					id: "DBEFDD7EE8BE3D2C"
+					id: "4AAA2BBC0C3C0F96"
 					type: "item"
 					item: "createdieselgenerators:diesel_bucket"
 				}
 			]
 		}
 		{
-			id: "0B2867D3AD9487F6"
+			id: "141EB761BAF3BF71"
 			x: -7.5d
 			y: 0.0d
 			size: 1.1d
@@ -383,25 +383,25 @@
 				"大型重工机械标准柴油"
 			]
 			dependencies: [
-				"0005E2AA17189A35"
+				"48B9266BE3B14697"
 			]
 			tasks: [
 				{
-					id: "718977DAB0EE39B6"
+					id: "C40684153009ABD2"
 					type: "item"
 					item: "createdieselgenerators:diesel_bucket"
 				}
 			]
 			rewards: [
 				{
-					id: "C70CD16617356365"
+					id: "2E1A7AD38BCA6651"
 					type: "item"
 					item: "createdieselgenerators:ethanol_bucket"
 				}
 			]
 		}
 		{
-			id: "48D5DB15ACE1BA40"
+			id: "C358163B4B53F938"
 			x: -4.5d
 			y: 0.0d
 			size: 1.1d
@@ -413,25 +413,25 @@
 				"糖分发酵提纯乙醇"
 			]
 			dependencies: [
-				"0B2867D3AD9487F6"
+				"141EB761BAF3BF71"
 			]
 			tasks: [
 				{
-					id: "E9D40BBF333B69A9"
+					id: "DBEF217817EEC65F"
 					type: "item"
 					item: "createdieselgenerators:ethanol_bucket"
 				}
 			]
 			rewards: [
 				{
-					id: "1DBC2B5AA9E64707"
+					id: "322DC1009BE3AC53"
 					type: "item"
 					item: "createdieselgenerators:plant_oil_bucket"
 				}
 			]
 		}
 		{
-			id: "DDF983DE3968F990"
+			id: "5625E3651DE3350E"
 			x: -1.5d
 			y: 0.0d
 			size: 1.1d
@@ -443,25 +443,25 @@
 				"种子压榨获得工业底油"
 			]
 			dependencies: [
-				"48D5DB15ACE1BA40"
+				"C358163B4B53F938"
 			]
 			tasks: [
 				{
-					id: "9612A3039D672A1D"
+					id: "9DCDF85FD26A874F"
 					type: "item"
 					item: "createdieselgenerators:plant_oil_bucket"
 				}
 			]
 			rewards: [
 				{
-					id: "28B39A5FA72BF039"
+					id: "606E115749CB36DA"
 					type: "item"
 					item: "create_new_age:generator_coil"
 				}
 			]
 		}
 		{
-			id: "1A6D7C661B6B891D"
+			id: "36D7D922140272AC"
 			x: 1.5d
 			y: 0.0d
 			size: 1.1d
@@ -473,25 +473,25 @@
 				"大型重工机械标准柴油"
 			]
 			dependencies: [
-				"DDF983DE3968F990"
+				"5625E3651DE3350E"
 			]
 			tasks: [
 				{
-					id: "826AC668208C2C8C"
+					id: "D5361FA0BE404EE7"
 					type: "item"
 					item: "createdieselgenerators:diesel_bucket"
 				}
 			]
 			rewards: [
 				{
-					id: "020B5D7D486D12DB"
+					id: "188BE07F7C44DC68"
 					type: "item"
 					item: "createdieselgenerators:ethanol_bucket"
 				}
 			]
 		}
 		{
-			id: "10E7B7E57E80E5A8"
+			id: "6E32EA258B1F3BDC"
 			x: 4.5d
 			y: 0.0d
 			size: 1.1d
@@ -503,25 +503,25 @@
 				"糖分发酵提纯乙醇"
 			]
 			dependencies: [
-				"1A6D7C661B6B891D"
+				"36D7D922140272AC"
 			]
 			tasks: [
 				{
-					id: "98E357F14F2BD382"
+					id: "ECE27FF1C199D62A"
 					type: "item"
 					item: "createdieselgenerators:ethanol_bucket"
 				}
 			]
 			rewards: [
 				{
-					id: "7B37B21F76A741E8"
+					id: "57FFFE48A9F5A64B"
 					type: "item"
 					item: "createdieselgenerators:plant_oil_bucket"
 				}
 			]
 		}
 		{
-			id: "B2D575AB663D635E"
+			id: "78E684E6D2588A34"
 			x: 7.5d
 			y: 0.0d
 			size: 1.1d
@@ -533,25 +533,25 @@
 				"种子压榨获得工业底油"
 			]
 			dependencies: [
-				"10E7B7E57E80E5A8"
+				"6E32EA258B1F3BDC"
 			]
 			tasks: [
 				{
-					id: "8D63571A9EB38AFE"
+					id: "6EF53E2831C921EF"
 					type: "item"
 					item: "createdieselgenerators:plant_oil_bucket"
 				}
 			]
 			rewards: [
 				{
-					id: "F7591D603166E667"
+					id: "09E74A9B4A198CBC"
 					type: "item"
 					item: "create_new_age:generator_coil"
 				}
 			]
 		}
 		{
-			id: "C977929A8A29F5E5"
+			id: "A15E727AAA3731CD"
 			x: -7.5d
 			y: 2.5d
 			size: 1.1d
@@ -563,11 +563,11 @@
 				"高压气缸铸造结构"
 			]
 			dependencies: [
-				"B2D575AB663D635E"
+				"78E684E6D2588A34"
 			]
 			tasks: [
 				{
-					id: "DA035D6F1FE020F1"
+					id: "C8E4609B95076520"
 					type: "item"
 					item: "createdieselgenerators:engine_piston"
 					count: 4L
@@ -575,7 +575,7 @@
 			]
 			rewards: [
 				{
-					id: "F1715989DB61D5F0"
+					id: "8A6F39FC2B09A01A"
 					type: "item"
 					item: "createdieselgenerators:diesel_engine"
 					count: 2
@@ -583,7 +583,7 @@
 			]
 		}
 		{
-			id: "0BB7CAF2F8B197AA"
+			id: "3FC79E7BEA084980"
 			x: -4.5d
 			y: 2.5d
 			size: 1.1d
@@ -595,18 +595,18 @@
 				"高压雾化柴油与空气混合"
 			]
 			dependencies: [
-				"C977929A8A29F5E5"
+				"A15E727AAA3731CD"
 			]
 			tasks: [
 				{
-					id: "F5412C146721F17E"
+					id: "C1813A7117CE51A3"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "00ECAF91FAE51949"
+					id: "D24D081C925628DC"
 					type: "item"
 					item: "minecraft:dirt"
 					count: 4
@@ -614,7 +614,7 @@
 			]
 		}
 		{
-			id: "E2C67CBDA01BC4A8"
+			id: "7EBD1461F0547EA4"
 			x: -1.5d
 			y: 2.5d
 			size: 1.1d
@@ -626,11 +626,11 @@
 				"跨区域油品调拨与配送"
 			]
 			dependencies: [
-				"0BB7CAF2F8B197AA"
+				"3FC79E7BEA084980"
 			]
 			tasks: [
 				{
-					id: "7DF71938436D5841"
+					id: "4BB52E5AFFD017AA"
 					type: "item"
 					item: "createdieselgenerators:oil_barrel"
 					count: 8L
@@ -638,14 +638,14 @@
 			]
 			rewards: [
 				{
-					id: "9DC5CFA399560639"
+					id: "A3D2A0D9E01B6717"
 					type: "item"
 					item: "createdieselgenerators:large_diesel_engine"
 				}
 			]
 		}
 		{
-			id: "C4E50E8803CB06D5"
+			id: "2ABB84334C0D837C"
 			x: 1.5d
 			y: 2.5d
 			size: 1.1d
@@ -657,18 +657,18 @@
 				"极强扭矩动力产出"
 			]
 			dependencies: [
-				"E2C67CBDA01BC4A8"
+				"7EBD1461F0547EA4"
 			]
 			tasks: [
 				{
-					id: "BE6927E515D041AD"
+					id: "D2778FD45AADF2BD"
 					type: "item"
 					item: "createdieselgenerators:gasoline_bucket"
 				}
 			]
 			rewards: [
 				{
-					id: "7A5EE5E6A8607168"
+					id: "1689A8B2BD7AAE33"
 					type: "item"
 					item: "createdieselgenerators:biodiesel_bucket"
 					count: 2
@@ -676,7 +676,7 @@
 			]
 		}
 		{
-			id: "91AC4EABC44FFB56"
+			id: "1A9A3AEF2537CC12"
 			x: 4.5d
 			y: 2.5d
 			size: 1.1d
@@ -688,18 +688,18 @@
 				"铺设高速公路与高炉燃料"
 			]
 			dependencies: [
-				"C4E50E8803CB06D5"
+				"2ABB84334C0D837C"
 			]
 			tasks: [
 				{
-					id: "AE643603D75606DD"
+					id: "622C5A4798414899"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "1968CDE77199CA69"
+					id: "851C6AAEE3A5F00D"
 					type: "item"
 					item: "minecraft:coal"
 					count: 32
@@ -707,7 +707,7 @@
 			]
 		}
 		{
-			id: "F4A9AB74ADD780A2"
+			id: "D90B8D71178B27D8"
 			x: 7.5d
 			y: 2.5d
 			size: 1.1d
@@ -719,11 +719,11 @@
 				"模块化高压储气组"
 			]
 			dependencies: [
-				"91AC4EABC44FFB56"
+				"1A9A3AEF2537CC12"
 			]
 			tasks: [
 				{
-					id: "27911DE0AD3EBE57"
+					id: "C52F2979A6B2D369"
 					type: "item"
 					item: "create:fluid_tank"
 					count: 8L
@@ -731,7 +731,7 @@
 			]
 			rewards: [
 				{
-					id: "E63325241C1C6F09"
+					id: "0912B4DEAA13400E"
 					type: "item"
 					item: "create:mechanical_pump"
 					count: 2
@@ -739,7 +739,7 @@
 			]
 		}
 		{
-			id: "648BB638051AC1C7"
+			id: "DF0C22D9AAF7F206"
 			x: -7.5d
 			y: 5.0d
 			size: 1.1d
@@ -751,18 +751,18 @@
 				"载具靠近自动补充柴油"
 			]
 			dependencies: [
-				"F4A9AB74ADD780A2"
+				"D90B8D71178B27D8"
 			]
 			tasks: [
 				{
-					id: "CE99F772B9F28AED"
+					id: "D388E6047385B15A"
 					type: "item"
 					item: "create:spout"
 				}
 			]
 			rewards: [
 				{
-					id: "D1808D121F472DC3"
+					id: "484910BF823828F4"
 					type: "item"
 					item: "minecraft:dirt"
 					count: 2
@@ -770,7 +770,7 @@
 			]
 		}
 		{
-			id: "313B3CDF99B6EDC3"
+			id: "588D496FE9B0D33D"
 			x: -4.5d
 			y: 5.0d
 			size: 1.1d
@@ -782,18 +782,18 @@
 				"提升生物柴油纯度"
 			]
 			dependencies: [
-				"648BB638051AC1C7"
+				"DF0C22D9AAF7F206"
 			]
 			tasks: [
 				{
-					id: "6931D55EFD505C08"
+					id: "BD56987FA69BCC18"
 					type: "item"
 					item: "create:basin"
 				}
 			]
 			rewards: [
 				{
-					id: "EB6A8ACE99F6ABCD"
+					id: "82B09CC995226804"
 					type: "item"
 					item: "createdieselgenerators:biodiesel_bucket"
 					count: 4
@@ -801,7 +801,7 @@
 			]
 		}
 		{
-			id: "278E43BA91833FD5"
+			id: "48E8A2EA726ED5F7"
 			x: -1.5d
 			y: 5.0d
 			size: 1.1d
@@ -813,11 +813,11 @@
 				"环保环保达标排放"
 			]
 			dependencies: [
-				"313B3CDF99B6EDC3"
+				"588D496FE9B0D33D"
 			]
 			tasks: [
 				{
-					id: "4FD72FE540AD4C75"
+					id: "EBE29D9251398183"
 					type: "item"
 					item: "createdieselgenerators:engine_silencer"
 					count: 2L
@@ -825,7 +825,7 @@
 			]
 			rewards: [
 				{
-					id: "4B7A3B86655EFE59"
+					id: "696BDD8C570A6E87"
 					type: "item"
 					item: "create:brass_ingot"
 					count: 16
@@ -833,7 +833,7 @@
 			]
 		}
 		{
-			id: "95F9622CE261CE2D"
+			id: "A0F070E60F829055"
 			x: 1.5d
 			y: 5.0d
 			size: 1.1d
@@ -845,11 +845,11 @@
 				"组建庞大油田采油阵列"
 			]
 			dependencies: [
-				"278E43BA91833FD5"
+				"48E8A2EA726ED5F7"
 			]
 			tasks: [
 				{
-					id: "884C049E3B75E120"
+					id: "3CBBCA9A6CDA683C"
 					type: "item"
 					item: "createdieselgenerators:pumpjack_bearing"
 					count: 2L
@@ -857,7 +857,7 @@
 			]
 			rewards: [
 				{
-					id: "37DAC12A45563179"
+					id: "F5EC7FCDB29392E5"
 					type: "item"
 					item: "createdieselgenerators:oil_barrel"
 					count: 16
@@ -865,7 +865,7 @@
 			]
 		}
 		{
-			id: "6D495F1BED6FE15F"
+			id: "BCC40864A2D1D919"
 			x: 4.5d
 			y: 5.0d
 			size: 1.1d
@@ -877,11 +877,11 @@
 				"跨地图输送原油至炼油厂"
 			]
 			dependencies: [
-				"95F9622CE261CE2D"
+				"A0F070E60F829055"
 			]
 			tasks: [
 				{
-					id: "66E9C485CF966BF6"
+					id: "8E8C840D48B29240"
 					type: "item"
 					item: "create:fluid_pipe"
 					count: 32L
@@ -889,7 +889,7 @@
 			]
 			rewards: [
 				{
-					id: "5DF685C35D598350"
+					id: "7A57A963A9D11B95"
 					type: "item"
 					item: "create:mechanical_pump"
 					count: 4
@@ -897,7 +897,7 @@
 			]
 		}
 		{
-			id: "B4284832871AD3F5"
+			id: "F938878D000BCC70"
 			x: 7.5d
 			y: 5.0d
 			size: 1.1d
@@ -909,18 +909,18 @@
 				"源源不断的液体金矿，驱动重工业崛起！"
 			]
 			dependencies: [
-				"6D495F1BED6FE15F"
+				"BCC40864A2D1D919"
 			]
 			tasks: [
 				{
-					id: "9CD150BE9C2E4FDE"
+					id: "2F529E07023A4B69"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "2A45C059DFBC0306"
+					id: "06FAECC53F016740"
 					type: "item"
 					item: "create_new_age:generator_coil"
 					count: 4

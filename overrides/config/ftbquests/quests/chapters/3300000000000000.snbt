@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "5FD65AF1BA963698"
+			id: "E33BAB97DC155B47"
 			x: -7.5d
 			y: -5.0d
 			size: 1.4d
@@ -22,7 +22,7 @@
 			]
 			tasks: [
 				{
-					id: "DEC9B46D719492C9"
+					id: "32E969952999FABD"
 					type: "item"
 					item: "create:track"
 					count: 64L
@@ -30,14 +30,14 @@
 			]
 			rewards: [
 				{
-					id: "7B98B61C95D2DCD8"
+					id: "A574EB69C2316794"
 					type: "item"
 					item: "create:track_station"
 				}
 			]
 		}
 		{
-			id: "1A858F94F0AEF09A"
+			id: "1C94D616F2C25F97"
 			x: -4.5d
 			y: -5.0d
 			size: 1.1d
@@ -49,18 +49,18 @@
 				"列车组装、命名与自动调度"
 			]
 			dependencies: [
-				"5FD65AF1BA963698"
+				"E33BAB97DC155B47"
 			]
 			tasks: [
 				{
-					id: "6069DFC2363D4CF1"
+					id: "9860304CB065C2D0"
 					type: "item"
 					item: "create:track_station"
 				}
 			]
 			rewards: [
 				{
-					id: "E8333E56BEA94422"
+					id: "57C514A22C1E3101"
 					type: "item"
 					item: "create:railway_casing"
 					count: 8
@@ -68,7 +68,7 @@
 			]
 		}
 		{
-			id: "7E1B11ACAA570EDE"
+			id: "19547B47BEE91A6A"
 			x: -1.5d
 			y: -5.0d
 			size: 1.1d
@@ -80,11 +80,11 @@
 				"打造复古蒸汽与现代柴油火车头"
 			]
 			dependencies: [
-				"1A858F94F0AEF09A"
+				"1C94D616F2C25F97"
 			]
 			tasks: [
 				{
-					id: "3FDD27B1526E4779"
+					id: "969735DA255C61FC"
 					type: "item"
 					item: "create:railway_casing"
 					count: 8L
@@ -92,7 +92,7 @@
 			]
 			rewards: [
 				{
-					id: "F9D239D0AD5DF715"
+					id: "C5761ACB73B78442"
 					type: "item"
 					item: "create:track_signal"
 					count: 4
@@ -100,7 +100,7 @@
 			]
 		}
 		{
-			id: "C29A9D5F11726956"
+			id: "26DBB10EC2F53408"
 			x: 1.5d
 			y: -5.0d
 			size: 1.1d
@@ -112,11 +112,11 @@
 				"红绿灯区间闭塞，防止列车相撞"
 			]
 			dependencies: [
-				"7E1B11ACAA570EDE"
+				"19547B47BEE91A6A"
 			]
 			tasks: [
 				{
-					id: "7C2AEB3D6DFDDE5D"
+					id: "190FEAEA96BF90EC"
 					type: "item"
 					item: "create:track_signal"
 					count: 4L
@@ -124,7 +124,7 @@
 			]
 			rewards: [
 				{
-					id: "88CEB44DB7674B74"
+					id: "4DD61CC25179F19C"
 					type: "item"
 					item: "create:track_observer"
 					count: 2
@@ -132,7 +132,7 @@
 			]
 		}
 		{
-			id: "3E3A14702267E22F"
+			id: "00EC88493F64F8A2"
 			x: 4.5d
 			y: -5.0d
 			size: 1.1d
@@ -144,11 +144,11 @@
 				"检测列车入站并自动开门与下货"
 			]
 			dependencies: [
-				"C29A9D5F11726956"
+				"26DBB10EC2F53408"
 			]
 			tasks: [
 				{
-					id: "5098DF66F12F60A1"
+					id: "DED0AE6C16F18ADF"
 					type: "item"
 					item: "create:track_observer"
 					count: 2L
@@ -156,7 +156,7 @@
 			]
 			rewards: [
 				{
-					id: "DAAFB2AE74570657"
+					id: "D9F7AA65788EF9D1"
 					type: "item"
 					item: "railways:track_coupler"
 					count: 2
@@ -164,7 +164,7 @@
 			]
 		}
 		{
-			id: "644FD44F0FBD1DDD"
+			id: "68B7242D0D5A3997"
 			x: 7.5d
 			y: -5.0d
 			size: 1.1d
@@ -176,11 +176,11 @@
 				"自动连接与编组多节客货车厢"
 			]
 			dependencies: [
-				"3E3A14702267E22F"
+				"00EC88493F64F8A2"
 			]
 			tasks: [
 				{
-					id: "A2C764FE302D3F54"
+					id: "D37B3744B2E49D4E"
 					type: "item"
 					item: "railways:track_coupler"
 					count: 2L
@@ -188,14 +188,14 @@
 			]
 			rewards: [
 				{
-					id: "9A1318A4C5ED5609"
+					id: "49682465CB213F7D"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "3549A2816E63FBEF"
+			id: "00C035AB42FA10BD"
 			x: -7.5d
 			y: -2.5d
 			size: 1.1d
@@ -207,25 +207,25 @@
 				"给列车员戴上帽子，开启无人驾驶时刻表"
 			]
 			dependencies: [
-				"644FD44F0FBD1DDD"
+				"68B7242D0D5A3997"
 			]
 			tasks: [
 				{
-					id: "568780EDC56EA6C1"
+					id: "BC6CCC9C0A31D72B"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "752BF3F249625FC5"
+					id: "38B86F55368297FA"
 					type: "item"
 					item: "create:controls"
 				}
 			]
 		}
 		{
-			id: "7A7A91CC010C7586"
+			id: "78548D0865590A93"
 			x: -4.5d
 			y: -2.5d
 			size: 1.1d
@@ -237,25 +237,25 @@
 				"手动驾驶列车挂挡与按响汽笛"
 			]
 			dependencies: [
-				"3549A2816E63FBEF"
+				"00C035AB42FA10BD"
 			]
 			tasks: [
 				{
-					id: "45D2F479D48160EB"
+					id: "1ED287539FCB587A"
 					type: "item"
 					item: "create:controls"
 				}
 			]
 			rewards: [
 				{
-					id: "FF668098CDE8FE8E"
+					id: "A8DEDDD50653EBBF"
 					type: "item"
 					item: "create:steam_whistle"
 				}
 			]
 		}
 		{
-			id: "F56434D458AC3446"
+			id: "5E4CCCC523A4A322"
 			x: -1.5d
 			y: -2.5d
 			size: 1.1d
@@ -267,18 +267,18 @@
 				"拉响高亢嘹亮的鸣笛声"
 			]
 			dependencies: [
-				"7A7A91CC010C7586"
+				"78548D0865590A93"
 			]
 			tasks: [
 				{
-					id: "178956731FD480CD"
+					id: "32DF1CE6C51850BC"
 					type: "item"
 					item: "create:steam_whistle"
 				}
 			]
 			rewards: [
 				{
-					id: "320E75BD2BAF8F28"
+					id: "CEE1FA036F38739B"
 					type: "item"
 					item: "create:portable_storage_interface"
 					count: 2
@@ -286,7 +286,7 @@
 			]
 		}
 		{
-			id: "9231D81EBAD4E38B"
+			id: "148E61AC5796C7F4"
 			x: 1.5d
 			y: -2.5d
 			size: 1.1d
@@ -298,11 +298,11 @@
 				"列车停靠 3 秒内清空全车矿石"
 			]
 			dependencies: [
-				"F56434D458AC3446"
+				"5E4CCCC523A4A322"
 			]
 			tasks: [
 				{
-					id: "E9F75F3C0B00AD3C"
+					id: "8632F784C9FB8FD2"
 					type: "item"
 					item: "create:portable_storage_interface"
 					count: 2L
@@ -310,7 +310,7 @@
 			]
 			rewards: [
 				{
-					id: "0DD4F28C36D41833"
+					id: "511909AF2D8397A2"
 					type: "item"
 					item: "create:portable_fluid_interface"
 					count: 2
@@ -318,7 +318,7 @@
 			]
 		}
 		{
-			id: "ACE85A1B3444A9BE"
+			id: "B306A7FC5A08B22C"
 			x: 4.5d
 			y: -2.5d
 			size: 1.1d
@@ -330,11 +330,11 @@
 				"列车停靠快速抽干万升石油"
 			]
 			dependencies: [
-				"9231D81EBAD4E38B"
+				"148E61AC5796C7F4"
 			]
 			tasks: [
 				{
-					id: "C7AF7ABEEE85D829"
+					id: "47F78D37218118E0"
 					type: "item"
 					item: "create:portable_fluid_interface"
 					count: 2L
@@ -342,14 +342,14 @@
 			]
 			rewards: [
 				{
-					id: "5DD1082CC268B8A8"
+					id: "27E3456C4BF806EF"
 					type: "item"
 					item: "railways:smokestack_diesel"
 				}
 			]
 		}
 		{
-			id: "B9C133067AFAE4EB"
+			id: "9FCC7D7348157F7A"
 			x: 7.5d
 			y: -2.5d
 			size: 1.1d
@@ -361,25 +361,25 @@
 				"排出黑烟的交直流柴油重型机车"
 			]
 			dependencies: [
-				"ACE85A1B3444A9BE"
+				"B306A7FC5A08B22C"
 			]
 			tasks: [
 				{
-					id: "7C28F0F1E448D5F1"
+					id: "0A9719D11807C0C2"
 					type: "item"
 					item: "railways:smokestack_diesel"
 				}
 			]
 			rewards: [
 				{
-					id: "6117DC7CDCC0F406"
+					id: "438A4474EC731C1C"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "8FE58DC6590A4647"
+			id: "94A16F9203AD2537"
 			x: -7.5d
 			y: 0.0d
 			size: 1.1d
@@ -391,18 +391,18 @@
 				"长途跨纬度列车的高级乘客包厢"
 			]
 			dependencies: [
-				"B9C133067AFAE4EB"
+				"9FCC7D7348157F7A"
 			]
 			tasks: [
 				{
-					id: "36AC70BA499F9444"
+					id: "8E700C2082707197"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "691A64EE036D480C"
+					id: "92B466B479196CA0"
 					type: "item"
 					item: "create:display_board"
 					count: 4
@@ -410,7 +410,7 @@
 			]
 		}
 		{
-			id: "27DA54C342B9F640"
+			id: "9EC8893BA16646A3"
 			x: -4.5d
 			y: 0.0d
 			size: 1.1d
@@ -422,11 +422,11 @@
 				"广播并显示列车预计到达时间"
 			]
 			dependencies: [
-				"8FE58DC6590A4647"
+				"94A16F9203AD2537"
 			]
 			tasks: [
 				{
-					id: "766C21E2D9363B90"
+					id: "C8FC292738FAF151"
 					type: "item"
 					item: "create:display_board"
 					count: 4L
@@ -434,14 +434,14 @@
 			]
 			rewards: [
 				{
-					id: "B2D2CACB2D1C0C1A"
+					id: "BCD3C14E19ED589D"
 					type: "item"
 					item: "create:schedule"
 				}
 			]
 		}
 		{
-			id: "AE20A8389B42E132"
+			id: "4EE39EF3AC49B072"
 			x: -1.5d
 			y: 0.0d
 			size: 1.1d
@@ -453,18 +453,18 @@
 				"设定站点停靠时间与循环线路"
 			]
 			dependencies: [
-				"27DA54C342B9F640"
+				"9EC8893BA16646A3"
 			]
 			tasks: [
 				{
-					id: "2B8FD6E4EC125C0C"
+					id: "E8D51787CB649008"
 					type: "item"
 					item: "create:schedule"
 				}
 			]
 			rewards: [
 				{
-					id: "53FEFA4A19E2C688"
+					id: "4AA361F0C7C4E7E9"
 					type: "item"
 					item: "create:track"
 					count: 128
@@ -472,7 +472,7 @@
 			]
 		}
 		{
-			id: "358B3BF4954D1F94"
+			id: "95C82897657EC1E3"
 			x: 1.5d
 			y: 0.0d
 			size: 1.1d
@@ -484,11 +484,11 @@
 				"列车变轨与分流道岔工程"
 			]
 			dependencies: [
-				"AE20A8389B42E132"
+				"4EE39EF3AC49B072"
 			]
 			tasks: [
 				{
-					id: "0F531C22702CE380"
+					id: "E63DCF0F6AA46FC2"
 					type: "item"
 					item: "create:track"
 					count: 32L
@@ -496,7 +496,7 @@
 			]
 			rewards: [
 				{
-					id: "CDABBA2FCB3755F4"
+					id: "2F622E94B898EDF2"
 					type: "item"
 					item: "create:brass_ingot"
 					count: 16
@@ -504,7 +504,7 @@
 			]
 		}
 		{
-			id: "B84A50F70CC6D599"
+			id: "9E7FD5F2850A1609"
 			x: 4.5d
 			y: 0.0d
 			size: 1.1d
@@ -516,11 +516,11 @@
 				"高空跨海与跨越天险悬崖"
 			]
 			dependencies: [
-				"358B3BF4954D1F94"
+				"95C82897657EC1E3"
 			]
 			tasks: [
 				{
-					id: "C9837C26EDB5F051"
+					id: "678FA897BA76BACC"
 					type: "item"
 					item: "create:andesite_casing"
 					count: 16L
@@ -528,7 +528,7 @@
 			]
 			rewards: [
 				{
-					id: "339B947A852059CA"
+					id: "0AA8323D4DEE9248"
 					type: "item"
 					item: "create:brass_casing"
 					count: 16
@@ -536,7 +536,7 @@
 			]
 		}
 		{
-			id: "58EE46809277EAAE"
+			id: "4AE0D36A8E04C251"
 			x: 7.5d
 			y: 0.0d
 			size: 1.1d
@@ -548,11 +548,11 @@
 				"用盾构机打通高山隧道"
 			]
 			dependencies: [
-				"B84A50F70CC6D599"
+				"9E7FD5F2850A1609"
 			]
 			tasks: [
 				{
-					id: "98994FFE10BE5D9F"
+					id: "E0EE4A8AC855A551"
 					type: "item"
 					item: "create:mechanical_drill"
 					count: 2L
@@ -560,7 +560,7 @@
 			]
 			rewards: [
 				{
-					id: "C42749781745F9AF"
+					id: "F4695CBDEC585137"
 					type: "item"
 					item: "minecraft:torch"
 					count: 64
@@ -568,7 +568,7 @@
 			]
 		}
 		{
-			id: "B78A8BD018EAE10F"
+			id: "C707ACB9F8A2FDA7"
 			x: -7.5d
 			y: 2.5d
 			size: 1.1d
@@ -580,11 +580,11 @@
 				"电力机车顶部受电弓供电"
 			]
 			dependencies: [
-				"58EE46809277EAAE"
+				"4AE0D36A8E04C251"
 			]
 			tasks: [
 				{
-					id: "2CB95EB458BD23B8"
+					id: "6CC899D516BB6C31"
 					type: "item"
 					item: "create_new_age:copper_wire"
 					count: 16L
@@ -592,7 +592,7 @@
 			]
 			rewards: [
 				{
-					id: "887FBE07A7933388"
+					id: "623BBDAB2530DEB2"
 					type: "item"
 					item: "create_new_age:electrical_connector"
 					count: 4
@@ -600,7 +600,7 @@
 			]
 		}
 		{
-			id: "3996F09DCDB098A7"
+			id: "2EC762040ECA4A5E"
 			x: -4.5d
 			y: 2.5d
 			size: 1.1d
@@ -612,18 +612,18 @@
 				"防止列车冲出轨道终端"
 			]
 			dependencies: [
-				"B78A8BD018EAE10F"
+				"C707ACB9F8A2FDA7"
 			]
 			tasks: [
 				{
-					id: "1348DCCD58193DED"
+					id: "E25CF6D3535B60F2"
 					type: "item"
 					item: "minecraft:iron_block"
 				}
 			]
 			rewards: [
 				{
-					id: "51E05570E8DA401C"
+					id: "7A691471E28695C7"
 					type: "item"
 					item: "minecraft:iron_ingot"
 					count: 16
@@ -631,7 +631,7 @@
 			]
 		}
 		{
-			id: "3BE6301EA59C61DC"
+			id: "F4AB543D352BD136"
 			x: -1.5d
 			y: 2.5d
 			size: 1.1d
@@ -643,11 +643,11 @@
 				"清理雪原铁轨积雪冰块"
 			]
 			dependencies: [
-				"3996F09DCDB098A7"
+				"2EC762040ECA4A5E"
 			]
 			tasks: [
 				{
-					id: "E0E145032472F9DC"
+					id: "32794E256D1CEB52"
 					type: "item"
 					item: "create:mechanical_plough"
 					count: 2L
@@ -655,7 +655,7 @@
 			]
 			rewards: [
 				{
-					id: "4B77F282381E5AB9"
+					id: "2C9E805362DBBA3D"
 					type: "item"
 					item: "minecraft:packed_ice"
 					count: 16
@@ -663,7 +663,7 @@
 			]
 		}
 		{
-			id: "2B711AE95B62594B"
+			id: "D3264B2ED40CF28F"
 			x: 1.5d
 			y: 2.5d
 			size: 1.1d
@@ -675,18 +675,18 @@
 				"为旅客提供热腾腾的快餐与饮品"
 			]
 			dependencies: [
-				"3BE6301EA59C61DC"
+				"F4AB543D352BD136"
 			]
 			tasks: [
 				{
-					id: "4A11D4F6AF322E7D"
+					id: "76C8E4F1ACEB0A73"
 					type: "item"
 					item: "farmersdelight:cooking_pot"
 				}
 			]
 			rewards: [
 				{
-					id: "C981190F48D309C4"
+					id: "AC303C2A6F968F43"
 					type: "item"
 					item: "farmersdelight:hamburger"
 					count: 8
@@ -694,7 +694,7 @@
 			]
 		}
 		{
-			id: "B6C7A65DF55A0C94"
+			id: "0775C48BA7390BD1"
 			x: 4.5d
 			y: 2.5d
 			size: 1.1d
@@ -706,11 +706,11 @@
 				"机车挂载巨炮，变身移动要塞！"
 			]
 			dependencies: [
-				"2B711AE95B62594B"
+				"D3264B2ED40CF28F"
 			]
 			tasks: [
 				{
-					id: "9997F08B16881AB8"
+					id: "0974FC9D19A314A3"
 					type: "item"
 					item: "createbigcannons:cast_iron_cannon_barrel"
 					count: 2L
@@ -718,7 +718,7 @@
 			]
 			rewards: [
 				{
-					id: "A2EA3965DCE813E9"
+					id: "4CC9F9E7266E5BA2"
 					type: "item"
 					item: "createbigcannons:solid_shot"
 					count: 8
@@ -726,7 +726,7 @@
 			]
 		}
 		{
-			id: "F1F72CB0151D5C97"
+			id: "5CBC4D6CCFB952DD"
 			x: 7.5d
 			y: 2.5d
 			size: 1.1d
@@ -738,11 +738,11 @@
 				"列车直接开进下界传送门！"
 			]
 			dependencies: [
-				"B6C7A65DF55A0C94"
+				"0775C48BA7390BD1"
 			]
 			tasks: [
 				{
-					id: "9B3DD895A0CD7167"
+					id: "EEB467D885546303"
 					type: "item"
 					item: "minecraft:obsidian"
 					count: 14L
@@ -750,14 +750,14 @@
 			]
 			rewards: [
 				{
-					id: "3C772206E601BA0D"
+					id: "AE4D8A03E3935A43"
 					type: "item"
 					item: "minecraft:respawn_anchor"
 				}
 			]
 		}
 		{
-			id: "DFD911DB13098DB6"
+			id: "6C784BBCA6BBA18A"
 			x: -7.5d
 			y: 5.0d
 			size: 1.1d
@@ -769,11 +769,11 @@
 				"观赏深海鱼群的海底铁道"
 			]
 			dependencies: [
-				"F1F72CB0151D5C97"
+				"5CBC4D6CCFB952DD"
 			]
 			tasks: [
 				{
-					id: "52A7CCB5F4A845B6"
+					id: "D293CF0AD746E952"
 					type: "item"
 					item: "minecraft:glass"
 					count: 64L
@@ -781,7 +781,7 @@
 			]
 			rewards: [
 				{
-					id: "9233C1FA7EF5FDEC"
+					id: "407F556F5E38ACC3"
 					type: "item"
 					item: "minecraft:sea_lantern"
 					count: 8
@@ -789,7 +789,7 @@
 			]
 		}
 		{
-			id: "B097B9CC36B5A49D"
+			id: "4B8723A7F4F0A9F1"
 			x: -4.5d
 			y: 5.0d
 			size: 1.1d
@@ -801,18 +801,18 @@
 				"定期维护车轴与制动闸瓦"
 			]
 			dependencies: [
-				"DFD911DB13098DB6"
+				"6C784BBCA6BBA18A"
 			]
 			tasks: [
 				{
-					id: "286E468135D3AEE4"
+					id: "2DF0C4A5D8A4FBE5"
 					type: "item"
 					item: "create:wrench"
 				}
 			]
 			rewards: [
 				{
-					id: "EDE28D9B36A63E96"
+					id: "0E5092DFFD5D1467"
 					type: "item"
 					item: "create:shaft"
 					count: 16
@@ -820,7 +820,7 @@
 			]
 		}
 		{
-			id: "CEF92C6490C2E7D1"
+			id: "09A38B3B15D60D22"
 			x: -1.5d
 			y: 5.0d
 			size: 1.1d
@@ -832,25 +832,25 @@
 				"检测货运列车装载货物总重"
 			]
 			dependencies: [
-				"B097B9CC36B5A49D"
+				"4B8723A7F4F0A9F1"
 			]
 			tasks: [
 				{
-					id: "B65412050D274038"
+					id: "A8DCB8D84DDAC934"
 					type: "item"
 					item: "create:stockpile_switch"
 				}
 			]
 			rewards: [
 				{
-					id: "EB5790B96CA0C83A"
+					id: "23A16DDD8D2F8E5E"
 					type: "item"
 					item: "create:display_link"
 				}
 			]
 		}
 		{
-			id: "3EB8F683271D2AC8"
+			id: "0BD28CCEAEB0F79A"
 			x: 1.5d
 			y: 5.0d
 			size: 1.1d
@@ -862,18 +862,18 @@
 				"经典巨型黑金蒸汽机车组装"
 			]
 			dependencies: [
-				"CEF92C6490C2E7D1"
+				"09A38B3B15D60D22"
 			]
 			tasks: [
 				{
-					id: "3B439EEE1B1DAE01"
+					id: "36C1B35DC597DB12"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "A326298171CC580B"
+					id: "DD7C5A179C2A718D"
 					type: "item"
 					item: "minecraft:coal_block"
 					count: 16
@@ -881,7 +881,7 @@
 			]
 		}
 		{
-			id: "64A662CA0DD5A27A"
+			id: "A987032B292B46A6"
 			x: 4.5d
 			y: 5.0d
 			size: 1.1d
@@ -893,11 +893,11 @@
 				"时速 500km/h 的极速轨道列车"
 			]
 			dependencies: [
-				"3EB8F683271D2AC8"
+				"0BD28CCEAEB0F79A"
 			]
 			tasks: [
 				{
-					id: "C5F262D2D2ACC8F1"
+					id: "C886A02C5E053B11"
 					type: "item"
 					item: "create_new_age:overcharged_iron"
 					count: 8L
@@ -905,14 +905,14 @@
 			]
 			rewards: [
 				{
-					id: "3527114192A10208"
+					id: "5C33CD5BF7EDD995"
 					type: "item"
 					item: "create:creative_motor"
 				}
 			]
 		}
 		{
-			id: "14AAD54043BC3B14"
+			id: "35828663A41A8D63"
 			x: 7.5d
 			y: 5.0d
 			size: 1.1d
@@ -924,18 +924,18 @@
 				"掌控整片大陆的钢铁脉络，所有城市紧密相连！"
 			]
 			dependencies: [
-				"64A662CA0DD5A27A"
+				"A987032B292B46A6"
 			]
 			tasks: [
 				{
-					id: "6E7A7B87A7A912E4"
+					id: "C110DDF130608094"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "A3CF410277C0F3A4"
+					id: "53CB74A1DF8F91EC"
 					type: "item"
 					item: "create:creative_motor"
 				}

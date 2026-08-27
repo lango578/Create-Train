@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "8E1A8DF3C011CBA5"
+			id: "D23EE72DF0E6EEE8"
 			x: -7.5d
 			y: -5.0d
 			size: 1.4d
@@ -22,14 +22,14 @@
 			]
 			tasks: [
 				{
-					id: "E3EE88DABC636661"
+					id: "3E20BAAD0C81D3E4"
 					type: "item"
 					item: "tacz:gun_smith_table"
 				}
 			]
 			rewards: [
 				{
-					id: "605581C9BA463EE9"
+					id: "E0B50166E8B53A03"
 					type: "item"
 					item: "minecraft:dirt"
 					count: 2

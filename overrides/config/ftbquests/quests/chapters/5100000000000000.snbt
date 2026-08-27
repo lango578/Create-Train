@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "2DE00131C93BF9CF"
+			id: "2C0D9206BC66822F"
 			x: -7.5d
 			y: -5.0d
 			size: 1.4d
@@ -22,14 +22,14 @@
 			]
 			tasks: [
 				{
-					id: "D3FC664968AF2035"
+					id: "1AF7A98AD26A78B5"
 					type: "item"
 					item: "touhou_little_maid:hakurei_gohei"
 				}
 			]
 			rewards: [
 				{
-					id: "09C7511F84B809CB"
+					id: "3A71A42D4B15DA6B"
 					type: "item"
 					item: "touhou_little_maid:power_point"
 					count: 16
@@ -37,7 +37,7 @@
 			]
 		}
 		{
-			id: "C70D0B4FF0FFE3F9"
+			id: "F7F63A9FED8B4855"
 			x: -4.5d
 			y: -5.0d
 			size: 1.1d
@@ -49,11 +49,11 @@
 				"喂食点心提升女仆等级"
 			]
 			dependencies: [
-				"2DE00131C93BF9CF"
+				"2C0D9206BC66822F"
 			]
 			tasks: [
 				{
-					id: "B1185FC24C7777B0"
+					id: "E4346466D3958AC1"
 					type: "item"
 					item: "touhou_little_maid:power_point"
 					count: 16L
@@ -61,7 +61,7 @@
 			]
 			rewards: [
 				{
-					id: "27EDBCE9FBF3089E"
+					id: "FC90B2DC30A19AAE"
 					type: "item"
 					item: "touhou_little_maid:photo"
 				}

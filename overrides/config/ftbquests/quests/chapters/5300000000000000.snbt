@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "5004BE10D1B845D0"
+			id: "7BFF73BDE25F9684"
 			x: -7.5d
 			y: -5.0d
 			size: 1.4d
@@ -22,14 +22,14 @@
 			]
 			tasks: [
 				{
-					id: "AEA2E5C0308C2754"
+					id: "A668E21390C511D3"
 					type: "item"
 					item: "minecraft:dragon_egg"
 				}
 			]
 			rewards: [
 				{
-					id: "2CD16E3FDB0E0C97"
+					id: "3E0E5E8731843F0B"
 					type: "item"
 					item: "minecraft:dirt"
 				}

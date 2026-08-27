@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "13904077B8471E70"
+			id: "8A03A7D251C50621"
 			x: -7.5d
 			y: -5.0d
 			size: 1.4d
@@ -22,21 +22,21 @@
 			]
 			tasks: [
 				{
-					id: "978A33A467B3ADD1"
+					id: "03F0712CCC971695"
 					type: "item"
 					item: "cataclysm:monstrous_horn"
 				}
 			]
 			rewards: [
 				{
-					id: "294A1060AC2D6250"
+					id: "B0B56A1DEEC14D2E"
 					type: "item"
 					item: "cataclysm:void_core"
 				}
 			]
 		}
 		{
-			id: "DC8A87CE8B0343AC"
+			id: "A5B847C5B328B7AA"
 			x: -4.5d
 			y: -5.0d
 			size: 1.1d
@@ -48,18 +48,18 @@
 				"击败灾变 Boss 获得终极荣誉"
 			]
 			dependencies: [
-				"13904077B8471E70"
+				"8A03A7D251C50621"
 			]
 			tasks: [
 				{
-					id: "27687980146195DA"
+					id: "B9D2049D725C6600"
 					type: "item"
 					item: "cataclysm:void_core"
 				}
 			]
 			rewards: [
 				{
-					id: "4EE1EECC5DBFB125"
+					id: "20C0BCFE1304BAC9"
 					type: "item"
 					item: "cataclysm:witherite_ingot"
 					count: 4

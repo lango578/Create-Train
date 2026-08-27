@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "2B5CE370B6D02543"
+			id: "8904EB42CDEC38A5"
 			x: -7.5d
 			y: -5.0d
 			size: 1.4d
@@ -22,14 +22,14 @@
 			]
 			tasks: [
 				{
-					id: "05ABBCD38622AD6D"
+					id: "F5689E032893DEEB"
 					type: "item"
 					item: "ars_nouveau:worn_notebook"
 				}
 			]
 			rewards: [
 				{
-					id: "779C4E9BF3B5DDCB"
+					id: "463B0A5D94EB3E0C"
 					type: "item"
 					item: "ars_nouveau:source_gem"
 					count: 8
@@ -37,7 +37,7 @@
 			]
 		}
 		{
-			id: "2307836CAFF4AA95"
+			id: "EFC1D4B94DBFAF2E"
 			x: -4.5d
 			y: -5.0d
 			size: 1.1d
@@ -49,11 +49,11 @@
 				"高纯度魔力凝结而成的宝石"
 			]
 			dependencies: [
-				"2B5CE370B6D02543"
+				"8904EB42CDEC38A5"
 			]
 			tasks: [
 				{
-					id: "CF680583E7029B55"
+					id: "73FBCA182CFBE2E4"
 					type: "item"
 					item: "ars_nouveau:source_gem"
 					count: 8L
@@ -61,14 +61,14 @@
 			]
 			rewards: [
 				{
-					id: "C11CC399A601C73B"
+					id: "C54DD0A0D4D65647"
 					type: "item"
 					item: "ars_nouveau:imbuement_chamber"
 				}
 			]
 		}
 		{
-			id: "1BA59991DB6528FC"
+			id: "7CF0CAA775D1679E"
 			x: -1.5d
 			y: -5.0d
 			size: 1.1d
@@ -80,18 +80,18 @@
 				"利用魔源将普通材料转化为魔导产物"
 			]
 			dependencies: [
-				"2307836CAFF4AA95"
+				"EFC1D4B94DBFAF2E"
 			]
 			tasks: [
 				{
-					id: "C94DB383EF20A3C2"
+					id: "192EBF444DCF237A"
 					type: "item"
 					item: "ars_nouveau:imbuement_chamber"
 				}
 			]
 			rewards: [
 				{
-					id: "D87F71F9B6D80A16"
+					id: "6516435033D81E35"
 					type: "item"
 					item: "ars_nouveau:source_jar"
 					count: 2
@@ -99,7 +99,7 @@
 			]
 		}
 		{
-			id: "5D664D56E8DC1C57"
+			id: "43AA6149AB1BFDDB"
 			x: 1.5d
 			y: -5.0d
 			size: 1.1d
@@ -111,11 +111,11 @@
 				"储存液态魔力，为法术和仪式供能"
 			]
 			dependencies: [
-				"1BA59991DB6528FC"
+				"7CF0CAA775D1679E"
 			]
 			tasks: [
 				{
-					id: "AFF6294980DD9F98"
+					id: "E6E154AAE1767921"
 					type: "item"
 					item: "ars_nouveau:source_jar"
 					count: 2L
@@ -123,14 +123,14 @@
 			]
 			rewards: [
 				{
-					id: "2943566656722158"
+					id: "A76335326388BD3A"
 					type: "item"
 					item: "ars_nouveau:agronomic_sourcelink"
 				}
 			]
 		}
 		{
-			id: "2728007E9ECA2D5B"
+			id: "2DCBDE34E71DB918"
 			x: 4.5d
 			y: -5.0d
 			size: 1.1d
@@ -142,25 +142,25 @@
 				"吸收农作物生长释放的魔源"
 			]
 			dependencies: [
-				"5D664D56E8DC1C57"
+				"43AA6149AB1BFDDB"
 			]
 			tasks: [
 				{
-					id: "8A959456B32A2F85"
+					id: "80F446F19E94AED5"
 					type: "item"
 					item: "ars_nouveau:agronomic_sourcelink"
 				}
 			]
 			rewards: [
 				{
-					id: "E3BC23DFBD6F09F1"
+					id: "879B2C00C6E5B75F"
 					type: "item"
 					item: "ars_nouveau:volcanic_sourcelink"
 				}
 			]
 		}
 		{
-			id: "1FBB69F40419C58B"
+			id: "BF6F3A1EB9E530E1"
 			x: 7.5d
 			y: -5.0d
 			size: 1.1d
@@ -172,25 +172,25 @@
 				"吸收热源与岩浆转化为魔源"
 			]
 			dependencies: [
-				"2728007E9ECA2D5B"
+				"2DCBDE34E71DB918"
 			]
 			tasks: [
 				{
-					id: "9E59B92E58FA82DF"
+					id: "C5001A7280B8FC0C"
 					type: "item"
 					item: "ars_nouveau:volcanic_sourcelink"
 				}
 			]
 			rewards: [
 				{
-					id: "CE1D096B35BC46F0"
+					id: "AEC2B3AEB49BA728"
 					type: "item"
 					item: "ars_nouveau:mycelial_sourcelink"
 				}
 			]
 		}
 		{
-			id: "84EA685DE5105396"
+			id: "92F653ED81B3D5FA"
 			x: -7.5d
 			y: -2.5d
 			size: 1.1d
@@ -202,25 +202,25 @@
 				"消耗蘑菇与有机物生成魔源"
 			]
 			dependencies: [
-				"1FBB69F40419C58B"
+				"BF6F3A1EB9E530E1"
 			]
 			tasks: [
 				{
-					id: "BE829F598E92A912"
+					id: "9DA8263946DE96B7"
 					type: "item"
 					item: "ars_nouveau:mycelial_sourcelink"
 				}
 			]
 			rewards: [
 				{
-					id: "70E1DE9F29B3E363"
+					id: "397A55C707232697"
 					type: "item"
 					item: "ars_nouveau:alchemical_sourcelink"
 				}
 			]
 		}
 		{
-			id: "40B75A0ED6AF96DA"
+			id: "F66406B4069D9D6D"
 			x: -4.5d
 			y: -2.5d
 			size: 1.1d
@@ -232,25 +232,25 @@
 				"吸收药水酿造过程的溢出能量"
 			]
 			dependencies: [
-				"84EA685DE5105396"
+				"92F653ED81B3D5FA"
 			]
 			tasks: [
 				{
-					id: "6F5ED0439C336C0B"
+					id: "2B8C8FEA052C98B8"
 					type: "item"
 					item: "ars_nouveau:alchemical_sourcelink"
 				}
 			]
 			rewards: [
 				{
-					id: "9B880F60ACFC0882"
+					id: "823C3D976B0B7B3D"
 					type: "item"
 					item: "ars_nouveau:vitalic_sourcelink"
 				}
 			]
 		}
 		{
-			id: "FB3C596B1D120C47"
+			id: "AEA57366BB31DF18"
 			x: -1.5d
 			y: -2.5d
 			size: 1.1d
@@ -262,18 +262,18 @@
 				"吸收附近生物繁殖与生长魔力"
 			]
 			dependencies: [
-				"40B75A0ED6AF96DA"
+				"F66406B4069D9D6D"
 			]
 			tasks: [
 				{
-					id: "6EF099E7FA47C26A"
+					id: "06BAA0204D5DA48B"
 					type: "item"
 					item: "ars_nouveau:vitalic_sourcelink"
 				}
 			]
 			rewards: [
 				{
-					id: "B04BAB958501D3D7"
+					id: "B43CDF872DCECF98"
 					type: "item"
 					item: "ars_nouveau:magebloom_crop"
 					count: 8
@@ -281,7 +281,7 @@
 			]
 		}
 		{
-			id: "F12ED0D5A3F90963"
+			id: "45111EB1BC97E881"
 			x: 1.5d
 			y: -2.5d
 			size: 1.1d
@@ -293,11 +293,11 @@
 				"种植并收割充满魔源的法师花"
 			]
 			dependencies: [
-				"FB3C596B1D120C47"
+				"AEA57366BB31DF18"
 			]
 			tasks: [
 				{
-					id: "8C201C8BA54AB415"
+					id: "C1A7387E5269D926"
 					type: "item"
 					item: "ars_nouveau:magebloom_crop"
 					count: 8L
@@ -305,7 +305,7 @@
 			]
 			rewards: [
 				{
-					id: "3AE3477C785C26D2"
+					id: "DE6936E11FF1B41A"
 					type: "item"
 					item: "ars_nouveau:magebloom"
 					count: 8
@@ -313,7 +313,7 @@
 			]
 		}
 		{
-			id: "0D3F7A1621C975D7"
+			id: "6265BD2B81956145"
 			x: 4.5d
 			y: -2.5d
 			size: 1.1d
@@ -325,11 +325,11 @@
 				"编织高级法师长袍的基础布料"
 			]
 			dependencies: [
-				"F12ED0D5A3F90963"
+				"45111EB1BC97E881"
 			]
 			tasks: [
 				{
-					id: "E4CAD0A380E31D3E"
+					id: "C9881035C44D603C"
 					type: "item"
 					item: "ars_nouveau:magebloom"
 					count: 8L
@@ -337,7 +337,7 @@
 			]
 			rewards: [
 				{
-					id: "7BC26FB63F49C279"
+					id: "84102F1FB360A868"
 					type: "item"
 					item: "ars_nouveau:blank_parchment"
 					count: 16
@@ -345,7 +345,7 @@
 			]
 		}
 		{
-			id: "5B92609952830C40"
+			id: "2B0CBB75CD61E4E0"
 			x: 7.5d
 			y: -2.5d
 			size: 1.1d
@@ -357,11 +357,11 @@
 				"刻印法术符文与契约的核心纸张"
 			]
 			dependencies: [
-				"0D3F7A1621C975D7"
+				"6265BD2B81956145"
 			]
 			tasks: [
 				{
-					id: "D2289AE6FCE31D84"
+					id: "24DF7F7EC61CECBA"
 					type: "item"
 					item: "ars_nouveau:blank_parchment"
 					count: 16L
@@ -369,14 +369,14 @@
 			]
 			rewards: [
 				{
-					id: "83E6E53C1B700BA8"
+					id: "7765E0F85468872E"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "D33E2E0C27882D6F"
+			id: "08438EC00826DEB2"
 			x: -7.5d
 			y: 0.0d
 			size: 1.1d
@@ -388,25 +388,25 @@
 				"近距离施放法术的基础媒介"
 			]
 			dependencies: [
-				"5B92609952830C40"
+				"2B0CBB75CD61E4E0"
 			]
 			tasks: [
 				{
-					id: "E1BE0E238A2B49CF"
+					id: "94BB0F98B85A27B4"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "7621E61BE55E8187"
+					id: "AE70DE2C5B8D4FA4"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "1CB391043D212D55"
+			id: "E13F120F0C66EFC3"
 			x: -4.5d
 			y: 0.0d
 			size: 1.1d
@@ -418,25 +418,25 @@
 				"发射魔法飞弹攻击远距离目标"
 			]
 			dependencies: [
-				"D33E2E0C27882D6F"
+				"08438EC00826DEB2"
 			]
 			tasks: [
 				{
-					id: "ADC835D5B8F877D6"
+					id: "7BE030B0D1AD7495"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "AB08F19088F2BFE5"
+					id: "7108E9233775A476"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "FF792B6A4B3CCD11"
+			id: "E159209C535EB9E6"
 			x: -1.5d
 			y: 0.0d
 			size: 1.1d
@@ -448,18 +448,18 @@
 				"用魔法飞弹隔空粉碎方块"
 			]
 			dependencies: [
-				"1CB391043D212D55"
+				"E13F120F0C66EFC3"
 			]
 			tasks: [
 				{
-					id: "3C5410BD8502EF04"
+					id: "F436648513D102A9"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "00F5B58232D78AED"
+					id: "E92406D1E724A687"
 					type: "item"
 					item: "ars_nouveau:source_gem"
 					count: 16
@@ -467,7 +467,7 @@
 			]
 		}
 		{
-			id: "377138E584821B16"
+			id: "50FEACF09D735293"
 			x: 1.5d
 			y: 0.0d
 			size: 1.1d
@@ -479,25 +479,25 @@
 				"点燃目标与熔炼矿石"
 			]
 			dependencies: [
-				"FF792B6A4B3CCD11"
+				"E159209C535EB9E6"
 			]
 			tasks: [
 				{
-					id: "E6B94A8D3E5774A4"
+					id: "4FF110127B132C8D"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "D889BF248766C13F"
+					id: "6A0112DE9902369F"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "29AB97049CA43A44"
+			id: "28C1EE083B7D7E89"
 			x: 4.5d
 			y: 0.0d
 			size: 1.1d
@@ -509,25 +509,25 @@
 				"隔空搭建墙壁与桥梁"
 			]
 			dependencies: [
-				"377138E584821B16"
+				"50FEACF09D735293"
 			]
 			tasks: [
 				{
-					id: "6D4AF2940B7C63F8"
+					id: "B6F668AA77DEEBF7"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "65372FCA5D2EFE5E"
+					id: "E23B952E43E080D9"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "CC6367F8137056A1"
+			id: "E2BF6017FE48C202"
 			x: 7.5d
 			y: 0.0d
 			size: 1.1d
@@ -539,25 +539,25 @@
 				"发射永久悬空光源"
 			]
 			dependencies: [
-				"29AB97049CA43A44"
+				"28C1EE083B7D7E89"
 			]
 			tasks: [
 				{
-					id: "B88746208E374A60"
+					id: "3ACC06DC006AE90A"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "C531D190D7AAC525"
+					id: "5F2F73CE694A951D"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "5791459E647F8FEA"
+			id: "608CDD1622B61C30"
 			x: -7.5d
 			y: 2.5d
 			size: 1.1d
@@ -569,25 +569,25 @@
 				"直接造成魔法伤害"
 			]
 			dependencies: [
-				"CC6367F8137056A1"
+				"E2BF6017FE48C202"
 			]
 			tasks: [
 				{
-					id: "1F64C6861A6ECA33"
+					id: "F7453CB7BFFFF9A8"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "312C58902FAC4F4F"
+					id: "E6EDEBDA107679ED"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "E73F177F60EECE02"
+			id: "10DD48C1E9C9C297"
 			x: -4.5d
 			y: 2.5d
 			size: 1.1d
@@ -599,25 +599,25 @@
 				"瞬间回复生命值与去除负面状态"
 			]
 			dependencies: [
-				"5791459E647F8FEA"
+				"608CDD1622B61C30"
 			]
 			tasks: [
 				{
-					id: "A11B47A711488F4B"
+					id: "252BC0EE3697FF53"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "9779FE3B6E8B8376"
+					id: "315928836A6E4900"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "A915C9A0A0A5A8CA"
+			id: "3A03DF73628222B8"
 			x: -1.5d
 			y: 2.5d
 			size: 1.1d
@@ -629,25 +629,25 @@
 				"增强法术威力与范围"
 			]
 			dependencies: [
-				"E73F177F60EECE02"
+				"10DD48C1E9C9C297"
 			]
 			tasks: [
 				{
-					id: "25A7A431E78F332B"
+					id: "6FD714EE79691525"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "ACF4ED702FE46C2D"
+					id: "888730A17D1AC247"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "C6CB8F4E719D03D7"
+			id: "1215E95CAF3189EF"
 			x: 1.5d
 			y: 2.5d
 			size: 1.1d
@@ -659,25 +659,25 @@
 				"延长法术效果持续秒数"
 			]
 			dependencies: [
-				"A915C9A0A0A5A8CA"
+				"3A03DF73628222B8"
 			]
 			tasks: [
 				{
-					id: "2276E3B2CF5984A8"
+					id: "D48CBA93BA761DB1"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "489E8BCDEE3E0A37"
+					id: "7B635C62F95348AE"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "2297E72FC3E0CA60"
+			id: "84CDF336F862AECE"
 			x: 4.5d
 			y: 2.5d
 			size: 1.1d
@@ -689,18 +689,18 @@
 				"将单体法术变为广域范围法术"
 			]
 			dependencies: [
-				"C6CB8F4E719D03D7"
+				"1215E95CAF3189EF"
 			]
 			tasks: [
 				{
-					id: "64A2C952363FB706"
+					id: "19B3C1CE37EB5C24"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "8435BCCB417A36A5"
+					id: "E61568FAF57B5A48"
 					type: "item"
 					item: "ars_nouveau:relay"
 					count: 2
@@ -708,7 +708,7 @@
 			]
 		}
 		{
-			id: "99D18F1FAEE9DDA1"
+			id: "2CC7E7F1D04FA5CD"
 			x: 7.5d
 			y: 2.5d
 			size: 1.1d
@@ -720,11 +720,11 @@
 				"长距离跨空间无线传输魔源"
 			]
 			dependencies: [
-				"2297E72FC3E0CA60"
+				"84CDF336F862AECE"
 			]
 			tasks: [
 				{
-					id: "C5BE9489B7E24581"
+					id: "6DB668CF6E312DDD"
 					type: "item"
 					item: "ars_nouveau:relay"
 					count: 2L
@@ -732,14 +732,14 @@
 			]
 			rewards: [
 				{
-					id: "D986B933DFE7307D"
+					id: "7D8889E5FA3C4F9A"
 					type: "item"
 					item: "ars_nouveau:relay_splitter"
 				}
 			]
 		}
 		{
-			id: "F26E02776212C3F7"
+			id: "4D2D501CCED260A9"
 			x: -7.5d
 			y: 5.0d
 			size: 1.1d
@@ -751,25 +751,25 @@
 				"将一路魔源一分为四分配至多台机器"
 			]
 			dependencies: [
-				"99D18F1FAEE9DDA1"
+				"2CC7E7F1D04FA5CD"
 			]
 			tasks: [
 				{
-					id: "F0CC0FF98E045980"
+					id: "4C41E56A69E054AE"
 					type: "item"
 					item: "ars_nouveau:relay_splitter"
 				}
 			]
 			rewards: [
 				{
-					id: "04B943CF151D2121"
+					id: "CA3A647C5AB82076"
 					type: "item"
 					item: "ars_nouveau:relay_deposit"
 				}
 			]
 		}
 		{
-			id: "82512AB2F4D76405"
+			id: "ECEC65F40D77EF73"
 			x: -4.5d
 			y: 5.0d
 			size: 1.1d
@@ -781,18 +781,18 @@
 				"自动补满附近的魔源罐"
 			]
 			dependencies: [
-				"F26E02776212C3F7"
+				"4D2D501CCED260A9"
 			]
 			tasks: [
 				{
-					id: "F2A55F8935B45E3D"
+					id: "D24170240B689D5E"
 					type: "item"
 					item: "ars_nouveau:relay_deposit"
 				}
 			]
 			rewards: [
 				{
-					id: "47669065D50C56D1"
+					id: "7D5FE7C5D448D5D9"
 					type: "item"
 					item: "ars_nouveau:arcane_pedestal"
 					count: 4
@@ -800,7 +800,7 @@
 			]
 		}
 		{
-			id: "ED222E82EE24117A"
+			id: "B9603EA5EDE3940A"
 			x: -1.5d
 			y: 5.0d
 			size: 1.1d
@@ -812,11 +812,11 @@
 				"围绕主仪式底座摆放供奉物品"
 			]
 			dependencies: [
-				"82512AB2F4D76405"
+				"ECEC65F40D77EF73"
 			]
 			tasks: [
 				{
-					id: "B5FC25DDD2218604"
+					id: "96853984D8C80621"
 					type: "item"
 					item: "ars_nouveau:arcane_pedestal"
 					count: 4L
@@ -824,14 +824,14 @@
 			]
 			rewards: [
 				{
-					id: "3B04E46226969EE0"
+					id: "0D85C1D524F0E8E2"
 					type: "item"
 					item: "ars_nouveau:arcane_core"
 				}
 			]
 		}
 		{
-			id: "B190B2046B744AA0"
+			id: "1B9E34C01ED34FAB"
 			x: 1.5d
 			y: 5.0d
 			size: 1.1d
@@ -843,25 +843,25 @@
 				"启动大型召唤与转换仪式的核心"
 			]
 			dependencies: [
-				"ED222E82EE24117A"
+				"B9603EA5EDE3940A"
 			]
 			tasks: [
 				{
-					id: "3B22B9010EBEA524"
+					id: "84C88AA75A99AAA9"
 					type: "item"
 					item: "ars_nouveau:arcane_core"
 				}
 			]
 			rewards: [
 				{
-					id: "D7DC5CCB27F789D8"
+					id: "9A18128EFA67558E"
 					type: "item"
 					item: "ars_nouveau:ritual_brazier"
 				}
 			]
 		}
 		{
-			id: "90360FF14F80B064"
+			id: "BBB805FBADCDABD0"
 			x: 4.5d
 			y: 5.0d
 			size: 1.1d
@@ -873,18 +873,18 @@
 				"放入仪式火片，开启魔法天气与召唤"
 			]
 			dependencies: [
-				"B190B2046B744AA0"
+				"1B9E34C01ED34FAB"
 			]
 			tasks: [
 				{
-					id: "DF4D602F39E0A651"
+					id: "7F32461CF267DC53"
 					type: "item"
 					item: "ars_nouveau:ritual_brazier"
 				}
 			]
 			rewards: [
 				{
-					id: "E19ABAA807930831"
+					id: "CDDE9E37B8496201"
 					type: "item"
 					item: "ars_nouveau:source_gem"
 					count: 32
@@ -892,7 +892,7 @@
 			]
 		}
 		{
-			id: "363AB90E87DC4706"
+			id: "C02A798CCC9FE761"
 			x: 7.5d
 			y: 5.0d
 			size: 1.1d
@@ -904,18 +904,18 @@
 				"掌管魔源流动，准备开启魔能机械大同！"
 			]
 			dependencies: [
-				"90360FF14F80B064"
+				"BBB805FBADCDABD0"
 			]
 			tasks: [
 				{
-					id: "DA06394C5E8B6C72"
+					id: "DA48226F45AF2FC6"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "5682ABE76E915C65"
+					id: "7BC47E7F9268CED9"
 					type: "item"
 					item: "ars_creo:starbuncle_wheel"
 				}

@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "0209596B6376D339"
+			id: "3723834687A779FA"
 			x: -7.5d
 			y: -5.0d
 			size: 1.4d
@@ -22,14 +22,14 @@
 			]
 			tasks: [
 				{
-					id: "5A894CAC7C353493"
+					id: "49FE5B1AE1B24160"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "715F13B092589D11"
+					id: "04E50C8D2FB41B35"
 					type: "item"
 					item: "createbigcannons:cast_iron_ingot"
 					count: 32

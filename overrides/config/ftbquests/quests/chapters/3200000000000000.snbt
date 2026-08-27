@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "9D4615DD99DFB41F"
+			id: "1B001ED171ACCE54"
 			x: -7.5d
 			y: -5.0d
 			size: 1.4d
@@ -22,21 +22,21 @@
 			]
 			tasks: [
 				{
-					id: "65594B6D487C99D5"
+					id: "06D8EAA069EB0AE9"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "79EE5C8283E68939"
+					id: "8C0825B039EBA21A"
 					type: "item"
 					item: "create:super_glue"
 				}
 			]
 		}
 		{
-			id: "33F771A7F2F99946"
+			id: "0BDAFED764A73573"
 			x: -4.5d
 			y: -5.0d
 			size: 1.1d
@@ -48,18 +48,18 @@
 				"将车架与车轮粘合为整体车组"
 			]
 			dependencies: [
-				"9D4615DD99DFB41F"
+				"1B001ED171ACCE54"
 			]
 			tasks: [
 				{
-					id: "7FB17707809B4B7E"
+					id: "0CE7002501F1FAAB"
 					type: "item"
 					item: "create:super_glue"
 				}
 			]
 			rewards: [
 				{
-					id: "CE1ADFDB26ACCF6D"
+					id: "7B72B60E6A2E96D6"
 					type: "item"
 					item: "minecraft:dirt"
 					count: 2
@@ -67,7 +67,7 @@
 			]
 		}
 		{
-			id: "FFF7187AAA0DD439"
+			id: "E66525A10F67BEC9"
 			x: -1.5d
 			y: -5.0d
 			size: 1.1d
@@ -79,11 +79,11 @@
 				"坐上驾驶位掌控车辆方向"
 			]
 			dependencies: [
-				"33F771A7F2F99946"
+				"0BDAFED764A73573"
 			]
 			tasks: [
 				{
-					id: "0597FB9BBA8D58F3"
+					id: "DAF8D4CECAE82936"
 					type: "item"
 					item: "minecraft:dirt"
 					count: 2L
@@ -91,14 +91,14 @@
 			]
 			rewards: [
 				{
-					id: "39789F3C494E74DC"
+					id: "FAFC354A272024EB"
 					type: "item"
 					item: "create:controls"
 				}
 			]
 		}
 		{
-			id: "2096597D9C4E8339"
+			id: "DC6D92B702816C2C"
 			x: 1.5d
 			y: -5.0d
 			size: 1.1d
@@ -110,25 +110,25 @@
 				"WASD 操控汽车前进后退转向"
 			]
 			dependencies: [
-				"FFF7187AAA0DD439"
+				"E66525A10F67BEC9"
 			]
 			tasks: [
 				{
-					id: "066ADD08BF6521B4"
+					id: "370852EA436BAF71"
 					type: "item"
 					item: "create:controls"
 				}
 			]
 			rewards: [
 				{
-					id: "816C7419FE561523"
+					id: "FAB50876240FFF15"
 					type: "item"
 					item: "create:hand_crank"
 				}
 			]
 		}
 		{
-			id: "82DA147536A31270"
+			id: "73B6BDF53A6EE98A"
 			x: 4.5d
 			y: -5.0d
 			size: 1.1d
@@ -140,18 +140,18 @@
 				"控制前轮左右转向偏航"
 			]
 			dependencies: [
-				"2096597D9C4E8339"
+				"DC6D92B702816C2C"
 			]
 			tasks: [
 				{
-					id: "5831BD03FC1EDCBB"
+					id: "9C462756CCBD0CE6"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "3EDF388003548E6E"
+					id: "7045B1F0F7F3CC41"
 					type: "item"
 					item: "createdieselgenerators:engine_piston"
 					count: 2
@@ -159,7 +159,7 @@
 			]
 		}
 		{
-			id: "4F624DF0AD300615"
+			id: "ABD210280EC4EB19"
 			x: 7.5d
 			y: -5.0d
 			size: 1.1d
@@ -171,11 +171,11 @@
 				"为卡车提供强劲马力"
 			]
 			dependencies: [
-				"82DA147536A31270"
+				"73B6BDF53A6EE98A"
 			]
 			tasks: [
 				{
-					id: "CC0BAE23FADF9BF4"
+					id: "14B2518259BBDFFF"
 					type: "item"
 					item: "createdieselgenerators:engine_piston"
 					count: 2L
@@ -183,7 +183,7 @@
 			]
 			rewards: [
 				{
-					id: "2A81FBCA2611A029"
+					id: "DDE2ADF94D7F27FA"
 					type: "item"
 					item: "minecraft:dirt"
 					count: 2
@@ -191,7 +191,7 @@
 			]
 		}
 		{
-			id: "E1275B738C2F5A3D"
+			id: "6F8A554D991B294E"
 			x: -7.5d
 			y: -2.5d
 			size: 1.1d
@@ -203,11 +203,11 @@
 				"装载柴油实现超长续航"
 			]
 			dependencies: [
-				"4F624DF0AD300615"
+				"ABD210280EC4EB19"
 			]
 			tasks: [
 				{
-					id: "1150DDE359B70D98"
+					id: "518D7987967F9284"
 					type: "item"
 					item: "minecraft:dirt"
 					count: 2L
@@ -215,7 +215,7 @@
 			]
 			rewards: [
 				{
-					id: "7DB8F0A8877C19B9"
+					id: "4DD44AE05D63FF45"
 					type: "item"
 					item: "create:portable_fluid_interface"
 					count: 2
@@ -223,7 +223,7 @@
 			]
 		}
 		{
-			id: "F6DD0BAA1F3F5CBC"
+			id: "CB37827FBFD22C86"
 			x: -4.5d
 			y: -2.5d
 			size: 1.1d
@@ -235,11 +235,11 @@
 				"靠站自动补充车载柴油"
 			]
 			dependencies: [
-				"E1275B738C2F5A3D"
+				"6F8A554D991B294E"
 			]
 			tasks: [
 				{
-					id: "B9F4CC5E4C6D98E7"
+					id: "75256B04F7E81195"
 					type: "item"
 					item: "create:portable_fluid_interface"
 					count: 2L
@@ -247,7 +247,7 @@
 			]
 			rewards: [
 				{
-					id: "F1474EE001970E98"
+					id: "E65342CD796ADE22"
 					type: "item"
 					item: "create:portable_storage_interface"
 					count: 2
@@ -255,7 +255,7 @@
 			]
 		}
 		{
-			id: "85A4E762C57383DF"
+			id: "32FFF02FA76031F4"
 			x: -1.5d
 			y: -2.5d
 			size: 1.1d
@@ -267,11 +267,11 @@
 				"卸载卡车货斗采到的矿石"
 			]
 			dependencies: [
-				"F6DD0BAA1F3F5CBC"
+				"CB37827FBFD22C86"
 			]
 			tasks: [
 				{
-					id: "3DFA3FE5D21C2FAC"
+					id: "A7C4DEFD60B4D2FA"
 					type: "item"
 					item: "create:portable_storage_interface"
 					count: 2L
@@ -279,14 +279,14 @@
 			]
 			rewards: [
 				{
-					id: "704F578A34EA1EC9"
+					id: "BBDFF1D60D39C6C5"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 		}
 		{
-			id: "188F5234481893EE"
+			id: "B8CBA3DBB246527D"
 			x: 1.5d
 			y: -2.5d
 			size: 1.1d
@@ -298,18 +298,18 @@
 				"在越野车顶安装防空机炮"
 			]
 			dependencies: [
-				"85A4E762C57383DF"
+				"32FFF02FA76031F4"
 			]
 			tasks: [
 				{
-					id: "397B959DD10622C0"
+					id: "DA243543E04CDDA1"
 					type: "item"
 					item: "minecraft:dirt"
 				}
 			]
 			rewards: [
 				{
-					id: "25581FFA15434198"
+					id: "3EE3AE6812B4EABE"
 					type: "item"
 					item: "createbigcannons:autocannon_ammo_container"
 					count: 2
@@ -317,7 +317,7 @@
 			]
 		}
 		{
-			id: "6773DF63D95357CE"
+			id: "29CABE6745386BEC"
 			x: 4.5d
 			y: -2.5d
 			size: 1.1d
@@ -329,11 +329,11 @@
 				"拉载百吨物资的陆地列车"
 			]
 			dependencies: [
-				"188F5234481893EE"
+				"B8CBA3DBB246527D"
 			]
 			tasks: [
 				{
-					id: "37F065ADF88F24E5"
+					id: "1CC359F862B56702"
 					type: "item"
 					item: "create:brass_casing"
 					count: 8L
@@ -341,7 +341,7 @@
 			]
 			rewards: [
 				{
-					id: "CE3EAAC1529C4861"
+					id: "349CC8D498939354"
 					type: "item"
 					item: "create:display_board"
 					count: 4
@@ -349,7 +349,7 @@
 			]
 		}
 		{
-			id: "CE1307A3396C2000"
+			id: "9936687FDFA5794E"
 			x: 7.5d
 			y: -2.5d
 			size: 1.1d
@@ -361,18 +361,18 @@
 				"显示车速、剩余油量与水温"
 			]
 			dependencies: [
-				"6773DF63D95357CE"
+				"29CABE6745386BEC"
 			]
 			tasks: [
 				{
-					id: "ED5C19101D8C4302"
+					id: "4201F0EFEEA87266"
 					type: "item"
 					item: "create:speedometer"
 				}
 			]
 			rewards: [
 				{
-					id: "E2232F6E37949482"
+					id: "79DF05365E90A22A"
 					type: "item"
 					item: "create:nixie_tube"
 					count: 2
@@ -380,7 +380,7 @@
 			]
 		}
 		{
-			id: "85C7787D057A8713"
+			id: "5EA5CAFB3789F157"
 			x: -7.5d
 			y: 0.0d
 			size: 1.1d
@@ -392,11 +392,11 @@
 				"夜间穿行荒野的强光前大灯"
 			]
 			dependencies: [
-				"CE1307A3396C2000"
+				"9936687FDFA5794E"
 			]
 			tasks: [
 				{
-					id: "60BE5D65B3216E46"
+					id: "4A1B0B3CDAB8DD0B"
 					type: "item"
 					item: "minecraft:glowstone"
 					count: 4L
@@ -404,7 +404,7 @@
 			]
 			rewards: [
 				{
-					id: "A89A4FA3303A07E2"
+					id: "9648BF5E8D731C62"
 					type: "item"
 					item: "minecraft:redstone_lamp"
 					count: 2
@@ -412,7 +412,7 @@
 			]
 		}
 		{
-			id: "CD4F57781AA456E2"
+			id: "C8B33E3743182F4B"
 			x: -4.5d
 			y: 0.0d
 			size: 1.1d
@@ -424,11 +424,11 @@
 				"车队车机无线语音与车队调度"
 			]
 			dependencies: [
-				"85C7787D057A8713"
+				"5EA5CAFB3789F157"
 			]
 			tasks: [
 				{
-					id: "1DBC99E90E59DD0E"
+					id: "269DCF944A12D262"
 					type: "item"
 					item: "create:redstone_link"
 					count: 2L
@@ -436,7 +436,7 @@
 			]
 			rewards: [
 				{
-					id: "C41C5DEC85867393"
+					id: "CF6B316F32F99E21"
 					type: "item"
 					item: "create:brass_ingot"
 					count: 16
@@ -444,7 +444,7 @@
 			]
 		}
 		{
-			id: "043143FB0C7A8333"
+			id: "D1596903FA63E769"
 			x: -1.5d
 			y: 0.0d
 			size: 1.1d
@@ -456,18 +456,18 @@
 				"驾驶你的超级装甲卡车横扫荒野！"
 			]
 			dependencies: [
-				"CD4F57781AA456E2"
+				"C8B33E3743182F4B"
 			]
 			tasks: [
 				{
-					id: "DF60F5AB9B2D8853"
+					id: "85B8544AD5A4DDEA"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "1C8894ADFCB8D20F"
+					id: "40D3605056710460"
 					type: "item"
 					item: "create:track"
 					count: 64
@@ -475,7 +475,7 @@
 			]
 		}
 		{
-			id: "B2CF5A9038150A57"
+			id: "D124988504DBDAC2"
 			x: 1.5d
 			y: 0.0d
 			size: 1.1d
@@ -487,11 +487,11 @@
 				"耐磨抓地防爆轮胎"
 			]
 			dependencies: [
-				"043143FB0C7A8333"
+				"D1596903FA63E769"
 			]
 			tasks: [
 				{
-					id: "D72669D393809084"
+					id: "F6D5495333156C90"
 					type: "item"
 					item: "minecraft:black_wool"
 					count: 8L
@@ -499,7 +499,7 @@
 			]
 			rewards: [
 				{
-					id: "B04EFB42AD1A6006"
+					id: "745AB367EE1EE8E2"
 					type: "item"
 					item: "minecraft:iron_ingot"
 					count: 8
@@ -507,7 +507,7 @@
 			]
 		}
 		{
-			id: "BCF0447B7825FEF8"
+			id: "D0CC9E7DAB4F71DE"
 			x: 4.5d
 			y: 0.0d
 			size: 1.1d
@@ -519,11 +519,11 @@
 				"吸收崎岖山路的剧烈颠簸"
 			]
 			dependencies: [
-				"B2CF5A9038150A57"
+				"D124988504DBDAC2"
 			]
 			tasks: [
 				{
-					id: "088380603FE277AE"
+					id: "DF9193C868CCCABC"
 					type: "item"
 					item: "minecraft:iron_bars"
 					count: 8L
@@ -531,7 +531,7 @@
 			]
 			rewards: [
 				{
-					id: "27EB442C8C6CCC09"
+					id: "21BCF77808D73282"
 					type: "item"
 					item: "minecraft:iron_ingot"
 					count: 4
@@ -539,7 +539,7 @@
 			]
 		}
 		{
-			id: "A04D465D22CBEA80"
+			id: "B3BB8C847234199B"
 			x: 7.5d
 			y: 0.0d
 			size: 1.1d
@@ -551,18 +551,18 @@
 				"撞飞前方的树木与障碍物"
 			]
 			dependencies: [
-				"BCF0447B7825FEF8"
+				"D0CC9E7DAB4F71DE"
 			]
 			tasks: [
 				{
-					id: "F8B9025BF4573317"
+					id: "429C21D8E8EAEDE9"
 					type: "item"
 					item: "minecraft:iron_block"
 				}
 			]
 			rewards: [
 				{
-					id: "8900096D9FC2532E"
+					id: "01451C96FE68C790"
 					type: "item"
 					item: "create:andesite_alloy"
 					count: 16
@@ -570,7 +570,7 @@
 			]
 		}
 		{
-			id: "11F427AE26991374"
+			id: "1EFB4F05761EC052"
 			x: -7.5d
 			y: 2.5d
 			size: 1.1d
@@ -582,11 +582,11 @@
 				"陷入泥潭时自救牵引绳"
 			]
 			dependencies: [
-				"A04D465D22CBEA80"
+				"B3BB8C847234199B"
 			]
 			tasks: [
 				{
-					id: "A61C48DF26327B1F"
+					id: "4CE8B6CCCBF3C617"
 					type: "item"
 					item: "farmersdelight:rope"
 					count: 16L
@@ -594,7 +594,7 @@
 			]
 			rewards: [
 				{
-					id: "929F92A6B68E67A8"
+					id: "B172AD01DD768BA2"
 					type: "item"
 					item: "create:shaft"
 					count: 8
@@ -602,7 +602,7 @@
 			]
 		}
 		{
-			id: "C4F4A70A90BAC2A8"
+			id: "79EE0C24A6796E03"
 			x: -4.5d
 			y: 2.5d
 			size: 1.1d
@@ -614,11 +614,11 @@
 				"翻车时保护驾驶员安全"
 			]
 			dependencies: [
-				"11F427AE26991374"
+				"1EFB4F05761EC052"
 			]
 			tasks: [
 				{
-					id: "B49C04181F30FE57"
+					id: "48B8B52148FB1A47"
 					type: "item"
 					item: "create:fluid_pipe"
 					count: 8L
@@ -626,7 +626,7 @@
 			]
 			rewards: [
 				{
-					id: "A43730BDF36E300A"
+					id: "8CAB453B612AF360"
 					type: "item"
 					item: "minecraft:iron_ingot"
 					count: 8
@@ -634,7 +634,7 @@
 			]
 		}
 		{
-			id: "4344644A04D87E53"
+			id: "8EF157AD3C9B08A7"
 			x: -1.5d
 			y: 2.5d
 			size: 1.1d
@@ -646,11 +646,11 @@
 				"长途跋涉胎压紧急替换"
 			]
 			dependencies: [
-				"C4F4A70A90BAC2A8"
+				"79EE0C24A6796E03"
 			]
 			tasks: [
 				{
-					id: "E2F2B5B59F4C1FCF"
+					id: "F09FF4A688673C7B"
 					type: "item"
 					item: "minecraft:black_wool"
 					count: 4L
@@ -658,7 +658,7 @@
 			]
 			rewards: [
 				{
-					id: "0ED3B352AFB20D0B"
+					id: "53FE099DEEC9722E"
 					type: "item"
 					item: "minecraft:iron_nugget"
 					count: 16
@@ -666,7 +666,7 @@
 			]
 		}
 		{
-			id: "813C451AA5625247"
+			id: "1302CD7139DF617C"
 			x: 1.5d
 			y: 2.5d
 			size: 1.1d
@@ -678,18 +678,18 @@
 				"野外随时修理引擎与车轴"
 			]
 			dependencies: [
-				"4344644A04D87E53"
+				"8EF157AD3C9B08A7"
 			]
 			tasks: [
 				{
-					id: "3E4C13FEBF20E934"
+					id: "058076F6ABD4F1E7"
 					type: "item"
 					item: "create:wrench"
 				}
 			]
 			rewards: [
 				{
-					id: "C2EC2077CB3EDDBE"
+					id: "570180DB7BB7B38F"
 					type: "item"
 					item: "create:andesite_alloy"
 					count: 16
@@ -697,7 +697,7 @@
 			]
 		}
 		{
-			id: "3EECEAE68857B4C9"
+			id: "DE99DADCCAECED75"
 			x: 4.5d
 			y: 2.5d
 			size: 1.1d
@@ -709,11 +709,11 @@
 				"穿越干旱沙漠防缺油卡车停摆"
 			]
 			dependencies: [
-				"813C451AA5625247"
+				"1302CD7139DF617C"
 			]
 			tasks: [
 				{
-					id: "4E84964D2D51DD9E"
+					id: "986893B3109EAAA0"
 					type: "item"
 					item: "minecraft:dirt"
 					count: 2L
@@ -721,14 +721,14 @@
 			]
 			rewards: [
 				{
-					id: "C9C3D1BC4164FEFC"
+					id: "1BBC3E6E7244ABFB"
 					type: "item"
 					item: "createdieselgenerators:diesel_bucket"
 				}
 			]
 		}
 		{
-			id: "29F89EA10F8D1E73"
+			id: "AC3DCDA9103249AE"
 			x: 7.5d
 			y: 2.5d
 			size: 1.1d
@@ -740,11 +740,11 @@
 				"深水河道涉水发动机防进水熄火"
 			]
 			dependencies: [
-				"3EECEAE68857B4C9"
+				"DE99DADCCAECED75"
 			]
 			tasks: [
 				{
-					id: "F4AE19C7B5C72494"
+					id: "3BD5B9A6F7F7D4A5"
 					type: "item"
 					item: "create:fluid_pipe"
 					count: 4L
@@ -752,7 +752,7 @@
 			]
 			rewards: [
 				{
-					id: "C47C140B81AA00C4"
+					id: "AA50EEFAFDD4293C"
 					type: "item"
 					item: "minecraft:dirt"
 					count: 8
@@ -760,7 +760,7 @@
 			]
 		}
 		{
-			id: "1402ECA4228E23CC"
+			id: "A70B60CE585D00B9"
 			x: -7.5d
 			y: 5.0d
 			size: 1.1d
@@ -772,11 +772,11 @@
 				"运输冰鲜鱼肉与鲜奶食物"
 			]
 			dependencies: [
-				"29F89EA10F8D1E73"
+				"AC3DCDA9103249AE"
 			]
 			tasks: [
 				{
-					id: "400CD53BA88AF081"
+					id: "9CE415945375E246"
 					type: "item"
 					item: "minecraft:dirt"
 					count: 2L
@@ -784,7 +784,7 @@
 			]
 			rewards: [
 				{
-					id: "94650D23C62F3796"
+					id: "470E04C0E73DEA92"
 					type: "item"
 					item: "minecraft:ice"
 					count: 8
@@ -792,7 +792,7 @@
 			]
 		}
 		{
-			id: "3C17D68B2EA553A7"
+			id: "15D60EAD6AF434AC"
 			x: -4.5d
 			y: 5.0d
 			size: 1.1d
@@ -804,18 +804,18 @@
 				"抵抗枪械与怪物爪击"
 			]
 			dependencies: [
-				"1402ECA4228E23CC"
+				"A70B60CE585D00B9"
 			]
 			tasks: [
 				{
-					id: "5D72A1F395798659"
+					id: "E1E07D8868CB1150"
 					type: "item"
 					item: "minecraft:iron_chestplate"
 				}
 			]
 			rewards: [
 				{
-					id: "83A8CD58D7745A00"
+					id: "3841CA2A62353FA1"
 					type: "item"
 					item: "minecraft:iron_ingot"
 					count: 16
@@ -823,7 +823,7 @@
 			]
 		}
 		{
-			id: "C3EF166FAFB2FF21"
+			id: "00878175021040B7"
 			x: -1.5d
 			y: 5.0d
 			size: 1.1d
@@ -835,11 +835,11 @@
 				"特种作业与开路警示灯"
 			]
 			dependencies: [
-				"3C17D68B2EA553A7"
+				"15D60EAD6AF434AC"
 			]
 			tasks: [
 				{
-					id: "06586A41EC562461"
+					id: "A106C4898481A13A"
 					type: "item"
 					item: "minecraft:redstone_torch"
 					count: 4L
@@ -847,7 +847,7 @@
 			]
 			rewards: [
 				{
-					id: "303411D73593BFBF"
+					id: "CEB51281CD19C9F3"
 					type: "item"
 					item: "minecraft:glowstone_dust"
 					count: 16
@@ -855,7 +855,7 @@
 			]
 		}
 		{
-			id: "74871C8E52EA5762"
+			id: "0363101520542924"
 			x: 1.5d
 			y: 5.0d
 			size: 1.1d
@@ -867,11 +867,11 @@
 				"消除重型卡车盲区"
 			]
 			dependencies: [
-				"C3EF166FAFB2FF21"
+				"00878175021040B7"
 			]
 			tasks: [
 				{
-					id: "228B0A23B418EBA4"
+					id: "9876C1E114172A74"
 					type: "item"
 					item: "minecraft:glass_pane"
 					count: 4L
@@ -879,7 +879,7 @@
 			]
 			rewards: [
 				{
-					id: "AC601A6001F32F0B"
+					id: "F7A528F8AA376423"
 					type: "item"
 					item: "minecraft:iron_nugget"
 					count: 8
@@ -887,7 +887,7 @@
 			]
 		}
 		{
-			id: "2CDD4515F7E25021"
+			id: "15BC3498E5D91878"
 			x: 4.5d
 			y: 5.0d
 			size: 1.1d
@@ -899,18 +899,18 @@
 				"十辆卡车浩浩荡荡开向远方"
 			]
 			dependencies: [
-				"74871C8E52EA5762"
+				"0363101520542924"
 			]
 			tasks: [
 				{
-					id: "76627AA181FB8767"
+					id: "C7BA998692973531"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "449D1E083E4C69C1"
+					id: "B69B28867CFF366C"
 					type: "item"
 					item: "create:track"
 					count: 64
@@ -918,7 +918,7 @@
 			]
 		}
 		{
-			id: "E25614F631743819"
+			id: "85CF51A461C80FBD"
 			x: 7.5d
 			y: 5.0d
 			size: 1.1d
@@ -930,18 +930,18 @@
 				"征服所有复杂地形，陆地物流称王！"
 			]
 			dependencies: [
-				"2CDD4515F7E25021"
+				"15BC3498E5D91878"
 			]
 			tasks: [
 				{
-					id: "B653837FB3D92B60"
+					id: "CA36C9B204AF867C"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "F673DF107E31F924"
+					id: "C4C05F44961512C8"
 					type: "item"
 					item: "create:track_station"
 				}

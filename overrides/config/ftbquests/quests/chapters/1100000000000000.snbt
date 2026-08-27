@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "98079B084339BA82"
+			id: "30FF7B120C05AA37"
 			x: -7.5d
 			y: -5.0d
 			size: 1.4d
@@ -22,27 +22,27 @@
 			]
 			tasks: [
 				{
-					id: "917EF724C1EC9B97"
+					id: "7AA0346C1A3786E3"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "73226B9F590CD10C"
+					id: "EC33DD22E7650271"
 					type: "item"
 					item: "minecraft:bread"
 					count: 64
 				}
 				{
-					id: "D2295D3D2F1954B9"
+					id: "15E8802FA97DE210"
 					type: "item"
 					item: "minecraft:wooden_pickaxe"
 				}
 			]
 		}
 		{
-			id: "E0A45437FFE853EB"
+			id: "0E18F9B894B9053C"
 			x: -4.5d
 			y: -5.0d
 			size: 1.1d
@@ -54,24 +54,24 @@
 				"砍原木并摆出工作台"
 			]
 			dependencies: [
-				"98079B084339BA82"
+				"30FF7B120C05AA37"
 			]
 			tasks: [
 				{
-					id: "9E2490FFDF7DCDDD"
+					id: "8D1E54C6EB78C0B2"
 					type: "item"
 					item: "minecraft:oak_log"
 					count: 16L
 				}
 				{
-					id: "39521D3C8D050B7A"
+					id: "7EEEA591D6652867"
 					type: "item"
 					item: "minecraft:crafting_table"
 				}
 			]
 			rewards: [
 				{
-					id: "879E1E56A0F6A057"
+					id: "E95F6CF7E0B93BE5"
 					type: "item"
 					item: "minecraft:stick"
 					count: 16
@@ -79,7 +79,7 @@
 			]
 		}
 		{
-			id: "CB187CEC864933B8"
+			id: "F4357ABB234B45B6"
 			x: -1.5d
 			y: -5.0d
 			size: 1.1d
@@ -91,24 +91,24 @@
 				"石器时代与熔炉烘烤"
 			]
 			dependencies: [
-				"E0A45437FFE853EB"
+				"0E18F9B894B9053C"
 			]
 			tasks: [
 				{
-					id: "83E589E534C9F26A"
+					id: "5529FC7A6BFCE55D"
 					type: "item"
 					item: "minecraft:cobblestone"
 					count: 32L
 				}
 				{
-					id: "8029A396FB73A744"
+					id: "E74BBDDA4818CBB5"
 					type: "item"
 					item: "minecraft:furnace"
 				}
 			]
 			rewards: [
 				{
-					id: "987B5A71834779D7"
+					id: "C8FDDFE922A36F17"
 					type: "item"
 					item: "minecraft:coal"
 					count: 16
@@ -116,7 +116,7 @@
 			]
 		}
 		{
-			id: "773A03F32401C85C"
+			id: "4180766625B0C21B"
 			x: 1.5d
 			y: -5.0d
 			size: 1.1d
@@ -128,23 +128,23 @@
 				"石镐与石剑准备"
 			]
 			dependencies: [
-				"CB187CEC864933B8"
+				"F4357ABB234B45B6"
 			]
 			tasks: [
 				{
-					id: "44F7EDD73D65C3DC"
+					id: "E6CDB293901F5EE5"
 					type: "item"
 					item: "minecraft:stone_pickaxe"
 				}
 				{
-					id: "C7CEC12FC0DA92D2"
+					id: "F5D0692DBFE167F3"
 					type: "item"
 					item: "minecraft:stone_sword"
 				}
 			]
 			rewards: [
 				{
-					id: "F2EA7A70C322B226"
+					id: "0B289A61A066A404"
 					type: "item"
 					item: "minecraft:cooked_beef"
 					count: 16
@@ -152,7 +152,7 @@
 			]
 		}
 		{
-			id: "B4DD3199F8A5F89A"
+			id: "6B85F566E1F34EF5"
 			x: 4.5d
 			y: -5.0d
 			size: 1.1d
@@ -164,11 +164,11 @@
 				"冶炼铁锭开启工业"
 			]
 			dependencies: [
-				"773A03F32401C85C"
+				"4180766625B0C21B"
 			]
 			tasks: [
 				{
-					id: "5CE087F617633185"
+					id: "074E78C43EC0537F"
 					type: "item"
 					item: "minecraft:iron_ingot"
 					count: 16L
@@ -176,19 +176,19 @@
 			]
 			rewards: [
 				{
-					id: "1611C1BDBA2CF9AF"
+					id: "8104B343999C7F41"
 					type: "item"
 					item: "minecraft:iron_pickaxe"
 				}
 				{
-					id: "1D38BD8900531124"
+					id: "358BCA8D48153FEB"
 					type: "item"
 					item: "minecraft:iron_chestplate"
 				}
 			]
 		}
 		{
-			id: "7DA9611D1A96FBD3"
+			id: "5487C0851169E6D4"
 			x: 7.5d
 			y: -5.0d
 			size: 1.1d
@@ -200,11 +200,11 @@
 				"铜锭与黄铜的基础"
 			]
 			dependencies: [
-				"B4DD3199F8A5F89A"
+				"6B85F566E1F34EF5"
 			]
 			tasks: [
 				{
-					id: "A05F53B138B1A66D"
+					id: "16345DBAB61CEA27"
 					type: "item"
 					item: "minecraft:raw_copper"
 					count: 16L
@@ -212,7 +212,7 @@
 			]
 			rewards: [
 				{
-					id: "C8DC55A4F6846D54"
+					id: "F01451F842747FA3"
 					type: "item"
 					item: "minecraft:copper_ingot"
 					count: 16
@@ -220,7 +220,7 @@
 			]
 		}
 		{
-			id: "BE414EC7946B4B8C"
+			id: "14FF307577CAF48D"
 			x: -7.5d
 			y: -2.5d
 			size: 1.1d
@@ -232,11 +232,11 @@
 				"防止夜间怪物滋生"
 			]
 			dependencies: [
-				"7DA9611D1A96FBD3"
+				"5487C0851169E6D4"
 			]
 			tasks: [
 				{
-					id: "C7CDBBF4BFA76CAE"
+					id: "DFFA97B03EAE76C5"
 					type: "item"
 					item: "minecraft:torch"
 					count: 16L
@@ -244,7 +244,7 @@
 			]
 			rewards: [
 				{
-					id: "C2E4DF7CCCCC094F"
+					id: "CE611CB40DF5287C"
 					type: "item"
 					item: "minecraft:charcoal"
 					count: 8
@@ -252,7 +252,7 @@
 			]
 		}
 		{
-			id: "F69107736CBF15CB"
+			id: "45F3319AAB530FC2"
 			x: -4.5d
 			y: -2.5d
 			size: 1.1d
@@ -264,18 +264,18 @@
 				"跳过危险黑夜设复活点"
 			]
 			dependencies: [
-				"BE414EC7946B4B8C"
+				"14FF307577CAF48D"
 			]
 			tasks: [
 				{
-					id: "9C5D309C87B6CBEA"
+					id: "C09643B83A463D72"
 					type: "item"
 					item: "minecraft:red_bed"
 				}
 			]
 			rewards: [
 				{
-					id: "5C5480D7893CF2C2"
+					id: "90EA43CBF81B2454"
 					type: "item"
 					item: "minecraft:white_wool"
 					count: 4
@@ -283,7 +283,7 @@
 			]
 		}
 		{
-			id: "94193DFD23CEA774"
+			id: "A721D07047ABF2DC"
 			x: -1.5d
 			y: -2.5d
 			size: 1.1d
@@ -295,16 +295,16 @@
 				"搭建庇护所墙壁与门窗"
 			]
 			dependencies: [
-				"F69107736CBF15CB"
+				"45F3319AAB530FC2"
 			]
 			tasks: [
 				{
-					id: "ED490E65EB87D6FB"
+					id: "EF18CE5A2747E0A9"
 					type: "item"
 					item: "minecraft:oak_door"
 				}
 				{
-					id: "A15B719BBD062E9E"
+					id: "972F5E56BA09E7BE"
 					type: "item"
 					item: "minecraft:glass_pane"
 					count: 8L
@@ -312,7 +312,7 @@
 			]
 			rewards: [
 				{
-					id: "3ED01E2B745BB18C"
+					id: "F49F2318ACFD47DE"
 					type: "item"
 					item: "minecraft:glass"
 					count: 8
@@ -320,7 +320,7 @@
 			]
 		}
 		{
-			id: "089DC4789897FB12"
+			id: "3D87C1A7E094F6A3"
 			x: 1.5d
 			y: -2.5d
 			size: 1.1d
@@ -332,11 +332,11 @@
 				"分类归藏矿石与杂物"
 			]
 			dependencies: [
-				"94193DFD23CEA774"
+				"A721D07047ABF2DC"
 			]
 			tasks: [
 				{
-					id: "448688E92CB2174F"
+					id: "99D5D6F42A634FD2"
 					type: "item"
 					item: "minecraft:chest"
 					count: 4L
@@ -344,7 +344,7 @@
 			]
 			rewards: [
 				{
-					id: "C0061749F19C310A"
+					id: "FBB3B4D1773F0ACB"
 					type: "item"
 					item: "minecraft:barrel"
 					count: 2
@@ -352,7 +352,7 @@
 			]
 		}
 		{
-			id: "8433DA65A0C1FB9A"
+			id: "A2ECC68DB1AF6470"
 			x: 4.5d
 			y: -2.5d
 			size: 1.1d
@@ -364,25 +364,25 @@
 				"盛装冷却水与岩浆"
 			]
 			dependencies: [
-				"089DC4789897FB12"
+				"3D87C1A7E094F6A3"
 			]
 			tasks: [
 				{
-					id: "A217E2BC9BB30C15"
+					id: "DA6E7D0F673C97FE"
 					type: "item"
 					item: "minecraft:bucket"
 				}
 			]
 			rewards: [
 				{
-					id: "52B602DE44917C69"
+					id: "BFC5468DC920005B"
 					type: "item"
 					item: "minecraft:water_bucket"
 				}
 			]
 		}
 		{
-			id: "D873FF19B595112D"
+			id: "6184BF3806A33C48"
 			x: 7.5d
 			y: -2.5d
 			size: 1.1d
@@ -394,18 +394,18 @@
 				"寻找地下岩浆流"
 			]
 			dependencies: [
-				"8433DA65A0C1FB9A"
+				"A2ECC68DB1AF6470"
 			]
 			tasks: [
 				{
-					id: "B4A026C3A80BA8C6"
+					id: "73F4C947BD182CC8"
 					type: "item"
 					item: "minecraft:lava_bucket"
 				}
 			]
 			rewards: [
 				{
-					id: "3B6D67967556C483"
+					id: "411FFCDB2A0C5A24"
 					type: "item"
 					item: "minecraft:cobblestone"
 					count: 16
@@ -413,7 +413,7 @@
 			]
 		}
 		{
-			id: "B67DE6866C7C0B8E"
+			id: "DF95D3A762E32717"
 			x: -7.5d
 			y: 0.0d
 			size: 1.1d
@@ -425,18 +425,18 @@
 				"格挡骷髅箭矢与近战"
 			]
 			dependencies: [
-				"D873FF19B595112D"
+				"6184BF3806A33C48"
 			]
 			tasks: [
 				{
-					id: "A9104EE43EEEDC1B"
+					id: "627301CE80D49128"
 					type: "item"
 					item: "minecraft:shield"
 				}
 			]
 			rewards: [
 				{
-					id: "AB17BD56E02AC742"
+					id: "BED28DF717F1D20F"
 					type: "item"
 					item: "minecraft:iron_ingot"
 					count: 4
@@ -444,7 +444,7 @@
 			]
 		}
 		{
-			id: "231C0FC27B7D3ED4"
+			id: "9C28487A3ABB28B4"
 			x: -4.5d
 			y: 0.0d
 			size: 1.1d
@@ -456,16 +456,16 @@
 				"远距离精准猎杀怪物"
 			]
 			dependencies: [
-				"B67DE6866C7C0B8E"
+				"DF95D3A762E32717"
 			]
 			tasks: [
 				{
-					id: "5C32D271AF05AB48"
+					id: "51C4D924015AE7FB"
 					type: "item"
 					item: "minecraft:bow"
 				}
 				{
-					id: "5801E28CE8E68999"
+					id: "19289ACA71B919C0"
 					type: "item"
 					item: "minecraft:arrow"
 					count: 16L
@@ -473,7 +473,7 @@
 			]
 			rewards: [
 				{
-					id: "0AAFE70474F2997F"
+					id: "83D6976D0A4749BF"
 					type: "item"
 					item: "minecraft:arrow"
 					count: 32
@@ -481,7 +481,7 @@
 			]
 		}
 		{
-			id: "EA69D363ED81F8FE"
+			id: "6D43FD306FEDD02E"
 			x: -1.5d
 			y: 0.0d
 			size: 1.1d
@@ -493,30 +493,30 @@
 				"铁头盔与铁靴子"
 			]
 			dependencies: [
-				"231C0FC27B7D3ED4"
+				"9C28487A3ABB28B4"
 			]
 			tasks: [
 				{
-					id: "63619E24BA7330D6"
+					id: "5CC5641474A73823"
 					type: "item"
 					item: "minecraft:iron_helmet"
 				}
 				{
-					id: "62909D686D2EEDC9"
+					id: "F347BC7D58A1CAEB"
 					type: "item"
 					item: "minecraft:iron_boots"
 				}
 			]
 			rewards: [
 				{
-					id: "FBE8602D2639CFE7"
+					id: "0BAC0A5E94385BE2"
 					type: "item"
 					item: "minecraft:iron_leggings"
 				}
 			]
 		}
 		{
-			id: "AF2746089C434BA8"
+			id: "B46F608AAE247862"
 			x: 1.5d
 			y: 0.0d
 			size: 1.1d
@@ -528,18 +528,18 @@
 				"开垦河畔第一块农田"
 			]
 			dependencies: [
-				"EA69D363ED81F8FE"
+				"6D43FD306FEDD02E"
 			]
 			tasks: [
 				{
-					id: "E506348ECE060014"
+					id: "8D198C8A4761C778"
 					type: "item"
 					item: "minecraft:stone_hoe"
 				}
 			]
 			rewards: [
 				{
-					id: "850E532AA91E0967"
+					id: "FB5EA3BC073D91F3"
 					type: "item"
 					item: "minecraft:wheat_seeds"
 					count: 16
@@ -547,7 +547,7 @@
 			]
 		}
 		{
-			id: "B496CF519EBDCAA8"
+			id: "2DC48ED9F088A188"
 			x: 4.5d
 			y: 0.0d
 			size: 1.1d
@@ -559,17 +559,17 @@
 				"收获小麦烘焙面包"
 			]
 			dependencies: [
-				"AF2746089C434BA8"
+				"B46F608AAE247862"
 			]
 			tasks: [
 				{
-					id: "B50E36F53B699536"
+					id: "DBD5E1A9A881701B"
 					type: "item"
 					item: "minecraft:wheat"
 					count: 16L
 				}
 				{
-					id: "F8E57A9606178F78"
+					id: "7624E606B981D477"
 					type: "item"
 					item: "minecraft:bread"
 					count: 4L
@@ -577,7 +577,7 @@
 			]
 			rewards: [
 				{
-					id: "36448EC3A0489FC9"
+					id: "D835705DAB9D03EC"
 					type: "item"
 					item: "minecraft:bone_meal"
 					count: 16
@@ -585,7 +585,7 @@
 			]
 		}
 		{
-			id: "4820997199FDA26E"
+			id: "DD0DC2784314D352"
 			x: 7.5d
 			y: 0.0d
 			size: 1.1d
@@ -597,17 +597,17 @@
 				"搭设牧场繁育家畜"
 			]
 			dependencies: [
-				"B496CF519EBDCAA8"
+				"2DC48ED9F088A188"
 			]
 			tasks: [
 				{
-					id: "2B1057AA5AFDFB1A"
+					id: "D4A256952172D9F6"
 					type: "item"
 					item: "minecraft:oak_fence"
 					count: 16L
 				}
 				{
-					id: "7C5708F3CEF99657"
+					id: "BF69386F8F61C09C"
 					type: "item"
 					item: "minecraft:hay_block"
 					count: 2L
@@ -615,7 +615,7 @@
 			]
 			rewards: [
 				{
-					id: "9A3057D88608152F"
+					id: "E88BF7C1C556F7E8"
 					type: "item"
 					item: "minecraft:leather"
 					count: 8
@@ -623,7 +623,7 @@
 			]
 		}
 		{
-			id: "CC992E9E610BB3C9"
+			id: "D6940BCF7211EA0C"
 			x: -7.5d
 			y: 2.5d
 			size: 1.1d
@@ -635,11 +635,11 @@
 				"高饱腹感优质肉类"
 			]
 			dependencies: [
-				"4820997199FDA26E"
+				"DD0DC2784314D352"
 			]
 			tasks: [
 				{
-					id: "FBEDACEC549A70E3"
+					id: "0BA864B31741D135"
 					type: "item"
 					item: "minecraft:cooked_beef"
 					count: 8L
@@ -647,7 +647,7 @@
 			]
 			rewards: [
 				{
-					id: "8C57DEAA9756EC3D"
+					id: "BC36DBB47C9BC9A9"
 					type: "item"
 					item: "farmersdelight:apple_pie"
 					count: 2
@@ -655,7 +655,7 @@
 			]
 		}
 		{
-			id: "C000879952528BD1"
+			id: "42DA73C2C9567FBE"
 			x: -4.5d
 			y: 2.5d
 			size: 1.1d
@@ -667,11 +667,11 @@
 				"自动化电路与机器开关"
 			]
 			dependencies: [
-				"CC992E9E610BB3C9"
+				"D6940BCF7211EA0C"
 			]
 			tasks: [
 				{
-					id: "D76CAD40A36C1CBB"
+					id: "FF44462FC35801E0"
 					type: "item"
 					item: "minecraft:redstone"
 					count: 16L
@@ -679,7 +679,7 @@
 			]
 			rewards: [
 				{
-					id: "6E80B4600FECA47C"
+					id: "A2693D1338D8A82C"
 					type: "item"
 					item: "minecraft:redstone_block"
 					count: 2
@@ -687,7 +687,7 @@
 			]
 		}
 		{
-			id: "A729DDFD5BC5CE13"
+			id: "1F6484E5543D450E"
 			x: -1.5d
 			y: 2.5d
 			size: 1.1d
@@ -699,11 +699,11 @@
 				"黄金与高阶合金材料"
 			]
 			dependencies: [
-				"C000879952528BD1"
+				"42DA73C2C9567FBE"
 			]
 			tasks: [
 				{
-					id: "80EFE6F67CA4BB5A"
+					id: "2E509FEC4F3FB9B9"
 					type: "item"
 					item: "minecraft:gold_ingot"
 					count: 8L
@@ -711,7 +711,7 @@
 			]
 			rewards: [
 				{
-					id: "FC4A7111059683F9"
+					id: "E9F2819152B99260"
 					type: "item"
 					item: "minecraft:golden_apple"
 					count: 2
@@ -719,7 +719,7 @@
 			]
 		}
 		{
-			id: "F55EAF1B51E6B613"
+			id: "04B207A299583ACE"
 			x: 1.5d
 			y: 2.5d
 			size: 1.1d
@@ -731,11 +731,11 @@
 				"原版最高阶硬度矿物"
 			]
 			dependencies: [
-				"A729DDFD5BC5CE13"
+				"1F6484E5543D450E"
 			]
 			tasks: [
 				{
-					id: "79C3D008EA0B7E49"
+					id: "316B0A57B3F8B793"
 					type: "item"
 					item: "minecraft:diamond"
 					count: 3L
@@ -743,7 +743,7 @@
 			]
 			rewards: [
 				{
-					id: "7E43202619B61E7D"
+					id: "79CA908681B6ED6C"
 					type: "item"
 					item: "minecraft:diamond"
 					count: 2
@@ -751,7 +751,7 @@
 			]
 		}
 		{
-			id: "61B41B2ADC6E6F7F"
+			id: "B48EF9ABB81EB60A"
 			x: 4.5d
 			y: 2.5d
 			size: 1.1d
@@ -763,11 +763,11 @@
 				"使用钻石镐开采黑曜石"
 			]
 			dependencies: [
-				"F55EAF1B51E6B613"
+				"04B207A299583ACE"
 			]
 			tasks: [
 				{
-					id: "3CFED75296DBEA31"
+					id: "64FFB83646750CB6"
 					type: "item"
 					item: "minecraft:obsidian"
 					count: 10L
@@ -775,14 +775,14 @@
 			]
 			rewards: [
 				{
-					id: "8C6880411A37FB14"
+					id: "E84C7C25011DA4F2"
 					type: "item"
 					item: "minecraft:flint_and_steel"
 				}
 			]
 		}
 		{
-			id: "50CEE31B6DA2F03C"
+			id: "67C7DE7AF0539468"
 			x: 7.5d
 			y: 2.5d
 			size: 1.1d
@@ -794,18 +794,18 @@
 				"搭设并点燃下界之门"
 			]
 			dependencies: [
-				"61B41B2ADC6E6F7F"
+				"B48EF9ABB81EB60A"
 			]
 			tasks: [
 				{
-					id: "6A35A8DF784ED23B"
+					id: "E3A8F6FC115B17DD"
 					type: "item"
 					item: "minecraft:flint_and_steel"
 				}
 			]
 			rewards: [
 				{
-					id: "3C543A6964D0A44A"
+					id: "6BFE633D8E2A8539"
 					type: "item"
 					item: "minecraft:blaze_rod"
 					count: 2
@@ -813,7 +813,7 @@
 			]
 		}
 		{
-			id: "01A3D377FA1C59BB"
+			id: "16B2EB2CD8ABACF4"
 			x: -7.5d
 			y: 5.0d
 			size: 1.1d
@@ -825,11 +825,11 @@
 				"收集下界照明与材料"
 			]
 			dependencies: [
-				"50CEE31B6DA2F03C"
+				"67C7DE7AF0539468"
 			]
 			tasks: [
 				{
-					id: "C44519C693696FB7"
+					id: "CFF72CF6B12CBF88"
 					type: "item"
 					item: "minecraft:glowstone"
 					count: 8L
@@ -837,7 +837,7 @@
 			]
 			rewards: [
 				{
-					id: "D94A2BB45EF49F93"
+					id: "E3AA6B0DD5378544"
 					type: "item"
 					item: "minecraft:glowstone_dust"
 					count: 16
@@ -845,7 +845,7 @@
 			]
 		}
 		{
-			id: "7D3FB191E839CB28"
+			id: "7B14C328B8963F2F"
 			x: -4.5d
 			y: 5.0d
 			size: 1.1d
@@ -857,11 +857,11 @@
 				"机械动力玫瑰石英原料"
 			]
 			dependencies: [
-				"01A3D377FA1C59BB"
+				"16B2EB2CD8ABACF4"
 			]
 			tasks: [
 				{
-					id: "B2700E9634913CC2"
+					id: "C42B20E819AA5F78"
 					type: "item"
 					item: "minecraft:quartz"
 					count: 16L
@@ -869,7 +869,7 @@
 			]
 			rewards: [
 				{
-					id: "C658D2C072B8E30C"
+					id: "F3C5A6B8FEF0B4B9"
 					type: "item"
 					item: "minecraft:quartz_block"
 					count: 4
@@ -877,7 +877,7 @@
 			]
 		}
 		{
-			id: "17125BF233128F7D"
+			id: "ED80A5B3A82F1C2D"
 			x: -1.5d
 			y: 5.0d
 			size: 1.1d
@@ -889,11 +889,11 @@
 				"建筑高空搭设工具"
 			]
 			dependencies: [
-				"7D3FB191E839CB28"
+				"7B14C328B8963F2F"
 			]
 			tasks: [
 				{
-					id: "1A313BECFD05E271"
+					id: "0A6F8D0AE4A01007"
 					type: "item"
 					item: "minecraft:scaffolding"
 					count: 16L
@@ -901,7 +901,7 @@
 			]
 			rewards: [
 				{
-					id: "9762D29B9267FD75"
+					id: "1813F8215819A0B5"
 					type: "item"
 					item: "minecraft:bamboo"
 					count: 16
@@ -909,7 +909,7 @@
 			]
 		}
 		{
-			id: "0976E52C528B79BE"
+			id: "DA4D344FFF745027"
 			x: 1.5d
 			y: 5.0d
 			size: 1.1d
@@ -921,11 +921,11 @@
 				"早期运输矿车网络"
 			]
 			dependencies: [
-				"17125BF233128F7D"
+				"ED80A5B3A82F1C2D"
 			]
 			tasks: [
 				{
-					id: "4C851249869C31EC"
+					id: "5503174FDDB1FF45"
 					type: "item"
 					item: "minecraft:rail"
 					count: 16L
@@ -933,14 +933,14 @@
 			]
 			rewards: [
 				{
-					id: "7732CD5AEE5E587E"
+					id: "088ECC72BC51EEC6"
 					type: "item"
 					item: "minecraft:minecart"
 				}
 			]
 		}
 		{
-			id: "86775F6C5667E753"
+			id: "5F7DBB0617A635AB"
 			x: 4.5d
 			y: 5.0d
 			size: 1.1d
@@ -952,11 +952,11 @@
 				"红石驱动的极速矿车"
 			]
 			dependencies: [
-				"0976E52C528B79BE"
+				"DA4D344FFF745027"
 			]
 			tasks: [
 				{
-					id: "5BA086DB51F329AA"
+					id: "4F547B1C5C60B29C"
 					type: "item"
 					item: "minecraft:powered_rail"
 					count: 8L
@@ -964,7 +964,7 @@
 			]
 			rewards: [
 				{
-					id: "55D052496D824848"
+					id: "72DC351E97E2F4D1"
 					type: "item"
 					item: "minecraft:redstone_torch"
 					count: 4
@@ -972,7 +972,7 @@
 			]
 		}
 		{
-			id: "E5DED89C518CC562"
+			id: "FADCA9FCACC9DD38"
 			x: 7.5d
 			y: 5.0d
 			size: 1.1d
@@ -984,18 +984,18 @@
 				"完成原版生存，迎接工业旋转！"
 			]
 			dependencies: [
-				"86775F6C5667E753"
+				"5F7DBB0617A635AB"
 			]
 			tasks: [
 				{
-					id: "CCA2F55CD9FA8BFB"
+					id: "A58BE287DC4843AD"
 					type: "checkmark"
 					title: "点击完成"
 				}
 			]
 			rewards: [
 				{
-					id: "82CBBC20D68903DB"
+					id: "92ED1629881C1DED"
 					type: "item"
 					item: "create:wrench"
 				}
