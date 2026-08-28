@@ -3,929 +3,171 @@
 	group: "6000000000000000"
 	order_index: 1
 	filename: "6200000000000000"
-	title: "6.2 魔法仆从与 Ars Creo 机械联动"
+	title: "6.2 魔法仆从与 Create 机械动力联动"
 	icon: "ars_creo:starbuncle_wheel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "CD48B6DAADC0EBD1"
-			x: -7.5d
-			y: -5.0d
+			id: "6200000000000001"
+			x: -8.0d
+			y: 0.0d
 			size: 1.4d
-			shape: "gear"
-			title: "魔能旋转：星辰兔动力轮"
-			subtitle: "将魔源直接转化为机械动力 SU！"
-			icon: "ars_creo:starbuncle_wheel"
-			description: [
-				"将魔源直接转化为机械动力 SU！"
-			]
-			tasks: [
-				{
-					id: "3686F8135EECE285"
-					type: "item"
-					item: "ars_creo:starbuncle_wheel"
-				}
-			]
-			rewards: [
-				{
-					id: "10DC7560833C5B63"
-					type: "item"
-					item: "ars_nouveau:starbuncle_charm"
-				}
-			]
-		}
-		{
-			id: "BE6A514EF1B5FF6B"
-			x: -4.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "魔法物流：星辰兔契约"
-			subtitle: "召唤小星辰兔为你搬运物品"
+			shape: "hexagon"
+			title: "召唤一只萌萌哒星宝石兽！"
+			subtitle: "全自动搬砖小能手"
 			icon: "ars_nouveau:starbuncle_charm"
 			description: [
-				"召唤小星辰兔为你搬运物品"
+				"【星宝石兽 (Starbuncle)】 是新生魔艺里最萌的搬砖小能手！"
+				"用护符召唤它，绑定两个箱子，它就会在箱子和传送带之间帮你高速运货！"
 			]
 			dependencies: [
-				"CD48B6DAADC0EBD1"
+				"6100000000000006"
 			]
 			tasks: [
 				{
-					id: "402814B0C07E1D61"
+					id: "A30BF0E3499B7278"
 					type: "item"
 					item: "ars_nouveau:starbuncle_charm"
 				}
 			]
 			rewards: [
 				{
-					id: "E771A139EF6BD99E"
-					type: "item"
-					item: "ars_nouveau:starbuncle_shards"
-					count: 4
-				}
-			]
-		}
-		{
-			id: "73E6C1AF13F5F846"
-			x: -1.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "兔兔碎片：星辰兔金币"
-			subtitle: "喂食金块金粒强化小兔速采能力"
-			icon: "ars_nouveau:starbuncle_shards"
-			description: [
-				"喂食金块金粒强化小兔速采能力"
-			]
-			dependencies: [
-				"BE6A514EF1B5FF6B"
-			]
-			tasks: [
-				{
-					id: "189A76D708DB3039"
-					type: "item"
-					item: "ars_nouveau:starbuncle_shards"
-					count: 4L
-				}
-			]
-			rewards: [
-				{
-					id: "116C5F13D2CC4224"
-					type: "item"
-					item: "ars_nouveau:whirlisprig_charm"
-				}
-			]
-		}
-		{
-			id: "E1C00C26F96D0F53"
-			x: 1.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "自然复制：旋风精灵护符"
-			subtitle: "自动复制生长作物与树木"
-			icon: "ars_nouveau:whirlisprig_charm"
-			description: [
-				"自动复制生长作物与树木"
-			]
-			dependencies: [
-				"73E6C1AF13F5F846"
-			]
-			tasks: [
-				{
-					id: "E845E9BEEC352418"
-					type: "item"
-					item: "ars_nouveau:whirlisprig_charm"
-				}
-			]
-			rewards: [
-				{
-					id: "CCDA1BCEA54CD430"
-					type: "item"
-					item: "ars_nouveau:wixie_charm"
-				}
-			]
-		}
-		{
-			id: "43C38D88225374C8"
-			x: 4.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "自动炼金：女巫护符"
-			subtitle: "自动酿造药水与炼制材料"
-			icon: "ars_nouveau:wixie_charm"
-			description: [
-				"自动酿造药水与炼制材料"
-			]
-			dependencies: [
-				"E1C00C26F96D0F53"
-			]
-			tasks: [
-				{
-					id: "C0689D6369A4CB5B"
-					type: "item"
-					item: "ars_nouveau:wixie_charm"
-				}
-			]
-			rewards: [
-				{
-					id: "4D97B6974C8AC6A5"
-					type: "item"
-					item: "ars_nouveau:wixie_cauldron"
-				}
-			]
-		}
-		{
-			id: "53C467367EA213F3"
-			x: 7.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "女巫炼金釜：自动化炼金锅"
-			subtitle: "无缝对接机械管道的炼金大锅"
-			icon: "ars_nouveau:wixie_cauldron"
-			description: [
-				"无缝对接机械管道的炼金大锅"
-			]
-			dependencies: [
-				"43C38D88225374C8"
-			]
-			tasks: [
-				{
-					id: "3FFF28CC0F678485"
-					type: "item"
-					item: "ars_nouveau:wixie_cauldron"
-				}
-			]
-			rewards: [
-				{
-					id: "C85279A049B6FD0C"
-					type: "item"
-					item: "ars_nouveau:drygmy_charm"
-				}
-			]
-		}
-		{
-			id: "8F0B544F9402BD76"
-			x: -7.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "生物掉落：树精护符"
-			subtitle: "无伤害收集附近生物掉落物"
-			icon: "ars_nouveau:drygmy_charm"
-			description: [
-				"无伤害收集附近生物掉落物"
-			]
-			dependencies: [
-				"53C467367EA213F3"
-			]
-			tasks: [
-				{
-					id: "388D47459394078A"
-					type: "item"
-					item: "ars_nouveau:drygmy_charm"
-				}
-			]
-			rewards: [
-				{
-					id: "074A0B4AFA608FDB"
+					id: "2AF8B74AAB66E456"
 					type: "item"
 					item: "minecraft:dirt"
+					count: 16
+					title: "星宝石兽爱吃的浆果"
+				}
+				{
+					id: "4CF5EF9B3DE81220"
+					type: "item"
+					item: "ars_nouveau:source_jar"
+					title: "魔源罐"
 				}
 			]
 		}
 		{
-			id: "7AE677B4500BDBD1"
-			x: -4.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "树精巨石阵：自动化刷怪阵"
-			subtitle: "永动机式自动产出牛皮与羊毛"
-			icon: "minecraft:stone"
+			id: "6200000000000002"
+			x: -5.5d
+			y: -1.8d
+			size: 1.3d
+			shape: "star"
+			title: "小松鼠跑轮发力！魔能机械引擎"
+			subtitle: "Ars Creo 魔法与机械动力联动"
+			icon: "ars_creo:starbuncle_wheel"
 			description: [
-				"永动机式自动产出牛皮与羊毛"
+				"【Ars Creo】 联动黑科技！"
+				"做个【星宝石兽跑轮】，把星宝石兽放进去，只要有魔源，它就会在跑轮里狂飙，直接输出超高 RPM 旋转动力！"
 			]
 			dependencies: [
-				"8F0B544F9402BD76"
+				"6200000000000001"
 			]
 			tasks: [
 				{
-					id: "A81BB59E29AF1D41"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "A245A53F7B984AD5"
-					type: "item"
-					item: "ars_nouveau:bookwyrm_charm"
-				}
-			]
-		}
-		{
-			id: "A8E73BE07A043DCF"
-			x: -1.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "自动法术：书龙护符"
-			subtitle: "书龙自动施放法术维护农场"
-			icon: "ars_nouveau:bookwyrm_charm"
-			description: [
-				"书龙自动施放法术维护农场"
-			]
-			dependencies: [
-				"7AE677B4500BDBD1"
-			]
-			tasks: [
-				{
-					id: "7B7A6075B281796F"
-					type: "item"
-					item: "ars_nouveau:bookwyrm_charm"
-				}
-			]
-			rewards: [
-				{
-					id: "89EC163063E043C7"
-					type: "item"
-					item: "ars_nouveau:amethyst_golem_charm"
-				}
-			]
-		}
-		{
-			id: "7ECB4674E2E0678C"
-			x: 1.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "水晶自动化：紫水晶傀儡"
-			subtitle: "自动种植与收割紫水晶母岩"
-			icon: "ars_nouveau:amethyst_golem_charm"
-			description: [
-				"自动种植与收割紫水晶母岩"
-			]
-			dependencies: [
-				"A8E73BE07A043DCF"
-			]
-			tasks: [
-				{
-					id: "E4E2F5D96A244A2A"
-					type: "item"
-					item: "ars_nouveau:amethyst_golem_charm"
-				}
-			]
-			rewards: [
-				{
-					id: "FBBE671BDADDE69F"
-					type: "item"
-					item: "ars_nouveau:potion_jar"
-					count: 2
-				}
-			]
-		}
-		{
-			id: "D3DBCD7320501F99"
-			x: 4.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "药水储罐：魔法药水罐"
-			subtitle: "存储 100 瓶容量的高纯度药水"
-			icon: "ars_nouveau:potion_jar"
-			description: [
-				"存储 100 瓶容量的高纯度药水"
-			]
-			dependencies: [
-				"7ECB4674E2E0678C"
-			]
-			tasks: [
-				{
-					id: "704C96E3F1448994"
-					type: "item"
-					item: "ars_nouveau:potion_jar"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "972A271246ECC109"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "B435CFB23ECB5F16"
-			x: 7.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "药水熔融：药水融化炉"
-			subtitle: "将固体药水材料熔融为药水流体"
-			icon: "minecraft:stone"
-			description: [
-				"将固体药水材料熔融为药水流体"
-			]
-			dependencies: [
-				"D3DBCD7320501F99"
-			]
-			tasks: [
-				{
-					id: "855395BAB3DF96CB"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "83397655EB9A6E43"
-					type: "item"
-					item: "ars_nouveau:potion_diffuser"
-				}
-			]
-		}
-		{
-			id: "050F310A08A037FE"
-			x: -7.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "广域喷雾：药水扩散器"
-			subtitle: "将药水雾化扩散至整座基地"
-			icon: "ars_nouveau:potion_diffuser"
-			description: [
-				"将药水雾化扩散至整座基地"
-			]
-			dependencies: [
-				"B435CFB23ECB5F16"
-			]
-			tasks: [
-				{
-					id: "964D0B25E4FC7F56"
-					type: "item"
-					item: "ars_nouveau:potion_diffuser"
-				}
-			]
-			rewards: [
-				{
-					id: "3F9B326A8A098C08"
-					type: "item"
-					item: "create:cogwheel"
-					count: 8
-				}
-			]
-		}
-		{
-			id: "6FCC494B64CC4332"
-			x: -4.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "魔能动能：齿轮传动对接"
-			subtitle: "星辰兔动力轮连接机械动力传动轴"
-			icon: "create:cogwheel"
-			description: [
-				"星辰兔动力轮连接机械动力传动轴"
-			]
-			dependencies: [
-				"050F310A08A037FE"
-			]
-			tasks: [
-				{
-					id: "E99F489F0EC1D562"
-					type: "item"
-					item: "create:cogwheel"
-					count: 8L
-				}
-			]
-			rewards: [
-				{
-					id: "48C6A0DC1FA7FFAA"
-					type: "item"
-					item: "create:gearbox"
-					count: 2
-				}
-			]
-		}
-		{
-			id: "47DBA94EDBC4908D"
-			x: -1.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "魔能齿轮箱：多轴动力分流"
-			subtitle: "把星辰兔产生的动能分给榨油机与压榨机"
-			icon: "create:gearbox"
-			description: [
-				"把星辰兔产生的动能分给榨油机与压榨机"
-			]
-			dependencies: [
-				"6FCC494B64CC4332"
-			]
-			tasks: [
-				{
-					id: "B5B50FCF39AB6555"
-					type: "item"
-					item: "create:gearbox"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "BA7DE33FA295FBA6"
+					id: "D5ACDBB9CCBF6973"
 					type: "item"
 					item: "ars_creo:starbuncle_wheel"
 				}
 			]
-		}
-		{
-			id: "68EE00D03BE14EA9"
-			x: 1.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "魔能风车：奥术风车叶片"
-			subtitle: "结合魔源风力的动力生成"
-			icon: "create:windmill_bearing"
-			description: [
-				"结合魔源风力的动力生成"
-			]
-			dependencies: [
-				"47DBA94EDBC4908D"
-			]
-			tasks: [
-				{
-					id: "AE4248CF4D6A06C6"
-					type: "item"
-					item: "create:windmill_bearing"
-				}
-			]
 			rewards: [
 				{
-					id: "1C49DACFEE5B0043"
+					id: "33DE2ADE70A47ED0"
 					type: "item"
-					item: "ars_nouveau:source_jar"
-					count: 2
+					item: "create:large_cogwheel"
+					count: 4
+					title: "大齿轮（拿去接动力）"
 				}
-			]
-		}
-		{
-			id: "F0E03265EC684F22"
-			x: 4.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "魔法自动化传送：星辰兔传送带"
-			subtitle: "魔源驱动的零应力物品传输"
-			icon: "create:belt_connector"
-			description: [
-				"魔源驱动的零应力物品传输"
-			]
-			dependencies: [
-				"68EE00D03BE14EA9"
-			]
-			tasks: [
 				{
-					id: "E38691A60A49E331"
+					id: "48D635E5AD223CB7"
 					type: "item"
 					item: "create:belt_connector"
-					count: 8L
-				}
-			]
-			rewards: [
-				{
-					id: "6E0B23AA412B201D"
-					type: "item"
-					item: "ars_nouveau:starbuncle_charm"
+					count: 8
+					title: "传送带"
 				}
 			]
 		}
 		{
-			id: "B4EBAE479C31C6EB"
-			x: 7.5d
-			y: 0.0d
-			size: 1.1d
+			id: "6200000000000003"
+			x: -5.5d
+			y: 1.8d
+			size: 1.2d
 			shape: "rsquare"
-			title: "魔源灌注机械：奥术注液器"
-			subtitle: "将液态魔源直接注入零件与工具"
-			icon: "create:spout"
+			title: "全自动代农与无伤收集：风转草与德格米"
+			subtitle: "生态与生物材料自动化"
+			icon: "ars_nouveau:whirlisprig_charm"
 			description: [
-				"将液态魔源直接注入零件与工具"
+				"【风转草】可以帮你在农场自动种树种菜；【德格米】能自动收集周围动物和怪物的掉落物，完全不用伤害它们！"
 			]
 			dependencies: [
-				"F0E03265EC684F22"
+				"6200000000000001"
 			]
 			tasks: [
 				{
-					id: "F410F44808D5CE0E"
+					id: "ED1665F8D17B1137"
+					type: "item"
+					item: "ars_nouveau:whirlisprig_charm"
+				}
+				{
+					id: "5CA9AF4CD42C974F"
+					type: "item"
+					item: "ars_nouveau:drygmy_charm"
+				}
+			]
+			rewards: [
+				{
+					id: "90F5BBE7943B2199"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+					count: 8
+					title: "魔源宝石"
+				}
+				{
+					id: "5FC3562D0A274EA0"
+					type: "item"
+					item: "minecraft:moss_block"
+					count: 8
+					title: "苔藓块（德格米祭坛用）"
+				}
+			]
+		}
+		{
+			id: "6200000000000004"
+			x: -2.5d
+			y: 0.0d
+			size: 1.4d
+			shape: "diamond"
+			title: "无人化自动炼药：薇克精"
+			subtitle: "小魔女自动煮药水"
+			icon: "ars_nouveau:wixie_charm"
+			description: [
+				"【薇克精】 能在炼药锅旁自动吸收魔源帮你在后台煮药水，配合机械动力的注液器和管道直接做成流水线！"
+			]
+			dependencies: [
+				"6200000000000002"
+				"6200000000000003"
+			]
+			tasks: [
+				{
+					id: "E98F1DF66DF3D8CB"
+					type: "item"
+					item: "ars_nouveau:wixie_charm"
+				}
+			]
+			rewards: [
+				{
+					id: "52F203888925B2C5"
+					type: "item"
+					item: "create:fluid_pipe"
+					count: 16
+					title: "流体管道"
+				}
+				{
+					id: "62D67BE6AA37D241"
 					type: "item"
 					item: "create:spout"
-				}
-			]
-			rewards: [
-				{
-					id: "8A425F28E5892E07"
-					type: "item"
-					item: "ars_nouveau:source_gem"
-					count: 16
-				}
-			]
-		}
-		{
-			id: "357BFCB445115531"
-			x: -7.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "魔法过滤：星辰兔分拣过滤器"
-			subtitle: "指定搬运特定 NBT 与魔法物品"
-			icon: "create:brass_funnel"
-			description: [
-				"指定搬运特定 NBT 与魔法物品"
-			]
-			dependencies: [
-				"B4EBAE479C31C6EB"
-			]
-			tasks: [
-				{
-					id: "AED1B192504E5330"
-					type: "item"
-					item: "create:brass_funnel"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "C52FC4F7E53ED61B"
-					type: "item"
-					item: "ars_nouveau:blank_parchment"
-					count: 8
-				}
-			]
-		}
-		{
-			id: "C50C743A31B7DB8F"
-			x: -4.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "魔能粉碎：奥术碾磨轮"
-			subtitle: "粉碎魔源宝石获得极细魔粉"
-			icon: "create:crushing_wheel"
-			description: [
-				"粉碎魔源宝石获得极细魔粉"
-			]
-			dependencies: [
-				"357BFCB445115531"
-			]
-			tasks: [
-				{
-					id: "B304AA1A05F92976"
-					type: "item"
-					item: "create:crushing_wheel"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "63709FFA16778AA2"
-					type: "item"
-					item: "ars_nouveau:source_gem"
-					count: 16
-				}
-			]
-		}
-		{
-			id: "36E6F9DD250E0807"
-			x: -1.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "魔法搅拌：奥术搅拌釜"
-			subtitle: "搅拌药水与魔源制作高级魔导合金"
-			icon: "create:mechanical_mixer"
-			description: [
-				"搅拌药水与魔源制作高级魔导合金"
-			]
-			dependencies: [
-				"C50C743A31B7DB8F"
-			]
-			tasks: [
-				{
-					id: "E5FC772D445F3789"
-					type: "item"
-					item: "create:mechanical_mixer"
-				}
-			]
-			rewards: [
-				{
-					id: "7346D219A06F356C"
-					type: "item"
-					item: "create:brass_ingot"
-					count: 16
-				}
-			]
-		}
-		{
-			id: "2DF5DCD0C5CAFCC0"
-			x: 1.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "魔能发电机：魔源旋转发电机"
-			subtitle: "将星辰兔动力轮转化为 FE 电能"
-			icon: "create_new_age:generator_coil"
-			description: [
-				"将星辰兔动力轮转化为 FE 电能"
-			]
-			dependencies: [
-				"36E6F9DD250E0807"
-			]
-			tasks: [
-				{
-					id: "56A45A0D4F7271EE"
-					type: "item"
-					item: "create_new_age:generator_coil"
-				}
-			]
-			rewards: [
-				{
-					id: "59FE7AE814B8E98E"
-					type: "item"
-					item: "create_new_age:basic_motor"
-				}
-			]
-		}
-		{
-			id: "032C99FBDCA7ABC1"
-			x: 4.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "自动浇灌：魔力喷淋头"
-			subtitle: "用魔源药水喷淋加速整片农场"
-			icon: "ars_nouveau:potion_diffuser"
-			description: [
-				"用魔源药水喷淋加速整片农场"
-			]
-			dependencies: [
-				"2DF5DCD0C5CAFCC0"
-			]
-			tasks: [
-				{
-					id: "B88F64E0E6881DAE"
-					type: "item"
-					item: "ars_nouveau:potion_diffuser"
-				}
-			]
-			rewards: [
-				{
-					id: "554B72E856878878"
-					type: "item"
-					item: "farmersdelight:rich_soil"
-					count: 16
-				}
-			]
-		}
-		{
-			id: "9A0713173F23CD4C"
-			x: 7.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "仆从宿舍：星辰兔小窝"
-			subtitle: "为魔法小兔提供休息与回复场所"
-			icon: "minecraft:oak_slab"
-			description: [
-				"为魔法小兔提供休息与回复场所"
-			]
-			dependencies: [
-				"032C99FBDCA7ABC1"
-			]
-			tasks: [
-				{
-					id: "AA9AC12D08332A1E"
-					type: "item"
-					item: "minecraft:oak_slab"
-					count: 4L
-				}
-			]
-			rewards: [
-				{
-					id: "687DA963C38B566D"
-					type: "item"
-					item: "ars_nouveau:starbuncle_shards"
-					count: 8
-				}
-			]
-		}
-		{
-			id: "A15EE573E8F5F041"
-			x: -7.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "魔法自动化防线：机械手施法器"
-			subtitle: "机械手握持法杖实现无限全自动施法"
-			icon: "create:deployer"
-			description: [
-				"机械手握持法杖实现无限全自动施法"
-			]
-			dependencies: [
-				"9A0713173F23CD4C"
-			]
-			tasks: [
-				{
-					id: "47C485C38EE0320E"
-					type: "item"
-					item: "create:deployer"
-				}
-			]
-			rewards: [
-				{
-					id: "A12ED592103CA791"
-					type: "item"
-					item: "ars_nouveau:novice_spell_book"
-				}
-			]
-		}
-		{
-			id: "2131A78F2ED675D8"
-			x: -4.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "魔能列车：魔源动力火车头"
-			subtitle: "吸收魔源罐作为永动燃料的列车"
-			icon: "create:railway_casing"
-			description: [
-				"吸收魔源罐作为永动燃料的列车"
-			]
-			dependencies: [
-				"A15EE573E8F5F041"
-			]
-			tasks: [
-				{
-					id: "64B4AB7B0C746A65"
-					type: "item"
-					item: "create:railway_casing"
-					count: 4L
-				}
-			]
-			rewards: [
-				{
-					id: "26AD6C3BED6F432E"
-					type: "item"
-					item: "ars_nouveau:source_jar"
-					count: 4
-				}
-			]
-		}
-		{
-			id: "8D716FA205820F35"
-			x: -1.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "魔力显示：魔源储量翻牌屏"
-			subtitle: "实时显示整个工坊剩余魔源总量"
-			icon: "create:display_board"
-			description: [
-				"实时显示整个工坊剩余魔源总量"
-			]
-			dependencies: [
-				"2131A78F2ED675D8"
-			]
-			tasks: [
-				{
-					id: "15B03750D6B24EBC"
-					type: "item"
-					item: "create:display_board"
-					count: 4L
-				}
-			]
-			rewards: [
-				{
-					id: "58943794ECCB9568"
-					type: "item"
-					item: "create:display_link"
-				}
-			]
-		}
-		{
-			id: "746E80D72A26DE53"
-			x: 1.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "魔能飞艇：星辰兔探险飞艇"
-			subtitle: "小兔驾驶的自动化货运飞艇"
-			icon: "immersive_aircraft:airship"
-			description: [
-				"小兔驾驶的自动化货运飞艇"
-			]
-			dependencies: [
-				"8D716FA205820F35"
-			]
-			tasks: [
-				{
-					id: "B24F37A6C1AC0BE7"
-					type: "item"
-					item: "immersive_aircraft:airship"
-				}
-			]
-			rewards: [
-				{
-					id: "7F2327C9A1DF4B9D"
-					type: "item"
-					item: "ars_nouveau:starbuncle_charm"
 					count: 2
-				}
-			]
-		}
-		{
-			id: "957469144A680D8D"
-			x: 4.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "高阶魔导：复合魔能生产线"
-			subtitle: "魔法与工业完美交融的无缝流水线"
-			icon: "ars_creo:starbuncle_wheel"
-			description: [
-				"魔法与工业完美交融的无缝流水线"
-			]
-			dependencies: [
-				"746E80D72A26DE53"
-			]
-			tasks: [
-				{
-					id: "1F537970240B81E5"
-					type: "checkmark"
-					title: "点击完成"
-				}
-			]
-			rewards: [
-				{
-					id: "5BBDBC4812E87E10"
-					type: "item"
-					item: "ars_nouveau:source_gem_block"
-					count: 4
-				}
-			]
-		}
-		{
-			id: "8979E851E1E14D76"
-			x: 7.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "魔工大满贯：魔能机械工业大师"
-			subtitle: "打破科技与魔法界限，实现全工坊魔动一体化！"
-			icon: "ars_creo:starbuncle_wheel"
-			description: [
-				"打破科技与魔法界限，实现全工坊魔动一体化！"
-			]
-			dependencies: [
-				"957469144A680D8D"
-			]
-			tasks: [
-				{
-					id: "906D483E6454C968"
-					type: "checkmark"
-					title: "点击完成"
-				}
-			]
-			rewards: [
-				{
-					id: "313B660CCEF86140"
-					type: "item"
-					item: "ars_nouveau:archmage_spell_book"
+					title: "注液器（做药水灌装线）"
 				}
 			]
 		}

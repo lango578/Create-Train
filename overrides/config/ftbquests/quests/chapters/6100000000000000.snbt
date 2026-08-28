@@ -4,819 +4,185 @@
 	order_index: 0
 	filename: "6100000000000000"
 	title: "6.1 奥术入门与魔源仪式"
-	icon: "ars_nouveau:worn_notebook"
+	icon: "ars_nouveau:novice_spell_book"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "8904EB42CDEC38A5"
-			x: -7.5d
-			y: -5.0d
+			id: "6100000000000001"
+			x: -8.0d
+			y: 0.0d
 			size: 1.4d
-			shape: "gear"
-			title: "奥术玄门：破旧的笔记"
-			subtitle: "翻开魔法序章，开启魔源感知"
+			shape: "hexagon"
+			title: "翻开魔法序章：残破的宝典"
+			subtitle: "开启新生魔艺之旅"
 			icon: "ars_nouveau:worn_notebook"
 			description: [
-				"翻开魔法序章，开启魔源感知"
+				"欢迎来到 【Ars Nouveau (新生魔艺)】 的神奇世界！"
+				""
+				"做一本【残破的宝典】，它是你搓法术、搞仪式、玩魔法的核心说明书！"
+				"手持宝典右键可以随时查阅完整的法术配方与魔法仪式教程。"
+			]
+			dependencies: [
+				"1100000000000003"
 			]
 			tasks: [
 				{
-					id: "F5689E032893DEEB"
-					type: "item"
-					item: "ars_nouveau:worn_notebook"
+					id: "38750DDDE9A5AA05"
+					type: "checkmark"
+					title: "点击领取新手法术书"
 				}
 			]
 			rewards: [
 				{
-					id: "463B0A5D94EB3E0C"
+					id: "BEAEF72D9BB6A471"
 					type: "item"
-					item: "ars_nouveau:source_gem"
+					item: "ars_nouveau:novice_spell_book"
+					title: "新手法术书"
+				}
+				{
+					id: "5F79A6928D220C44"
+					type: "item"
+					item: "minecraft:amethyst_shard"
 					count: 8
+					title: "紫水晶碎片"
 				}
 			]
 		}
 		{
-			id: "EFC1D4B94DBFAF2E"
-			x: -4.5d
-			y: -5.0d
-			size: 1.1d
+			id: "6100000000000002"
+			x: -5.5d
+			y: -1.8d
+			size: 1.2d
 			shape: "rsquare"
-			title: "魔能结晶：魔源宝石"
-			subtitle: "高纯度魔力凝结而成的宝石"
+			title: "收集魔法蓝条：魔源宝石与魔源罐"
+			subtitle: "储存天地间的魔源"
 			icon: "ars_nouveau:source_gem"
 			description: [
-				"高纯度魔力凝结而成的宝石"
+				"【魔源 (Source)】 就是新生魔艺里的魔法蓝条！"
+				"炼制【魔源宝石】，再做个【魔源罐】把附近的魔源能量存起来！"
 			]
 			dependencies: [
-				"8904EB42CDEC38A5"
+				"6100000000000001"
 			]
 			tasks: [
 				{
-					id: "73FBCA182CFBE2E4"
+					id: "28935D078321F7E1"
 					type: "item"
 					item: "ars_nouveau:source_gem"
-					count: 8L
+					count: 4L
+				}
+				{
+					id: "7737D3AAC628E01A"
+					type: "item"
+					item: "ars_nouveau:source_jar"
 				}
 			]
 			rewards: [
 				{
-					id: "C54DD0A0D4D65647"
+					id: "7D4FA1B504DC2D13"
 					type: "item"
-					item: "ars_nouveau:imbuement_chamber"
+					item: "ars_nouveau:source_gem"
+					count: 8
+					title: "魔源宝石储备"
+				}
+				{
+					id: "28B5FA995B03E264"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 16
+					title: "魔源浆果（拿去种）"
 				}
 			]
 		}
 		{
-			id: "7CF0CAA775D1679E"
-			x: -1.5d
-			y: -5.0d
-			size: 1.1d
+			id: "6100000000000003"
+			x: -5.5d
+			y: 1.8d
+			size: 1.2d
 			shape: "rsquare"
-			title: "魔力灌注：灌注室"
-			subtitle: "利用魔源将普通材料转化为魔导产物"
+			title: "魔力注入：灌注室"
+			subtitle: "吸收魔源，提炼魔法产物"
 			icon: "ars_nouveau:imbuement_chamber"
 			description: [
-				"利用魔源将普通材料转化为魔导产物"
+				"【灌注室】 可以吸收附近魔源罐里的能量，把普通材料炼成高阶魔法物品！"
 			]
 			dependencies: [
-				"EFC1D4B94DBFAF2E"
+				"6100000000000001"
 			]
 			tasks: [
 				{
-					id: "192EBF444DCF237A"
+					id: "3E44C20F91AE7402"
 					type: "item"
 					item: "ars_nouveau:imbuement_chamber"
 				}
 			]
 			rewards: [
 				{
-					id: "6516435033D81E35"
+					id: "A46536CA391D5AA3"
 					type: "item"
-					item: "ars_nouveau:source_jar"
-					count: 2
+					item: "ars_nouveau:sourcestone"
+					count: 16
+					title: "魔源石建筑方块"
 				}
 			]
 		}
 		{
-			id: "43AA6149AB1BFDDB"
-			x: 1.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "液态魔力：魔源罐"
-			subtitle: "储存液态魔力，为法术和仪式供能"
-			icon: "ars_nouveau:source_jar"
-			description: [
-				"储存液态魔力，为法术和仪式供能"
-			]
-			dependencies: [
-				"7CF0CAA775D1679E"
-			]
-			tasks: [
-				{
-					id: "E6E154AAE1767921"
-					type: "item"
-					item: "ars_nouveau:source_jar"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "A76335326388BD3A"
-					type: "item"
-					item: "ars_nouveau:agronomic_sourcelink"
-				}
-			]
-		}
-		{
-			id: "2DCBDE34E71DB918"
-			x: 4.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "植物萃取：农艺魔源链路"
-			subtitle: "吸收农作物生长释放的魔源"
-			icon: "ars_nouveau:agronomic_sourcelink"
-			description: [
-				"吸收农作物生长释放的魔源"
-			]
-			dependencies: [
-				"43AA6149AB1BFDDB"
-			]
-			tasks: [
-				{
-					id: "80F446F19E94AED5"
-					type: "item"
-					item: "ars_nouveau:agronomic_sourcelink"
-				}
-			]
-			rewards: [
-				{
-					id: "879B2C00C6E5B75F"
-					type: "item"
-					item: "ars_nouveau:volcanic_sourcelink"
-				}
-			]
-		}
-		{
-			id: "BF6F3A1EB9E530E1"
-			x: 7.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "热能熔炼：火山魔源链路"
-			subtitle: "吸收热源与岩浆转化为魔源"
-			icon: "ars_nouveau:volcanic_sourcelink"
-			description: [
-				"吸收热源与岩浆转化为魔源"
-			]
-			dependencies: [
-				"2DCBDE34E71DB918"
-			]
-			tasks: [
-				{
-					id: "C5001A7280B8FC0C"
-					type: "item"
-					item: "ars_nouveau:volcanic_sourcelink"
-				}
-			]
-			rewards: [
-				{
-					id: "AEC2B3AEB49BA728"
-					type: "item"
-					item: "ars_nouveau:mycelial_sourcelink"
-				}
-			]
-		}
-		{
-			id: "92F653ED81B3D5FA"
-			x: -7.5d
-			y: -2.5d
+			id: "6100000000000004"
+			x: -3.0d
+			y: -1.8d
 			size: 1.1d
 			shape: "circle"
-			title: "菌丝分解：菌丝魔源链路"
-			subtitle: "消耗蘑菇与有机物生成魔源"
-			icon: "ars_nouveau:mycelial_sourcelink"
+			title: "种浆果也能产生魔力？"
+			subtitle: "魔源浆果农场"
+			icon: "minecraft:stone"
 			description: [
-				"消耗蘑菇与有机物生成魔源"
+				"把【魔源浆果】种在魔源罐旁边，果子成熟时会自动给旁边的罐子充能！"
 			]
 			dependencies: [
-				"BF6F3A1EB9E530E1"
+				"6100000000000002"
 			]
 			tasks: [
 				{
-					id: "9DA8263946DE96B7"
+					id: "333881178500A7BF"
 					type: "item"
-					item: "ars_nouveau:mycelial_sourcelink"
-				}
-			]
-			rewards: [
-				{
-					id: "397A55C707232697"
-					type: "item"
-					item: "ars_nouveau:alchemical_sourcelink"
-				}
-			]
-		}
-		{
-			id: "F66406B4069D9D6D"
-			x: -4.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "炼金转化：炼金魔源链路"
-			subtitle: "吸收药水酿造过程的溢出能量"
-			icon: "ars_nouveau:alchemical_sourcelink"
-			description: [
-				"吸收药水酿造过程的溢出能量"
-			]
-			dependencies: [
-				"92F653ED81B3D5FA"
-			]
-			tasks: [
-				{
-					id: "2B8C8FEA052C98B8"
-					type: "item"
-					item: "ars_nouveau:alchemical_sourcelink"
-				}
-			]
-			rewards: [
-				{
-					id: "823C3D976B0B7B3D"
-					type: "item"
-					item: "ars_nouveau:vitalic_sourcelink"
-				}
-			]
-		}
-		{
-			id: "AEA57366BB31DF18"
-			x: -1.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "生命律动：活力魔源链路"
-			subtitle: "吸收附近生物繁殖与生长魔力"
-			icon: "ars_nouveau:vitalic_sourcelink"
-			description: [
-				"吸收附近生物繁殖与生长魔力"
-			]
-			dependencies: [
-				"F66406B4069D9D6D"
-			]
-			tasks: [
-				{
-					id: "06BAA0204D5DA48B"
-					type: "item"
-					item: "ars_nouveau:vitalic_sourcelink"
-				}
-			]
-			rewards: [
-				{
-					id: "B43CDF872DCECF98"
-					type: "item"
-					item: "ars_nouveau:magebloom_crop"
-					count: 8
-				}
-			]
-		}
-		{
-			id: "45111EB1BC97E881"
-			x: 1.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "魔草作物：法师花种子"
-			subtitle: "种植并收割充满魔源的法师花"
-			icon: "ars_nouveau:magebloom_crop"
-			description: [
-				"种植并收割充满魔源的法师花"
-			]
-			dependencies: [
-				"AEA57366BB31DF18"
-			]
-			tasks: [
-				{
-					id: "C1A7387E5269D926"
-					type: "item"
-					item: "ars_nouveau:magebloom_crop"
+					item: "minecraft:dirt"
 					count: 8L
 				}
 			]
 			rewards: [
 				{
-					id: "DE6936E11FF1B41A"
+					id: "2BC5AB9091324654"
 					type: "item"
-					item: "ars_nouveau:magebloom"
-					count: 8
+					item: "farmersdelight:cooking_pot"
+					title: "料理锅（拿去做甜点）"
 				}
 			]
 		}
 		{
-			id: "6265BD2B81956145"
-			x: 4.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "魔法纤维：法师花织物"
-			subtitle: "编织高级法师长袍的基础布料"
-			icon: "ars_nouveau:magebloom"
+			id: "6100000000000005"
+			x: -3.0d
+			y: 1.8d
+			size: 1.3d
+			shape: "hexagon"
+			title: "摆个魔法阵！附魔装置与奥术台"
+			subtitle: "高阶仪式合成阵"
+			icon: "ars_nouveau:enchanting_apparatus"
 			description: [
-				"编织高级法师长袍的基础布料"
+				"中间摆【附魔装置】，周围摆一圈【奥术台】，搭建高阶仪式魔法阵！"
+				"这是做魔法护符、高阶装备和召唤仆从的必备法阵！"
 			]
 			dependencies: [
-				"45111EB1BC97E881"
+				"6100000000000003"
 			]
 			tasks: [
 				{
-					id: "C9881035C44D603C"
+					id: "2270EC7CCA2FAC97"
 					type: "item"
-					item: "ars_nouveau:magebloom"
-					count: 8L
+					item: "ars_nouveau:enchanting_apparatus"
 				}
-			]
-			rewards: [
 				{
-					id: "84102F1FB360A868"
-					type: "item"
-					item: "ars_nouveau:blank_parchment"
-					count: 16
-				}
-			]
-		}
-		{
-			id: "2B0CBB75CD61E4E0"
-			x: 7.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "符文载体：空白羊皮纸"
-			subtitle: "刻印法术符文与契约的核心纸张"
-			icon: "ars_nouveau:blank_parchment"
-			description: [
-				"刻印法术符文与契约的核心纸张"
-			]
-			dependencies: [
-				"6265BD2B81956145"
-			]
-			tasks: [
-				{
-					id: "24DF7F7EC61CECBA"
-					type: "item"
-					item: "ars_nouveau:blank_parchment"
-					count: 16L
-				}
-			]
-			rewards: [
-				{
-					id: "7765E0F85468872E"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "08438EC00826DEB2"
-			x: -7.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "接触符文：近战触碰符文"
-			subtitle: "近距离施放法术的基础媒介"
-			icon: "minecraft:stone"
-			description: [
-				"近距离施放法术的基础媒介"
-			]
-			dependencies: [
-				"2B0CBB75CD61E4E0"
-			]
-			tasks: [
-				{
-					id: "94BB0F98B85A27B4"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "AE70DE2C5B8D4FA4"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "E13F120F0C66EFC3"
-			x: -4.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "弹道符文：远程弹射符文"
-			subtitle: "发射魔法飞弹攻击远距离目标"
-			icon: "minecraft:stone"
-			description: [
-				"发射魔法飞弹攻击远距离目标"
-			]
-			dependencies: [
-				"08438EC00826DEB2"
-			]
-			tasks: [
-				{
-					id: "7BE030B0D1AD7495"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "7108E9233775A476"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "E159209C535EB9E6"
-			x: -1.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "破坏符文：远程采掘符文"
-			subtitle: "用魔法飞弹隔空粉碎方块"
-			icon: "minecraft:stone"
-			description: [
-				"用魔法飞弹隔空粉碎方块"
-			]
-			dependencies: [
-				"E13F120F0C66EFC3"
-			]
-			tasks: [
-				{
-					id: "F436648513D102A9"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "E92406D1E724A687"
-					type: "item"
-					item: "ars_nouveau:source_gem"
-					count: 16
-				}
-			]
-		}
-		{
-			id: "50FEACF09D735293"
-			x: 1.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "自燃符文：火焰符文"
-			subtitle: "点燃目标与熔炼矿石"
-			icon: "minecraft:stone"
-			description: [
-				"点燃目标与熔炼矿石"
-			]
-			dependencies: [
-				"E159209C535EB9E6"
-			]
-			tasks: [
-				{
-					id: "4FF110127B132C8D"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "6A0112DE9902369F"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "28C1EE083B7D7E89"
-			x: 4.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "建造符文：放置方块符文"
-			subtitle: "隔空搭建墙壁与桥梁"
-			icon: "minecraft:stone"
-			description: [
-				"隔空搭建墙壁与桥梁"
-			]
-			dependencies: [
-				"50FEACF09D735293"
-			]
-			tasks: [
-				{
-					id: "B6F668AA77DEEBF7"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "E23B952E43E080D9"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "E2BF6017FE48C202"
-			x: 7.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "光源符文：符文光源"
-			subtitle: "发射永久悬空光源"
-			icon: "minecraft:stone"
-			description: [
-				"发射永久悬空光源"
-			]
-			dependencies: [
-				"28C1EE083B7D7E89"
-			]
-			tasks: [
-				{
-					id: "3ACC06DC006AE90A"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "5F2F73CE694A951D"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "608CDD1622B61C30"
-			x: -7.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "伤害符文：魔法法球"
-			subtitle: "直接造成魔法伤害"
-			icon: "minecraft:stone"
-			description: [
-				"直接造成魔法伤害"
-			]
-			dependencies: [
-				"E2BF6017FE48C202"
-			]
-			tasks: [
-				{
-					id: "F7453CB7BFFFF9A8"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "E6EDEBDA107679ED"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "10DD48C1E9C9C297"
-			x: -4.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "治愈符文：生命回复"
-			subtitle: "瞬间回复生命值与去除负面状态"
-			icon: "minecraft:stone"
-			description: [
-				"瞬间回复生命值与去除负面状态"
-			]
-			dependencies: [
-				"608CDD1622B61C30"
-			]
-			tasks: [
-				{
-					id: "252BC0EE3697FF53"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "315928836A6E4900"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "3A03DF73628222B8"
-			x: -1.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "增幅符文：力量增幅"
-			subtitle: "增强法术威力与范围"
-			icon: "minecraft:stone"
-			description: [
-				"增强法术威力与范围"
-			]
-			dependencies: [
-				"10DD48C1E9C9C297"
-			]
-			tasks: [
-				{
-					id: "6FD714EE79691525"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "888730A17D1AC247"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "1215E95CAF3189EF"
-			x: 1.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "延长符文：持续时间延长"
-			subtitle: "延长法术效果持续秒数"
-			icon: "minecraft:stone"
-			description: [
-				"延长法术效果持续秒数"
-			]
-			dependencies: [
-				"3A03DF73628222B8"
-			]
-			tasks: [
-				{
-					id: "D48CBA93BA761DB1"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "7B635C62F95348AE"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "84CDF336F862AECE"
-			x: 4.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "范围符文：AOE 范围扩大"
-			subtitle: "将单体法术变为广域范围法术"
-			icon: "minecraft:stone"
-			description: [
-				"将单体法术变为广域范围法术"
-			]
-			dependencies: [
-				"1215E95CAF3189EF"
-			]
-			tasks: [
-				{
-					id: "19B3C1CE37EB5C24"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "E61568FAF57B5A48"
-					type: "item"
-					item: "ars_nouveau:relay"
-					count: 2
-				}
-			]
-		}
-		{
-			id: "2CC7E7F1D04FA5CD"
-			x: 7.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "魔能中继：魔源中继器"
-			subtitle: "长距离跨空间无线传输魔源"
-			icon: "ars_nouveau:relay"
-			description: [
-				"长距离跨空间无线传输魔源"
-			]
-			dependencies: [
-				"84CDF336F862AECE"
-			]
-			tasks: [
-				{
-					id: "6DB668CF6E312DDD"
-					type: "item"
-					item: "ars_nouveau:relay"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "7D8889E5FA3C4F9A"
-					type: "item"
-					item: "ars_nouveau:relay_splitter"
-				}
-			]
-		}
-		{
-			id: "4D2D501CCED260A9"
-			x: -7.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "魔能分流：中继分流器"
-			subtitle: "将一路魔源一分为四分配至多台机器"
-			icon: "ars_nouveau:relay_splitter"
-			description: [
-				"将一路魔源一分为四分配至多台机器"
-			]
-			dependencies: [
-				"2CC7E7F1D04FA5CD"
-			]
-			tasks: [
-				{
-					id: "4C41E56A69E054AE"
-					type: "item"
-					item: "ars_nouveau:relay_splitter"
-				}
-			]
-			rewards: [
-				{
-					id: "CA3A647C5AB82076"
-					type: "item"
-					item: "ars_nouveau:relay_deposit"
-				}
-			]
-		}
-		{
-			id: "ECEC65F40D77EF73"
-			x: -4.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "魔源定投：储罐定投中继"
-			subtitle: "自动补满附近的魔源罐"
-			icon: "ars_nouveau:relay_deposit"
-			description: [
-				"自动补满附近的魔源罐"
-			]
-			dependencies: [
-				"4D2D501CCED260A9"
-			]
-			tasks: [
-				{
-					id: "D24170240B689D5E"
-					type: "item"
-					item: "ars_nouveau:relay_deposit"
-				}
-			]
-			rewards: [
-				{
-					id: "7D5FE7C5D448D5D9"
-					type: "item"
-					item: "ars_nouveau:arcane_pedestal"
-					count: 4
-				}
-			]
-		}
-		{
-			id: "B9603EA5EDE3940A"
-			x: -1.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "仪式底座：奥术底座"
-			subtitle: "围绕主仪式底座摆放供奉物品"
-			icon: "ars_nouveau:arcane_pedestal"
-			description: [
-				"围绕主仪式底座摆放供奉物品"
-			]
-			dependencies: [
-				"ECEC65F40D77EF73"
-			]
-			tasks: [
-				{
-					id: "96853984D8C80621"
+					id: "C65FB07EE38D8121"
 					type: "item"
 					item: "ars_nouveau:arcane_pedestal"
 					count: 4L
@@ -824,100 +190,62 @@
 			]
 			rewards: [
 				{
-					id: "0D85C1D524F0E8E2"
+					id: "B36AE039DE6148D1"
 					type: "item"
-					item: "ars_nouveau:arcane_core"
+					item: "ars_nouveau:arcane_pedestal"
+					count: 4
+					title: "补齐8奥术台法阵"
+				}
+				{
+					id: "9FB346F2D2E8992A"
+					type: "item"
+					item: "ars_nouveau:magebloom_crop"
+					count: 4
+					title: "法力花种子"
 				}
 			]
 		}
 		{
-			id: "1B9E34C01ED34FAB"
-			x: 1.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "仪式核心：奥术核心"
-			subtitle: "启动大型召唤与转换仪式的核心"
-			icon: "ars_nouveau:arcane_core"
+			id: "6100000000000006"
+			x: -0.5d
+			y: 0.0d
+			size: 1.5d
+			shape: "star"
+			title: "凝炼四大元素精华！"
+			subtitle: "水/火/风/地元素核心"
+			icon: "ars_nouveau:water_essence"
 			description: [
-				"启动大型召唤与转换仪式的核心"
+				"在附魔装置里融合材料，凝炼【水、火、风、地】四大元素精华！"
+				"有了元素精华，就能搓出各种酷炫的高阶法术！"
 			]
 			dependencies: [
-				"B9603EA5EDE3940A"
+				"6100000000000004"
+				"6100000000000005"
 			]
 			tasks: [
 				{
-					id: "84C88AA75A99AAA9"
+					id: "A3C9711CE9F6CAE2"
 					type: "item"
-					item: "ars_nouveau:arcane_core"
+					item: "ars_nouveau:water_essence"
+				}
+				{
+					id: "43E6E739413F643D"
+					type: "item"
+					item: "ars_nouveau:fire_essence"
 				}
 			]
 			rewards: [
 				{
-					id: "9A18128EFA67558E"
+					id: "DD4DC58A34E26C9C"
 					type: "item"
-					item: "ars_nouveau:ritual_brazier"
+					item: "ars_nouveau:air_essence"
+					title: "风之精华"
 				}
-			]
-		}
-		{
-			id: "BBB805FBADCDABD0"
-			x: 4.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "仪式火盆：仪式火皿"
-			subtitle: "放入仪式火片，开启魔法天气与召唤"
-			icon: "ars_nouveau:ritual_brazier"
-			description: [
-				"放入仪式火片，开启魔法天气与召唤"
-			]
-			dependencies: [
-				"1B9E34C01ED34FAB"
-			]
-			tasks: [
 				{
-					id: "7F32461CF267DC53"
+					id: "1380F41BF34E73B0"
 					type: "item"
-					item: "ars_nouveau:ritual_brazier"
-				}
-			]
-			rewards: [
-				{
-					id: "CDDE9E37B8496201"
-					type: "item"
-					item: "ars_nouveau:source_gem"
-					count: 32
-				}
-			]
-		}
-		{
-			id: "C02A798CCC9FE761"
-			x: 7.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "奥术毕业：奥术大师学者"
-			subtitle: "掌管魔源流动，准备开启魔能机械大同！"
-			icon: "ars_nouveau:worn_notebook"
-			description: [
-				"掌管魔源流动，准备开启魔能机械大同！"
-			]
-			dependencies: [
-				"BBB805FBADCDABD0"
-			]
-			tasks: [
-				{
-					id: "DA48226F45AF2FC6"
-					type: "checkmark"
-					title: "点击完成"
-				}
-			]
-			rewards: [
-				{
-					id: "7BC47E7F9268CED9"
-					type: "item"
-					item: "ars_creo:starbuncle_wheel"
+					item: "ars_nouveau:earth_essence"
+					title: "地之精华"
 				}
 			]
 		}

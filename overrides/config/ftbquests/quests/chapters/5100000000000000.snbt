@@ -9,61 +9,42 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "2C0D9206BC66822F"
-			x: -7.5d
-			y: -5.0d
-			size: 1.4d
-			shape: "gear"
-			title: "巫女契约：博丽灵梦御配"
-			subtitle: "招募忠诚的车万女仆"
+			id: "5100000000000001"
+			x: -6.0d
+			y: 0.0d
+			size: 1.2d
+			shape: "hexagon"
+			title: "契约一个全能女仆助手！"
+			subtitle: "车万女仆：御币与贴心陪伴"
 			icon: "touhou_little_maid:hakurei_gohei"
 			description: [
-				"招募忠诚的车万女仆"
+				"【车万女仆 (Touhou Little Maid)】是可以陪你冒耍和干活的忠实伙伴！"
+				"做个【博丽御币】和御札，契约属于你的女仆助手。"
+				"女仆能帮你种田、养殖、开火车，甚至手持枪械帮你打怪！"
+			]
+			dependencies: [
+				"3300000000000001"
 			]
 			tasks: [
 				{
-					id: "1AF7A98AD26A78B5"
+					id: "E157F4FD9C86C0B0"
 					type: "item"
 					item: "touhou_little_maid:hakurei_gohei"
 				}
 			]
 			rewards: [
 				{
-					id: "3A71A42D4B15DA6B"
+					id: "BEF346A1627A132A"
 					type: "item"
 					item: "touhou_little_maid:power_point"
-					count: 16
+					count: 32
+					title: "P点燃料"
 				}
-			]
-		}
-		{
-			id: "F7F63A9FED8B4855"
-			x: -4.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "女仆陪伴：灵力充能"
-			subtitle: "喂食点心提升女仆等级"
-			icon: "touhou_little_maid:power_point"
-			description: [
-				"喂食点心提升女仆等级"
-			]
-			dependencies: [
-				"2C0D9206BC66822F"
-			]
-			tasks: [
 				{
-					id: "E4346466D3958AC1"
+					id: "E21401A05ABEAC61"
 					type: "item"
-					item: "touhou_little_maid:power_point"
-					count: 16L
-				}
-			]
-			rewards: [
-				{
-					id: "FC90B2DC30A19AAE"
-					type: "item"
-					item: "touhou_little_maid:photo"
+					item: "minecraft:cake"
+					title: "美味蛋糕（犒劳女仆）"
 				}
 			]
 		}

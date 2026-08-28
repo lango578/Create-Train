@@ -9,921 +9,214 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "0FA803D2DA5D3D1A"
-			x: -7.5d
-			y: -5.0d
+			id: "2100000000000001"
+			x: -8.0d
+			y: 0.0d
 			size: 1.4d
-			shape: "gear"
-			title: "柴油时代：引擎活塞"
-			subtitle: "重型燃油发动机核心部件"
-			icon: "createdieselgenerators:engine_piston"
+			shape: "hexagon"
+			title: "挖到了！黑色黄金石油"
+			subtitle: "发现与开采原油"
+			icon: "createdieselgenerators:crude_oil_bucket"
 			description: [
-				"重型燃油发动机核心部件"
+				"在地下深处或油井中寻找原油。上一章送你的流体管道和水泵这下派上大用场了！"
+			]
+			dependencies: [
+				"1400000000000003"
 			]
 			tasks: [
 				{
-					id: "8AF654CA74A8B6BC"
+					id: "3612DDD5C447376D"
 					type: "item"
-					item: "createdieselgenerators:engine_piston"
-					count: 2L
+					item: "createdieselgenerators:crude_oil_bucket"
 				}
 			]
 			rewards: [
 				{
-					id: "543AB30EC49FEB11"
+					id: "EFC9B800F62C54FD"
 					type: "item"
-					item: "createdieselgenerators:engine_silencer"
+					item: "create:blaze_burner"
+					title: "烈焰人燃烧室（给蒸馏塔加热）"
 				}
-			]
-		}
-		{
-			id: "DAFE21499E4CA3D2"
-			x: -4.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "降噪隔音：发动机消音器"
-			subtitle: "降低柴油机强力轰鸣声"
-			icon: "createdieselgenerators:engine_silencer"
-			description: [
-				"降低柴油机强力轰鸣声"
-			]
-			dependencies: [
-				"0FA803D2DA5D3D1A"
-			]
-			tasks: [
 				{
-					id: "45857900984D7D9A"
-					type: "item"
-					item: "createdieselgenerators:engine_silencer"
-				}
-			]
-			rewards: [
-				{
-					id: "4B44567C88028F0F"
-					type: "item"
-					item: "createdieselgenerators:diesel_engine"
-				}
-			]
-		}
-		{
-			id: "4CD94B5071721E5A"
-			x: -1.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "动力巨兽：柴油发动机"
-			subtitle: "消耗燃油提供极高应力"
-			icon: "createdieselgenerators:diesel_engine"
-			description: [
-				"消耗燃油提供极高应力"
-			]
-			dependencies: [
-				"DAFE21499E4CA3D2"
-			]
-			tasks: [
-				{
-					id: "4EEA6A5C521D7F82"
-					type: "item"
-					item: "createdieselgenerators:diesel_engine"
-				}
-			]
-			rewards: [
-				{
-					id: "5F5995B48EEAC26B"
-					type: "item"
-					item: "createdieselgenerators:large_diesel_engine"
-				}
-			]
-		}
-		{
-			id: "53F56F56B711C6F9"
-			x: 1.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "工业旗舰：大型柴油引擎"
-			subtitle: "多模块并联的超强扭矩"
-			icon: "createdieselgenerators:large_diesel_engine"
-			description: [
-				"多模块并联的超强扭矩"
-			]
-			dependencies: [
-				"4CD94B5071721E5A"
-			]
-			tasks: [
-				{
-					id: "C4D52159117F26B3"
-					type: "item"
-					item: "createdieselgenerators:large_diesel_engine"
-				}
-			]
-			rewards: [
-				{
-					id: "6AE5605DC28AD097"
-					type: "item"
-					item: "createdieselgenerators:pumpjack_bearing"
-				}
-			]
-		}
-		{
-			id: "B52380FA4F457E2E"
-			x: 4.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "勘探开采：抽油机轴承"
-			subtitle: "组装磕头机抽取地下原油"
-			icon: "createdieselgenerators:pumpjack_bearing"
-			description: [
-				"组装磕头机抽取地下原油"
-			]
-			dependencies: [
-				"53F56F56B711C6F9"
-			]
-			tasks: [
-				{
-					id: "C9188E43BCF2BEA9"
-					type: "item"
-					item: "createdieselgenerators:pumpjack_bearing"
-				}
-			]
-			rewards: [
-				{
-					id: "2AF1FB319B07BEB4"
-					type: "item"
-					item: "createdieselgenerators:pumpjack_crank"
-				}
-			]
-		}
-		{
-			id: "B5DE24C3497AFDDE"
-			x: 7.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "机械抽吸：抽油机曲柄"
-			subtitle: "曲柄摇杆传动抽油"
-			icon: "createdieselgenerators:pumpjack_crank"
-			description: [
-				"曲柄摇杆传动抽油"
-			]
-			dependencies: [
-				"B52380FA4F457E2E"
-			]
-			tasks: [
-				{
-					id: "5B1ECF9F01BC9562"
-					type: "item"
-					item: "createdieselgenerators:pumpjack_crank"
-				}
-			]
-			rewards: [
-				{
-					id: "64AB3D5E6FE69A98"
-					type: "item"
-					item: "createdieselgenerators:oil_scanner"
-				}
-			]
-		}
-		{
-			id: "001402EAE5BC6D0D"
-			x: -7.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "地质探测：油田扫描仪"
-			subtitle: "探测地下蕴藏的原油矿脉"
-			icon: "createdieselgenerators:oil_scanner"
-			description: [
-				"探测地下蕴藏的原油矿脉"
-			]
-			dependencies: [
-				"B5DE24C3497AFDDE"
-			]
-			tasks: [
-				{
-					id: "4C4A7B9CEB10FF94"
-					type: "item"
-					item: "createdieselgenerators:oil_scanner"
-				}
-			]
-			rewards: [
-				{
-					id: "38F8D40C167845E4"
-					type: "item"
-					item: "createdieselgenerators:distillation_controller"
-				}
-			]
-		}
-		{
-			id: "54CE97C6C1F6FF0E"
-			x: -4.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "分馏核心：蒸馏塔控制器"
-			subtitle: "高温分馏原油获得各种燃料"
-			icon: "createdieselgenerators:distillation_controller"
-			description: [
-				"高温分馏原油获得各种燃料"
-			]
-			dependencies: [
-				"001402EAE5BC6D0D"
-			]
-			tasks: [
-				{
-					id: "EF1790633ABFB851"
-					type: "item"
-					item: "createdieselgenerators:distillation_controller"
-				}
-			]
-			rewards: [
-				{
-					id: "D13A63CDE297880B"
-					type: "item"
-					item: "minecraft:dirt"
-					count: 2
-				}
-			]
-		}
-		{
-			id: "710D33BAC9D1774F"
-			x: -1.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "便携储油：金属油桶"
-			subtitle: "装载各种炼制油品"
-			icon: "minecraft:stone"
-			description: [
-				"装载各种炼制油品"
-			]
-			dependencies: [
-				"54CE97C6C1F6FF0E"
-			]
-			tasks: [
-				{
-					id: "EB197314E52581E3"
-					type: "item"
-					item: "minecraft:dirt"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "EE1C79680D8A0DE2"
-					type: "item"
-					item: "createdieselgenerators:oil_barrel"
-					count: 4
-				}
-			]
-		}
-		{
-			id: "336E13C27CE6A049"
-			x: 1.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "原油储存：沥青与原油桶"
-			subtitle: "储存抽取的黑金原油"
-			icon: "createdieselgenerators:oil_barrel"
-			description: [
-				"储存抽取的黑金原油"
-			]
-			dependencies: [
-				"710D33BAC9D1774F"
-			]
-			tasks: [
-				{
-					id: "442C8E50A498476A"
-					type: "item"
-					item: "createdieselgenerators:oil_barrel"
-					count: 4L
-				}
-			]
-			rewards: [
-				{
-					id: "FEC364DE23AC95F6"
-					type: "item"
-					item: "createdieselgenerators:biodiesel_bucket"
-				}
-			]
-		}
-		{
-			id: "2787CCB2844C93DC"
-			x: 4.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "环保燃油：生物柴油"
-			subtitle: "植物油与乙醇的化学酯化"
-			icon: "createdieselgenerators:biodiesel_bucket"
-			description: [
-				"植物油与乙醇的化学酯化"
-			]
-			dependencies: [
-				"336E13C27CE6A049"
-			]
-			tasks: [
-				{
-					id: "B9EB47BD1888616F"
-					type: "item"
-					item: "createdieselgenerators:biodiesel_bucket"
-				}
-			]
-			rewards: [
-				{
-					id: "6B7CB7198B38D665"
-					type: "item"
-					item: "createdieselgenerators:gasoline_bucket"
-				}
-			]
-		}
-		{
-			id: "48B9266BE3B14697"
-			x: 7.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "轻质高爆：汽油桶"
-			subtitle: "极高挥发性高爆燃油"
-			icon: "createdieselgenerators:gasoline_bucket"
-			description: [
-				"极高挥发性高爆燃油"
-			]
-			dependencies: [
-				"2787CCB2844C93DC"
-			]
-			tasks: [
-				{
-					id: "C99CE6D77EC57596"
-					type: "item"
-					item: "createdieselgenerators:gasoline_bucket"
-				}
-			]
-			rewards: [
-				{
-					id: "4AAA2BBC0C3C0F96"
-					type: "item"
-					item: "createdieselgenerators:diesel_bucket"
-				}
-			]
-		}
-		{
-			id: "141EB761BAF3BF71"
-			x: -7.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "重工业动力：柴油桶"
-			subtitle: "大型重工机械标准柴油"
-			icon: "createdieselgenerators:diesel_bucket"
-			description: [
-				"大型重工机械标准柴油"
-			]
-			dependencies: [
-				"48B9266BE3B14697"
-			]
-			tasks: [
-				{
-					id: "C40684153009ABD2"
-					type: "item"
-					item: "createdieselgenerators:diesel_bucket"
-				}
-			]
-			rewards: [
-				{
-					id: "2E1A7AD38BCA6651"
-					type: "item"
-					item: "createdieselgenerators:ethanol_bucket"
-				}
-			]
-		}
-		{
-			id: "C358163B4B53F938"
-			x: -4.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "生物发酵：乙醇液体"
-			subtitle: "糖分发酵提纯乙醇"
-			icon: "createdieselgenerators:ethanol_bucket"
-			description: [
-				"糖分发酵提纯乙醇"
-			]
-			dependencies: [
-				"141EB761BAF3BF71"
-			]
-			tasks: [
-				{
-					id: "DBEF217817EEC65F"
-					type: "item"
-					item: "createdieselgenerators:ethanol_bucket"
-				}
-			]
-			rewards: [
-				{
-					id: "322DC1009BE3AC53"
-					type: "item"
-					item: "createdieselgenerators:plant_oil_bucket"
-				}
-			]
-		}
-		{
-			id: "5625E3651DE3350E"
-			x: -1.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "植物压榨：植物油"
-			subtitle: "种子压榨获得工业底油"
-			icon: "createdieselgenerators:plant_oil_bucket"
-			description: [
-				"种子压榨获得工业底油"
-			]
-			dependencies: [
-				"C358163B4B53F938"
-			]
-			tasks: [
-				{
-					id: "9DCDF85FD26A874F"
-					type: "item"
-					item: "createdieselgenerators:plant_oil_bucket"
-				}
-			]
-			rewards: [
-				{
-					id: "606E115749CB36DA"
-					type: "item"
-					item: "create_new_age:generator_coil"
-				}
-			]
-		}
-		{
-			id: "36D7D922140272AC"
-			x: 1.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "重工业动力：柴油桶"
-			subtitle: "大型重工机械标准柴油"
-			icon: "createdieselgenerators:diesel_bucket"
-			description: [
-				"大型重工机械标准柴油"
-			]
-			dependencies: [
-				"5625E3651DE3350E"
-			]
-			tasks: [
-				{
-					id: "D5361FA0BE404EE7"
-					type: "item"
-					item: "createdieselgenerators:diesel_bucket"
-				}
-			]
-			rewards: [
-				{
-					id: "188BE07F7C44DC68"
-					type: "item"
-					item: "createdieselgenerators:ethanol_bucket"
-				}
-			]
-		}
-		{
-			id: "6E32EA258B1F3BDC"
-			x: 4.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "生物发酵：乙醇液体"
-			subtitle: "糖分发酵提纯乙醇"
-			icon: "createdieselgenerators:ethanol_bucket"
-			description: [
-				"糖分发酵提纯乙醇"
-			]
-			dependencies: [
-				"36D7D922140272AC"
-			]
-			tasks: [
-				{
-					id: "ECE27FF1C199D62A"
-					type: "item"
-					item: "createdieselgenerators:ethanol_bucket"
-				}
-			]
-			rewards: [
-				{
-					id: "57FFFE48A9F5A64B"
-					type: "item"
-					item: "createdieselgenerators:plant_oil_bucket"
-				}
-			]
-		}
-		{
-			id: "78E684E6D2588A34"
-			x: 7.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "植物压榨：植物油"
-			subtitle: "种子压榨获得工业底油"
-			icon: "createdieselgenerators:plant_oil_bucket"
-			description: [
-				"种子压榨获得工业底油"
-			]
-			dependencies: [
-				"6E32EA258B1F3BDC"
-			]
-			tasks: [
-				{
-					id: "6EF53E2831C921EF"
-					type: "item"
-					item: "createdieselgenerators:plant_oil_bucket"
-				}
-			]
-			rewards: [
-				{
-					id: "09E74A9B4A198CBC"
-					type: "item"
-					item: "create_new_age:generator_coil"
-				}
-			]
-		}
-		{
-			id: "A15E727AAA3731CD"
-			x: -7.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "柴油机缸体：铸铁缸体"
-			subtitle: "高压气缸铸造结构"
-			icon: "createdieselgenerators:engine_piston"
-			description: [
-				"高压气缸铸造结构"
-			]
-			dependencies: [
-				"78E684E6D2588A34"
-			]
-			tasks: [
-				{
-					id: "C8E4609B95076520"
-					type: "item"
-					item: "createdieselgenerators:engine_piston"
-					count: 4L
-				}
-			]
-			rewards: [
-				{
-					id: "8A6F39FC2B09A01A"
-					type: "item"
-					item: "createdieselgenerators:diesel_engine"
-					count: 2
-				}
-			]
-		}
-		{
-			id: "3FC79E7BEA084980"
-			x: -4.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "高压喷油嘴：燃料喷射器"
-			subtitle: "高压雾化柴油与空气混合"
-			icon: "createdieselgenerators:diesel_engine"
-			description: [
-				"高压雾化柴油与空气混合"
-			]
-			dependencies: [
-				"A15E727AAA3731CD"
-			]
-			tasks: [
-				{
-					id: "C1813A7117CE51A3"
-					type: "checkmark"
-					title: "点击完成"
-				}
-			]
-			rewards: [
-				{
-					id: "D24D081C925628DC"
-					type: "item"
-					item: "minecraft:dirt"
-					count: 4
-				}
-			]
-		}
-		{
-			id: "7EBD1461F0547EA4"
-			x: -1.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "油罐运输车：液体挂车"
-			subtitle: "跨区域油品调拨与配送"
-			icon: "createdieselgenerators:oil_barrel"
-			description: [
-				"跨区域油品调拨与配送"
-			]
-			dependencies: [
-				"3FC79E7BEA084980"
-			]
-			tasks: [
-				{
-					id: "4BB52E5AFFD017AA"
-					type: "item"
-					item: "createdieselgenerators:oil_barrel"
-					count: 8L
-				}
-			]
-			rewards: [
-				{
-					id: "A3D2A0D9E01B6717"
-					type: "item"
-					item: "createdieselgenerators:large_diesel_engine"
-				}
-			]
-		}
-		{
-			id: "2ABB84334C0D837C"
-			x: 1.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "双燃料混合：柴油汽油双喷"
-			subtitle: "极强扭矩动力产出"
-			icon: "createdieselgenerators:gasoline_bucket"
-			description: [
-				"极强扭矩动力产出"
-			]
-			dependencies: [
-				"7EBD1461F0547EA4"
-			]
-			tasks: [
-				{
-					id: "D2778FD45AADF2BD"
-					type: "item"
-					item: "createdieselgenerators:gasoline_bucket"
-				}
-			]
-			rewards: [
-				{
-					id: "1689A8B2BD7AAE33"
-					type: "item"
-					item: "createdieselgenerators:biodiesel_bucket"
-					count: 2
-				}
-			]
-		}
-		{
-			id: "1A9A3AEF2537CC12"
-			x: 4.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "石油焦炭：沥青副产物"
-			subtitle: "铺设高速公路与高炉燃料"
-			icon: "createdieselgenerators:distillation_controller"
-			description: [
-				"铺设高速公路与高炉燃料"
-			]
-			dependencies: [
-				"2ABB84334C0D837C"
-			]
-			tasks: [
-				{
-					id: "622C5A4798414899"
-					type: "checkmark"
-					title: "点击完成"
-				}
-			]
-			rewards: [
-				{
-					id: "851C6AAEE3A5F00D"
-					type: "item"
-					item: "minecraft:coal"
-					count: 32
-				}
-			]
-		}
-		{
-			id: "D90B8D71178B27D8"
-			x: 7.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "高压储气罐：炼油厂储罐"
-			subtitle: "模块化高压储气组"
-			icon: "create:fluid_tank"
-			description: [
-				"模块化高压储气组"
-			]
-			dependencies: [
-				"1A9A3AEF2537CC12"
-			]
-			tasks: [
-				{
-					id: "C52F2979A6B2D369"
-					type: "item"
-					item: "create:fluid_tank"
-					count: 8L
-				}
-			]
-			rewards: [
-				{
-					id: "0912B4DEAA13400E"
-					type: "item"
-					item: "create:mechanical_pump"
-					count: 2
-				}
-			]
-		}
-		{
-			id: "DF0C22D9AAF7F206"
-			x: -7.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "自动加油站：自动喷枪"
-			subtitle: "载具靠近自动补充柴油"
-			icon: "create:spout"
-			description: [
-				"载具靠近自动补充柴油"
-			]
-			dependencies: [
-				"D90B8D71178B27D8"
-			]
-			tasks: [
-				{
-					id: "D388E6047385B15A"
-					type: "item"
-					item: "create:spout"
-				}
-			]
-			rewards: [
-				{
-					id: "484910BF823828F4"
-					type: "item"
-					item: "minecraft:dirt"
-					count: 2
-				}
-			]
-		}
-		{
-			id: "588D496FE9B0D33D"
-			x: -4.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "离心提纯：离心分聚器"
-			subtitle: "提升生物柴油纯度"
-			icon: "create:basin"
-			description: [
-				"提升生物柴油纯度"
-			]
-			dependencies: [
-				"DF0C22D9AAF7F206"
-			]
-			tasks: [
-				{
-					id: "BD56987FA69BCC18"
-					type: "item"
-					item: "create:basin"
-				}
-			]
-			rewards: [
-				{
-					id: "82B09CC995226804"
-					type: "item"
-					item: "createdieselgenerators:biodiesel_bucket"
-					count: 4
-				}
-			]
-		}
-		{
-			id: "48E8A2EA726ED5F7"
-			x: -1.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "工业废气：废气过滤阀"
-			subtitle: "环保环保达标排放"
-			icon: "createdieselgenerators:engine_silencer"
-			description: [
-				"环保环保达标排放"
-			]
-			dependencies: [
-				"588D496FE9B0D33D"
-			]
-			tasks: [
-				{
-					id: "EBE29D9251398183"
-					type: "item"
-					item: "createdieselgenerators:engine_silencer"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "696BDD8C570A6E87"
-					type: "item"
-					item: "create:brass_ingot"
-					count: 16
-				}
-			]
-		}
-		{
-			id: "A0F070E60F829055"
-			x: 1.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "大型抽油机群：多井联采"
-			subtitle: "组建庞大油田采油阵列"
-			icon: "createdieselgenerators:pumpjack_bearing"
-			description: [
-				"组建庞大油田采油阵列"
-			]
-			dependencies: [
-				"48E8A2EA726ED5F7"
-			]
-			tasks: [
-				{
-					id: "3CBBCA9A6CDA683C"
-					type: "item"
-					item: "createdieselgenerators:pumpjack_bearing"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "F5EC7FCDB29392E5"
-					type: "item"
-					item: "createdieselgenerators:oil_barrel"
-					count: 16
-				}
-			]
-		}
-		{
-			id: "BCC40864A2D1D919"
-			x: 4.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "管道加压：远距离输油管"
-			subtitle: "跨地图输送原油至炼油厂"
-			icon: "create:fluid_pipe"
-			description: [
-				"跨地图输送原油至炼油厂"
-			]
-			dependencies: [
-				"A0F070E60F829055"
-			]
-			tasks: [
-				{
-					id: "8E8C840D48B29240"
+					id: "70C744D53587E14D"
 					type: "item"
 					item: "create:fluid_pipe"
-					count: 32L
-				}
-			]
-			rewards: [
-				{
-					id: "7A57A963A9D11B95"
-					type: "item"
-					item: "create:mechanical_pump"
-					count: 4
+					count: 16
+					title: "流体管道补充"
 				}
 			]
 		}
 		{
-			id: "F938878D000BCC70"
-			x: 7.5d
-			y: 5.0d
+			id: "2100000000000010"
+			x: -6.0d
+			y: -2.0d
 			size: 1.1d
 			shape: "rsquare"
-			title: "毕业炼油：国家级石化基地"
-			subtitle: "源源不断的液体金矿，驱动重工业崛起！"
-			icon: "createdieselgenerators:large_diesel_engine"
+			title: "搭建抽油机自动抽石油"
+			subtitle: "抽油机轴承与曲柄"
+			icon: "createdieselgenerators:pumpjack_bearing"
 			description: [
-				"源源不断的液体金矿，驱动重工业崛起！"
+				"搭个抽油机（Pumpjack），实现地下原油全自动抽采！"
 			]
 			dependencies: [
-				"BCC40864A2D1D919"
+				"2100000000000001"
 			]
 			tasks: [
 				{
-					id: "2F529E07023A4B69"
-					type: "checkmark"
-					title: "点击完成"
+					id: "364BCE6A12318CAF"
+					type: "item"
+					item: "createdieselgenerators:pumpjack_bearing"
 				}
 			]
 			rewards: [
 				{
-					id: "06FAECC53F016740"
+					id: "54A03E13B281F682"
+					type: "item"
+					item: "createdieselgenerators:pumpjack_crank"
+					title: "抽油机曲柄"
+				}
+			]
+		}
+		{
+			id: "2100000000000002"
+			x: -5.5d
+			y: 0.0d
+			size: 1.2d
+			shape: "rsquare"
+			title: "炼油厂起工！精炼柴油与汽油"
+			subtitle: "蒸馏塔与石油分馏"
+			icon: "createdieselgenerators:biodiesel_bucket"
+			description: [
+				"把原油倒入加热的分馏塔，精炼出能给重型引擎提供高能动力的柴油！拿到活塞去造柴油机！"
+			]
+			dependencies: [
+				"2100000000000001"
+			]
+			tasks: [
+				{
+					id: "916E2A3FBDCE1C3F"
+					type: "item"
+					item: "createdieselgenerators:biodiesel_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "4BA6D78C6EB95F17"
+					type: "item"
+					item: "createdieselgenerators:engine_piston"
+					count: 2
+					title: "引擎活塞（组装柴油机的关键零件）"
+				}
+				{
+					id: "EE8252CFC4C6BE3D"
+					type: "item"
+					item: "createdieselgenerators:oil_barrel"
+					count: 4
+					title: "石油桶（存柴油用）"
+				}
+			]
+		}
+		{
+			id: "2100000000000011"
+			x: -3.5d
+			y: -2.0d
+			size: 1.1d
+			shape: "circle"
+			title: "存油备用：石油桶"
+			subtitle: "高密度液体储存"
+			icon: "createdieselgenerators:oil_barrel"
+			description: [
+				"用石油桶把精炼好的柴油安全存起来，随时准备给机器加油！"
+			]
+			dependencies: [
+				"2100000000000002"
+			]
+			tasks: [
+				{
+					id: "CE36D05B75585EA8"
+					type: "item"
+					item: "createdieselgenerators:oil_barrel"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "C4B50FE3915EC3DA"
+					type: "item"
+					item: "createdieselgenerators:oil_barrel"
+					count: 2
+					title: "石油桶补贴"
+				}
+			]
+		}
+		{
+			id: "2100000000000003"
+			x: -3.0d
+			y: 0.0d
+			size: 1.4d
+			shape: "diamond"
+			title: "轰鸣吧！柴油引擎组装完毕"
+			subtitle: "超高转速与惊人应力"
+			icon: "createdieselgenerators:diesel_engine"
+			description: [
+				"用刚拿到的活塞组装柴油引擎！一加油就能输出庞大的应力，带飞发电机和大火炮！"
+			]
+			dependencies: [
+				"2100000000000002"
+			]
+			tasks: [
+				{
+					id: "A326B1226A12DBFD"
+					type: "item"
+					item: "createdieselgenerators:diesel_engine"
+				}
+			]
+			rewards: [
+				{
+					id: "A96CA172D16C6316"
+					type: "item"
+					item: "create:copper_casing"
+					count: 4
+					title: "铜机壳（拿去搭发电机）"
+				}
+				{
+					id: "E17EC29850626FD4"
+					type: "item"
+					item: "createbigcannons:cast_iron_ingot"
+					count: 16
+					title: "铸铁锭（拿去铸大炮）"
+				}
+			]
+		}
+		{
+			id: "2100000000000012"
+			x: -0.5d
+			y: 0.0d
+			size: 1.4d
+			shape: "star"
+			title: "重型发电厂！模块化柴油电站"
+			subtitle: "工业级电力与应力矩阵"
+			icon: "createdieselgenerators:large_diesel_engine"
+			description: [
+				"搭个大型柴油发电机组！给全工业区提供源源不断的庞大能量！"
+			]
+			dependencies: [
+				"2100000000000003"
+			]
+			tasks: [
+				{
+					id: "9C6268031B4AD56C"
+					type: "item"
+					item: "createdieselgenerators:large_diesel_engine"
+				}
+			]
+			rewards: [
+				{
+					id: "EC003E2E05A80D87"
 					type: "item"
 					item: "create_new_age:generator_coil"
-					count: 4
+					count: 2
+					title: "发电机线圈（接电网时代）"
 				}
 			]
 		}

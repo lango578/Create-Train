@@ -4,934 +4,152 @@
 	order_index: 0
 	filename: "3100000000000000"
 	title: "3.1 机械动力航空学"
-	icon: "immersive_aircraft:biplane"
+	icon: "create_aeronautics:flywheel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "B84DB81CD13F1F45"
-			x: -7.5d
-			y: -5.0d
-			size: 1.4d
-			shape: "gear"
-			title: "航空梦想：飞机设计图"
-			subtitle: "飞行器制造的第一步"
+			id: "3100000000000001"
+			x: -6.0d
+			y: 0.0d
+			size: 1.3d
+			shape: "hexagon"
+			title: "蓝天之梦：机械动力航空学"
+			subtitle: "从地面迈向苍穹"
 			icon: "immersive_aircraft:biplane"
 			description: [
-				"飞行器制造的第一步"
-			]
-			tasks: [
-				{
-					id: "A39327BF70D146C8"
-					type: "checkmark"
-					title: "点击完成"
-				}
-			]
-			rewards: [
-				{
-					id: "31D678CC43931261"
-					type: "item"
-					item: "minecraft:spruce_planks"
-					count: 32
-				}
-			]
-		}
-		{
-			id: "D830552A55916889"
-			x: -4.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "机翼框架：云杉木板"
-			subtitle: "制作轻质坚固机翼骨架"
-			icon: "minecraft:spruce_planks"
-			description: [
-				"制作轻质坚固机翼骨架"
+				"使用第二大章赠送的航空引擎与螺旋桨，制作飞行船体，开始建造你的第一架飞机！"
 			]
 			dependencies: [
-				"B84DB81CD13F1F45"
+				"1400000000000003"
 			]
 			tasks: [
 				{
-					id: "87AF50386FF64FC4"
+					id: "E4D0F7A7B482AA0E"
 					type: "item"
-					item: "minecraft:spruce_planks"
-					count: 32L
+					item: "immersive_aircraft:engine"
+				}
+				{
+					id: "D84AD7905100A77E"
+					type: "item"
+					item: "immersive_aircraft:hull"
 				}
 			]
 			rewards: [
 				{
-					id: "F77AF5ABECE31485"
-					type: "item"
-					item: "farmersdelight:canvas"
-					count: 16
-				}
-			]
-		}
-		{
-			id: "57156C58D22D6A45"
-			x: -1.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "机翼覆膜：高密度帆布"
-			subtitle: "张紧帆布形成空气动力抓升面"
-			icon: "farmersdelight:canvas"
-			description: [
-				"张紧帆布形成空气动力抓升面"
-			]
-			dependencies: [
-				"D830552A55916889"
-			]
-			tasks: [
-				{
-					id: "760A2433E36F8668"
-					type: "item"
-					item: "farmersdelight:canvas"
-					count: 16L
-				}
-			]
-			rewards: [
-				{
-					id: "CE027016E5EABE4E"
+					id: "CCC97272A9ED0AF7"
 					type: "item"
 					item: "immersive_aircraft:propeller"
 					count: 2
+					title: "螺旋桨（衔接竹直升机/双翼飞机）"
 				}
-			]
-		}
-		{
-			id: "A23BE49DF4B6AA16"
-			x: 1.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "动力拉力：木质螺旋桨"
-			subtitle: "切削木质叶片产生前方拉力"
-			icon: "immersive_aircraft:propeller"
-			description: [
-				"切削木质叶片产生前方拉力"
-			]
-			dependencies: [
-				"57156C58D22D6A45"
-			]
-			tasks: [
 				{
-					id: "5EDF73816E97F8B0"
-					type: "item"
-					item: "immersive_aircraft:propeller"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "33425BB3EA1B4BC0"
+					id: "A5982E589A60230A"
 					type: "item"
 					item: "immersive_aircraft:boiler"
+					title: "锅炉（衔接双翼飞机）"
 				}
 			]
 		}
 		{
-			id: "24C0C8EDD11103AA"
-			x: 4.5d
-			y: -5.0d
+			id: "3100000000000002"
+			x: -4.0d
+			y: -1.5d
 			size: 1.1d
 			shape: "rsquare"
-			title: "热能锅炉：高压蒸汽锅炉"
-			subtitle: "燃烧煤炭产生高压推力"
-			icon: "immersive_aircraft:boiler"
+			title: "轻盈空中巡航：竹直升机"
+			subtitle: "垂直起降的便捷飞行器"
+			icon: "immersive_aircraft:bamboo_hopper"
 			description: [
-				"燃烧煤炭产生高压推力"
+				"【竹直升机】是最容易制作的单人垂直起降飞行器！"
 			]
 			dependencies: [
-				"A23BE49DF4B6AA16"
+				"3100000000000001"
 			]
 			tasks: [
 				{
-					id: "CA251FA03FB2CCAF"
+					id: "AAA29C738ED0534E"
 					type: "item"
-					item: "immersive_aircraft:boiler"
+					item: "immersive_aircraft:bamboo_hopper"
 				}
 			]
 			rewards: [
 				{
-					id: "6E0E4475DAA30CC4"
+					id: "EFA8560F05417A6E"
 					type: "item"
-					item: "immersive_aircraft:engine"
+					item: "minecraft:coal_block"
+					count: 4
+					title: "煤炭块（飞行器燃料）"
 				}
 			]
 		}
 		{
-			id: "801D1CB8C211C87A"
-			x: 7.5d
-			y: -5.0d
+			id: "3100000000000003"
+			x: -4.0d
+			y: 1.5d
 			size: 1.1d
 			shape: "rsquare"
-			title: "活塞心脏：航空发动机"
-			subtitle: "轻量化高马力飞行引擎"
-			icon: "immersive_aircraft:engine"
-			description: [
-				"轻量化高马力飞行引擎"
-			]
-			dependencies: [
-				"24C0C8EDD11103AA"
-			]
-			tasks: [
-				{
-					id: "37CF0633247BB555"
-					type: "item"
-					item: "immersive_aircraft:engine"
-				}
-			]
-			rewards: [
-				{
-					id: "F8E24B1D69E0EA96"
-					type: "item"
-					item: "immersive_aircraft:biplane"
-				}
-			]
-		}
-		{
-			id: "1AFCE67587448D1B"
-			x: -7.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "试飞起航：轻型双翼机"
-			subtitle: "第一架可自由驾驶的双翼飞机"
+			title: "经典空中先锋：双翼飞机"
+			subtitle: "高速远距离巡航"
 			icon: "immersive_aircraft:biplane"
 			description: [
-				"第一架可自由驾驶的双翼飞机"
+				"【双翼飞机】拥有极佳的速度和操控性，是长途拉货与地图探险的首选！"
 			]
 			dependencies: [
-				"801D1CB8C211C87A"
+				"3100000000000001"
 			]
 			tasks: [
 				{
-					id: "1303B13B1F03BD19"
+					id: "879F478CE474F240"
 					type: "item"
 					item: "immersive_aircraft:biplane"
 				}
 			]
 			rewards: [
 				{
-					id: "F3A37B9680102A23"
+					id: "40451F31DBA0F350"
 					type: "item"
 					item: "minecraft:dirt"
+					count: 2
+					title: "飞艇气球（衔接飞艇制造）"
 				}
 			]
 		}
 		{
-			id: "400DAECAFFA49DC2"
-			x: -4.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "低噪飞行：斯特林发动机"
-			subtitle: "无声热差驱动探索无人区"
-			icon: "minecraft:stone"
-			description: [
-				"无声热差驱动探索无人区"
-			]
-			dependencies: [
-				"1AFCE67587448D1B"
-			]
-			tasks: [
-				{
-					id: "F0EA71EECF145A63"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "1A8EE3E5B229AD3F"
-					type: "item"
-					item: "immersive_aircraft:gyrodyne"
-				}
-			]
-		}
-		{
-			id: "3348634EB7EA64A0"
-			x: -1.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "单人折叠：自转旋翼机"
-			subtitle: "超小场地垂直起降旋翼机"
-			icon: "immersive_aircraft:gyrodyne"
-			description: [
-				"超小场地垂直起降旋翼机"
-			]
-			dependencies: [
-				"400DAECAFFA49DC2"
-			]
-			tasks: [
-				{
-					id: "9D438DB013CFE5AB"
-					type: "item"
-					item: "immersive_aircraft:gyrodyne"
-				}
-			]
-			rewards: [
-				{
-					id: "C9C673D63DCF63D9"
-					type: "item"
-					item: "immersive_aircraft:quadrocopter"
-				}
-			]
-		}
-		{
-			id: "1E01E2EE810644D1"
-			x: 1.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "四轴悬停：四轴飞行器"
-			subtitle: "极高稳定度的空中摄影与侦察机"
-			icon: "immersive_aircraft:quadrocopter"
-			description: [
-				"极高稳定度的空中摄影与侦察机"
-			]
-			dependencies: [
-				"3348634EB7EA64A0"
-			]
-			tasks: [
-				{
-					id: "B6CBBF85A04196F8"
-					type: "item"
-					item: "immersive_aircraft:quadrocopter"
-				}
-			]
-			rewards: [
-				{
-					id: "3224D08DA2D04D68"
-					type: "item"
-					item: "immersive_aircraft:airship"
-				}
-			]
-		}
-		{
-			id: "1590822882759CA3"
-			x: 4.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "平稳远航：巡航飞艇"
-			subtitle: "充满氦气的平稳跨洲飞艇"
+			id: "3100000000000004"
+			x: -2.0d
+			y: 0.0d
+			size: 1.2d
+			shape: "diamond"
+			title: "空中堡垒：飞艇"
+			subtitle: "大容量移动空中仓库"
 			icon: "immersive_aircraft:airship"
 			description: [
-				"充满氦气的平稳跨洲飞艇"
+				"【飞艇】拥有巨大的装载空间，可以升至极高悬停！直接衔接第四大章高阶蓝图兑换！"
 			]
 			dependencies: [
-				"1E01E2EE810644D1"
+				"3100000000000002"
+				"3100000000000003"
 			]
 			tasks: [
 				{
-					id: "BC38AEA2765C5A99"
+					id: "5F7E08CB0B97A72B"
 					type: "item"
 					item: "immersive_aircraft:airship"
 				}
 			]
 			rewards: [
 				{
-					id: "AA833FB71D7D83CB"
-					type: "item"
-					item: "immersive_aircraft:cargo_airship"
-				}
-			]
-		}
-		{
-			id: "A1AD44C91DC60E3B"
-			x: 7.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "空中物流：重型货运飞艇"
-			subtitle: "大容量箱体空中运输飞艇"
-			icon: "immersive_aircraft:cargo_airship"
-			description: [
-				"大容量箱体空中运输飞艇"
-			]
-			dependencies: [
-				"1590822882759CA3"
-			]
-			tasks: [
-				{
-					id: "21785FD4DE5CE1F7"
-					type: "item"
-					item: "immersive_aircraft:cargo_airship"
-				}
-			]
-			rewards: [
-				{
-					id: "8BC1B489AF5B4443"
-					type: "item"
-					item: "immersive_aircraft:propeller"
-					count: 4
-				}
-			]
-		}
-		{
-			id: "7BABF1034B43B14D"
-			x: -7.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "双发加力：双引擎推进组"
-			subtitle: "加装侧翼双发动机增加巡航速度"
-			icon: "immersive_aircraft:propeller"
-			description: [
-				"加装侧翼双发动机增加巡航速度"
-			]
-			dependencies: [
-				"A1AD44C91DC60E3B"
-			]
-			tasks: [
-				{
-					id: "FB8706022255EEB4"
-					type: "item"
-					item: "immersive_aircraft:propeller"
-					count: 4L
-				}
-			]
-			rewards: [
-				{
-					id: "67485101B57061C3"
-					type: "item"
-					item: "create:brass_ingot"
-					count: 16
-				}
-			]
-		}
-		{
-			id: "AB92596EDFAFD06B"
-			x: -4.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "仪表防空：航空指南针"
-			subtitle: "高空防迷航与定位仪表"
-			icon: "minecraft:compass"
-			description: [
-				"高空防迷航与定位仪表"
-			]
-			dependencies: [
-				"7BABF1034B43B14D"
-			]
-			tasks: [
-				{
-					id: "EA3D312D877BAECC"
-					type: "item"
-					item: "minecraft:compass"
-				}
-			]
-			rewards: [
-				{
-					id: "D015022206819854"
-					type: "item"
-					item: "create:controls"
-				}
-			]
-		}
-		{
-			id: "1351873A05CE0CE3"
-			x: -1.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "飞行毕业：领空巡航支配者"
-			subtitle: "征服天空，俯瞰整片地形大地！"
-			icon: "immersive_aircraft:biplane"
-			description: [
-				"征服天空，俯瞰整片地形大地！"
-			]
-			dependencies: [
-				"AB92596EDFAFD06B"
-			]
-			tasks: [
-				{
-					id: "E5264878A3221292"
-					type: "checkmark"
-					title: "点击完成"
-				}
-			]
-			rewards: [
-				{
-					id: "3F005D75502AB6EB"
-					type: "item"
-					item: "create:controls"
-				}
-			]
-		}
-		{
-			id: "75E31024EC1E8832"
-			x: 1.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "降落伞包：高空紧急避险"
-			subtitle: "高空跳伞保命安全伞"
-			icon: "farmersdelight:canvas"
-			description: [
-				"高空跳伞保命安全伞"
-			]
-			dependencies: [
-				"1351873A05CE0CE3"
-			]
-			tasks: [
-				{
-					id: "2D91CF4B51B6567A"
-					type: "item"
-					item: "farmersdelight:canvas"
-					count: 4L
-				}
-			]
-			rewards: [
-				{
-					id: "F4D0CB8F4C85EA55"
-					type: "item"
-					item: "minecraft:leather"
-					count: 8
-				}
-			]
-		}
-		{
-			id: "A990ED608DEF6E0B"
-			x: 4.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "航空燃油罐：机翼挂载油箱"
-			subtitle: "增加续航飞行里程"
-			icon: "create:fluid_tank"
-			description: [
-				"增加续航飞行里程"
-			]
-			dependencies: [
-				"75E31024EC1E8832"
-			]
-			tasks: [
-				{
-					id: "4ABB10CDA6FABF60"
-					type: "item"
-					item: "create:fluid_tank"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "3C95919DF27C6216"
-					type: "item"
-					item: "createdieselgenerators:gasoline_bucket"
-				}
-			]
-		}
-		{
-			id: "C6B9CF16C6AC19ED"
-			x: 7.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "夜航灯光：强光探照灯"
-			subtitle: "夜间高空降落照明跑道"
-			icon: "minecraft:glowstone"
-			description: [
-				"夜间高空降落照明跑道"
-			]
-			dependencies: [
-				"A990ED608DEF6E0B"
-			]
-			tasks: [
-				{
-					id: "617C75ED5F9077D9"
-					type: "item"
-					item: "minecraft:glowstone"
-					count: 4L
-				}
-			]
-			rewards: [
-				{
-					id: "9F5E387B7B1819DA"
-					type: "item"
-					item: "minecraft:redstone_lamp"
-					count: 4
-				}
-			]
-		}
-		{
-			id: "E8A7FE8132D5931E"
-			x: -7.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "跑道搭建：平整水泥跑道"
-			subtitle: "建造滑行起飞跑道"
-			icon: "minecraft:smooth_stone"
-			description: [
-				"建造滑行起飞跑道"
-			]
-			dependencies: [
-				"C6B9CF16C6AC19ED"
-			]
-			tasks: [
-				{
-					id: "C8921B40A56336E9"
-					type: "item"
-					item: "minecraft:smooth_stone"
-					count: 32L
-				}
-			]
-			rewards: [
-				{
-					id: "2E0D0A7C0B6462A3"
-					type: "item"
-					item: "create:railway_casing"
-					count: 8
-				}
-			]
-		}
-		{
-			id: "C704810136309EE4"
-			x: -4.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "风向测定：风向标与气球"
-			subtitle: "测定高空气流方向"
-			icon: "minecraft:white_wool"
-			description: [
-				"测定高空气流方向"
-			]
-			dependencies: [
-				"E8A7FE8132D5931E"
-			]
-			tasks: [
-				{
-					id: "298B507424886510"
-					type: "item"
-					item: "minecraft:white_wool"
-					count: 8L
-				}
-			]
-			rewards: [
-				{
-					id: "C946B15DC043DA9E"
-					type: "item"
-					item: "minecraft:feather"
-					count: 16
-				}
-			]
-		}
-		{
-			id: "E4337140D32FD253"
-			x: -1.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "高空保暖：皮质飞行夹克"
-			subtitle: "抵抗万米高空极寒气流"
-			icon: "minecraft:leather_chestplate"
-			description: [
-				"抵抗万米高空极寒气流"
-			]
-			dependencies: [
-				"C704810136309EE4"
-			]
-			tasks: [
-				{
-					id: "1E3E32939A6551EF"
-					type: "item"
-					item: "minecraft:leather_chestplate"
-				}
-			]
-			rewards: [
-				{
-					id: "E4BA18B8EF70979D"
-					type: "item"
-					item: "minecraft:leather_helmet"
-				}
-			]
-		}
-		{
-			id: "F16F9FD8FE079E2E"
-			x: 1.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "护目风镜：飞行员风镜"
-			subtitle: "挡风遮光视野清晰"
-			icon: "minecraft:leather_helmet"
-			description: [
-				"挡风遮光视野清晰"
-			]
-			dependencies: [
-				"E4337140D32FD253"
-			]
-			tasks: [
-				{
-					id: "F446D1605FD96B90"
-					type: "item"
-					item: "minecraft:leather_helmet"
-				}
-			]
-			rewards: [
-				{
-					id: "8877E265D3E8EED5"
-					type: "item"
-					item: "minecraft:gold_ingot"
-					count: 4
-				}
-			]
-		}
-		{
-			id: "EC6C440B3C24A051"
-			x: 4.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "通信电台：航空无线电"
-			subtitle: "基地与战机无线通话"
-			icon: "create:redstone_link"
-			description: [
-				"基地与战机无线通话"
-			]
-			dependencies: [
-				"F16F9FD8FE079E2E"
-			]
-			tasks: [
-				{
-					id: "4E39EE2AC6CF6948"
-					type: "item"
-					item: "create:redstone_link"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "B76EFF719BBB5211"
-					type: "item"
-					item: "create:nixie_tube"
-					count: 2
-				}
-			]
-		}
-		{
-			id: "8B64B9EDC2050509"
-			x: 7.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "航弹挂架：空中投弹舱"
-			subtitle: "战机挂载高爆炸弹空袭"
-			icon: "minecraft:stone"
-			description: [
-				"战机挂载高爆炸弹空袭"
-			]
-			dependencies: [
-				"EC6C440B3C24A051"
-			]
-			tasks: [
-				{
-					id: "02419445A0C6E727"
+					id: "CDC9A77C9A394824"
 					type: "item"
 					item: "minecraft:dirt"
-					count: 2L
+					title: "蓝图炮（直接衔接第四大章蓝图打印）"
 				}
-			]
-			rewards: [
 				{
-					id: "F972CC558538EE4D"
+					id: "AE654FCC992550F8"
 					type: "item"
-					item: "createbigcannons:powder_charge"
-					count: 8
-				}
-			]
-		}
-		{
-			id: "D048B4A6ED781481"
-			x: -7.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "自动驾驶仪：姿态陀螺仪"
-			subtitle: "锁定航向自动巡航"
-			icon: "create:rotation_speed_controller"
-			description: [
-				"锁定航向自动巡航"
-			]
-			dependencies: [
-				"8B64B9EDC2050509"
-			]
-			tasks: [
-				{
-					id: "66C7091743245F90"
-					type: "item"
-					item: "create:rotation_speed_controller"
-				}
-			]
-			rewards: [
-				{
-					id: "5F04E5758F107BB1"
-					type: "item"
-					item: "create:precision_mechanism"
-				}
-			]
-		}
-		{
-			id: "E79EE3683B91C14D"
-			x: -4.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "高空氧气瓶：耐压呼吸罐"
-			subtitle: "平流层稀薄空气呼吸保障"
-			icon: "create:fluid_tank"
-			description: [
-				"平流层稀薄空气呼吸保障"
-			]
-			dependencies: [
-				"D048B4A6ED781481"
-			]
-			tasks: [
-				{
-					id: "C7DA708AD41312DC"
-					type: "item"
-					item: "create:fluid_tank"
-				}
-			]
-			rewards: [
-				{
-					id: "8E4183AD197D1B29"
-					type: "item"
-					item: "minecraft:glass_bottle"
-					count: 4
-				}
-			]
-		}
-		{
-			id: "48CB6C8D094C3CA0"
-			x: -1.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "机库建造：大型飞机机库"
-			subtitle: "遮风挡雨的战机停放庇护所"
-			icon: "minecraft:stone"
-			description: [
-				"遮风挡雨的战机停放庇护所"
-			]
-			dependencies: [
-				"E79EE3683B91C14D"
-			]
-			tasks: [
-				{
-					id: "3FE16A10A8A072EB"
-					type: "item"
-					item: "minecraft:dirt"
-					count: 16L
-				}
-			]
-			rewards: [
-				{
-					id: "5DD3AF2AC74D707C"
-					type: "item"
-					item: "create:andesite_casing"
-					count: 16
-				}
-			]
-		}
-		{
-			id: "26665F2B27A3F6BA"
-			x: 1.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "飞行表演：烟雾弹拉烟器"
-			subtitle: "空中拉彩烟空中表演"
-			icon: "minecraft:firework_rocket"
-			description: [
-				"空中拉彩烟空中表演"
-			]
-			dependencies: [
-				"48CB6C8D094C3CA0"
-			]
-			tasks: [
-				{
-					id: "EEB087CAC87D1F78"
-					type: "item"
-					item: "minecraft:firework_rocket"
-					count: 16L
-				}
-			]
-			rewards: [
-				{
-					id: "105D61730B3A789F"
-					type: "item"
-					item: "minecraft:gunpowder"
-					count: 16
-				}
-			]
-		}
-		{
-			id: "43BE9483308D41C9"
-			x: 4.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "航空加油车：机坪加油挂车"
-			subtitle: "机坪地勤快速补充航空燃油"
-			icon: "minecraft:stone"
-			description: [
-				"机坪地勤快速补充航空燃油"
-			]
-			dependencies: [
-				"26665F2B27A3F6BA"
-			]
-			tasks: [
-				{
-					id: "942F689FA4538156"
-					type: "item"
-					item: "minecraft:dirt"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "C69D4F15959D2EE1"
-					type: "item"
-					item: "createdieselgenerators:biodiesel_bucket"
-					count: 2
-				}
-			]
-		}
-		{
-			id: "E2F4A9B188B5A349"
-			x: 7.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "王牌飞行员：十万米飞行里程"
-			subtitle: "穿梭风暴与云海，立于天空之巅！"
-			icon: "immersive_aircraft:biplane"
-			description: [
-				"穿梭风暴与云海，立于天空之巅！"
-			]
-			dependencies: [
-				"43BE9483308D41C9"
-			]
-			tasks: [
-				{
-					id: "380CD54F1B9E89B3"
-					type: "checkmark"
-					title: "点击完成"
-				}
-			]
-			rewards: [
-				{
-					id: "BD18E63DDF7D8963"
-					type: "item"
-					item: "create:controls"
+					item: "create:schematic_table"
+					title: "蓝图桌（直接衔接第四大章蓝图加载）"
 				}
 			]
 		}

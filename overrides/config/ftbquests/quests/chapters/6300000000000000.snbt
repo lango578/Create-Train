@@ -3,914 +3,195 @@
 	group: "6000000000000000"
 	order_index: 2
 	filename: "6300000000000000"
-	title: "6.3 法术编成与荒野守卫者 BOSS"
-	icon: "ars_nouveau:wilden_tribute"
+	title: "6.3 法术编成、巫师战甲与荒野 BOSS 远征"
+	icon: "ars_nouveau:archmage_spell_book"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "DCEEE2D022DBF8A6"
-			x: -7.5d
-			y: -5.0d
+			id: "6300000000000001"
+			x: -8.0d
+			y: 0.0d
 			size: 1.4d
-			shape: "gear"
-			title: "法杖编成：学徒法术书"
-			subtitle: "开启符文组合编排与法术槽位"
-			icon: "ars_nouveau:novice_spell_book"
+			shape: "hexagon"
+			title: "搓个你专属的禁咒法术！"
+			subtitle: "法术羊皮纸与组合魔法"
+			icon: "ars_nouveau:spell_parchment"
 			description: [
-				"开启符文组合编排与法术槽位"
+				"在法术书里自由组合【形态】（发射、触摸、自投）和【效果】（爆破、治疗、飞行、闪电）！"
+				"搓出全服独一无二的专属禁咒法术！"
+			]
+			dependencies: [
+				"6100000000000006"
 			]
 			tasks: [
 				{
-					id: "D3B7011BB4F819D1"
+					id: "1A76D83EAD9A1090"
 					type: "item"
-					item: "ars_nouveau:novice_spell_book"
+					item: "ars_nouveau:spell_parchment"
 				}
 			]
 			rewards: [
 				{
-					id: "7363F4BEF1A81B46"
+					id: "12FEDDDC4F0BA477"
 					type: "item"
-					item: "ars_nouveau:apprentice_spell_book"
+					item: "ars_nouveau:blank_parchment"
+					count: 4
+					title: "空白羊皮纸"
+				}
+				{
+					id: "FDB466147EA6301F"
+					type: "item"
+					item: "ars_nouveau:source_gem"
+					count: 8
+					title: "魔源宝石"
 				}
 			]
 		}
 		{
-			id: "2C2F43F711D12271"
-			x: -4.5d
-			y: -5.0d
-			size: 1.1d
+			id: "6300000000000010"
+			x: -5.5d
+			y: -2.0d
+			size: 1.2d
 			shape: "rsquare"
-			title: "进阶法术：学徒法术书升级"
-			subtitle: "解锁二阶符文与二阶槽位"
-			icon: "ars_nouveau:apprentice_spell_book"
-			description: [
-				"解锁二阶符文与二阶槽位"
-			]
-			dependencies: [
-				"DCEEE2D022DBF8A6"
-			]
-			tasks: [
-				{
-					id: "F1C993E0159C2526"
-					type: "item"
-					item: "ars_nouveau:apprentice_spell_book"
-				}
-			]
-			rewards: [
-				{
-					id: "5BF531AC00B3AD80"
-					type: "item"
-					item: "ars_nouveau:archmage_spell_book"
-				}
-			]
-		}
-		{
-			id: "A5B3431C9DA09572"
-			x: -1.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "禁忌魔法：大法师法术书"
-			subtitle: "掌握毁天灭地的高阶魔法符文"
-			icon: "ars_nouveau:archmage_spell_book"
-			description: [
-				"掌握毁天灭地的高阶魔法符文"
-			]
-			dependencies: [
-				"2C2F43F711D12271"
-			]
-			tasks: [
-				{
-					id: "51878BA7244C74A8"
-					type: "item"
-					item: "ars_nouveau:archmage_spell_book"
-				}
-			]
-			rewards: [
-				{
-					id: "BC29773DF4F91A82"
-					type: "item"
-					item: "ars_nouveau:wilden_tribute"
-				}
-			]
-		}
-		{
-			id: "F7541F9DCB7D2DF5"
-			x: 1.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "仪式献祭：荒野献祭图腾"
-			subtitle: "摆设奥术底座供奉荒野材料"
-			icon: "ars_nouveau:wilden_tribute"
-			description: [
-				"摆设奥术底座供奉荒野材料"
-			]
-			dependencies: [
-				"A5B3431C9DA09572"
-			]
-			tasks: [
-				{
-					id: "C472C64B06781905"
-					type: "item"
-					item: "ars_nouveau:wilden_tribute"
-				}
-			]
-			rewards: [
-				{
-					id: "5442E3852BAA7D7E"
-					type: "item"
-					item: "ars_nouveau:wilden_spike"
-					count: 2
-				}
-			]
-		}
-		{
-			id: "DD06673EA8746E55"
-			x: 4.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "荒野守卫者：BOSS 奇美拉战"
-			subtitle: "击败荒野奇美拉，获得守卫者角刺"
-			icon: "ars_nouveau:wilden_spike"
-			description: [
-				"击败荒野奇美拉，获得守卫者角刺"
-			]
-			dependencies: [
-				"F7541F9DCB7D2DF5"
-			]
-			tasks: [
-				{
-					id: "76DC1499A7ADAAC7"
-					type: "item"
-					item: "ars_nouveau:wilden_spike"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "2BE7215F0389F71A"
-					type: "item"
-					item: "ars_nouveau:wilden_wing"
-					count: 2
-				}
-			]
-		}
-		{
-			id: "8E535B0CB4F4A749"
-			x: 7.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "羽翼材料：奇美拉之翼"
-			subtitle: "制作滑翔法术与高空飞行装备"
-			icon: "ars_nouveau:wilden_wing"
-			description: [
-				"制作滑翔法术与高空飞行装备"
-			]
-			dependencies: [
-				"DD06673EA8746E55"
-			]
-			tasks: [
-				{
-					id: "E4C30E31CF7FDB90"
-					type: "item"
-					item: "ars_nouveau:wilden_wing"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "231CC5C93D96610A"
-					type: "item"
-					item: "ars_nouveau:wilden_horn"
-					count: 2
-				}
-			]
-		}
-		{
-			id: "51998144A07F5405"
-			x: -7.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "战吼号角：荒野巨角"
-			subtitle: "召唤荒野守卫兽与力量加成"
-			icon: "ars_nouveau:wilden_horn"
-			description: [
-				"召唤荒野守卫兽与力量加成"
-			]
-			dependencies: [
-				"8E535B0CB4F4A749"
-			]
-			tasks: [
-				{
-					id: "F0B53E1DEEFA03EE"
-					type: "item"
-					item: "ars_nouveau:wilden_horn"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "4A8200BD0F1B2A56"
-					type: "item"
-					item: "ars_nouveau:enchanters_shield"
-				}
-			]
-		}
-		{
-			id: "B1350580A353006C"
-			x: -4.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "魔导防具：法师护盾"
-			subtitle: "消耗魔源自动抵挡致命伤害"
-			icon: "ars_nouveau:enchanters_shield"
-			description: [
-				"消耗魔源自动抵挡致命伤害"
-			]
-			dependencies: [
-				"51998144A07F5405"
-			]
-			tasks: [
-				{
-					id: "1801983711896416"
-					type: "item"
-					item: "ars_nouveau:enchanters_shield"
-				}
-			]
-			rewards: [
-				{
-					id: "831F156B4EF0DA4A"
-					type: "item"
-					item: "ars_nouveau:spell_bow"
-				}
-			]
-		}
-		{
-			id: "82E0A1D34CF75460"
-			x: -1.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "魔导射射：法术长弓"
-			subtitle: "将符文附着在箭矢上远距离引爆"
+			title: "把魔法附在箭上！巫师之弓与弩"
+			subtitle: "远程魔法狙击"
 			icon: "ars_nouveau:spell_bow"
 			description: [
-				"将符文附着在箭矢上远距离引爆"
+				"做一把【巫师之弓】，把组合好的法术附在箭头上，一箭射出去触发范围魔法爆破！"
 			]
 			dependencies: [
-				"B1350580A353006C"
+				"6300000000000001"
 			]
 			tasks: [
 				{
-					id: "66CBEB2889C25504"
+					id: "9F585B212855E40D"
 					type: "item"
 					item: "ars_nouveau:spell_bow"
 				}
 			]
 			rewards: [
 				{
-					id: "394D8BF1C6602CF2"
+					id: "6EF993F2C05DA019"
 					type: "item"
-					item: "ars_nouveau:spell_crossbow"
+					item: "minecraft:arrow"
+					count: 64
+					title: "一组箭矢"
 				}
 			]
 		}
 		{
-			id: "BA29D2CDCAFD8E8D"
-			x: 1.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "连发重弩：法术重弩"
-			subtitle: "高压蓄力发射多重法术箭"
-			icon: "ars_nouveau:spell_crossbow"
+			id: "6300000000000011"
+			x: -5.5d
+			y: 2.0d
+			size: 1.2d
+			shape: "rsquare"
+			title: "穿上大法师袍！术士宽袍与战甲"
+			subtitle: "大幅提升蓝条与法强"
+			icon: "ars_nouveau:sorcerer_robes"
 			description: [
-				"高压蓄力发射多重法术箭"
+				"织造【术士宽袍】，穿上后蓝条恢复极快，法术伤害暴增！"
 			]
 			dependencies: [
-				"82E0A1D34CF75460"
+				"6300000000000001"
 			]
 			tasks: [
 				{
-					id: "857F521418B09F03"
+					id: "38B1EB6F6E26D9DB"
 					type: "item"
-					item: "ars_nouveau:spell_crossbow"
+					item: "ars_nouveau:sorcerer_robes"
 				}
 			]
 			rewards: [
 				{
-					id: "0E607C14853B76A5"
+					id: "347AC20CDBDE22CA"
 					type: "item"
-					item: "ars_nouveau:enchanters_sword"
+					item: "minecraft:dirt"
+					count: 4
+					title: "法力花布料"
 				}
 			]
 		}
 		{
-			id: "337C5C7EEEB08E0A"
-			x: 4.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "近战魔刃：法术战刃"
-			subtitle: "近战挥砍触发强力元素爆发"
-			icon: "ars_nouveau:enchanters_sword"
-			description: [
-				"近战挥砍触发强力元素爆发"
-			]
-			dependencies: [
-				"BA29D2CDCAFD8E8D"
-			]
-			tasks: [
-				{
-					id: "93944DA5C6B12005"
-					type: "item"
-					item: "ars_nouveau:enchanters_sword"
-				}
-			]
-			rewards: [
-				{
-					id: "BD75C4785E8FFEB8"
-					type: "item"
-					item: "ars_nouveau:ritual_flight"
-				}
-			]
-		}
-		{
-			id: "BB2A5039707AF7BE"
-			x: 7.5d
-			y: -2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "飞天仪式：高空飞行仪式"
-			subtitle: "让整座工坊范围内的玩家获得飞行能力"
-			icon: "ars_nouveau:ritual_flight"
-			description: [
-				"让整座工坊范围内的玩家获得飞行能力"
-			]
-			dependencies: [
-				"337C5C7EEEB08E0A"
-			]
-			tasks: [
-				{
-					id: "E6ED53712C9E01F5"
-					type: "item"
-					item: "ars_nouveau:ritual_flight"
-				}
-			]
-			rewards: [
-				{
-					id: "7FD4EAA4142E0A1A"
-					type: "item"
-					item: "ars_nouveau:ritual_sunrise"
-				}
-			]
-		}
-		{
-			id: "F262FAE00E2D8DB3"
-			x: -7.5d
+			id: "6300000000000002"
+			x: -3.0d
 			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "掌控昼夜：白昼仪式"
-			subtitle: "驱散黑夜，驱赶怪物与暴雨"
-			icon: "ars_nouveau:ritual_sunrise"
+			size: 1.4d
+			shape: "star"
+			title: "野外猎杀：讨伐荒野奇兽！"
+			subtitle: "收集荒野之角与膜翼"
+			icon: "ars_nouveau:wilden_horn"
 			description: [
-				"驱散黑夜，驱赶怪物与暴雨"
+				"去森林和雪原猎杀【荒野奇兽 (Wilden)】，收集【荒野之角】和【荒野膜翼】！"
 			]
 			dependencies: [
-				"BB2A5039707AF7BE"
+				"6300000000000010"
+				"6300000000000011"
 			]
 			tasks: [
 				{
-					id: "3201A0EDEA3B1D85"
+					id: "946017E0330DAA2C"
 					type: "item"
-					item: "ars_nouveau:ritual_sunrise"
+					item: "ars_nouveau:wilden_horn"
+				}
+				{
+					id: "1A58D94CD1DD0215"
+					type: "item"
+					item: "ars_nouveau:wilden_wing"
 				}
 			]
 			rewards: [
 				{
-					id: "5D72D5CEF40FEF0A"
+					id: "5D15971BE0812C3F"
 					type: "item"
-					item: "ars_nouveau:ritual_moonfall"
-				}
-			]
-		}
-		{
-			id: "C91849F432BD23CD"
-			x: -4.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "月升仪式：黑夜仪式"
-			subtitle: "召唤黑夜与流星雨事件"
-			icon: "ars_nouveau:ritual_moonfall"
-			description: [
-				"召唤黑夜与流星雨事件"
-			]
-			dependencies: [
-				"F262FAE00E2D8DB3"
-			]
-			tasks: [
-				{
-					id: "215A593A9873A2A3"
-					type: "item"
-					item: "ars_nouveau:ritual_moonfall"
-				}
-			]
-			rewards: [
-				{
-					id: "BEF975FC8CF07CA9"
-					type: "item"
-					item: "ars_nouveau:source_gem"
-					count: 32
-				}
-			]
-		}
-		{
-			id: "A1FB7825A33E4915"
-			x: -1.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "魔法巅峰：奥术终极主宰"
-			subtitle: "掌握天下所有符文法术，屹立于魔艺之巅！"
-			icon: "ars_nouveau:archmage_spell_book"
-			description: [
-				"掌握天下所有符文法术，屹立于魔艺之巅！"
-			]
-			dependencies: [
-				"C91849F432BD23CD"
-			]
-			tasks: [
-				{
-					id: "764CB25A3D3AF710"
-					type: "checkmark"
-					title: "点击完成"
-				}
-			]
-			rewards: [
-				{
-					id: "96A08AD7856AE337"
-					type: "item"
-					item: "ars_nouveau:creative_source_jar"
-				}
-			]
-		}
-		{
-			id: "FB7A0DBAD828527A"
-			x: 1.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "闪电符文：召唤落雷"
-			subtitle: "从天而降强力雷击"
-			icon: "minecraft:stone"
-			description: [
-				"从天而降强力雷击"
-			]
-			dependencies: [
-				"A1FB7825A33E4915"
-			]
-			tasks: [
-				{
-					id: "A04B214B2583A0FB"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "FB2EAF1F1B206042"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "31D4F4CA62D75DBB"
-			x: 4.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "冰冻符文：极寒冰封"
-			subtitle: "冰冻目标并制造冰块"
-			icon: "minecraft:stone"
-			description: [
-				"冰冻目标并制造冰块"
-			]
-			dependencies: [
-				"FB7A0DBAD828527A"
-			]
-			tasks: [
-				{
-					id: "2E6C74982BC50BCA"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "F6E939135855CB95"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "3858D5542603695D"
-			x: 7.5d
-			y: 0.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "弹跳符文：高空弹跳"
-			subtitle: "提供强力向上弹跳避险"
-			icon: "minecraft:stone"
-			description: [
-				"提供强力向上弹跳避险"
-			]
-			dependencies: [
-				"31D4F4CA62D75DBB"
-			]
-			tasks: [
-				{
-					id: "2D0C2B17BCE887A5"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "5CDFC6B96A45C52E"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "185529284DF74EE7"
-			x: -7.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "滑翔符文：缓降滑翔"
-			subtitle: "无视坠落伤害平稳着陆"
-			icon: "minecraft:stone"
-			description: [
-				"无视坠落伤害平稳着陆"
-			]
-			dependencies: [
-				"3858D5542603695D"
-			]
-			tasks: [
-				{
-					id: "7F60345E38C39185"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "4492BF9A6B880AE5"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "E9195C1B03C33B49"
-			x: -4.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "突进符文：空间突进"
-			subtitle: "向前高程位移突进"
-			icon: "minecraft:stone"
-			description: [
-				"向前高程位移突进"
-			]
-			dependencies: [
-				"185529284DF74EE7"
-			]
-			tasks: [
-				{
-					id: "BB42F1AD461F7960"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "2A4CCD7966802CB9"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "BD4DD913A438E0D0"
-			x: -1.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "瞬移符文：短距离闪现"
-			subtitle: "穿墙与无视障碍闪现"
-			icon: "minecraft:stone"
-			description: [
-				"穿墙与无视障碍闪现"
-			]
-			dependencies: [
-				"E9195C1B03C33B49"
-			]
-			tasks: [
-				{
-					id: "A94438A8792DA93D"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "C303D9B98229BED7"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "096185C7AE96087E"
-			x: 1.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "隐身符文：光学隐形"
-			subtitle: "避开敌对生物仇恨潜行"
-			icon: "minecraft:stone"
-			description: [
-				"避开敌对生物仇恨潜行"
-			]
-			dependencies: [
-				"BD4DD913A438E0D0"
-			]
-			tasks: [
-				{
-					id: "4D9128125C60E799"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "BCADC741E11F43C2"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "606C70F540131490"
-			x: 4.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "风刃符文：切割风刃"
-			subtitle: "高切削力的物理风刃风暴"
-			icon: "minecraft:stone"
-			description: [
-				"高切削力的物理风刃风暴"
-			]
-			dependencies: [
-				"096185C7AE96087E"
-			]
-			tasks: [
-				{
-					id: "3813533C073791D7"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "974F2CB157C11895"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "47121DEAD01DA683"
-			x: 7.5d
-			y: 2.5d
-			size: 1.1d
-			shape: "circle"
-			title: "高爆符文：奥术高爆弹"
-			subtitle: "范围魔法大爆炸"
-			icon: "minecraft:stone"
-			description: [
-				"范围魔法大爆炸"
-			]
-			dependencies: [
-				"606C70F540131490"
-			]
-			tasks: [
-				{
-					id: "908580FD8F057FE8"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "5B3937A28AC806E4"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "19A28D7E5C69EBC3"
-			x: -7.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "坐骑符文：召唤幻影战马"
-			subtitle: "随时召唤高速幻影战马"
-			icon: "minecraft:stone"
-			description: [
-				"随时召唤高速幻影战马"
-			]
-			dependencies: [
-				"47121DEAD01DA683"
-			]
-			tasks: [
-				{
-					id: "17BDFBA88F24E6AC"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "FBB56A7D2FF300B5"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "7F6B2D1D3C6EA993"
-			x: -4.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "狼群符文：召唤幻影狼群"
-			subtitle: "召唤魔法狼群协助战斗"
-			icon: "minecraft:stone"
-			description: [
-				"召唤魔法狼群协助战斗"
-			]
-			dependencies: [
-				"19A28D7E5C69EBC3"
-			]
-			tasks: [
-				{
-					id: "AD8D503F68FD382D"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "2AED81D94600F140"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-		}
-		{
-			id: "B31017FD07B49ABE"
-			x: -1.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "羽落符文：羽落加持"
-			subtitle: "全队赋予漂浮羽落状态"
-			icon: "minecraft:stone"
-			description: [
-				"全队赋予漂浮羽落状态"
-			]
-			dependencies: [
-				"7F6B2D1D3C6EA993"
-			]
-			tasks: [
-				{
-					id: "7796E60ABDB2F4EB"
-					type: "item"
-					item: "minecraft:dirt"
-				}
-			]
-			rewards: [
-				{
-					id: "7FAC7711E44C6087"
-					type: "item"
-					item: "ars_nouveau:source_gem"
-					count: 32
-				}
-			]
-		}
-		{
-			id: "409C81F76D3D6E1E"
-			x: 1.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "符文组合：百变魔法连招"
-			subtitle: "将弹射+高爆+治愈融合为一体施放"
-			icon: "ars_nouveau:apprentice_spell_book"
-			description: [
-				"将弹射+高爆+治愈融合为一体施放"
-			]
-			dependencies: [
-				"B31017FD07B49ABE"
-			]
-			tasks: [
-				{
-					id: "60E9F1210D14DFD1"
-					type: "checkmark"
-					title: "点击完成"
-				}
-			]
-			rewards: [
-				{
-					id: "0677A091312C02A2"
-					type: "item"
-					item: "ars_nouveau:source_gem_block"
+					item: "ars_nouveau:wilden_spike"
 					count: 2
+					title: "荒野尖刺"
+				}
+				{
+					id: "6423DA1EBE285586"
+					type: "item"
+					item: "ars_nouveau:wilden_tribute"
+					title: "荒野供物（召唤 Boss 用）"
 				}
 			]
 		}
 		{
-			id: "95E673FD7440CE2A"
-			x: 4.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "仪式大满贯：元素天灾唤醒"
-			subtitle: "唤醒天地所有元素力量为己所用"
+			id: "6300000000000003"
+			x: -0.5d
+			y: 0.0d
+			size: 1.5d
+			shape: "gear"
+			title: "决战！召唤并击败荒野守卫者 BOSS"
+			subtitle: "新生魔艺终极 BOSS 挑战"
 			icon: "ars_nouveau:wilden_tribute"
 			description: [
-				"唤醒天地所有元素力量为己所用"
+				"摆好祭坛献上【荒野供物】，迎战新生魔艺终极 Boss 【荒野守卫者 (Wilden Chimera)】！"
+				"击败它拿到大法师法术书！直接去第五大章打灾变 Boss！"
 			]
 			dependencies: [
-				"409C81F76D3D6E1E"
+				"6300000000000002"
 			]
 			tasks: [
 				{
-					id: "0F4558DE4FD066C5"
-					type: "checkmark"
-					title: "点击完成"
+					id: "454D30E04D3DE900"
+					type: "item"
+					item: "ars_nouveau:wilden_tribute"
 				}
 			]
 			rewards: [
 				{
-					id: "5EB7FD2007A11828"
+					id: "BBD1668F4D1A03F7"
 					type: "item"
-					item: "ars_nouveau:creative_source_jar"
+					item: "ars_nouveau:archmage_spell_book"
+					title: "大法师法术书"
 				}
-			]
-		}
-		{
-			id: "C3429C9F6B48174E"
-			x: 7.5d
-			y: 5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "法术终极毕业：魔法全典收集完成！"
-			subtitle: "登顶奥术之巅，万法归宗！"
-			icon: "ars_nouveau:archmage_spell_book"
-			description: [
-				"登顶奥术之巅，万法归宗！"
-			]
-			dependencies: [
-				"95E673FD7440CE2A"
-			]
-			tasks: [
 				{
-					id: "304732A2D9C1D16E"
-					type: "checkmark"
-					title: "点击完成"
-				}
-			]
-			rewards: [
-				{
-					id: "55068723A9D3C6F9"
+					id: "AC4A24A0A030F825"
 					type: "item"
-					item: "ars_nouveau:creative_source_jar"
+					item: "minecraft:netherite_ingot"
+					count: 2
+					title: "下界合金锭（接灾变 Boss 决战）"
 				}
 			]
 		}

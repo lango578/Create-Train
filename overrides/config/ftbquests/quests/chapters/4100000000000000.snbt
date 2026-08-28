@@ -3,65 +3,120 @@
 	group: "4000000000000000"
 	order_index: 0
 	filename: "4100000000000000"
-	title: "4.1 载具兑换第一期"
-	icon: "create:schematic_cannon"
+	title: "4.1 载具蓝图第一期"
+	icon: "create:schematic_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			id: "849B0316E61C90B2"
-			x: -7.5d
-			y: -5.0d
-			size: 1.4d
-			shape: "gear"
-			title: "蓝图打印：蓝图炮"
-			subtitle: "全自动打印建筑与列车"
+			id: "4100000000000001"
+			x: -6.0d
+			y: 0.0d
+			size: 1.2d
+			shape: "square"
+			title: "投影建造！蓝图炮与蓝图桌"
+			subtitle: "全自动打印高阶 NBT 建筑"
 			icon: "minecraft:stone"
 			description: [
-				"全自动打印建筑与列车"
+				"【蓝图炮 (Schematic Cannon)】能根据 .nbt 蓝图文件自动帮你放方块建房子/飞船！"
+				"在【蓝图桌】里装上你喜欢的蓝图，往蓝图炮里塞火药和方块材料，就能看着它自动建造啦！"
+				""
+				"📺 【蓝图炮手把手使用视频教程】："
+				"https://www.bilibili.com/video/BV1964y1K7mv"
+			]
+			dependencies: [
+				"3100000000000001"
 			]
 			tasks: [
 				{
-					id: "D36867AD94A8F526"
+					id: "597F8F640AE12402"
 					type: "item"
-					item: "minecraft:dirt"
+					item: "create:brass_ingot"
+					count: 8L
+				}
+				{
+					id: "39F517279FC29D09"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 16L
 				}
 			]
 			rewards: [
 				{
-					id: "4E9478D4EBA17A05"
+					id: "9F470137C60FB162"
 					type: "item"
-					item: "create:schematic_and_quill"
+					item: "minecraft:dirt"
+				}
+				{
+					id: "5C7EA76F4B01D651"
+					type: "item"
+					item: "create:schematic_table"
+				}
+				{
+					id: "3EA8362FD6D620E7"
+					type: "item"
+					item: "create:empty_schematic"
+					count: 4
+					title: "空白蓝图"
 				}
 			]
 		}
 		{
-			id: "A26C5A1441F8EF7C"
-			x: -4.5d
-			y: -5.0d
-			size: 1.1d
-			shape: "rsquare"
-			title: "记录结构：蓝图与羽毛笔"
-			subtitle: "框选保存自定义建筑结构"
-			icon: "create:schematic_and_quill"
+			id: "4100000000000002"
+			x: -3.5d
+			y: 0.0d
+			size: 1.3d
+			shape: "star"
+			title: "蓝图兑换：轻型飞艇与勘测车"
+			subtitle: "【飞艇 / 拓路者级】"
+			icon: "create:propeller"
 			description: [
-				"框选保存自定义建筑结构"
+				"提交机械零部件，兑换高阶工程团队制作的【轻型飞艇与勘测车工程包】！"
+				""
+				"📋 【内置蓝图与原作者演示视频】："
+				"- 《飞艇.nbt》：经典巡航飞艇"
+				"- 《拓路者级.nbt》：前线开荒突击飞船"
+				""
+				"📺 【原作者飞艇演示与操作指南】："
+				"https://www.bilibili.com/video/BV1fPR9BDESZ"
 			]
 			dependencies: [
-				"849B0316E61C90B2"
+				"4100000000000001"
 			]
 			tasks: [
 				{
-					id: "032D0070FBD1DA3D"
+					id: "D1D2FC6A23FE660D"
 					type: "item"
-					item: "create:schematic_and_quill"
+					item: "immersive_aircraft:engine"
+				}
+				{
+					id: "7FC548CBCE811920"
+					type: "item"
+					item: "create:brass_sheet"
+					count: 16L
 				}
 			]
 			rewards: [
 				{
-					id: "0FA1415E0A39683B"
+					id: "C30D27C0CB402D13"
 					type: "item"
-					item: "minecraft:dirt"
+					item: "create:empty_schematic"
+					count: 4
+					title: "空白蓝图"
+				}
+				{
+					id: "6933857E3DEED51A"
+					type: "item"
+					item: "minecraft:gunpowder"
+					count: 32
+					title: "火药补贴（给蓝图炮用）"
+				}
+				{
+					id: "FE2B361E3026863E"
+					type: "item"
+					item: "create:precision_mechanism"
+					count: 4
+					title: "精密机制（接重型载具）"
 				}
 			]
 		}
